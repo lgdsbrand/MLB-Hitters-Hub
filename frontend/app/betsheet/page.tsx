@@ -75,8 +75,8 @@ export default function BetSheetPage() {
             </div>
 
             {/* Table */}
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
+            <div className="overflow-x-auto table-scroll-container" style={{ maxHeight: "none" }}>
+              <table className="w-full text-sm" style={{ minWidth: "700px" }}>
                 <thead>
                   <tr className="border-b border-border-default bg-bg-primary/50">
                     <th className="px-4 py-3 text-left text-text-secondary font-medium text-xs uppercase">Batter</th>
