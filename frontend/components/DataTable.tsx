@@ -169,7 +169,7 @@ export default function DataTable({
               const parsed = parseGameString(game);
 
               return (
-                <tr key={`${batter}-${game}-${idx}`}>
+                <tr key={`${batter}-${game}-${idx}`} className="hover:bg-opacity-75 transition-colors">
                   {/* Add button */}
                   <td>
                     <button
@@ -192,24 +192,24 @@ export default function DataTable({
                     // Special rendering for game column — show logos
                     if (col.key === gameKey && parsed) {
                       return (
-                        <td key={col.key} style={{ textAlign: col.align || "left" }}>
-                          <div className="flex items-center gap-1.5">
+                        <td key={col.key} style={{ textAlign: col.align || "left" }} className="px-2 sm:px-3">
+                          <div className="flex items-center gap-1">
                             <img
                               src={getTeamLogoUrl(parsed.away)}
                               alt=""
                               className="team-logo"
-                              style={{ width: 18, height: 18 }}
+                              style={{ width: 16, height: 16 }}
                               onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                             />
-                            <span className="text-text-muted text-xs">vs</span>
+                            <span className="text-text-muted text-xs hidden sm:inline">vs</span>
                             <img
                               src={getTeamLogoUrl(parsed.home)}
                               alt=""
                               className="team-logo"
-                              style={{ width: 18, height: 18 }}
+                              style={{ width: 16, height: 16 }}
                               onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                             />
-                            <span className="ml-1 text-xs text-text-secondary">{display}</span>
+                            <span className="ml-1 text-xs text-text-secondary hidden sm:inline">{display}</span>
                           </div>
                         </td>
                       );
@@ -218,7 +218,7 @@ export default function DataTable({
                     // Special rendering for trend column (Icon)
                     if (col.key === "Icon") {
                       return (
-                        <td key={col.key} style={{ textAlign: col.align || "center", padding: "8px 4px" }}>
+                        <td key={col.key} style={{ textAlign: col.align || "center", padding: "8px 4px" }} className="px-1 sm:px-3">
                           {getTrendDisplay(display)}
                         </td>
                       );
@@ -236,6 +236,7 @@ export default function DataTable({
                           color: isPredHigh ? "var(--color-accent-green)" : undefined,
                           fontWeight: isPredHigh ? 600 : undefined,
                         }}
+                        className="px-2 sm:px-3"
                       >
                         {display}
                       </td>

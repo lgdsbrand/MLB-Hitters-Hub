@@ -1,7 +1,5 @@
 "use client";
 
-import { useState } from "react";
-
 interface TabBarProps {
   activeTab: string;
   onTabChange: (tab: string) => void;
@@ -31,34 +29,22 @@ export default function TabBar({ activeTab, onTabChange }: TabBarProps) {
         ))}
       </div>
 
-      {/* Mobile: Dropdown */}
-      <select
-        value={activeTab}
-        onChange={(e) => onTabChange(e.target.value)}
-        className="sm:hidden table-select"
-        style={{
-          width: "100%",
-          padding: "10px 14px",
-          borderRadius: "8px",
-          border: "1px solid var(--color-border-default)",
-          background: "var(--color-bg-input)",
-          color: "var(--color-text-primary)",
-          fontSize: "0.9rem",
-          fontWeight: 500,
-          cursor: "pointer",
-          appearance: "none",
-          backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238b5cf6' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "right 12px center",
-          paddingRight: "36px",
-        }}
-      >
+      {/* Mobile: Horizontal Scrollable Buttons */}
+      <div className="sm:hidden flex items-center gap-2 overflow-x-auto pb-2" style={{ scrollbarWidth: "thin" }}>
         {TABS.map((tab) => (
-          <option key={tab.id} value={tab.id}>
-            {tab.label}
-          </option>
+          <button
+            key={tab.id}
+            onClick={() => onTabChange(tab.id)}
+            className={`flex-shrink-0 px-3 py-2 rounded-lg text-xs font-medium transition-all whitespace-nowrap ${
+              activeTab === tab.id
+                ? "bg-accent-green text-bg-primary shadow-lg shadow-accent-green/30"
+                : "bg-bg-card border border-border-default text-text-primary hover:border-accent-green hover:text-accent-green"
+            }`}
+          >
+            {tab.shortLabel}
+          </button>
         ))}
-      </select>
+      </div>
     </>
   );
 }

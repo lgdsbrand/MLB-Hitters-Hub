@@ -45,6 +45,18 @@ body {
   font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
 }
 
+/* Mobile optimized main content */
+@media (max-width: 640px) {
+  html, body {
+    font-size: 14px;
+  }
+
+  main {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+}
+
 /* Scrollbar styling - Default */
 ::-webkit-scrollbar {
   width: 8px;
@@ -163,13 +175,87 @@ body {
   border-spacing: 0;
 }
 
-/* Scrollable table container */
+/* Scrollable table container - Mobile optimized */
 .table-scroll-container {
   max-height: 600px;
   overflow-y: auto;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
+/* Mobile table responsiveness */
+@media (max-width: 640px) {
+  .table-scroll-container {
+    max-height: 400px;
+    overflow-x: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .data-table {
+    font-size: 0.75rem;
+  }
+
+  .data-table thead th {
+    padding: 8px 6px;
+    font-size: 0.65rem;
+    min-width: fit-content;
+  }
+
+  .data-table tbody td {
+    padding: 8px 6px;
+    font-size: 0.75rem;
+    min-width: fit-content;
+  }
+
+  .data-table tbody tr:hover {
+    background: var(--color-bg-card-hover);
+  }
+
+  .btn-add {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9rem;
+  }
+
+  /* Ensure team logos are small on mobile */
+  .team-logo {
+    width: 16px !important;
+    height: 16px !important;
+  }
+}
+
+/* Horizontal scroll indicator for mobile */
+@media (max-width: 640px) {
+  .table-scroll-container::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(90deg, transparent, rgba(139,92,246,0.2));
+    pointer-events: none;
+  }
+}
+
+/* Sticky table headers */
+.data-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 100%;
+}
+
+/* Sticky table headers */
 .data-table thead th {
   background: var(--color-bg-secondary);
   color: var(--color-text-secondary);
@@ -350,6 +436,14 @@ body {
   box-shadow: -10px 0 40px rgba(0,0,0,.6);
   pointer-events: auto;
   overflow: hidden;
+}
+
+/* Mobile responsive bet sheet */
+@media (max-width: 640px) {
+  .bet-sheet-panel {
+    width: 100%;
+    width: 100vw;
+  }
 }
 
 /* Bet sheet table styling */

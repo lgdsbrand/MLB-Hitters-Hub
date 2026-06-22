@@ -32,6 +32,7 @@ import csv
 import re
 import sys
 import time
+import random
 import logging
 from datetime import date
 from pathlib import Path
@@ -215,67 +216,144 @@ def scrape() -> list[dict]:
                 "--disable-dev-shm-usage",
             ],
         )
-        ctx = browser.new_context(
-            viewport={"width": 1600, "height": 900},
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/125.0.0.0 Safari/537.36"
-            ),
-            locale="en-US",
-            timezone_id="America/New_York",
-        )
-        ctx.add_init_script("""
-            Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-            Object.defineProperty(navigator, 'plugins',   { get: () => [1, 2, 3] });
-        """)
 
-        page = ctx.new_page()
-        page.on("console", lambda msg: log.warning(f"  [browser console:{msg.type}] {msg.text}")
-                if msg.type == "error" else None)
-        page.on("requestfailed", lambda req: log.warning(f"  [request failed] {req.url} — {req.failure}"))
+        # The site sits behind Vercel's bot-protection challenge
+        # (/.well-known/vercel/security/...). On a shared/datacenter IP like
+        # a GitHub Actions runner, that challenge can come back as a 429 (or
+        # simply abort) before the page ever renders a single card. A single
+        # attempt with no retry turns what is often a transient block into a
+        # hard failure for the whole run, so we retry a few times with
+        # backoff and a brand-new browser context (fresh cookies/fingerprint)
+        # before giving up and writing debug artifacts.
+        MAX_NAV_ATTEMPTS = 3
+        NAV_RETRY_BACKOFF = [45, 120]  # seconds to wait before attempt 2 / 3
+        page = None
+        target_total = None
 
-        # Log XHR/fetch calls (skip static assets/analytics) so we can see
-        # what API the "Load More" button actually calls — useful if UI
-        # clicking ever proves unreliable and we need to call the API directly.
-        def log_api_request(req):
-            if req.resource_type in ("xhr", "fetch") and "breakawaystats.com" in req.url:
-                log.info(f"  [api request] {req.method} {req.url}")
+        for nav_attempt in range(1, MAX_NAV_ATTEMPTS + 1):
+            if page is not None:
+                try:
+                    page.close()
+                except Exception:
+                    pass
 
-        def log_api_response(resp):
-            if resp.request.resource_type in ("xhr", "fetch") and "breakawaystats.com" in resp.url:
-                log.info(f"  [api response] {resp.status} {resp.url}")
+            ctx = browser.new_context(
+                viewport={"width": 1600, "height": 900},
+                user_agent=(
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/125.0.0.0 Safari/537.36"
+                ),
+                locale="en-US",
+                timezone_id="America/New_York",
+            )
+            ctx.add_init_script("""
+                Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+                Object.defineProperty(navigator, 'plugins',   { get: () => [1, 2, 3] });
+            """)
 
-        page.on("request", log_api_request)
-        page.on("response", log_api_response)
+            page = ctx.new_page()
+            blocked = {"hit": False}  # set when we see a 429 / aborted challenge
 
-        # ── Navigate ──────────────────────────────────────────────────────
-        log.info(f"Loading {URL}")
-        try:
-            page.goto(URL, wait_until="domcontentloaded", timeout=60_000)
-        except PWTimeout:
-            log.error("Navigation timed out.")
-            browser.close()
-            return []
+            def _on_console(msg, _blocked=blocked):
+                if msg.type == "error":
+                    log.warning(f"  [browser console:{msg.type}] {msg.text}")
+                    if "429" in msg.text:
+                        _blocked["hit"] = True
 
-        # ── Wait for first cards to appear ────────────────────────────────
-        log.info("Waiting for player cards to render...")
-        CARD_SELECTOR = "div.grid [title*='consecutive']"
-        try:
-            page.wait_for_selector(CARD_SELECTOR, timeout=30_000, state="visible")
-            log.info("First cards visible.")
-        except PWTimeout:
-            log.warning("Cards not found via badge title — waiting 10s...")
-            time.sleep(10)
+            def _on_request_failed(req, _blocked=blocked):
+                log.warning(f"  [request failed] {req.url} — {req.failure}")
+                if "request-challenge" in req.url or "vercel/security" in req.url:
+                    _blocked["hit"] = True
 
-        # Next.js apps render the SSR shell first, then hydrate client-side —
-        # the "Load More Players" button doesn't exist in the DOM until
-        # hydration finishes. Give it a moment to settle before looking for it.
-        time.sleep(2.0)
+            page.on("console", _on_console)
+            page.on("requestfailed", _on_request_failed)
+
+            # Log XHR/fetch calls (skip static assets/analytics) so we can see
+            # what API the "Load More" button actually calls — useful if UI
+            # clicking ever proves unreliable and we need to call the API directly.
+            def log_api_request(req):
+                if req.resource_type in ("xhr", "fetch") and "breakawaystats.com" in req.url:
+                    log.info(f"  [api request] {req.method} {req.url}")
+
+            def log_api_response(resp, _blocked=blocked):
+                if resp.request.resource_type in ("xhr", "fetch") and "breakawaystats.com" in resp.url:
+                    log.info(f"  [api response] {resp.status} {resp.url}")
+                if resp.status == 429:
+                    _blocked["hit"] = True
+
+            page.on("request", log_api_request)
+            page.on("response", log_api_response)
+
+            # A short, randomized pause before navigating instead of firing
+            # the request the instant the browser is up.
+            time.sleep(random.uniform(1.5, 4.0))
+
+            # ── Navigate ──────────────────────────────────────────────────
+            log.info(f"Loading {URL} (attempt {nav_attempt}/{MAX_NAV_ATTEMPTS})...")
+            try:
+                resp = page.goto(URL, wait_until="domcontentloaded", timeout=60_000)
+                if resp is not None and resp.status == 429:
+                    blocked["hit"] = True
+            except PWTimeout:
+                log.error("Navigation timed out.")
+                if nav_attempt < MAX_NAV_ATTEMPTS:
+                    delay = NAV_RETRY_BACKOFF[nav_attempt - 1]
+                    log.warning(f"Retrying in {delay}s with a fresh session...")
+                    time.sleep(delay)
+                    continue
+                browser.close()
+                return []
+
+            # ── Wait for first cards to appear ────────────────────────────
+            log.info("Waiting for player cards to render...")
+            CARD_SELECTOR = "div.grid [title*='consecutive']"
+            try:
+                page.wait_for_selector(CARD_SELECTOR, timeout=30_000, state="visible")
+                log.info("First cards visible.")
+            except PWTimeout:
+                log.warning("Cards not found via badge title — waiting 10s...")
+                time.sleep(10)
+
+            # Next.js apps render the SSR shell first, then hydrate client-side —
+            # the "Load More Players" button doesn't exist in the DOM until
+            # hydration finishes. Give it a moment to settle before looking for it.
+            time.sleep(2.0)
+
+            initial_count = page.evaluate(
+                "() => document.querySelectorAll(\"[title*='consecutive']\").length"
+            )
+            if initial_count > 0:
+                break  # real content rendered — proceed with this session
+
+            blocked_reason = (
+                "blocked by rate-limiting/bot-challenge (HTTP 429 or an aborted "
+                "challenge request)" if blocked["hit"] else
+                "no cards rendered (slow hydration or a layout change)"
+            )
+            log.warning(f"No player cards loaded — {blocked_reason}.")
+
+            if nav_attempt < MAX_NAV_ATTEMPTS:
+                delay = NAV_RETRY_BACKOFF[nav_attempt - 1]
+                log.warning(
+                    f"Backing off {delay}s and retrying with a brand-new browser "
+                    f"session (attempt {nav_attempt + 1}/{MAX_NAV_ATTEMPTS})..."
+                )
+                time.sleep(delay)
+                continue
+            else:
+                log.error(f"All {MAX_NAV_ATTEMPTS} attempts failed ({blocked_reason}).")
+                try:
+                    page.screenshot(path="debug_load_more_failure.png", full_page=True)
+                    Path("debug_load_more_failure.html").write_text(page.content(), encoding="utf-8")
+                    log.warning("Saved debug_load_more_failure.png / .html")
+                except Exception as e:
+                    log.warning(f"Could not save debug artifacts: {e}")
+                browser.close()
+                return []
 
         # ── Read the page's own "N players" total, if present ──────────────
         # e.g. "144 players • Updated daily for 2026 season"
-        target_total = None
         try:
             page_text = page.evaluate("() => document.body.innerText")
             m = re.search(r"([\d,]+)\s+players\b", page_text, re.I)
