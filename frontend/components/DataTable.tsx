@@ -22,6 +22,12 @@ function getTrendDisplay(trend: string) {
       bgColor: "rgba(52, 211, 153, 0.1)",
       svg: "↑",
     },
+    "^v": {
+      label: "Up Then Down",
+      color: "#f97316",
+      bgColor: "rgba(249, 115, 22, 0.1)",
+      svg: "↗↘",
+    },
     ">v": {
       label: "Mixed",
       color: "#f97316",
@@ -39,6 +45,12 @@ function getTrendDisplay(trend: string) {
       color: "#f97316",
       bgColor: "rgba(249, 115, 22, 0.1)",
       svg: "↘",
+    },
+    "v^": {
+      label: "Down Then Up",
+      color: "#f97316",
+      bgColor: "rgba(249, 115, 22, 0.1)",
+      svg: "↘↗",
     },
     "v": {
       label: "Down",
