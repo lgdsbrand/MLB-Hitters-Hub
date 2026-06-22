@@ -197,73 +197,48 @@ body {
   }
 
   .data-table {
-    font-size: 0.75rem;
     width: 100%;
-    min-width: 800px;
-  }
-
-  .data-table thead th {
-    padding: 8px 6px;
-    font-size: 0.65rem;
-    min-width: fit-content;
+    min-width: 1000px;
   }
 
   .data-table tbody td {
-    padding: 8px 6px;
-    font-size: 0.75rem;
-    min-width: fit-content;
-  }
-
-  .data-table tbody tr:hover {
-    background: var(--color-bg-card-hover);
+    padding: 10px 12px;
+    font-size: 0.85rem;
   }
 
   .btn-add {
-    width: 28px;
-    height: 28px;
-    font-size: 0.9rem;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
   }
 
-  /* Ensure team logos are small on mobile */
+  /* Ensure team logos are visible */
   .team-logo {
-    width: 16px !important;
-    height: 16px !important;
+    width: 18px !important;
+    height: 18px !important;
   }
 
   /* Scrollbar visibility on mobile */
   .table-scroll-container::-webkit-scrollbar {
-    height: 6px;
+    height: 8px;
   }
 
   .table-scroll-container::-webkit-scrollbar-track {
     background: rgba(139,92,246,0.1);
+    border-radius: 4px;
   }
 
   .table-scroll-container::-webkit-scrollbar-thumb {
     background: #8b5cf6;
-    border-radius: 3px;
+    border-radius: 4px;
+  }
+
+  .table-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #a78bfa;
   }
 }
 
 /* Sticky table headers */
-.data-table thead th {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.data-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-}
-
-@media (max-width: 640px) {
-  .data-table {
-    min-width: 900px;
-  }
-}
-
 .data-table thead th {
   background: var(--color-bg-secondary);
   color: var(--color-text-secondary);
@@ -278,6 +253,18 @@ body {
   top: 0;
   z-index: 10;
   white-space: nowrap;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+@media (max-width: 640px) {
+  .data-table {
+    min-width: 1000px;
+  }
 }
 
 .data-table tbody tr {
