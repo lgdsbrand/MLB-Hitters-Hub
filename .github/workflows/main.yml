@@ -85,5 +85,11 @@ jobs:
         # Commit the files only if there are changes
         git commit -m "Automated daily scrape update" || echo "No changes to commit"
 
-        # Push the changes back to the repository
-        git push
+        # Pull latest remote changes (rebase to avoid merge commits),
+        # then push. Retry up to 3 times in case of race conditions
+        # with other workflow runs.
+        for i in 1 2 3; do
+          git pull --rebase origin main && git push && break
+          echo "[warn] Push attempt $i failed, retrying in 5s..."
+          sleep 5
+        done
