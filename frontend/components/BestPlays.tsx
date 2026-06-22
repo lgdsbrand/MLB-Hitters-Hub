@@ -22,8 +22,8 @@ function getFireEmojis(prob: string): string {
 }
 
 function getAIReasoning(player: ConsensusPlayer): string {
-  const consensus = parseFloat(player.Consensus || "0");
-  const hitProb = parseFloat(player.HitProb || "0");
+  const consensus = parseFloat(String(player.Consensus || "0"));
+  const hitProb = parseFloat(String(player.HitProb || "0"));
   
   let reasoning = "";
   
