@@ -119,7 +119,7 @@ export default function DataTable({
                               style={{ width: 18, height: 18 }}
                               onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                             />
-                            <span className="text-text-muted text-xs">@</span>
+                            <span className="text-text-muted text-xs">vs</span>
                             <img
                               src={getTeamLogoUrl(parsed.home)}
                               alt=""

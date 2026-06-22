@@ -75,7 +75,7 @@ export default function BetSheet({
                                 className="w-4 h-4 object-contain"
                                 onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                               />
-                              <span className="text-text-muted text-[10px]">@</span>
+                              <span className="text-text-muted text-[10px]">vs</span>
                               <img
                                 src={getTeamLogoUrl(parsed.home)}
                                 alt=""
