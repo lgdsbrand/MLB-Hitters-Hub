@@ -180,7 +180,7 @@ body {
 .data-table {
   width: 100%;
   min-width: 900px;
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 0;
   table-layout: fixed;
 }
@@ -197,19 +197,20 @@ body {
 
 /* Mobile table responsiveness */
 @media (max-width: 640px) {
+  .data-table {
+    table-layout: auto;
+    min-width: 900px;
+  }
+
   .table-scroll-container {
-    max-height: 400px;
+    max-height: none;
+    overflow-y: visible;
     overflow-x: auto;
-    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     width: 100%;
     display: block;
     border: 1px solid rgba(139,92,246,0.2);
     border-radius: 8px;
-  }
-
-  .data-table {
-    min-width: 900px;
   }
 
   .data-table thead th {
@@ -218,7 +219,7 @@ body {
     text-overflow: clip;
     padding: 8px 6px;
     font-size: 0.7rem;
-    min-height: 40px;
+    height: auto;
     word-break: break-word;
   }
 
@@ -228,8 +229,9 @@ body {
     text-overflow: clip;
     padding: 8px 6px;
     font-size: 0.8rem;
-    min-height: 30px;
+    height: auto;
     word-break: break-word;
+    vertical-align: top;
   }
 
   .btn-add {
@@ -284,6 +286,18 @@ body {
   text-overflow: ellipsis;
 }
 
+/* Ensure mobile headers show all content */
+@media (max-width: 640px) {
+  .data-table thead th {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+}
+
 /* Column width classes — wide text columns get more room */
 .data-table thead th:nth-child(1) { width: 44px; }  /* Add button */
 .data-table thead th:nth-child(2) { width: 36px; }  /* # rank */
@@ -306,6 +320,13 @@ body {
   background: var(--color-bg-card-hover);
 }
 
+/* Ensure mobile rows expand with content */
+@media (max-width: 640px) {
+  .data-table tbody tr {
+    height: auto;
+  }
+}
+
 .data-table tbody td {
   padding: 10px 12px;
   font-size: 0.85rem;
@@ -315,6 +336,15 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* Ensure mobile cells show all content */
+@media (max-width: 640px) {
+  .data-table tbody td {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
 }
 
 /* Rank badges */
