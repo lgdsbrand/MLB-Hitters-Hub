@@ -13,7 +13,7 @@ import { useBetSheet } from "@/hooks/useBetSheet";
 
 export default function Home() {
   const [selectedGame, setSelectedGame] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState("hits");
+  const [activeTab, setActiveTab] = useState("last7");
   const tableRef = useRef<HTMLDivElement>(null);
 
   const {
