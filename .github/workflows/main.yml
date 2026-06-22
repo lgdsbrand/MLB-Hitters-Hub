@@ -1,0 +1,82 @@
+name: Daily Scraper Automation
+on:
+  schedule:
+    # Runs at 12:00 AM, 6:30 AM, 8:30 AM, and 11:30 AM Eastern Standard Time (UTC-5)
+    - cron: '0 5 * * *'
+    - cron: '30 11 * * *'
+    - cron: '30 13 * * *'
+    - cron: '30 16 * * *'
+  workflow_dispatch: # This allows you to trigger the workflow manually for testing!
+permissions:
+  contents: write # Needed so the workflow can commit and push the generated files
+jobs:
+  scrape-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        # Fetch all history for all branches and tags
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 curl_cffi playwright
+        # streak.py drives a real headless browser via Playwright, which
+        # needs its own browser binary + OS libs installed separately from
+        # the pip package — `--with-deps` pulls in the apt packages Chromium
+        # needs to run on a bare Ubuntu runner.
+        playwright install --with-deps chromium
+
+    - name: Run Scraper
+      env:
+        LAST7_HITTING_COOKIES_JSON: ${{ secrets.LAST7_HITTING_COOKIES_JSON }}
+      run: |
+        # Run all scripts sequentially with a delay to prevent rate-limiting/Cloudflare blocks
+        python scraper/scrape_bvp.py --url "https://www.fantasyinfocentral.com/mlb/daily-matchups" --today-only --mode full
+        sleep 35
+        python scraper/hit_pred.py --url "https://www.fantasyinfocentral.com/betting/mlb/hit-predictions" --today-only --mode full
+        sleep 35
+        python scraper/hr_pred.py --url "https://www.fantasyinfocentral.com/betting/mlb/hr-predictions" --today-only --mode full
+        sleep 35
+        python scraper/tb_pred.py --url "https://www.fantasyinfocentral.com/betting/mlb/tb-predictions" --today-only --mode full
+        sleep 35
+        # streak.py scrapes breakawaystats.com's active hit-streak leaders
+        # via Playwright/Chromium. "all" pulls every active streak; pass
+        # "today" instead if you only want players with a game today.
+        python scraper/streak.py all
+        sleep 35
+        # last7_hitting.py is allowed to fail (Cloudflare/cookie issues, etc.)
+        # without failing the whole job. If it fails, the previously
+        # committed backend/last7_hitting_full.csv from the last successful
+        # run simply stays as-is (this script never writes a partial/empty
+        # file on failure, since writes are atomic).
+        if python scraper/last7_hitting.py --auto --mode full; then
+          echo "[info] last7_hitting.py succeeded."
+        else
+          echo "[warn] last7_hitting.py failed. Keeping previous last7 CSV/JSON as-is."
+        fi
+
+        # Move generated files to backend/ so Vercel can bundle them.
+        mv *.csv backend/ || true
+        mv *.json backend/ || true
+
+    - name: Commit and Push CSV changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+        # Add all CSV and JSON files in the backend directory
+        git add backend/*.csv backend/*.json || true
+
+        # Commit the files only if there are changes
+        git commit -m "Automated daily scrape update" || echo "No changes to commit"
+
+        # Push the changes back to the repository
+        git push
