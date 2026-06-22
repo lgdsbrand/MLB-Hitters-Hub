@@ -21,7 +21,7 @@ export default function GameSelector({
     ? (() => {
         const parsed = parseGameString(selectedGame);
         return parsed
-          ? `${getTeamName(parsed.away)} @ ${getTeamName(parsed.home)}`
+          ? `${getTeamName(parsed.away)} vs ${getTeamName(parsed.home)}`
           : selectedGame;
       })()
     : "All Games";
@@ -80,7 +80,7 @@ export default function GameSelector({
               const parsed = parseGameString(game);
               if (!parsed) return null;
 
-              const label = `${getTeamName(parsed.away)} @ ${getTeamName(parsed.home)}`;
+              const label = `${getTeamName(parsed.away)} vs ${getTeamName(parsed.home)}`;
               const isSelected = selectedGame === game;
 
               return (
