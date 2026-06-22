@@ -73,23 +73,17 @@ jobs:
         # Move generated files to backend/ so Vercel can bundle them.
         mv *.csv backend/ || true
         mv *.json backend/ || true
-
+  
     - name: Commit and Push CSV changes
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-        # Add all CSV and JSON files in the backend directory
+  
         git add backend/*.csv backend/*.json || true
-
-        # Commit the files only if there are changes
-        git commit -m "Automated daily scrape update" || echo "No changes to commit"
-
-        # Pull latest remote changes (rebase to avoid merge commits),
-        # then push. Retry up to 3 times in case of race conditions
-        # with other workflow runs.
-        for i in 1 2 3; do
-          git pull --rebase origin main && git push && break
-          echo "[warn] Push attempt $i failed, retrying in 5s..."
-          sleep 5
-        done
+  
+        git commit -m "Automated daily scrape update" || {
+          echo "No changes to commit"
+          exit 0
+        }
+  
+        git push --force-with-lease origin main

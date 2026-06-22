@@ -212,9 +212,24 @@ body {
     min-width: 900px;
   }
 
+  .data-table thead th {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    padding: 8px 6px;
+    font-size: 0.7rem;
+    min-height: 40px;
+    word-break: break-word;
+  }
+
   .data-table tbody td {
-    padding: 10px 12px;
-    font-size: 0.85rem;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    padding: 8px 6px;
+    font-size: 0.8rem;
+    min-height: 30px;
+    word-break: break-word;
   }
 
   .btn-add {
