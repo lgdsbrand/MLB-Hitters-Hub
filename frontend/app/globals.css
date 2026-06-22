@@ -179,8 +179,10 @@ body {
 /* Table styles */
 .data-table {
   width: 100%;
+  min-width: 900px;
   border-collapse: separate;
   border-spacing: 0;
+  table-layout: fixed;
 }
 
 /* Scrollable table container - Mobile optimized */
@@ -207,17 +209,10 @@ body {
   }
 
   .data-table {
-    width: 100%;
-    min-width: 800px;
-    table-layout: auto;
-  }
-
-  .data-table thead th {
-    min-width: 90px;
+    min-width: 900px;
   }
 
   .data-table tbody td {
-    min-width: 90px;
     padding: 10px 12px;
     font-size: 0.85rem;
   }
@@ -270,18 +265,21 @@ body {
   top: 0;
   z-index: 10;
   white-space: nowrap;
-  min-width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.data-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-}
+/* Column width classes — wide text columns get more room */
+.data-table thead th:nth-child(1) { width: 44px; }  /* Add button */
+.data-table thead th:nth-child(2) { width: 36px; }  /* # rank */
+.data-table thead th:nth-child(3) { width: 160px; } /* Batter / Player */
+.data-table thead th:nth-child(4) { width: 140px; } /* Pitcher / Team / Trend */
+.data-table thead th:nth-child(5) { width: 170px; } /* Game */
 
+/* Tablet: keep enough room for all columns */
 @media (max-width: 768px) {
   .data-table {
-    min-width: 800px;
+    min-width: 900px;
   }
 }
 
@@ -300,7 +298,8 @@ body {
   opacity: 0.85;
   border-bottom: 1px solid var(--color-border-subtle);
   white-space: nowrap;
-  min-width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Rank badges */

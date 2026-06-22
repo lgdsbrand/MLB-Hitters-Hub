@@ -149,8 +149,8 @@ export default function DataTable({
         <table className="data-table">
           <thead>
             <tr>
-              <th style={{ width: 40 }}></th>
-              <th style={{ width: 28 }}>#</th>
+              <th></th>
+              <th>#</th>
               {columns.map((col) => (
                 <th
                   key={col.key}
