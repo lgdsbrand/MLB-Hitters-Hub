@@ -182,6 +182,7 @@ body {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 /* Mobile table responsiveness */
@@ -191,10 +192,14 @@ body {
     overflow-x: auto;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    width: 100%;
+    display: block;
   }
 
   .data-table {
     font-size: 0.75rem;
+    width: 100%;
+    min-width: 800px;
   }
 
   .data-table thead th {
@@ -224,20 +229,19 @@ body {
     width: 16px !important;
     height: 16px !important;
   }
-}
 
-/* Horizontal scroll indicator for mobile */
-@media (max-width: 640px) {
-  .table-scroll-container::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 20px;
-    height: 20px;
-    background: linear-gradient(90deg, transparent, rgba(139,92,246,0.2));
-    pointer-events: none;
+  /* Scrollbar visibility on mobile */
+  .table-scroll-container::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .table-scroll-container::-webkit-scrollbar-track {
+    background: rgba(139,92,246,0.1);
+  }
+
+  .table-scroll-container::-webkit-scrollbar-thumb {
+    background: #8b5cf6;
+    border-radius: 3px;
   }
 }
 
@@ -252,10 +256,14 @@ body {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  min-width: 100%;
 }
 
-/* Sticky table headers */
+@media (max-width: 640px) {
+  .data-table {
+    min-width: 900px;
+  }
+}
+
 .data-table thead th {
   background: var(--color-bg-secondary);
   color: var(--color-text-secondary);
@@ -450,6 +458,13 @@ body {
 .bet-sheet-panel table {
   border-collapse: collapse;
   width: 100%;
+  min-width: 600px;
+}
+
+@media (max-width: 640px) {
+  .bet-sheet-panel table {
+    min-width: 700px;
+  }
 }
 
 .bet-sheet-panel th,
