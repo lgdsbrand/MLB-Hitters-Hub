@@ -281,17 +281,14 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
 }
 
 /* Ensure mobile headers show all content */
 @media (max-width: 640px) {
   .data-table thead th {
-    white-space: normal !important;
-    overflow: visible !important;
-    text-overflow: clip !important;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -314,17 +311,11 @@ body {
 
 .data-table tbody tr {
   transition: background 0.15s ease;
+  height: auto;
 }
 
 .data-table tbody tr:hover {
   background: var(--color-bg-card-hover);
-}
-
-/* Ensure mobile rows expand with content */
-@media (max-width: 640px) {
-  .data-table tbody tr {
-    height: auto;
-  }
 }
 
 .data-table tbody td {
@@ -333,18 +324,9 @@ body {
   color: var(--color-text-secondary);
   opacity: 0.85;
   border-bottom: 1px solid var(--color-border-subtle);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* Ensure mobile cells show all content */
-@media (max-width: 640px) {
-  .data-table tbody td {
-    white-space: normal !important;
-    overflow: visible !important;
-    text-overflow: clip !important;
-  }
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
 }
 
 /* Rank badges */
