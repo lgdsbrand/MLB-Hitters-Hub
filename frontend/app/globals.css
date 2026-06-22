@@ -398,6 +398,32 @@ body {
   border-color: var(--color-accent-blue);
 }
 
+.table-select {
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+}
+
+.table-select:focus {
+  outline: none;
+  border-color: var(--color-accent-blue) !important;
+  box-shadow: 0 0 8px rgba(139, 92, 246, 0.3);
+}
+
+/* Select dropdown options styling */
+select option {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  padding: 8px;
+}
+
+select option:checked {
+  background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+  background-color: #7c3aed;
+  color: white;
+}
+
 /* Info panel */
 .info-panel {
   background: linear-gradient(135deg, rgba(17, 19, 26, 0.6), rgba(10, 11, 16, 0.8));
@@ -497,6 +523,17 @@ body {
   /* AI Reasoning button text size */
   button[style*="color: var(--color-accent-purple)"] {
     font-size: 0.75rem;
+  }
+
+  /* Mobile select dropdown styling */
+  .table-select {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 10px 14px;
+  }
+
+  .game-select {
+    width: 100%;
   }
 }
 

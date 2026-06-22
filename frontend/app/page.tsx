@@ -218,13 +218,17 @@ export default function Home() {
       <HitStreaksTable data={hitStreaksData} loading={loading} />
 
       {/* Main Data View */}
-      <div className="mt-8 mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4" ref={tableRef}>
-        <TabBar activeTab={activeTab} onTabChange={setActiveTab} />
-        <GameSelector
-          games={games}
-          selectedGame={selectedGame}
-          onSelect={setSelectedGame}
-        />
+      <div className="mt-8 mb-6 flex flex-col gap-4 w-full" ref={tableRef}>
+        <div className="w-full">
+          <TabBar activeTab={activeTab} onTabChange={setActiveTab} />
+        </div>
+        <div className="w-full">
+          <GameSelector
+            games={games}
+            selectedGame={selectedGame}
+            onSelect={setSelectedGame}
+          />
+        </div>
       </div>
 
       <DataTable
