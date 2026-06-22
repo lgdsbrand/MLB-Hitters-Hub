@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { parseGameString, getTeamLogoUrl } from "@/lib/teamLogos";
 
 interface Column {
@@ -12,7 +11,7 @@ interface Column {
 interface DataTableProps {
   columns: Column[];
   data: Record<string, unknown>[];
-  onAdd: (batter: string, game: string) => void;
+  onAdd: (batter: string, game: string, rowData?: Record<string, unknown>) => void;
   isSelected: (batter: string, game: string) => boolean;
   source: string;
   loading?: boolean;
@@ -32,12 +31,6 @@ export default function DataTable({
   batterKey = "Batter",
   gameKey = "Game",
 }: DataTableProps) {
-  const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 15;
-
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [source, data.length]);
 
   if (loading) {
     return (
@@ -56,12 +49,10 @@ export default function DataTable({
     );
   }
 
-  const totalPages = Math.max(1, Math.ceil(data.length / itemsPerPage));
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const currentData = data.slice(startIndex, startIndex + itemsPerPage);
+  const currentData = data;
 
   return (
-    <div className="card-glass overflow-hidden">
+    <div className="card-glass">
       {/* Data count */}
       <div className="px-4 py-2 flex items-center justify-between" style={{ borderBottom: "1px solid var(--color-border-subtle)" }}>
         <span className="text-text-muted text-xs">
@@ -72,7 +63,7 @@ export default function DataTable({
         </span>
       </div>
 
-      <div className="overflow-x-auto">
+      <div className="table-scroll-container">
         <table className="data-table">
           <thead>
             <tr>
@@ -89,8 +80,7 @@ export default function DataTable({
             </tr>
           </thead>
           <tbody>
-            {currentData.map((row, relativeIdx) => {
-              const idx = startIndex + relativeIdx;
+            {currentData.map((row, idx) => {
               const batter = String(row[batterKey] || "");
               const game = String(row[gameKey] || "");
               const added = isSelected(batter, game);
@@ -102,7 +92,7 @@ export default function DataTable({
                   <td>
                     <button
                       className={`btn-add ${added ? "added" : ""}`}
-                      onClick={() => onAdd(batter, game)}
+                      onClick={() => onAdd(batter, game, row)}
                       title={added ? "Added" : "Add to bet sheet"}
                     >
                       {added ? "✓" : "+"}
@@ -166,31 +156,6 @@ export default function DataTable({
           </tbody>
         </table>
       </div>
-
-      {/* Pagination Controls */}
-      {totalPages > 1 && (
-        <div className="flex items-center justify-between px-4 py-3 border-t border-[var(--color-border-subtle)]">
-          <span className="text-xs text-text-muted">
-            Showing {startIndex + 1} to {Math.min(startIndex + itemsPerPage, data.length)} of {data.length} records
-          </span>
-          <div className="flex gap-2">
-            <button
-              onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
-              disabled={currentPage === 1}
-              className="px-3 py-1.5 rounded bg-bg-secondary border border-border-subtle text-xs text-text-primary disabled:opacity-50 disabled:cursor-not-allowed hover:bg-bg-card transition-colors"
-            >
-              Previous
-            </button>
-            <button
-              onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
-              disabled={currentPage === totalPages}
-              className="px-3 py-1.5 rounded bg-bg-secondary border border-border-subtle text-xs text-text-primary disabled:opacity-50 disabled:cursor-not-allowed hover:bg-bg-card transition-colors"
-            >
-              Next
-            </button>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

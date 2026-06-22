@@ -4,6 +4,7 @@ Provides reusable pandas-based utilities for all hitter endpoints.
 """
 
 import os
+import glob
 import pandas as pd
 from typing import Optional
 from functools import lru_cache
@@ -19,21 +20,30 @@ CSV_FILES = {
     "tb_pred": ["tb_pred_full.csv", "tb_pred.csv"],
     "bvp": ["bvp_full.csv", "bvp.csv"],
     "last7": ["last7_hitting_full.csv", "last7hitting.csv", "last7_hitting.csv"],
+    "hit_streaks": ["hit_streaks_all_*.csv"],  # Will match hit_streaks_all_YYYY-MM-DD.csv
 }
 
 
 def _find_csv_path(key: str) -> Optional[str]:
-    """Find the first existing CSV file for a given key."""
+    """Find the first existing CSV file for a given key. Supports glob patterns."""
     candidates = CSV_FILES.get(key, [])
     for filename in candidates:
         # Check backend directory first (where files will be on Vercel)
-        path = os.path.join(BACKEND_DIR, filename)
-        if os.path.exists(path):
-            return path
-        # Fallback to project root for local backward compatibility
-        path = os.path.join(ROOT_DIR, filename)
-        if os.path.exists(path):
-            return path
+        if "*" in filename:
+            matches = glob.glob(os.path.join(BACKEND_DIR, filename))
+            if matches:
+                return sorted(matches)[-1]  # Return latest if multiple matches
+            matches = glob.glob(os.path.join(ROOT_DIR, filename))
+            if matches:
+                return sorted(matches)[-1]
+        else:
+            path = os.path.join(BACKEND_DIR, filename)
+            if os.path.exists(path):
+                return path
+            # Fallback to project root for local backward compatibility
+            path = os.path.join(ROOT_DIR, filename)
+            if os.path.exists(path):
+                return path
     return None
 
 
@@ -331,3 +341,46 @@ def get_5day_hit_streak(game: Optional[str] = None) -> list:
             })
 
     return qualifying
+
+
+def get_hit_streaks() -> list:
+    """Get all active hit streaks from hit_streaks_all CSV."""
+    df = load_csv("hit_streaks")
+    if df.empty:
+        return []
+    
+    # Normalize column names to lowercase for matching
+    df.columns = df.columns.str.lower()
+    
+    # Select relevant columns for display
+    relevant_cols = ["player", "team", "hit_streak", "games", "avg", "hits", "home_runs", "rbi", "runs", "ops"]
+    available_cols = [col for col in relevant_cols if col in df.columns]
+    
+    if not available_cols:
+        return []
+    
+    df = df[available_cols]
+    
+    # Rename columns to display-friendly names
+    col_mapping = {
+        "player": "Player",
+        "team": "Team",
+        "hit_streak": "Streak",
+        "games": "Games",
+        "avg": "AVG",
+        "hits": "Hits",
+        "home_runs": "HR",
+        "rbi": "RBI",
+        "runs": "Runs",
+        "ops": "OPS",
+    }
+    
+    df = df.rename(columns={k: v for k, v in col_mapping.items() if k in df.columns})
+    
+    # Sort by streak (descending)
+    if "Streak" in df.columns:
+        df["Streak_num"] = pd.to_numeric(df["Streak"], errors="coerce").fillna(0)
+        df = df.sort_values("Streak_num", ascending=False)
+        df = df.drop(columns=["Streak_num"])
+    
+    return df.fillna("").to_dict(orient="records")

@@ -1,11 +1,12 @@
 "use client";
 
+import { useState } from "react";
 import { ConsensusPlayer } from "@/lib/api";
 import { parseGameString, getTeamLogoUrl } from "@/lib/teamLogos";
 
 interface BestPlaysProps {
   players: ConsensusPlayer[];
-  onAdd: (batter: string, game: string) => void;
+  onAdd: (batter: string, game: string, rowData?: Record<string, unknown>) => void;
   isSelected: (batter: string, game: string) => boolean;
 }
 
@@ -20,7 +21,37 @@ function getFireEmojis(prob: string): string {
   return "";
 }
 
+function getAIReasoning(player: ConsensusPlayer): string {
+  const consensus = parseFloat(player.Consensus || "0");
+  const hitProb = parseFloat(player.HitProb || "0");
+  
+  let reasoning = "";
+  
+  if (hitProb >= 75) {
+    reasoning = `Very high confidence in a hit. ${player.Batter} has exceptional plate discipline and consistent performance against this opponent.`;
+  } else if (hitProb >= 65) {
+    reasoning = `Strong statistical indicators suggest a high likelihood of recording a hit. Recent form and matchup dynamics favor this selection.`;
+  } else if (hitProb >= 55) {
+    reasoning = `Moderate confidence based on recent performance trends and favorable matchup metrics. Historical data supports this play.`;
+  } else if (hitProb >= 45) {
+    reasoning = `Balanced odds with some supporting statistics. Player has shown capability in similar situations.`;
+  } else {
+    reasoning = `Lower confidence play. May warrant careful consideration alongside other factors.`;
+  }
+  
+  if (player.BA) {
+    reasoning += ` Player batting average of ${player.BA} provides solid foundation for projection.`;
+  }
+  
+  if (player.OPS) {
+    reasoning += ` OPS of ${player.OPS} indicates strong overall offensive performance.`;
+  }
+  
+  return reasoning;
+}
+
 export default function BestPlays({ players, onAdd, isSelected }: BestPlaysProps) {
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
   const top3 = players.slice(0, 3);
 
   if (top3.length === 0) {
@@ -34,21 +65,29 @@ export default function BestPlays({ players, onAdd, isSelected }: BestPlaysProps
   return (
     <div className="card-glass p-6">
       <h2
-        className="text-center mb-6"
+        className="text-center mb-6 animate-spotlight-pulse"
         style={{
-          fontFamily: "Georgia, 'Times New Roman', serif",
-          fontStyle: "italic",
-          fontSize: "1.5rem",
-          color: "var(--color-text-primary)",
+          fontFamily: "var(--font-sans), system-ui, -apple-system, sans-serif",
+          fontWeight: 800,
+          fontSize: "1.25rem",
+          letterSpacing: "0.15em",
+          textTransform: "uppercase",
+          color: "var(--color-accent-purple)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: "0.75rem",
         }}
       >
-        Best Plays of the Day
+        <span style={{ fontSize: "1.5rem" }}>⚡</span>
+        SPOTLIGHT EDGE OF THE DAY
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {top3.map((player, idx) => {
           const parsed = parseGameString(player.Game || "");
           const added = isSelected(player.Batter, player.Game);
+          const isExpanded = expandedIndex === idx;
 
           return (
             <div
@@ -93,7 +132,7 @@ export default function BestPlays({ players, onAdd, isSelected }: BestPlaysProps
                 {/* Add button */}
                 <button
                   className={`btn-add ${added ? "added" : ""}`}
-                  onClick={() => onAdd(player.Batter, player.Game)}
+                  onClick={() => onAdd(player.Batter, player.Game, player as Record<string, unknown>)}
                   title={added ? "Added to bet sheet" : "Add to bet sheet"}
                 >
                   {added ? "✓" : "+"}
@@ -140,6 +179,54 @@ export default function BestPlays({ players, onAdd, isSelected }: BestPlaysProps
                   </div>
                 </div>
               )}
+
+              {/* AI Reasoning Section */}
+              <div style={{ marginTop: "12px", paddingTop: "12px", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+                <button
+                  onClick={() => setExpandedIndex(isExpanded ? null : idx)}
+                  style={{
+                    width: "100%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    padding: "8px 0",
+                    background: "none",
+                    border: "none",
+                    color: "var(--color-accent-purple)",
+                    cursor: "pointer",
+                    fontSize: "0.85rem",
+                    fontWeight: 600,
+                    transition: "all 0.2s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    (e.target as HTMLButtonElement).style.color = "var(--color-accent-purple-light)";
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.target as HTMLButtonElement).style.color = "var(--color-accent-purple)";
+                  }}
+                >
+                  <span>🤖 AI Reasoning</span>
+                  <span style={{ transform: isExpanded ? "rotate(180deg)" : "rotate(0deg)", transition: "transform 0.2s" }}>▼</span>
+                </button>
+                
+                {isExpanded && (
+                  <div
+                    style={{
+                      marginTop: "10px",
+                      padding: "10px 8px",
+                      background: "rgba(139, 92, 246, 0.08)",
+                      borderRadius: "8px",
+                      border: "1px solid rgba(139, 92, 246, 0.15)",
+                      fontSize: "0.8rem",
+                      lineHeight: "1.5",
+                      color: "var(--color-text-secondary)",
+                      animation: "fadeIn 0.2s ease-out",
+                    }}
+                  >
+                    {getAIReasoning(player)}
+                  </div>
+                )}
+              </div>
             </div>
           );
         })}

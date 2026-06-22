@@ -12,6 +12,7 @@ import {
   fetchClubHits,
   fetchClubTB,
   fetchStreak,
+  fetchHitStreaks,
   HitPrediction,
   HRPrediction,
   TBPrediction,
@@ -19,6 +20,7 @@ import {
   Last7Hitter,
   ConsensusPlayer,
   ClubPlayer,
+  HitStreak,
 } from "@/lib/api";
 
 export function useHittersData(selectedGame: string | null) {
@@ -37,6 +39,7 @@ export function useHittersData(selectedGame: string | null) {
   const [clubHits, setClubHits] = useState<ClubPlayer[]>([]);
   const [clubTB, setClubTB] = useState<ClubPlayer[]>([]);
   const [streakData, setStreakData] = useState<ClubPlayer[]>([]);
+  const [hitStreaksData, setHitStreaksData] = useState<HitStreak[]>([]);
 
   const [loading, setLoading] = useState(false);
 
@@ -70,6 +73,7 @@ export function useHittersData(selectedGame: string | null) {
           cHits,
           cTB,
           streak,
+          hitStreaks,
         ] = await Promise.all([
           fetchHits(selectedGame),
           fetchHR(selectedGame),
@@ -80,6 +84,7 @@ export function useHittersData(selectedGame: string | null) {
           fetchClubHits(selectedGame),
           fetchClubTB(selectedGame),
           fetchStreak(selectedGame),
+          fetchHitStreaks(),
         ]);
 
         setHitsData(hits);
@@ -91,6 +96,7 @@ export function useHittersData(selectedGame: string | null) {
         setClubHits(cHits);
         setClubTB(cTB);
         setStreakData(streak);
+        setHitStreaksData(hitStreaks);
       } catch (err) {
         console.error("Failed to load data", err);
       } finally {
@@ -114,5 +120,6 @@ export function useHittersData(selectedGame: string | null) {
     clubHits,
     clubTB,
     streakData,
+    hitStreaksData,
   };
 }

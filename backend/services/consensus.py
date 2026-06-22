@@ -23,6 +23,45 @@ def _normalize_name(name: str) -> str:
     return parts[0].strip().rstrip("D").strip()
 
 
+def _generate_reasoning(hit_score: float, l7_score: float, bvp_score: float, trend_score: float, consensus: float) -> str:
+    """Generate AI reasoning text explaining the consensus score."""
+    reasons = []
+    
+    # Analyze hit prediction probability
+    if hit_score >= 70:
+        reasons.append("Strong historical hit prediction signal")
+    elif hit_score >= 50:
+        reasons.append("Moderate hit prediction likelihood")
+    else:
+        reasons.append("Emerging hit prediction opportunity")
+    
+    # Analyze last 7 day performance
+    if l7_score >= 70:
+        reasons.append("Excellent recent form and OPS")
+    elif l7_score >= 50:
+        reasons.append("Solid recent performance trend")
+    else:
+        reasons.append("Building momentum from recent games")
+    
+    # Analyze BvP matchup
+    if bvp_score >= 70:
+        reasons.append("Favorable matchup history vs pitcher")
+    elif bvp_score >= 50:
+        reasons.append("Neutral to favorable pitcher matchup")
+    else:
+        reasons.append("Challenging pitcher matchup")
+    
+    # Analyze trend consistency
+    if trend_score >= 70:
+        reasons.append("Strong hitting consistency in trend")
+    elif trend_score >= 50:
+        reasons.append("Decent hit streak emerging")
+    else:
+        reasons.append("Early stage of potential streak")
+    
+    return " • ".join(reasons)
+
+
 def calculate_consensus_scores(game: Optional[str] = None) -> list:
     """
     Calculate consensus scores for all hitters.
@@ -115,6 +154,9 @@ def calculate_consensus_scores(game: Optional[str] = None) -> list:
 
         # Hit probability as string
         pred_str = str(row.get("Pred", "")).strip()
+        
+        # Generate AI reasoning
+        reasoning = _generate_reasoning(hit_score, l7_score, bvp_score, trend_score, consensus)
 
         results.append({
             "Batter": _safe_val(batter),
@@ -127,6 +169,7 @@ def calculate_consensus_scores(game: Optional[str] = None) -> list:
             "H": _safe_val(row.get("H", "")),
             "BA": _safe_val(row.get("BA", "")),
             "OPS": _safe_val(row.get("OPS", "")),
+            "AIReasoning": reasoning,
         })
 
     # Sort by consensus descending

@@ -1,18 +1,20 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
 import GameSelector from "@/components/GameSelector";
 import BestPlays from "@/components/BestPlays";
 import TabBar from "@/components/TabBar";
 import DataTable from "@/components/DataTable";
 import ClubSection from "@/components/ClubSection";
-import BetSheet from "@/components/BetSheet";
+import HitStreaksTable from "@/components/HitStreaksTable";
 import { useHittersData } from "@/hooks/useHittersData";
 import { useBetSheet } from "@/hooks/useBetSheet";
 
 export default function Home() {
   const [selectedGame, setSelectedGame] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState("hits");
+  const tableRef = useRef<HTMLDivElement>(null);
 
   const {
     games,
@@ -26,18 +28,66 @@ export default function Home() {
     clubHits,
     clubTB,
     streakData,
+    hitStreaksData,
   } = useHittersData(selectedGame);
 
   const betSheet = useBetSheet();
 
-  const handleAddPlayer = (batter: string, game: string) => {
+  const handleAddPlayer = (batter: string, game: string, rowData?: Record<string, unknown>) => {
     let sourceName = "Hits";
-    if (activeTab === "hr") sourceName = "HR";
-    if (activeTab === "tb") sourceName = "TB";
-    if (activeTab === "bvp") sourceName = "BvP";
-    if (activeTab === "last7") sourceName = "Last 7";
+    let prop = "Hit";
+    let odds = "-";
+    let probability = "-";
+
+    if (rowData) {
+      switch (activeTab) {
+        case "hr":
+          sourceName = "HR";
+          prop = "HR";
+          odds = String(rowData["Odds"] || "-");
+          probability = String(rowData["HR Pred"] || "-");
+          break;
+        case "tb":
+          sourceName = "TB";
+          prop = "Total Bases";
+          odds = String(rowData["Over"] || "-");
+          probability = String(rowData["TB Pred"] || "-");
+          break;
+        case "bvp":
+          sourceName = "BvP";
+          prop = "Hit";
+          odds = String(rowData["HH%"] || "-");
+          probability = String(rowData["Icon"] || "-");
+          break;
+        case "last7":
+          sourceName = "Last 7";
+          prop = "HRR"; // Hits, Runs, RBIs
+          odds = "-";
+          probability = "-";
+          break;
+        case "hits":
+        default:
+          sourceName = "Hits";
+          prop = "Hit";
+          odds = String(rowData["Odds"] || "-");
+          probability = String(rowData["Pred"] || "-");
+      }
+    } else {
+      if (activeTab === "hr") sourceName = "HR";
+      if (activeTab === "tb") sourceName = "TB";
+      if (activeTab === "bvp") sourceName = "BvP";
+      if (activeTab === "last7") sourceName = "Last 7";
+    }
     
-    betSheet.addPlayer(batter, game, sourceName);
+    // Special handling for consensus data (BestPlays)
+    if (rowData && "Consensus" in rowData) {
+      sourceName = "Consensus";
+      prop = "Hit";
+      odds = "-";
+      probability = String(rowData["HitProb"] || rowData["Consensus"] || "-");
+    }
+    
+    betSheet.addPlayer(batter, game, sourceName, prop, odds, probability);
   };
 
   const getTableColumns = () => {
@@ -134,13 +184,8 @@ export default function Home() {
         </div>
         
         <div className="flex items-center gap-6">
-          <GameSelector
-            games={games}
-            selectedGame={selectedGame}
-            onSelect={setSelectedGame}
-          />
-          <button
-            onClick={betSheet.toggleSheet}
+          <Link
+            href="/betsheet"
             className="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-bg-card border border-border-default hover:border-accent-green transition-colors text-text-primary text-sm font-medium relative"
           >
             <span>Bet Sheet</span>
@@ -149,7 +194,7 @@ export default function Home() {
                 {betSheet.count}
               </span>
             )}
-          </button>
+          </Link>
         </div>
       </header>
 
@@ -169,9 +214,17 @@ export default function Home() {
         isSelected={betSheet.isSelected}
       />
 
+      {/* Hit Streaks Table */}
+      <HitStreaksTable data={hitStreaksData} loading={loading} />
+
       {/* Main Data View */}
-      <div className="mt-8 mb-6">
+      <div className="mt-8 mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4" ref={tableRef}>
         <TabBar activeTab={activeTab} onTabChange={setActiveTab} />
+        <GameSelector
+          games={games}
+          selectedGame={selectedGame}
+          onSelect={setSelectedGame}
+        />
       </div>
 
       <DataTable
@@ -223,14 +276,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Bet Sheet Side Panel */}
-      <BetSheet
-        isOpen={betSheet.isOpen}
-        onClose={betSheet.toggleSheet}
-        selections={betSheet.selections}
-        onRemove={betSheet.removePlayer}
-        onClear={betSheet.clearAll}
-      />
+
     </main>
   );
 }

@@ -126,6 +126,7 @@ export interface ConsensusPlayer {
   Consensus: number;
   HitProb: string;
   Trend: string;
+  AIReasoning?: string;
   AB: string;
   H: string;
   BA: string;
@@ -149,6 +150,20 @@ export interface ClubPlayer {
   BA: string;
   OBP: string;
   OPS: string;
+  [key: string]: unknown;
+}
+
+export interface HitStreak {
+  Player: string;
+  Team: string;
+  Streak: string | number;
+  Games: string | number;
+  AVG: string | number;
+  Hits: string | number;
+  HR: string | number;
+  RBI: string | number;
+  Runs: string | number;
+  OPS: string | number;
   [key: string]: unknown;
 }
 
@@ -201,5 +216,10 @@ export async function fetchClubTB(game?: string | null): Promise<ClubPlayer[]> {
 
 export async function fetchStreak(game?: string | null): Promise<ClubPlayer[]> {
   const res = await fetchJSON<ApiResponse<ClubPlayer>>(`${BASE}/streak${gameParam(game)}`);
+  return res.data;
+}
+
+export async function fetchHitStreaks(): Promise<HitStreak[]> {
+  const res = await fetchJSON<ApiResponse<HitStreak>>(`${BASE}/hit-streaks`);
   return res.data;
 }

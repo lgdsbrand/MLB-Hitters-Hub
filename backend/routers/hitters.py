@@ -14,6 +14,7 @@ from services.data_service import (
     get_100_club_hits,
     get_100_club_tb,
     get_5day_hit_streak,
+    get_hit_streaks,
 )
 from services.consensus import calculate_consensus_scores
 
@@ -87,4 +88,11 @@ def club_tb(game: Optional[str] = Query(None, description="Filter by game")):
 def streak(game: Optional[str] = Query(None, description="Filter by game")):
     """Return 5-Day Hit Streak Club."""
     data = get_5day_hit_streak(game)
+    return {"data": data, "count": len(data)}
+
+
+@router.get("/hit-streaks")
+def hit_streaks():
+    """Return all active hit streaks."""
+    data = get_hit_streaks()
     return {"data": data, "count": len(data)}

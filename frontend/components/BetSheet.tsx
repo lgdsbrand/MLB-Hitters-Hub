@@ -36,7 +36,7 @@ export default function BetSheet({
           </button>
         </div>
 
-        <div className="flex-1 overflow-y-auto p-4">
+        <div className="flex-1 overflow-y-auto p-4" style={{ background: "rgba(16, 13, 24, 0.95)" }}>
           {selections.length === 0 ? (
             <div className="text-center mt-12">
               <div className="text-4xl mb-4 opacity-50">📋</div>
@@ -46,55 +46,76 @@ export default function BetSheet({
               </p>
             </div>
           ) : (
-            <div className="flex flex-col gap-3">
-              {selections.map((sel) => {
-                const parsed = parseGameString(sel.game);
-                return (
-                  <div
-                    key={sel.id}
-                    className="flex items-center justify-between bg-bg-card p-3 rounded-lg border border-border-subtle hover:border-border-default transition-colors"
-                  >
-                    <div>
-                      <div className="font-bold text-sm text-text-primary">
-                        {sel.batter}
-                      </div>
-                      <div className="flex items-center gap-1 mt-1">
-                        {parsed && (
-                          <>
-                            <img
-                              src={getTeamLogoUrl(parsed.away)}
-                              alt=""
-                              className="w-3 h-3 object-contain"
-                              onError={(e) => {
-                                (e.target as HTMLImageElement).style.display = "none";
-                              }}
-                            />
-                            <span className="text-text-muted text-[10px]">@</span>
-                            <img
-                              src={getTeamLogoUrl(parsed.home)}
-                              alt=""
-                              className="w-3 h-3 object-contain"
-                              onError={(e) => {
-                                (e.target as HTMLImageElement).style.display = "none";
-                              }}
-                            />
-                          </>
-                        )}
-                        <span className="text-text-muted text-[10px] uppercase tracking-wider ml-1">
-                          {sel.source}
-                        </span>
-                      </div>
-                    </div>
-                    <button
-                      onClick={() => onRemove(sel.id)}
-                      className="w-7 h-7 flex items-center justify-center rounded bg-bg-primary text-text-muted hover:text-accent-red hover:bg-[rgba(239,68,68,0.1)] transition-colors"
-                      title="Remove"
-                    >
-                      ✕
-                    </button>
-                  </div>
-                );
-              })}
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-border-subtle">
+                    <th className="px-3 py-2 text-left text-text-secondary font-medium text-xs uppercase">Batter</th>
+                    <th className="px-3 py-2 text-left text-text-secondary font-medium text-xs uppercase">Game</th>
+                    <th className="px-3 py-2 text-left text-text-secondary font-medium text-xs uppercase">Prop</th>
+                    <th className="px-3 py-2 text-center text-text-secondary font-medium text-xs uppercase">Odds</th>
+                    <th className="px-3 py-2 text-center text-text-secondary font-medium text-xs uppercase">Probability</th>
+                    <th className="px-3 py-2 text-center text-text-secondary font-medium text-xs uppercase">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {selections.map((sel) => {
+                    const parsed = parseGameString(sel.game);
+                    return (
+                      <tr key={sel.id} className="border-b border-border-subtle hover:bg-bg-card-hover transition-colors">
+                        <td className="px-3 py-3">
+                          <span className="font-medium text-text-primary">{sel.batter}</span>
+                        </td>
+                        <td className="px-3 py-3">
+                          {parsed ? (
+                            <div className="flex items-center gap-1">
+                              <img
+                                src={getTeamLogoUrl(parsed.away)}
+                                alt=""
+                                className="w-4 h-4 object-contain"
+                                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                              />
+                              <span className="text-text-muted text-[10px]">@</span>
+                              <img
+                                src={getTeamLogoUrl(parsed.home)}
+                                alt=""
+                                className="w-4 h-4 object-contain"
+                                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                              />
+                            </div>
+                          ) : (
+                            <span className="text-text-secondary text-xs">{sel.game}</span>
+                          )}
+                        </td>
+                        <td className="px-3 py-3">
+                          <span className="text-text-secondary text-xs">{sel.prop}</span>
+                        </td>
+                        <td className="px-3 py-3 text-center">
+                          <span className="text-text-primary font-medium">{sel.odds}</span>
+                        </td>
+                        <td className="px-3 py-3 text-center">
+                          <span className={`font-medium ${
+                            sel.probability !== "-" && parseFloat(String(sel.probability)) >= 65
+                              ? "text-accent-green"
+                              : "text-text-secondary"
+                          }`}>
+                            {sel.probability}
+                          </span>
+                        </td>
+                        <td className="px-3 py-3 text-center">
+                          <button
+                            onClick={() => onRemove(sel.id)}
+                            className="w-6 h-6 flex items-center justify-center rounded text-text-muted hover:text-accent-red hover:bg-[rgba(239,68,68,0.1)] transition-colors text-xs"
+                            title="Remove"
+                          >
+                            ✕
+                          </button>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
             </div>
           )}
         </div>

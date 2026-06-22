@@ -7,6 +7,9 @@ export interface BetSelection {
   batter: string;
   game: string;
   source: string; // which tab they were added from
+  prop: string; // "Hit", "Total Bases", "HRR" (Hits, Runs, RBIs)
+  odds: string | number;
+  probability: string | number; // AI score / prediction
   addedAt: string;
 }
 
@@ -62,7 +65,14 @@ export function useBetSheet() {
   }, [selections]);
 
   const addPlayer = useCallback(
-    (batter: string, game: string, source: string) => {
+    (
+      batter: string,
+      game: string,
+      source: string,
+      prop: string = "Hit",
+      odds: string | number = "-",
+      probability: string | number = "-"
+    ) => {
       setSelections((prev) => {
         // Prevent duplicates by batter + game
         const id = `${batter}__${game}`;
@@ -74,6 +84,9 @@ export function useBetSheet() {
             batter,
             game,
             source,
+            prop,
+            odds,
+            probability,
             addedAt: new Date().toLocaleTimeString(),
           },
         ];

@@ -8,7 +8,7 @@ interface ClubSectionProps {
   hitsData: ClubPlayer[];
   tbData: ClubPlayer[];
   streakData: ClubPlayer[];
-  onAdd: (batter: string, game: string) => void;
+  onAdd: (batter: string, game: string, rowData?: Record<string, unknown>) => void;
   isSelected: (batter: string, game: string) => boolean;
 }
 
@@ -29,8 +29,6 @@ export default function ClubSection({
         { key: "Pred", label: "Prob" },
         { key: "O/U", label: "O/U" },
         { key: "Record", label: "Record", align: "center" as const },
-        { key: "BA", label: "BA" },
-        { key: "OPS", label: "OPS" },
       ];
     }
     if (activeTab === "tb") {
@@ -40,8 +38,6 @@ export default function ClubSection({
         { key: "TB Pred", label: "Prob" },
         { key: "Line", label: "Line" },
         { key: "Record", label: "Record", align: "center" as const },
-        { key: "BA", label: "BA" },
-        { key: "OPS", label: "OPS" },
       ];
     }
     return [
@@ -49,8 +45,6 @@ export default function ClubSection({
       { key: "Game", label: "Game" },
       { key: "Pred", label: "Prob" },
       { key: "Streak", label: "Streak", align: "center" as const },
-      { key: "BA", label: "BA" },
-      { key: "OPS", label: "OPS" },
     ];
   };
 
