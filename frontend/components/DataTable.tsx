@@ -8,6 +8,76 @@ interface Column {
   align?: "left" | "center" | "right";
 }
 
+function getTrendDisplay(trend: string) {
+  const trendMap: Record<string, { label: string; color: string; bgColor: string; svg: string }> = {
+    "^^": {
+      label: "Strong Up",
+      color: "#10b981",
+      bgColor: "rgba(16, 185, 129, 0.1)",
+      svg: "↑↑",
+    },
+    "^": {
+      label: "Up",
+      color: "#34d399",
+      bgColor: "rgba(52, 211, 153, 0.1)",
+      svg: "↑",
+    },
+    ">v": {
+      label: "Mixed",
+      color: "#f97316",
+      bgColor: "rgba(249, 115, 22, 0.1)",
+      svg: "↗",
+    },
+    ">": {
+      label: "Neutral",
+      color: "#eab308",
+      bgColor: "rgba(234, 179, 8, 0.1)",
+      svg: "→",
+    },
+    "v>": {
+      label: "Mixed Down",
+      color: "#f97316",
+      bgColor: "rgba(249, 115, 22, 0.1)",
+      svg: "↘",
+    },
+    "v": {
+      label: "Down",
+      color: "#ef4444",
+      bgColor: "rgba(239, 68, 68, 0.1)",
+      svg: "↓",
+    },
+    "vv": {
+      label: "Strong Down",
+      color: "#dc2626",
+      bgColor: "rgba(220, 38, 38, 0.1)",
+      svg: "↓↓",
+    },
+  };
+
+  const trendInfo = trendMap[trend] || { label: trend, color: "#9ca3af", bgColor: "rgba(156, 163, 175, 0.1)", svg: trend };
+
+  return (
+    <div
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "4px 8px",
+        borderRadius: "6px",
+        backgroundColor: trendInfo.bgColor,
+        minWidth: "32px",
+        fontSize: "14px",
+        fontWeight: "600",
+        color: trendInfo.color,
+        letterSpacing: "0.5px",
+      }}
+      title={trendInfo.label}
+    >
+      {trendInfo.svg}
+    </div>
+  );
+}
+
 interface DataTableProps {
   columns: Column[];
   data: Record<string, unknown>[];
@@ -129,6 +199,15 @@ export default function DataTable({
                             />
                             <span className="ml-1 text-xs text-text-secondary">{display}</span>
                           </div>
+                        </td>
+                      );
+                    }
+
+                    // Special rendering for trend column (Icon)
+                    if (col.key === "Icon") {
+                      return (
+                        <td key={col.key} style={{ textAlign: col.align || "center", padding: "8px 4px" }}>
+                          {getTrendDisplay(display)}
                         </td>
                       );
                     }
