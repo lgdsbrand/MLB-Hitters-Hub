@@ -198,7 +198,7 @@ body {
 @media (max-width: 640px) {
   .data-table {
     table-layout: auto;
-    min-width: 1000px;
+    min-width: 1100px;
   }
 
   .table-scroll-container {
@@ -222,6 +222,21 @@ body {
     word-break: keep-all;
   }
 
+  .data-table thead th:nth-child(1) {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    padding: 10px 6px;
+  }
+
+  .data-table thead th:nth-child(2) {
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    padding: 10px 6px;
+    text-align: center;
+  }
+
   .data-table thead th:nth-child(1),
   .data-table thead th:nth-child(2) {
     padding: 10px 6px;
@@ -237,6 +252,21 @@ body {
     word-break: keep-all;
     vertical-align: middle;
     min-width: 70px;
+  }
+
+  .data-table tbody td:nth-child(1) {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    padding: 10px 6px;
+  }
+
+  .data-table tbody td:nth-child(2) {
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    padding: 10px 6px;
+    text-align: center;
   }
 
   .data-table tbody td:nth-child(1),
@@ -314,7 +344,7 @@ body {
 .data-table tbody td:nth-child(1) { width: 40px; min-width: 40px; max-width: 40px; padding: 10px 6px; }  /* Add button */
 
 .data-table thead th:nth-child(2),
-.data-table tbody td:nth-child(2) { width: 32px; min-width: 32px; max-width: 40px; padding: 10px 6px; text-align: center; }  /* # rank */
+.data-table tbody td:nth-child(2) { width: 32px; min-width: 32px; max-width: 32px; padding: 10px 6px; text-align: center; }  /* # rank */
 
 /* Tablet: keep enough room for all columns */
 @media (max-width: 768px) {
