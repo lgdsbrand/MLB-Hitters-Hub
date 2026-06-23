@@ -314,8 +314,12 @@ body {
 /* RECORD column - last column */
 .data-table thead th:last-child,
 .data-table tbody td:last-child {
+  width: 100px;
   min-width: 100px;
+  max-width: 100px;
+  flex-shrink: 0;
   padding: 10px 18px;
+  text-align: center;
 }
 
 /* Tablet: keep enough room for all columns */
