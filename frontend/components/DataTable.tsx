@@ -1,11 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import { parseGameString, getTeamLogoUrl } from "@/lib/teamLogos";
 
 interface Column {
   key: string;
   label: string;
   align?: "left" | "center" | "right";
+  sortable?: boolean;
 }
 
 function getTrendDisplay(trend: string) {
@@ -113,6 +115,52 @@ export default function DataTable({
   batterKey = "Batter",
   gameKey = "Game",
 }: DataTableProps) {
+  const [sortColumn, setSortColumn] = useState<string | null>(null);
+  const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
+
+  const handleSort = (columnKey: string, isSortable: boolean) => {
+    if (!isSortable) return;
+
+    if (sortColumn === columnKey) {
+      setSortDirection(sortDirection === "asc" ? "desc" : "asc");
+    } else {
+      setSortColumn(columnKey);
+      setSortDirection("asc");
+    }
+  };
+
+  const getSortedData = () => {
+    if (!sortColumn) return data;
+
+    const sorted = [...data].sort((a, b) => {
+      const aVal = a[sortColumn];
+      const bVal = b[sortColumn];
+
+      if (aVal === null || aVal === undefined) return 1;
+      if (bVal === null || bVal === undefined) return -1;
+
+      const aNum = parseFloat(String(aVal));
+      const bNum = parseFloat(String(bVal));
+
+      if (!isNaN(aNum) && !isNaN(bNum)) {
+        return sortDirection === "asc" ? aNum - bNum : bNum - aNum;
+      }
+
+      const aStr = String(aVal).toLowerCase();
+      const bStr = String(bVal).toLowerCase();
+
+      if (sortDirection === "asc") {
+        return aStr.localeCompare(bStr);
+      } else {
+        return bStr.localeCompare(aStr);
+      }
+    });
+
+    return sorted;
+  };
+
+  // Determine if sorting should be enabled based on source
+  const isSortingEnabled = ["last7", "last15", "bvp"].includes(source);
 
   if (loading) {
     return (
@@ -131,7 +179,7 @@ export default function DataTable({
     );
   }
 
-  const currentData = data;
+  const currentData = getSortedData();
 
   return (
     <div className="card-glass">
@@ -151,14 +199,37 @@ export default function DataTable({
             <tr>
               <th></th>
               <th>#</th>
-              {columns.map((col) => (
-                <th
-                  key={col.key}
-                  style={{ textAlign: col.align || "left" }}
-                >
-                  {col.label}
-                </th>
-              ))}
+              {columns.map((col) => {
+                const isSortable = isSortingEnabled && col.sortable !== false;
+                const isActive = sortColumn === col.key;
+                const sortArrow = isActive ? (sortDirection === "asc" ? "↑" : "↓") : "—";
+
+                return (
+                  <th
+                    key={col.key}
+                    style={{ textAlign: col.align || "left" }}
+                    className={isSortable ? "cursor-pointer hover:bg-bg-card transition-colors" : ""}
+                    onClick={() => handleSort(col.key, isSortable)}
+                  >
+                    <div className="flex items-center gap-1.5">
+                      <span>{col.label}</span>
+                      {isSortable && (
+                        <span
+                          style={{
+                            fontSize: "10px",
+                            opacity: isActive ? 1 : 0.3,
+                            fontWeight: isActive ? 600 : 400,
+                            color: isActive ? "var(--color-accent-green)" : "inherit",
+                            minWidth: "12px",
+                          }}
+                        >
+                          {sortArrow}
+                        </span>
+                      )}
+                    </div>
+                  </th>
+                );
+              })}
             </tr>
           </thead>
           <tbody>
@@ -191,25 +262,31 @@ export default function DataTable({
 
                     // Special rendering for game column — show logos
                     if (col.key === gameKey && parsed) {
+                      const awayUrl = getTeamLogoUrl(parsed.away);
+                      const homeUrl = getTeamLogoUrl(parsed.home);
                       return (
                         <td key={col.key} style={{ textAlign: col.align || "left" }}>
                           <div className="flex items-center gap-1.5">
-                            <img
-                              src={getTeamLogoUrl(parsed.away)}
-                              alt=""
-                              className="team-logo"
-                              style={{ width: 18, height: 18 }}
-                              onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
-                            />
+                            {awayUrl && (
+                              <img
+                                src={awayUrl}
+                                alt=""
+                                className="team-logo"
+                                style={{ width: 18, height: 18 }}
+                                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                              />
+                            )}
                             <span className="text-text-muted text-xs">vs</span>
-                            <img
-                              src={getTeamLogoUrl(parsed.home)}
-                              alt=""
-                              className="team-logo"
-                              style={{ width: 18, height: 18 }}
-                              onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
-                            />
-                            <span className="ml-1 text-xs text-text-secondary">{display}</span>
+                            {homeUrl && (
+                              <img
+                                src={homeUrl}
+                                alt=""
+                                className="team-logo"
+                                style={{ width: 18, height: 18 }}
+                                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                              />
+                            )}
+                            <span className="ml-1 text-xs text-text-secondary">{display.replace(" @ ", " vs ")}</span>
                           </div>
                         </td>
                       );

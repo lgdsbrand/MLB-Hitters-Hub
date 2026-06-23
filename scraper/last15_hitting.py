@@ -1,7 +1,7 @@
 """
-FantasyPros MLB Hitter Stats - Last 7 Days Scraper
-----------------------------------------------------
-Source: https://www.fantasypros.com/mlb/stats/hitters.php?range=7
+FantasyPros MLB Hitter Stats - Last 15 Days Scraper
+-----------------------------------------------------
+Source: https://www.fantasypros.com/mlb/stats/hitters.php?range=15
 
 Table structure (id="data"):
   <thead>
@@ -38,12 +38,12 @@ Rost% cells (td[16-18]):
   td[18]: class="own espn-own"       -> ESPN Rost%
 
 GitHub Actions usage:
-  python last7_hitting.py --auto
+  python last15_hitting.py --auto
 
 Local test (saved HTML):
-  python last7_hitting.py --html MLB_Hitter_Stats___Last_7_Days___FantasyPros.html --mode test
+  python last15_hitting.py --html MLB_Hitter_Stats___Last_15_Days___FantasyPros.html --mode test
 
-Output: outputs/last7_days_YYYY-MM-DD.csv  (and latest symlink/copy)
+Output: outputs/last15_days_YYYY-MM-DD.csv  (and latest symlink/copy)
 """
 
 import argparse
@@ -52,7 +52,6 @@ import json
 import os
 import re
 import sys
-import time
 from datetime import date
 
 from bs4 import BeautifulSoup
@@ -61,7 +60,7 @@ from bs4 import BeautifulSoup
 # Constants
 # ---------------------------------------------------------------------------
 
-DEFAULT_URL = "https://www.fantasypros.com/mlb/stats/hitters.php?range=7"
+DEFAULT_URL = "https://www.fantasypros.com/mlb/stats/hitters.php?range=15"
 TABLE_ID = "data"
 OUTPUT_DIR = "."
 
@@ -88,7 +87,6 @@ USER_AGENTS = [
 ]
 
 REQUEST_TIMEOUT = 20
-MAX_RETRIES = 3
 
 # ---------------------------------------------------------------------------
 # Fetch
@@ -288,10 +286,10 @@ def write_json(rows: list, path: str):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Scrape FantasyPros MLB Hitter Stats - Last 7 Days."
+        description="Scrape FantasyPros MLB Hitter Stats - Last 15 Days."
     )
     src = parser.add_mutually_exclusive_group()
-    src.add_argument("--url",  default=DEFAULT_URL, help="Live URL to fetch (default: FantasyPros last-7 page).")
+    src.add_argument("--url",  default=DEFAULT_URL, help="Live URL to fetch (default: FantasyPros last-15 page).")
     src.add_argument("--html", default=None,        help="Path to a locally saved HTML file (no network call).")
     src.add_argument("--auto", action="store_true", help="Unattended mode for GitHub Actions (uses --url).")
 
@@ -299,7 +297,7 @@ def main():
                         help="'test' = first 5 rows; 'full' = all rows (default).")
     parser.add_argument("--format", choices=["csv", "json"],  default="csv")
     parser.add_argument("--out",    default=None,
-                        help="Output file path. Default: outputs/last7_days_YYYY-MM-DD.csv")
+                        help="Output file path. Default: outputs/last15_days_YYYY-MM-DD.csv")
     parser.add_argument("--date",   default=None,
                         help="Override run date label (YYYY-MM-DD). Default: today.")
     args = parser.parse_args()
@@ -311,7 +309,7 @@ def main():
         out_path = args.out
     else:
         ext = args.format
-        out_path = f"last7_days_{run_date}.{ext}"
+        out_path = f"last15_days_{run_date}.{ext}"
 
     # Fetch HTML
     if args.html:

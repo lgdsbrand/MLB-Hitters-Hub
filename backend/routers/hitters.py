@@ -11,6 +11,7 @@ from services.data_service import (
     get_tb_predictions,
     get_bvp_data,
     get_last7_hitters,
+    get_last15_hitters,
     get_100_club_hits,
     get_100_club_tb,
     get_5day_hit_streak,
@@ -60,6 +61,13 @@ def bvp(game: Optional[str] = Query(None, description="Filter by game")):
 def last7():
     """Return last 7 day hot hitters."""
     data = get_last7_hitters()
+    return {"data": data, "count": len(data)}
+
+
+@router.get("/last15")
+def last15():
+    """Return last 15 day hot hitters."""
+    data = get_last15_hitters()
     return {"data": data, "count": len(data)}
 
 

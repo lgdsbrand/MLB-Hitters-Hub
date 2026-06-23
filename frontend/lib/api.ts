@@ -199,6 +199,11 @@ export async function fetchLast7(): Promise<Last7Hitter[]> {
   return res.data;
 }
 
+export async function fetchLast15(): Promise<Last7Hitter[]> {
+  const res = await fetchJSON<ApiResponse<Last7Hitter>>(`${BASE}/last15`);
+  return res.data;
+}
+
 export async function fetchConsensus(game?: string | null): Promise<ConsensusPlayer[]> {
   const res = await fetchJSON<ApiResponse<ConsensusPlayer>>(`${BASE}/consensus${gameParam(game)}`);
   return res.data;

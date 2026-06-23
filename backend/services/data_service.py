@@ -19,7 +19,8 @@ CSV_FILES = {
     "hr_pred": ["hr_pred_full.csv", "hr_pred.csv"],
     "tb_pred": ["tb_pred_full.csv", "tb_pred.csv"],
     "bvp": ["bvp_full.csv", "bvp.csv"],
-    "last7": ["last7_hitting_full.csv", "last7hitting.csv", "last7_hitting.csv"],
+    "last7": ["last7_hitting_full.csv", "last7_days_*.csv", "last7hitting.csv", "last7_hitting.csv"],
+    "last15": ["last15_hitting_full.csv", "last15_days_*.csv", "last15hitting.csv", "last15_hitting.csv"],
     "hit_streaks": ["hit_streaks_all_*.csv"],  # Will match hit_streaks_all_YYYY-MM-DD.csv
 }
 
@@ -212,6 +213,21 @@ def get_last7_hitters() -> list:
         return []
 
     # Remove columns not needed per spec (HRF, Trend don't exist here)
+    # Keep the key stats columns
+    if "AVG" in df.columns:
+        df["AVG_float"] = pd.to_numeric(df["AVG"], errors="coerce").fillna(0)
+        df = df.sort_values("AVG_float", ascending=False)
+        df = df.drop(columns=["AVG_float"])
+
+    return df.fillna("").to_dict(orient="records")
+
+
+def get_last15_hitters() -> list:
+    """Get last 15 day hot hitters, sorted by AVG descending."""
+    df = load_csv("last15")
+    if df.empty:
+        return []
+
     # Keep the key stats columns
     if "AVG" in df.columns:
         df["AVG_float"] = pd.to_numeric(df["AVG"], errors="coerce").fillna(0)

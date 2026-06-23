@@ -11,6 +11,13 @@ interface BetSheetProps {
   onClear: () => void;
 }
 
+function cleanProbability(prob: string | number): string {
+  if (!prob) return String(prob);
+  // Extract just the percentage part (e.g., "72%" from "72%3.5")
+  const match = String(prob).match(/(\d+)%/);
+  return match ? match[0] : String(prob);
+}
+
 export default function BetSheet({
   isOpen,
   onClose,
@@ -50,12 +57,12 @@ export default function BetSheet({
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border-subtle">
-                    <th className="px-3 py-2 text-left text-text-secondary font-medium text-xs uppercase">Batter</th>
-                    <th className="px-3 py-2 text-left text-text-secondary font-medium text-xs uppercase">Game</th>
-                    <th className="px-3 py-2 text-left text-text-secondary font-medium text-xs uppercase">Prop</th>
-                    <th className="px-3 py-2 text-center text-text-secondary font-medium text-xs uppercase">Odds</th>
-                    <th className="px-3 py-2 text-center text-text-secondary font-medium text-xs uppercase">Probability</th>
-                    <th className="px-3 py-2 text-center text-text-secondary font-medium text-xs uppercase">Action</th>
+                    <th className="px-4 py-3 text-left text-text-secondary font-medium text-xs uppercase whitespace-nowrap">Batter</th>
+                    <th className="px-4 py-3 text-left text-text-secondary font-medium text-xs uppercase whitespace-nowrap">Game</th>
+                    <th className="px-4 py-3 text-left text-text-secondary font-medium text-xs uppercase whitespace-nowrap">Prop</th>
+                    <th className="px-4 py-3 text-center text-text-secondary font-medium text-xs uppercase whitespace-nowrap">Odds</th>
+                    <th className="px-4 py-3 text-center text-text-secondary font-medium text-xs uppercase whitespace-nowrap">Prob</th>
+                    <th className="px-4 py-3 text-center text-text-secondary font-medium text-xs uppercase whitespace-nowrap">Action</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -63,49 +70,49 @@ export default function BetSheet({
                     const parsed = parseGameString(sel.game);
                     return (
                       <tr key={sel.id} className="border-b border-border-subtle hover:bg-bg-card-hover transition-colors">
-                        <td className="px-3 py-3">
-                          <span className="font-medium text-text-primary">{sel.batter}</span>
+                        <td className="px-4 py-3">
+                          <span className="font-medium text-text-primary text-sm whitespace-nowrap">{sel.batter}</span>
                         </td>
-                        <td className="px-3 py-3">
+                        <td className="px-4 py-3">
                           {parsed ? (
-                            <div className="flex items-center gap-1">
+                            <div className="flex items-center gap-1 whitespace-nowrap">
                               <img
                                 src={getTeamLogoUrl(parsed.away)}
                                 alt=""
-                                className="w-4 h-4 object-contain"
+                                className="w-4 h-4 object-contain flex-shrink-0"
                                 onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                               />
-                              <span className="text-text-muted text-[10px]">vs</span>
+                              <span className="text-text-muted text-xs">vs</span>
                               <img
                                 src={getTeamLogoUrl(parsed.home)}
                                 alt=""
-                                className="w-4 h-4 object-contain"
+                                className="w-4 h-4 object-contain flex-shrink-0"
                                 onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                               />
                             </div>
                           ) : (
-                            <span className="text-text-secondary text-xs">{sel.game}</span>
+                            <span className="text-text-secondary text-sm whitespace-nowrap">{sel.game}</span>
                           )}
                         </td>
-                        <td className="px-3 py-3">
-                          <span className="text-text-secondary text-xs">{sel.prop}</span>
+                        <td className="px-4 py-3">
+                          <span className="text-text-secondary text-sm whitespace-nowrap">{sel.prop}</span>
                         </td>
-                        <td className="px-3 py-3 text-center">
-                          <span className="text-text-primary font-medium">{sel.odds}</span>
+                        <td className="px-4 py-3 text-center">
+                          <span className="text-text-primary font-medium text-sm whitespace-nowrap">{sel.odds}</span>
                         </td>
-                        <td className="px-3 py-3 text-center">
-                          <span className={`font-medium ${
+                        <td className="px-4 py-3 text-center">
+                          <span className={`font-medium text-sm whitespace-nowrap ${
                             sel.probability !== "-" && parseFloat(String(sel.probability)) >= 65
                               ? "text-accent-green"
                               : "text-text-secondary"
                           }`}>
-                            {sel.probability}
+                            {cleanProbability(sel.probability)}
                           </span>
                         </td>
-                        <td className="px-3 py-3 text-center">
+                        <td className="px-4 py-3 text-center">
                           <button
                             onClick={() => onRemove(sel.id)}
-                            className="w-6 h-6 flex items-center justify-center rounded text-text-muted hover:text-accent-red hover:bg-[rgba(239,68,68,0.1)] transition-colors text-xs"
+                            className="w-6 h-6 flex items-center justify-center rounded text-text-muted hover:text-accent-red hover:bg-[rgba(239,68,68,0.1)] transition-colors text-xs flex-shrink-0"
                             title="Remove"
                           >
                             ✕

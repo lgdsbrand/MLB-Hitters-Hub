@@ -27,12 +27,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests beautifulsoup4 curl_cffi playwright
-        # streak.py drives a real headless browser via Playwright, which
-        # needs its own browser binary + OS libs installed separately from
-        # the pip package — `--with-deps` pulls in the apt packages Chromium
-        # needs to run on a bare Ubuntu runner.
-        playwright install --with-deps chromium
+        pip install requests beautifulsoup4 curl_cffi
 
     - name: Run Scraper
       env:
@@ -47,18 +42,6 @@ jobs:
         sleep 35
         python scraper/tb_pred.py --url "https://www.fantasyinfocentral.com/betting/mlb/tb-predictions" --today-only --mode full
         sleep 35
-        # streak.py scrapes breakawaystats.com's active hit-streak leaders
-        # via Playwright/Chromium. "all" pulls every active streak; pass
-        # "today" instead if you only want players with a game today.
-        # Allowed to fail (the site's bot-protection/challenge can block
-        # GitHub-hosted runner IPs with a 429) without failing the whole
-        # job. The previously committed streak CSV/JSON simply stays as-is.
-        if python scraper/streak.py all; then
-          echo "[info] streak.py succeeded."
-        else
-          echo "[warn] streak.py failed. Keeping previous streak CSV/JSON as-is."
-        fi
-        sleep 35
         # last7_hitting.py is allowed to fail (Cloudflare/cookie issues, etc.)
         # without failing the whole job. If it fails, the previously
         # committed backend/last7_hitting_full.csv from the last successful
@@ -68,6 +51,14 @@ jobs:
           echo "[info] last7_hitting.py succeeded."
         else
           echo "[warn] last7_hitting.py failed. Keeping previous last7 CSV/JSON as-is."
+        fi
+        sleep 35
+        # last15_hitting.py — allowed to fail without breaking the job.
+        # Previously committed CSV stays as-is on failure.
+        if python scraper/last15_hitting.py --auto --mode full; then
+          echo "[info] last15_hitting.py succeeded."
+        else
+          echo "[warn] last15_hitting.py failed. Keeping previous last15 CSV as-is."
         fi
 
         # Move generated files to backend/ so Vercel can bundle them.

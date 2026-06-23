@@ -7,7 +7,6 @@ import BestPlays from "@/components/BestPlays";
 import TabBar from "@/components/TabBar";
 import DataTable from "@/components/DataTable";
 import ClubSection from "@/components/ClubSection";
-import HitStreaksTable from "@/components/HitStreaksTable";
 import { useHittersData } from "@/hooks/useHittersData";
 import { useBetSheet } from "@/hooks/useBetSheet";
 
@@ -24,11 +23,11 @@ export default function Home() {
     tbData,
     bvpData,
     last7Data,
+    last15Data,
     consensusData,
     clubHits,
     clubTB,
     streakData,
-    hitStreaksData,
   } = useHittersData(selectedGame);
 
   const betSheet = useBetSheet();
@@ -61,7 +60,13 @@ export default function Home() {
           break;
         case "last7":
           sourceName = "Last 7";
-          prop = "HRR"; // Hits, Runs, RBIs
+          prop = "HRR";
+          odds = "-";
+          probability = "-";
+          break;
+        case "last15":
+          sourceName = "Last 15";
+          prop = "HRR";
           odds = "-";
           probability = "-";
           break;
@@ -77,16 +82,19 @@ export default function Home() {
       if (activeTab === "tb") sourceName = "TB";
       if (activeTab === "bvp") sourceName = "BvP";
       if (activeTab === "last7") sourceName = "Last 7";
+      if (activeTab === "last15") sourceName = "Last 15";
     }
-    
+
     // Special handling for consensus data (BestPlays)
     if (rowData && "Consensus" in rowData) {
       sourceName = "Consensus";
       prop = "Hit";
       odds = "-";
-      probability = String(rowData["HitProb"] || rowData["Consensus"] || "-");
+      const hitProb = String(rowData["HitProb"] || rowData["Consensus"] || "-");
+      const match = hitProb.match(/(\d+)%/);
+      probability = match ? match[0] : hitProb;
     }
-    
+
     betSheet.addPlayer(batter, game, sourceName, prop, odds, probability);
   };
 
@@ -94,12 +102,23 @@ export default function Home() {
     switch (activeTab) {
       case "last7":
         return [
-          { key: "Name", label: "Player" },
-          { key: "Team", label: "Team" },
-          { key: "AVG", label: "AVG" },
-          { key: "H", label: "Hits" },
-          { key: "RBI", label: "RBI" },
-          { key: "OPS", label: "OPS" },
+          { key: "player_name", label: "Player" },
+          { key: "team", label: "Team" },
+          { key: "AVG", label: "AVG", sortable: true },
+          { key: "H", label: "Hits", sortable: true },
+          { key: "HR", label: "HR", sortable: true },
+          { key: "RBI", label: "RBI", sortable: true },
+          { key: "OPS", label: "OPS", sortable: true },
+        ];
+      case "last15":
+        return [
+          { key: "player_name", label: "Player" },
+          { key: "team", label: "Team" },
+          { key: "AVG", label: "AVG", sortable: true },
+          { key: "H", label: "Hits", sortable: true },
+          { key: "HR", label: "HR", sortable: true },
+          { key: "RBI", label: "RBI", sortable: true },
+          { key: "OPS", label: "OPS", sortable: true },
         ];
       case "hr":
         return [
@@ -133,14 +152,14 @@ export default function Home() {
           { key: "Icon", label: "Trend" },
           { key: "Pitcher", label: "Pitcher" },
           { key: "Game", label: "Game" },
-          { key: "qAB", label: "qAB" },
-          { key: "HH%", label: "HH%" },
-          { key: "AB", label: "AB" },
-          { key: "H", label: "H" },
-          { key: "2B/3B", label: "2B/3B" },
-          { key: "HR", label: "HR" },
-          { key: "BA", label: "BA" },
-          { key: "OPS", label: "OPS" },
+          { key: "qAB", label: "qAB", sortable: true },
+          { key: "HH%", label: "HH%", sortable: true },
+          { key: "AB", label: "AB", sortable: true },
+          { key: "H", label: "H", sortable: true },
+          { key: "2B/3B", label: "2B/3B", sortable: true },
+          { key: "HR", label: "HR", sortable: true },
+          { key: "BA", label: "BA", sortable: true },
+          { key: "OPS", label: "OPS", sortable: true },
         ];
       case "hits":
       default:
@@ -162,6 +181,7 @@ export default function Home() {
   const getTableData = () => {
     switch (activeTab) {
       case "last7": return last7Data;
+      case "last15": return last15Data;
       case "hr": return hrData;
       case "tb": return tbData;
       case "bvp": return bvpData;
@@ -214,9 +234,6 @@ export default function Home() {
         isSelected={betSheet.isSelected}
       />
 
-      {/* Hit Streaks Table */}
-      <HitStreaksTable data={hitStreaksData} loading={loading} />
-
       {/* Main Data View */}
       <div className="mt-8 mb-6 flex flex-col gap-4 w-full" ref={tableRef}>
         <div className="w-full">
@@ -238,7 +255,8 @@ export default function Home() {
         isSelected={betSheet.isSelected}
         source={activeTab}
         loading={loading}
-        batterKey={activeTab === "last7" ? "Name" : "Batter"}
+        batterKey={activeTab === "last7" || activeTab === "last15" ? "player_name" : "Batter"}
+        gameKey={activeTab === "last7" || activeTab === "last15" ? "team" : "Game"}
       />
 
       {/* Info Panel */}

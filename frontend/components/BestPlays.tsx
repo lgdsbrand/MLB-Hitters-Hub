@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, memo } from "react";
+import { useState } from "react";
 import { ConsensusPlayer } from "@/lib/api";
 import { parseGameString, getTeamLogoUrl } from "@/lib/teamLogos";
 
@@ -8,6 +8,13 @@ interface BestPlaysProps {
   players: ConsensusPlayer[];
   onAdd: (batter: string, game: string, rowData?: Record<string, unknown>) => void;
   isSelected: (batter: string, game: string) => boolean;
+}
+
+function cleanHitProb(prob: string): string {
+  if (!prob) return "";
+  // Extract just the percentage part (e.g., "72%" from "72%3.5")
+  const match = String(prob).match(/(\d+)%/);
+  return match ? `${match[1]}%` : String(prob);
 }
 
 function getFireEmojis(prob: string): string {
@@ -50,17 +57,14 @@ function getAIReasoning(player: ConsensusPlayer): string {
   return reasoning;
 }
 
-function BestPlayCard({
-  player,
-  idx,
-  onAdd,
-  isSelected,
-}: {
+interface BestPlayCardProps {
   player: ConsensusPlayer;
   idx: number;
   onAdd: BestPlaysProps["onAdd"];
   isSelected: BestPlaysProps["isSelected"];
-}) {
+}
+
+function BestPlayCard({ player, idx, onAdd, isSelected }: BestPlayCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const parsed = parseGameString(player.Game || "");
   const added = isSelected(player.Batter, player.Game);
@@ -99,19 +103,22 @@ function BestPlayCard({
               {player.Batter}
             </div>
             <div className="flex items-center gap-1.5 mt-0.5">
-              {parsed && (
-                <img
-                  src={getTeamLogoUrl(parsed.away)}
-                  alt=""
-                  className="team-logo"
-                  style={{ width: 16, height: 16 }}
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).style.display = "none";
-                  }}
-                />
-              )}
+              {parsed && (() => {
+                const url = getTeamLogoUrl(parsed.away);
+                return url ? (
+                  <img
+                    src={url}
+                    alt=""
+                    className="team-logo"
+                    style={{ width: 16, height: 16 }}
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).style.display = "none";
+                    }}
+                  />
+                ) : null;
+              })()}
               <span className="text-text-muted text-xs">
-                {player.Game}
+                {player.Game.replace(" @ ", " vs ")}
               </span>
             </div>
           </div>
@@ -141,7 +148,7 @@ function BestPlayCard({
           </div>
           <div className="flex items-center gap-1">
             <span className="font-bold text-lg text-text-primary">
-              {player.HitProb}
+              {cleanHitProb(player.HitProb)}
             </span>
             <span className="text-sm">
               {getFireEmojis(player.HitProb)}
@@ -219,8 +226,6 @@ function BestPlayCard({
   );
 }
 
-const MemoizedBestPlayCard = memo(BestPlayCard);
-
 export default function BestPlays({ players, onAdd, isSelected }: BestPlaysProps) {
   const top3 = players.slice(0, 3);
 
@@ -255,8 +260,8 @@ export default function BestPlays({ players, onAdd, isSelected }: BestPlaysProps
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {top3.map((player, idx) => (
-          <MemoizedBestPlayCard
-            key={player.Batter + player.Game}
+          <BestPlayCard
+            key={`${player.Batter}-${player.Game}-${idx}`}
             player={player}
             idx={idx}
             onAdd={onAdd}

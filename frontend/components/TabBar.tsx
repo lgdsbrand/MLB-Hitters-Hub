@@ -6,7 +6,8 @@ interface TabBarProps {
 }
 
 const TABS = [
-  { id: "last7", label: "Last 7 Days Hot Hitters", shortLabel: "Last 7" },
+  { id: "last7", label: "Last 7 Days", shortLabel: "Last 7" },
+  { id: "last15", label: "Last 15 Days", shortLabel: "Last 15" },
   { id: "hits", label: "Hit Predictions", shortLabel: "Hits" },
   { id: "hr", label: "HR Predictions", shortLabel: "HR" },
   { id: "tb", label: "TB Predictions", shortLabel: "TB" },

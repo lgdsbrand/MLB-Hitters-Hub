@@ -107,7 +107,7 @@ export default function BetSheetPage() {
                                   (e.target as HTMLImageElement).style.display = "none";
                                 }}
                               />
-                              <span className="text-text-muted text-[10px]">@</span>
+                              <span className="text-text-muted text-[10px]">vs</span>
                               <img
                                 src={getTeamLogoUrl(parsed.home)}
                                 alt=""
@@ -117,7 +117,7 @@ export default function BetSheetPage() {
                                 }}
                               />
                               <span className="text-xs text-text-secondary ml-1">
-                                {parsed.away} @ {parsed.home}
+                                {parsed.away} vs {parsed.home}
                               </span>
                             </div>
                           ) : (

@@ -8,6 +8,7 @@ import {
   fetchTB,
   fetchBvP,
   fetchLast7,
+  fetchLast15,
   fetchConsensus,
   fetchClubHits,
   fetchClubTB,
@@ -33,13 +34,13 @@ export function useHittersData(selectedGame: string | null) {
   const [tbData, setTbData] = useState<TBPrediction[]>([]);
   const [bvpData, setBvpData] = useState<BvPData[]>([]);
   const [last7Data, setLast7Data] = useState<Last7Hitter[]>([]);
+  const [last15Data, setLast15Data] = useState<Last7Hitter[]>([]);
 
   // Hero & Club Data
   const [consensusData, setConsensusData] = useState<ConsensusPlayer[]>([]);
   const [clubHits, setClubHits] = useState<ClubPlayer[]>([]);
   const [clubTB, setClubTB] = useState<ClubPlayer[]>([]);
   const [streakData, setStreakData] = useState<ClubPlayer[]>([]);
-  const [hitStreaksData, setHitStreaksData] = useState<HitStreak[]>([]);
 
   const [loading, setLoading] = useState(false);
 
@@ -69,22 +70,22 @@ export function useHittersData(selectedGame: string | null) {
           tb,
           bvp,
           last7,
+          last15,
           consensus,
           cHits,
           cTB,
           streak,
-          hitStreaks,
         ] = await Promise.all([
           fetchHits(selectedGame),
           fetchHR(selectedGame),
           fetchTB(selectedGame),
           fetchBvP(selectedGame),
-          fetchLast7(), // Last7 doesn't filter by game on backend natively, but we fetch it
+          fetchLast7(),
+          fetchLast15(),
           fetchConsensus(selectedGame),
           fetchClubHits(selectedGame),
           fetchClubTB(selectedGame),
           fetchStreak(selectedGame),
-          fetchHitStreaks(),
         ]);
 
         setHitsData(hits);
@@ -92,11 +93,11 @@ export function useHittersData(selectedGame: string | null) {
         setTbData(tb);
         setBvpData(bvp);
         setLast7Data(last7);
+        setLast15Data(last15);
         setConsensusData(consensus);
         setClubHits(cHits);
         setClubTB(cTB);
         setStreakData(streak);
-        setHitStreaksData(hitStreaks);
       } catch (err) {
         console.error("Failed to load data", err);
       } finally {
@@ -116,10 +117,10 @@ export function useHittersData(selectedGame: string | null) {
     tbData,
     bvpData,
     last7Data,
+    last15Data,
     consensusData,
     clubHits,
     clubTB,
     streakData,
-    hitStreaksData,
   };
 }
