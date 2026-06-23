@@ -81,6 +81,14 @@ function BestPlayCard({ player, idx, onAdd, isSelected }: BestPlayCardProps) {
     return (parseFloat(String(ba)) / 1000).toFixed(3);
   };
 
+  // Format OPS to 3 decimal places
+  const formatOPS = (ops: string | number | undefined): string => {
+    if (!ops) return "";
+    const opsNum = parseFloat(String(ops));
+    if (isNaN(opsNum)) return String(ops);
+    return opsNum.toFixed(3);
+  };
+
   return (
     <div
       key={player.Batter + player.Game}
@@ -166,7 +174,7 @@ function BestPlayCard({ player, idx, onAdd, isSelected }: BestPlayCardProps) {
           </div>
           <div className="text-xs">
             <span className="text-text-muted">OPS </span>
-            <span className="text-text-primary font-medium">{player.OPS}</span>
+            <span className="text-text-primary font-medium">{formatOPS(player.OPS)}</span>
           </div>
           <div className="text-xs">
             <span className="text-text-muted">vs </span>

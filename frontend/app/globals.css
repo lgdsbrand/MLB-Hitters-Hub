@@ -322,6 +322,93 @@ body {
   text-align: center;
 }
 
+/* BvP table: increase spacing between Game and qAB columns */
+.data-table-bvp thead th:nth-child(6),
+.data-table-bvp tbody td:nth-child(6) {
+  padding-right: 24px;
+}
+
+.data-table-bvp thead th:nth-child(7),
+.data-table-bvp tbody td:nth-child(7) {
+  padding-left: 24px;
+}
+
+/* Hits table: increase spacing between Game and Pred columns */
+.data-table-hits thead th:nth-child(5),
+.data-table-hits tbody td:nth-child(5) {
+  padding-right: 24px;
+}
+
+.data-table-hits thead th:nth-child(6),
+.data-table-hits tbody td:nth-child(6) {
+  padding-left: 24px;
+}
+
+/* HR table: increase spacing between Game and HR Pred columns */
+.data-table-hr thead th:nth-child(5),
+.data-table-hr tbody td:nth-child(5) {
+  padding-right: 24px;
+}
+
+.data-table-hr thead th:nth-child(6),
+.data-table-hr tbody td:nth-child(6) {
+  padding-left: 24px;
+}
+
+/* TB table: increase spacing between Game and TB Pred columns */
+.data-table-tb thead th:nth-child(5),
+.data-table-tb tbody td:nth-child(5) {
+  padding-right: 24px;
+}
+
+.data-table-tb thead th:nth-child(6),
+.data-table-tb tbody td:nth-child(6) {
+  padding-left: 24px;
+}
+
+/* Mobile: maintain spacing for all tables */
+@media (max-width: 640px) {
+  .data-table-bvp thead th:nth-child(6),
+  .data-table-bvp tbody td:nth-child(6) {
+    padding-right: 24px;
+  }
+
+  .data-table-bvp thead th:nth-child(7),
+  .data-table-bvp tbody td:nth-child(7) {
+    padding-left: 24px;
+  }
+
+  .data-table-hits thead th:nth-child(5),
+  .data-table-hits tbody td:nth-child(5) {
+    padding-right: 24px;
+  }
+
+  .data-table-hits thead th:nth-child(6),
+  .data-table-hits tbody td:nth-child(6) {
+    padding-left: 24px;
+  }
+
+  .data-table-hr thead th:nth-child(5),
+  .data-table-hr tbody td:nth-child(5) {
+    padding-right: 24px;
+  }
+
+  .data-table-hr thead th:nth-child(6),
+  .data-table-hr tbody td:nth-child(6) {
+    padding-left: 24px;
+  }
+
+  .data-table-tb thead th:nth-child(5),
+  .data-table-tb tbody td:nth-child(5) {
+    padding-right: 24px;
+  }
+
+  .data-table-tb thead th:nth-child(6),
+  .data-table-tb tbody td:nth-child(6) {
+    padding-left: 24px;
+  }
+}
+
 /* Tablet: keep enough room for all columns */
 @media (max-width: 768px) {
   .data-table {

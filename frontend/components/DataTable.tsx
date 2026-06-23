@@ -194,7 +194,7 @@ export default function DataTable({
       </div>
 
       <div className="table-scroll-container">
-        <table className="data-table">
+        <table className={`data-table data-table-${source}`}>
           <thead>
             <tr>
               <th></th>
