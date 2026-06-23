@@ -182,7 +182,7 @@ body {
   border-collapse: separate;
   border-spacing: 0;
   table-layout: auto;
-  min-width: 1200px;
+  min-width: 1400px;
 }
 
 /* Scrollable table container - Mobile optimized */
@@ -307,8 +307,15 @@ body {
 /* All other columns */
 .data-table thead th:nth-child(n+3),
 .data-table tbody td:nth-child(n+3) {
-  padding: 10px 15px;
-  min-width: 90px;
+  padding: 10px 18px;
+  min-width: 110px;
+}
+
+/* RECORD column - last column */
+.data-table thead th:last-child,
+.data-table tbody td:last-child {
+  min-width: 100px;
+  padding: 10px 18px;
 }
 
 /* Tablet: keep enough room for all columns */
