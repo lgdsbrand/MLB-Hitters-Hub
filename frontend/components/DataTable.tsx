@@ -302,8 +302,16 @@ export default function DataTable({
                     }
 
                     // Highlight prediction percentages
-                    const isPredCol = col.key === "Pred" || col.key === "HR Pred";
-                    const isPredHigh = isPredCol && parseFloat(display) >= 65;
+                    const isPredCol = col.key === "Pred" || col.key === "HR Pred" || col.key === "TB Pred";
+                    
+                    // Clean prediction columns to show only percentage
+                    let cleanDisplay = display;
+                    if (isPredCol && display) {
+                      const match = String(display).match(/(\d+)%/);
+                      cleanDisplay = match ? `${match[1]}%` : display;
+                    }
+                    
+                    const isPredHigh = isPredCol && parseFloat(cleanDisplay) >= 65;
 
                     return (
                       <td
@@ -314,7 +322,7 @@ export default function DataTable({
                           fontWeight: isPredHigh ? 600 : undefined,
                         }}
                       >
-                        {display}
+                        {cleanDisplay}
                       </td>
                     );
                   })}
