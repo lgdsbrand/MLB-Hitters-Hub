@@ -131,6 +131,18 @@ export interface ConsensusPlayer {
   H: string;
   BA: string;
   OPS: string;
+  Last7H?: string;
+  Last7R?: string;
+  Last7HR?: string;
+  Last7RBI?: string;
+  Last7AVG?: string;
+  Last7OPS?: string;
+  BvPBA?: string;
+  BvPOPS?: string;
+  HitScore?: number;
+  Last7Score?: number;
+  BvPScore?: number;
+  TrendScore?: number;
   [key: string]: unknown;
 }
 

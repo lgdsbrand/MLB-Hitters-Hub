@@ -28,29 +28,56 @@ function getFireEmojis(prob: string): string {
   return "";
 }
 
+function getScoreBadge(score: number): string {
+  if (score >= 75) return "🟢";
+  if (score >= 50) return "🟡";
+  return "🔴";
+}
+
+function getScoreLabel(score: number): string {
+  if (score >= 75) return "Excellent";
+  if (score >= 50) return "Good";
+  return "Fair";
+}
+
 function getAIReasoning(player: ConsensusPlayer): string {
   const consensus = parseFloat(String(player.Consensus || "0"));
   const hitProb = parseFloat(String(player.HitProb || "0"));
   
   let reasoning = "";
   
+  // Build last 7 days summary if available
+  let last7Summary = "";
+  if (player.Last7H || player.Last7HR || player.Last7RBI) {
+    const h = player.Last7H ? `${player.Last7H}H` : "";
+    const r = player.Last7R ? `${player.Last7R}R` : "";
+    const hr = player.Last7HR ? `${player.Last7HR}HR` : "";
+    const rbi = player.Last7RBI ? `${player.Last7RBI}RBI` : "";
+    const stats = [h, r, hr, rbi].filter(Boolean).join(", ");
+    if (stats) {
+      last7Summary = `In the last 7 days: ${stats}. `;
+    }
+  }
+  
+  // Generate primary reasoning based on hit probability
   if (hitProb >= 75) {
-    reasoning = `Very high confidence in a hit. ${player.Batter} has exceptional plate discipline and consistent performance against this opponent.`;
+    reasoning = `${last7Summary}Very high confidence in a hit. ${player.Batter} has exceptional plate discipline and consistent performance against this opponent.`;
   } else if (hitProb >= 65) {
-    reasoning = `Strong statistical indicators suggest a high likelihood of recording a hit. Recent form and matchup dynamics favor this selection.`;
+    reasoning = `${last7Summary}Strong statistical indicators suggest a high likelihood of recording a hit. Recent form and matchup dynamics favor this selection.`;
   } else if (hitProb >= 55) {
-    reasoning = `Moderate confidence based on recent performance trends and favorable matchup metrics. Historical data supports this play.`;
+    reasoning = `${last7Summary}Moderate confidence based on recent performance trends and favorable matchup metrics. Historical data supports this play.`;
   } else if (hitProb >= 45) {
-    reasoning = `Balanced odds with some supporting statistics. Player has shown capability in similar situations.`;
+    reasoning = `${last7Summary}Balanced odds with some supporting statistics. Player has shown capability in similar situations.`;
   } else {
-    reasoning = `Lower confidence play. May warrant careful consideration alongside other factors.`;
+    reasoning = `${last7Summary}Lower confidence play. May warrant careful consideration alongside other factors.`;
   }
   
-  if (player.BA) {
-    reasoning += ` Player batting average of ${player.BA} provides solid foundation for projection.`;
-  }
-  
-  if (player.OPS) {
+  // Add season/career stats if available
+  if (player.BA && player.OPS) {
+    reasoning += ` Season stats: ${player.BA} AVG, ${player.OPS} OPS.`;
+  } else if (player.BA) {
+    reasoning += ` Season batting average of ${player.BA} provides solid foundation for projection.`;
+  } else if (player.OPS) {
     reasoning += ` OPS of ${player.OPS} indicates strong overall offensive performance.`;
   }
   
@@ -208,7 +235,7 @@ function BestPlayCard({ player, idx, onAdd, isSelected }: BestPlayCardProps) {
             (e.currentTarget as HTMLButtonElement).style.color = "var(--color-accent-purple)";
           }}
         >
-          <span>🤖 AI Reasoning</span>
+          <span>🤖 AI Reasoning & Stats</span>
           <span style={{ transform: isExpanded ? "rotate(180deg)" : "rotate(0deg)", transition: "transform 0.2s" }}>▼</span>
         </button>
         
@@ -216,17 +243,85 @@ function BestPlayCard({ player, idx, onAdd, isSelected }: BestPlayCardProps) {
           <div
             style={{
               marginTop: "10px",
-              padding: "10px 8px",
+              padding: "12px 10px",
               background: "rgba(139, 92, 246, 0.08)",
               borderRadius: "8px",
               border: "1px solid rgba(139, 92, 246, 0.15)",
-              fontSize: "0.8rem",
-              lineHeight: "1.5",
+              fontSize: "0.75rem",
+              lineHeight: "1.6",
               color: "var(--color-text-secondary)",
               animation: "fadeIn 0.2s ease-out",
             }}
           >
-            {getAIReasoning(player)}
+            {/* Main Reasoning */}
+            <div style={{ marginBottom: "10px", paddingBottom: "10px", borderBottom: "1px solid rgba(139, 92, 246, 0.2)" }}>
+              {getAIReasoning(player)}
+            </div>
+
+            {/* Score Breakdown */}
+            <div style={{ marginBottom: "8px" }}>
+              <div style={{ fontWeight: 600, marginBottom: "6px", color: "var(--color-text-primary)" }}>📊 Factor Scores:</div>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "6px" }}>
+                <div>
+                  <div style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+                    {getScoreBadge(player.HitScore || 0)} Hit Prediction
+                  </div>
+                  <div style={{ fontSize: "0.7rem", color: "var(--color-text-muted)", marginLeft: "20px" }}>
+                    {(player.HitScore || 0).toFixed(0)}/100 {getScoreLabel(player.HitScore || 0)}
+                  </div>
+                </div>
+                <div>
+                  <div style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+                    {getScoreBadge(player.Last7Score || 0)} Recent Form
+                  </div>
+                  <div style={{ fontSize: "0.7rem", color: "var(--color-text-muted)", marginLeft: "20px" }}>
+                    {(player.Last7Score || 0).toFixed(0)}/100 {getScoreLabel(player.Last7Score || 0)}
+                  </div>
+                </div>
+                <div>
+                  <div style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+                    {getScoreBadge(player.BvPScore || 0)} vs Pitcher
+                  </div>
+                  <div style={{ fontSize: "0.7rem", color: "var(--color-text-muted)", marginLeft: "20px" }}>
+                    {(player.BvPScore || 0).toFixed(0)}/100 {getScoreLabel(player.BvPScore || 0)}
+                  </div>
+                </div>
+                <div>
+                  <div style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+                    {getScoreBadge(player.TrendScore || 0)} Hit Trend
+                  </div>
+                  <div style={{ fontSize: "0.7rem", color: "var(--color-text-muted)", marginLeft: "20px" }}>
+                    {(player.TrendScore || 0).toFixed(0)}/100 {getScoreLabel(player.TrendScore || 0)}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Last 7 Days Stats */}
+            {(player.Last7H || player.Last7AVG || player.Last7OPS) && (
+              <div style={{ marginBottom: "8px", paddingBottom: "8px", borderBottom: "1px solid rgba(139, 92, 246, 0.1)" }}>
+                <div style={{ fontWeight: 600, marginBottom: "4px", color: "var(--color-text-primary)" }}>📈 Last 7 Days:</div>
+                <div style={{ display: "flex", gap: "8px", flexWrap: "wrap", fontSize: "0.7rem" }}>
+                  {player.Last7H && <span>🎯 {player.Last7H}H</span>}
+                  {player.Last7R && <span>🏃 {player.Last7R}R</span>}
+                  {player.Last7HR && <span>⚾ {player.Last7HR}HR</span>}
+                  {player.Last7RBI && <span>📍 {player.Last7RBI}RBI</span>}
+                  {player.Last7AVG && <span>AVG: {player.Last7AVG}</span>}
+                  {player.Last7OPS && <span>OPS: {player.Last7OPS}</span>}
+                </div>
+              </div>
+            )}
+
+            {/* Vs Pitcher Stats */}
+            {(player.BvPBA || player.BvPOPS) && (
+              <div style={{ marginBottom: "8px" }}>
+                <div style={{ fontWeight: 600, marginBottom: "4px", color: "var(--color-text-primary)" }}>⚔️ vs {player.Pitcher}:</div>
+                <div style={{ display: "flex", gap: "8px", fontSize: "0.7rem" }}>
+                  {player.BvPBA && <span>BA: {player.BvPBA}</span>}
+                  {player.BvPOPS && <span>OPS: {player.BvPOPS}</span>}
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>

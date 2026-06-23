@@ -23,9 +23,32 @@ def _normalize_name(name: str) -> str:
     return parts[0].strip().rstrip("D").strip()
 
 
-def _generate_reasoning(hit_score: float, l7_score: float, bvp_score: float, trend_score: float, consensus: float) -> str:
+def _generate_reasoning(hit_score: float, l7_score: float, bvp_score: float, trend_score: float, consensus: float, l7_stats: dict = None, bvp_stats: dict = None) -> str:
     """Generate AI reasoning text explaining the consensus score."""
     reasons = []
+    
+    # Analyze last 7 day performance with specific stats
+    if l7_stats:
+        h = l7_stats.get("H", "")
+        r = l7_stats.get("R", "")
+        hr = l7_stats.get("HR", "")
+        rbi = l7_stats.get("RBI", "")
+        avg = l7_stats.get("AVG", "")
+        ops = l7_stats.get("OPS", "")
+        
+        # Create personalized last 7 days message
+        if h and r and hr and rbi:
+            reasons.append(f"Last 7 days: {h}H, {r}R, {hr}HR, {rbi}RBI (AVG: {avg}, OPS: {ops})")
+        elif h:
+            reasons.append(f"Last 7 days: {h} hits in recent games")
+    else:
+        # Fallback to generic message
+        if l7_score >= 70:
+            reasons.append("Excellent recent form and OPS")
+        elif l7_score >= 50:
+            reasons.append("Solid recent performance trend")
+        else:
+            reasons.append("Building momentum from recent games")
     
     # Analyze hit prediction probability
     if hit_score >= 70:
@@ -35,21 +58,27 @@ def _generate_reasoning(hit_score: float, l7_score: float, bvp_score: float, tre
     else:
         reasons.append("Emerging hit prediction opportunity")
     
-    # Analyze last 7 day performance
-    if l7_score >= 70:
-        reasons.append("Excellent recent form and OPS")
-    elif l7_score >= 50:
-        reasons.append("Solid recent performance trend")
+    # Analyze BvP matchup with specific stats
+    if bvp_stats:
+        bvp_ba = bvp_stats.get("BA", "")
+        bvp_ops = bvp_stats.get("OPS", "")
+        if bvp_ba and bvp_ops:
+            reasons.append(f"vs {bvp_stats.get('Pitcher', 'pitcher')}: {bvp_ba} BA, {bvp_ops} OPS")
+        else:
+            if bvp_score >= 70:
+                reasons.append("Favorable matchup history vs pitcher")
+            elif bvp_score >= 50:
+                reasons.append("Neutral to favorable pitcher matchup")
+            else:
+                reasons.append("Challenging pitcher matchup")
     else:
-        reasons.append("Building momentum from recent games")
-    
-    # Analyze BvP matchup
-    if bvp_score >= 70:
-        reasons.append("Favorable matchup history vs pitcher")
-    elif bvp_score >= 50:
-        reasons.append("Neutral to favorable pitcher matchup")
-    else:
-        reasons.append("Challenging pitcher matchup")
+        # Fallback
+        if bvp_score >= 70:
+            reasons.append("Favorable matchup history vs pitcher")
+        elif bvp_score >= 50:
+            reasons.append("Neutral to favorable pitcher matchup")
+        else:
+            reasons.append("Challenging pitcher matchup")
     
     # Analyze trend consistency
     if trend_score >= 70:
@@ -88,8 +117,9 @@ def calculate_consensus_scores(game: Optional[str] = None) -> list:
         pred = _clean_pred_value(row.get("Pred", 0))
         hit_scores[batter] = pred
 
-    # 2) Last 7 day OPS rankings
+    # 2) Last 7 day OPS rankings and stats
     last7_ops = {}
+    last7_stats_map = {}
     if not last7_df.empty and "OPS" in last7_df.columns:
         last7_df["OPS_float"] = pd.to_numeric(last7_df["OPS"], errors="coerce").fillna(0)
         max_ops = last7_df["OPS_float"].max() if last7_df["OPS_float"].max() > 0 else 1.0
@@ -98,9 +128,19 @@ def calculate_consensus_scores(game: Optional[str] = None) -> list:
             name = _normalize_name(row.get(name_col, ""))
             ops = row.get("OPS_float", 0)
             last7_ops[name] = (ops / max_ops) * 100 if max_ops > 0 else 0
+            # Store full last 7 days stats for personalized reasoning
+            last7_stats_map[name] = {
+                "H": _safe_val(row.get("H", "")),
+                "R": _safe_val(row.get("R", "")),
+                "HR": _safe_val(row.get("HR", "")),
+                "RBI": _safe_val(row.get("RBI", "")),
+                "AVG": _safe_val(row.get("AVG", "")),
+                "OPS": _safe_val(row.get("OPS", "")),
+            }
 
     # 3) BvP matchup quality
     bvp_scores = {}
+    bvp_stats_map = {}
     if not bvp_df.empty:
         bvp_filtered = bvp_df[bvp_df["Batter"] != "---"].copy() if "Batter" in bvp_df.columns else bvp_df.copy()
         if game:
@@ -119,6 +159,11 @@ def calculate_consensus_scores(game: Optional[str] = None) -> list:
                 ba_float = 0
             # BvP score: weighted combo of OPS and BA against this pitcher
             bvp_scores[batter] = min((ops_float * 40 + ba_float * 60), 100)
+            # Store BvP stats
+            bvp_stats_map[batter] = {
+                "BA": _safe_val(ba_val),
+                "OPS": _safe_val(ops_val),
+            }
 
     # 4) Trend consistency score
     trend_scores = {}
@@ -155,10 +200,14 @@ def calculate_consensus_scores(game: Optional[str] = None) -> list:
         # Hit probability as string
         pred_str = str(row.get("Pred", "")).strip()
         
-        # Generate AI reasoning
-        reasoning = _generate_reasoning(hit_score, l7_score, bvp_score, trend_score, consensus)
+        # Get last 7 days stats and BvP stats for personalized reasoning
+        l7_stats = last7_stats_map.get(norm_name)
+        bvp_stats = bvp_stats_map.get(batter)
+        
+        # Generate AI reasoning with last 7 days and BvP stats
+        reasoning = _generate_reasoning(hit_score, l7_score, bvp_score, trend_score, consensus, l7_stats, bvp_stats)
 
-        results.append({
+        result = {
             "Batter": _safe_val(batter),
             "Pitcher": _safe_val(row.get("Pitcher", "")),
             "Game": _safe_val(row.get("Game", "")),
@@ -170,7 +219,28 @@ def calculate_consensus_scores(game: Optional[str] = None) -> list:
             "BA": _safe_val(row.get("BA", "")),
             "OPS": _safe_val(row.get("OPS", "")),
             "AIReasoning": reasoning,
-        })
+            # Add score breakdown (0-100 for each factor)
+            "HitScore": round(hit_score, 1),
+            "Last7Score": round(l7_score, 1),
+            "BvPScore": round(bvp_score, 1),
+            "TrendScore": round(trend_score, 1),
+        }
+        
+        # Add last 7 days stats if available
+        if l7_stats:
+            result["Last7H"] = l7_stats.get("H", "")
+            result["Last7R"] = l7_stats.get("R", "")
+            result["Last7HR"] = l7_stats.get("HR", "")
+            result["Last7RBI"] = l7_stats.get("RBI", "")
+            result["Last7AVG"] = l7_stats.get("AVG", "")
+            result["Last7OPS"] = l7_stats.get("OPS", "")
+        
+        # Add BvP stats if available
+        if bvp_stats:
+            result["BvPBA"] = bvp_stats.get("BA", "")
+            result["BvPOPS"] = bvp_stats.get("OPS", "")
+        
+        results.append(result)
 
     # Sort by consensus descending
     results.sort(key=lambda x: x["Consensus"], reverse=True)
