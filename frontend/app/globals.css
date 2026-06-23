@@ -805,3 +805,416 @@ html, body {
     max-height: 400px;
   }
 }
+
+/* ============================================
+   SPOTLIGHT EDGE CARDS — Redesigned
+   ============================================ */
+
+.spotlight-card {
+  position: relative;
+  padding: 20px;
+  border-radius: 14px;
+  background: linear-gradient(
+    135deg,
+    rgba(28, 35, 51, 0.85),
+    rgba(13, 17, 23, 0.95)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.spotlight-card:hover {
+  border-color: rgba(139, 92, 246, 0.25);
+  box-shadow: 0 0 24px rgba(139, 92, 246, 0.08);
+}
+
+/* ── Card Header ── */
+.spotlight-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.spotlight-player-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-text-primary);
+  line-height: 1.3;
+}
+
+.spotlight-game-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 3px;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+/* ── Scores Section (Gauge + Probability) ── */
+.spotlight-scores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 16px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.spotlight-score-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.spotlight-prob-section {
+  align-items: flex-end;
+}
+
+.spotlight-score-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.spotlight-info-icon {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.25);
+  cursor: help;
+  transition: color 0.2s;
+}
+
+.spotlight-info-icon:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ── Consensus Gauge ── */
+.spotlight-gauge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.consensus-gauge-svg {
+  width: 72px;
+  height: 42px;
+  flex-shrink: 0;
+}
+
+.spotlight-score-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.spotlight-edge-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 4px;
+  letter-spacing: 0.02em;
+}
+
+/* ── Hit Probability ── */
+.spotlight-prob-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.spotlight-prob-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1;
+}
+
+.spotlight-fire-emojis {
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+/* ── Confidence Bar ── */
+.confidence-bar-track {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.confidence-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 8px rgba(34, 197, 94, 0.3);
+}
+
+/* ── Confidence Pill Badge ── */
+.confidence-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.confidence-high {
+  background: rgba(34, 197, 94, 0.15);
+  color: #4ade80;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.confidence-moderate {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.confidence-fair {
+  background: rgba(249, 115, 22, 0.15);
+  color: #fb923c;
+  border: 1px solid rgba(249, 115, 22, 0.3);
+}
+
+.confidence-low {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* ── Stats Row ── */
+.spotlight-stats-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.spotlight-stat {
+  text-align: center;
+}
+
+.spotlight-stat-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  margin-bottom: 4px;
+}
+
+.spotlight-stat-value {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.spotlight-stat-pitcher {
+  color: var(--color-text-secondary);
+  font-size: 0.8rem;
+}
+
+/* ── AI Reasoning Section ── */
+.spotlight-ai-section {
+  margin-top: 2px;
+}
+
+.spotlight-ai-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.spotlight-ai-toggle:hover {
+  opacity: 0.85;
+}
+
+.spotlight-ai-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  min-width: 0;
+}
+
+.spotlight-ai-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: rgba(139, 92, 246, 0.12);
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.spotlight-ai-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-accent-green);
+  letter-spacing: 0.04em;
+  display: block;
+}
+
+.spotlight-ai-summary {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.spotlight-ai-chevron {
+  color: var(--color-accent-purple);
+  font-size: 0.85rem;
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+/* Expanded content */
+.spotlight-ai-content {
+  padding: 12px;
+  background: rgba(139, 92, 246, 0.06);
+  border-radius: 10px;
+  border: 1px solid rgba(139, 92, 246, 0.12);
+  animation: fadeIn 0.25s ease-out;
+}
+
+.spotlight-ai-reasoning-text {
+  font-size: 0.75rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+.spotlight-ai-factors {
+  margin-bottom: 10px;
+}
+
+.spotlight-ai-factors-title {
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-bottom: 6px;
+  color: var(--color-text-primary);
+}
+
+.spotlight-ai-factors-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+}
+
+.spotlight-ai-factor-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.spotlight-ai-factor-detail {
+  font-size: 0.65rem;
+  color: var(--color-text-muted);
+  margin-left: 20px;
+}
+
+.spotlight-ai-last7,
+.spotlight-ai-bvp {
+  padding-top: 8px;
+  border-top: 1px solid rgba(139, 92, 246, 0.1);
+  margin-top: 8px;
+}
+
+.spotlight-ai-last7-stats {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+}
+
+/* ── Mobile responsive adjustments ── */
+@media (max-width: 768px) {
+  .spotlight-scores {
+    gap: 8px;
+  }
+
+  .spotlight-score-value {
+    font-size: 1.4rem;
+  }
+
+  .spotlight-prob-value {
+    font-size: 1.2rem;
+  }
+
+  .consensus-gauge-svg {
+    width: 60px;
+    height: 36px;
+  }
+
+  .spotlight-ai-summary {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .spotlight-card {
+    padding: 16px;
+  }
+
+  .spotlight-scores {
+    gap: 6px;
+  }
+
+  .spotlight-score-value {
+    font-size: 1.25rem;
+  }
+
+  .spotlight-prob-value {
+    font-size: 1.1rem;
+  }
+
+  .consensus-gauge-svg {
+    width: 52px;
+    height: 32px;
+  }
+
+  .spotlight-ai-summary {
+    max-width: 120px;
+  }
+
+  .spotlight-ai-factors-grid {
+    grid-template-columns: 1fr;
+  }
+}
