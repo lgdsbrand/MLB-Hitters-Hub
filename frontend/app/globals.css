@@ -222,6 +222,11 @@ body {
     word-break: keep-all;
   }
 
+  .data-table thead th:nth-child(1),
+  .data-table thead th:nth-child(2) {
+    padding: 10px 6px;
+  }
+
   .data-table tbody td {
     white-space: nowrap;
     overflow: visible;
@@ -232,6 +237,11 @@ body {
     word-break: keep-all;
     vertical-align: middle;
     min-width: 70px;
+  }
+
+  .data-table tbody td:nth-child(1),
+  .data-table tbody td:nth-child(2) {
+    padding: 10px 6px;
   }
 
   .btn-add {
