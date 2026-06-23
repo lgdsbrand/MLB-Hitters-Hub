@@ -63,7 +63,7 @@ function getAIReasoning(player: ConsensusPlayer): string {
   if (hitProb >= 75) {
     reasoning = `${last7Summary}Very high confidence in a hit. ${player.Batter} has exceptional plate discipline and consistent performance against this opponent.`;
   } else if (hitProb >= 65) {
-    reasoning = `${last7Summary}Strong statistical indicators suggest a high likelihood of recording a hit. Recent form and matchup dynamics favor this selection.`;
+    reasoning = `${last7Summary}Strong statistical indicators suggest a high likelihood of recording a hit. Matchup dynamics favor this selection.`;
   } else if (hitProb >= 55) {
     reasoning = `${last7Summary}Moderate confidence based on recent performance trends and favorable matchup metrics. Historical data supports this play.`;
   } else if (hitProb >= 45) {
@@ -270,14 +270,7 @@ function BestPlayCard({ player, idx, onAdd, isSelected }: BestPlayCardProps) {
                     {(player.HitScore || 0).toFixed(0)}/100 {getScoreLabel(player.HitScore || 0)}
                   </div>
                 </div>
-                <div>
-                  <div style={{ display: "flex", alignItems: "center", gap: "4px" }}>
-                    {getScoreBadge(player.Last7Score || 0)} Recent Form
-                  </div>
-                  <div style={{ fontSize: "0.7rem", color: "var(--color-text-muted)", marginLeft: "20px" }}>
-                    {(player.Last7Score || 0).toFixed(0)}/100 {getScoreLabel(player.Last7Score || 0)}
-                  </div>
-                </div>
+
                 <div>
                   <div style={{ display: "flex", alignItems: "center", gap: "4px" }}>
                     {getScoreBadge(player.BvPScore || 0)} vs Pitcher
