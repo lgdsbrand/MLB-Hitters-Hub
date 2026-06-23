@@ -308,9 +308,6 @@ function BestPlayCard({ player, idx, onAdd, isSelected }: BestPlayCardProps) {
             <span className="spotlight-prob-value">
               {cleanHitProb(player.HitProb)}
             </span>
-            <span className="spotlight-fire-emojis">
-              {getFireEmojis(player.HitProb)}
-            </span>
           </div>
           {/* Confidence Bar */}
           <div className="confidence-bar-track">
