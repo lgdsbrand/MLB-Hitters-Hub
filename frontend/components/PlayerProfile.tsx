@@ -148,27 +148,27 @@ export default function PlayerProfile({
         >
           {/* Header */}
           <div
-            className="flex items-center justify-between p-6 border-b"
+            className="flex items-center justify-between p-4 sm:p-6 border-b"
             style={{ borderColor: "var(--color-border-default)" }}
           >
-            <div className="flex items-center gap-4 flex-1">
+            <div className="flex items-center gap-3 sm:gap-4 flex-1 min-w-0">
               {gameInfo && (
                 <>
                   <img
                     src={getTeamLogoUrl(gameInfo.away)}
                     alt={gameInfo.away}
-                    className="w-12 h-12 rounded-full"
+                    className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex-shrink-0"
                     style={{ border: "2px solid rgba(139, 92, 246, 0.3)" }}
                     onError={(e) => {
                       (e.target as HTMLImageElement).src = "/default-logo.png";
                     }}
                   />
-                  <div className="flex flex-col gap-1">
-                    <h2 className="text-2xl font-bold text-text-primary">{playerName}</h2>
-                    <div className="text-sm text-text-secondary flex items-center gap-2">
-                      <span>{gameInfo.away}</span>
-                      <span className="text-text-muted">@</span>
-                      <span>{gameInfo.home}</span>
+                  <div className="flex flex-col gap-1 min-w-0">
+                    <h2 className="text-lg sm:text-2xl font-bold text-text-primary truncate">{playerName}</h2>
+                    <div className="text-xs sm:text-sm text-text-secondary flex items-center gap-2">
+                      <span className="truncate">{gameInfo.away}</span>
+                      <span className="text-text-muted flex-shrink-0">@</span>
+                      <span className="truncate">{gameInfo.home}</span>
                     </div>
                   </div>
                 </>
@@ -176,7 +176,7 @@ export default function PlayerProfile({
             </div>
             <button
               onClick={onClose}
-              className="text-text-muted hover:text-text-primary text-2xl transition-colors p-2 hover:bg-white/5 rounded-lg"
+              className="text-text-muted hover:text-text-primary text-xl sm:text-2xl transition-colors p-2 hover:bg-white/5 rounded-lg flex-shrink-0"
             >
               ✕
             </button>
@@ -184,7 +184,7 @@ export default function PlayerProfile({
 
           {/* Content */}
           <div
-            className="p-6 overflow-y-auto"
+            className="p-4 sm:p-6 overflow-y-auto"
             style={{
               maxHeight: "calc(100vh - 200px)",
               background: "rgba(30, 30, 40, 0.5)",
@@ -193,7 +193,7 @@ export default function PlayerProfile({
             {/* Game Info Section */}
             {gameInfo && (
               <div
-                className="mb-6 p-5 rounded-xl border"
+                className="mb-4 sm:mb-6 p-4 sm:p-5 rounded-xl border"
                 style={{
                   background: "rgba(139, 92, 246, 0.08)",
                   borderColor: "var(--color-border-default)",
@@ -261,7 +261,7 @@ export default function PlayerProfile({
 
           {/* Footer */}
           <div
-            className="flex justify-end gap-3 p-5 border-t"
+            className="flex justify-end gap-3 p-4 sm:p-5 border-t"
             style={{ borderColor: "var(--color-border-default)" }}
           >
             <button
