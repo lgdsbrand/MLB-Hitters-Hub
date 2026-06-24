@@ -116,17 +116,16 @@ export default function Home() {
       return player || null;
     };
 
-    // Always try to find in main stat tables first
-    let playerHits = findPlayer(hitsData, playerName, game);
-    let playerHR = findPlayer(hrData, playerName, game);
-    let playerTB = findPlayer(tbData, playerName, game);
-    let playerBvP = findPlayer(bvpData, playerName, game);
+    // Start with rowData as the primary source (this is the actual row clicked)
+    let playerHits: any = null;
+    let playerHR: any = null;
+    let playerTB: any = null;
+    let playerBvP: any = null;
 
-    // If still no stats found, use rowData as fallback
-    if (!playerHits && !playerHR && !playerTB && !playerBvP && Object.keys(rowData).length > 0) {
-      // Determine which data source the row came from based on available fields
+    // Determine which data type rowData represents and assign accordingly
+    if (Object.keys(rowData).length > 0) {
       if (rowData["AVG"] && rowData["H"] && rowData["HR"]) {
-        // Last 7 or Last 15 data - assign to hits as fallback
+        // Last 7 or Last 15 data
         playerHits = rowData;
       } else if (rowData["HR Pred"]) {
         // HR data
@@ -138,9 +137,29 @@ export default function Home() {
         // BvP data
         playerBvP = rowData;
       } else if (rowData["Pred"]) {
-        // Hits data
+        // Hits data or Club data
         playerHits = rowData;
+      } else if (rowData["Consensus"]) {
+        // Consensus/Edge of Day data - try to find in main tables
+        playerHits = findPlayer(hitsData, playerName, game);
+        playerHR = findPlayer(hrData, playerName, game);
+        playerTB = findPlayer(tbData, playerName, game);
+        playerBvP = findPlayer(bvpData, playerName, game);
       }
+    }
+
+    // If rowData didn't provide complete stats, try to supplement from main tables
+    if (!playerHits) {
+      playerHits = findPlayer(hitsData, playerName, game);
+    }
+    if (!playerHR) {
+      playerHR = findPlayer(hrData, playerName, game);
+    }
+    if (!playerTB) {
+      playerTB = findPlayer(tbData, playerName, game);
+    }
+    if (!playerBvP) {
+      playerBvP = findPlayer(bvpData, playerName, game);
     }
 
     setSelectedPlayer({ name: playerName, game });
