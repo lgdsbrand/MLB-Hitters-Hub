@@ -80,49 +80,14 @@ export default function Home() {
     return Array.from(playerMap.values());
   }, [hitsData, hrData, tbData, bvpData, last7Data, last15Data, consensusData, clubHits, clubTB, streakData]);
 
-  // Handle player click - find their stats across all tables
+  // Handle player click - use only the clicked row's data for profile display
   const handlePlayerClick = (playerName: string, game: string, rowData: Record<string, unknown>) => {
-    // Normalize game string for comparison (remove spaces, @, vs, etc.)
-    const normalizeGame = (g: string) => g.toLowerCase().replace(/[@\s]/g, '').replace('vs', '');
-    const normalizedGame = normalizeGame(game);
-
-    // Helper function to find player with flexible matching
-    const findPlayer = (data: any[], name: string, gameStr: string) => {
-      if (!data || data.length === 0) return null;
-      
-      // Try exact name match with any game first
-      let player = data.find(
-        (p) => (p.Batter === name || p.player_name === name || p.Name === name)
-      );
-
-      // If found with any game, return it (prioritize finding the player over exact game match)
-      if (player) return player;
-
-      // If not found and we have a game to match, try with game
-      if (gameStr) {
-        player = data.find(
-          (p) => {
-            const playerNameMatch = p.Batter === name || p.player_name === name || p.Name === name;
-            if (!playerNameMatch) return false;
-            
-            // Try to match game by normalizing
-            const pGame = p.Game || p.team || "";
-            const normalizedPGame = normalizeGame(pGame);
-            return normalizedGame === normalizedPGame || gameStr === pGame;
-          }
-        );
-      }
-
-      return player || null;
-    };
-
-    // Start with rowData as the primary source (this is the actual row clicked)
+    // Determine which data type rowData represents and assign to appropriate profile slot
     let playerHits: any = null;
     let playerHR: any = null;
     let playerTB: any = null;
     let playerBvP: any = null;
 
-    // Determine which data type rowData represents and assign accordingly
     if (Object.keys(rowData).length > 0) {
       if (rowData["AVG"] && rowData["H"] && rowData["HR"]) {
         // Last 7 or Last 15 data
@@ -140,26 +105,9 @@ export default function Home() {
         // Hits data or Club data
         playerHits = rowData;
       } else if (rowData["Consensus"]) {
-        // Consensus/Edge of Day data - try to find in main tables
-        playerHits = findPlayer(hitsData, playerName, game);
-        playerHR = findPlayer(hrData, playerName, game);
-        playerTB = findPlayer(tbData, playerName, game);
-        playerBvP = findPlayer(bvpData, playerName, game);
+        // Consensus/Edge of Day data - use as hits data
+        playerHits = rowData;
       }
-    }
-
-    // If rowData didn't provide complete stats, try to supplement from main tables
-    if (!playerHits) {
-      playerHits = findPlayer(hitsData, playerName, game);
-    }
-    if (!playerHR) {
-      playerHR = findPlayer(hrData, playerName, game);
-    }
-    if (!playerTB) {
-      playerTB = findPlayer(tbData, playerName, game);
-    }
-    if (!playerBvP) {
-      playerBvP = findPlayer(bvpData, playerName, game);
     }
 
     setSelectedPlayer({ name: playerName, game });
