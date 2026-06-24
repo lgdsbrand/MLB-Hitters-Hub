@@ -115,7 +115,15 @@ export default function PlayerSearch({ allPlayers, onPlayerSelect }: PlayerSearc
             setSearchValue(e.target.value);
             setShowSuggestions(true);
           }}
-          onFocus={() => setShowSuggestions(true)}
+          onFocus={(e) => {
+            setShowSuggestions(true);
+            e.target.style.borderColor = "var(--color-accent-purple)";
+            e.target.style.boxShadow = "0 0 0 3px rgba(139, 92, 246, 0.1)";
+          }}
+          onBlur={(e) => {
+            e.target.style.borderColor = "var(--color-border-default)";
+            e.target.style.boxShadow = "0 0 0 0 rgba(139, 92, 246, 0)";
+          }}
           className="w-full px-4 py-3 rounded-xl"
           style={{
             background: "var(--color-bg-input)",
@@ -124,14 +132,6 @@ export default function PlayerSearch({ allPlayers, onPlayerSelect }: PlayerSearc
             fontSize: "15px",
             transition: "all 0.2s ease",
             boxShadow: "0 0 0 0 rgba(139, 92, 246, 0)",
-          }}
-          onFocus={(e) => {
-            e.target.style.borderColor = "var(--color-accent-purple)";
-            e.target.style.boxShadow = "0 0 0 3px rgba(139, 92, 246, 0.1)";
-          }}
-          onBlur={(e) => {
-            e.target.style.borderColor = "var(--color-border-default)";
-            e.target.style.boxShadow = "0 0 0 0 rgba(139, 92, 246, 0)";
           }}
           onKeyDown={(e) => {
             if (e.key === "Escape") {
