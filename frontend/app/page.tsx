@@ -83,19 +83,19 @@ export default function Home() {
   // Handle player click - find their stats across all tables
   const handlePlayerClick = (playerName: string, game: string, rowData: Record<string, unknown>) => {
     const playerHits = hitsData.find(
-      (p) => p.Batter === playerName && (game === "" || p.Game === game)
+      (p) => (p.Batter === playerName || p.player_name === playerName) && (game === "" || p.Game === game || p.team === game)
     ) || null;
 
     const playerHR = hrData.find(
-      (p) => p.Batter === playerName && (game === "" || p.Game === game)
+      (p) => (p.Batter === playerName || p.player_name === playerName) && (game === "" || p.Game === game || p.team === game)
     ) || null;
 
     const playerTB = tbData.find(
-      (p) => p.Batter === playerName && (game === "" || p.Game === game)
+      (p) => (p.Batter === playerName || p.player_name === playerName) && (game === "" || p.Game === game || p.team === game)
     ) || null;
 
     const playerBvP = bvpData.find(
-      (p) => p.Batter === playerName && (game === "" || p.Game === game)
+      (p) => (p.Batter === playerName || p.player_name === playerName) && (game === "" || p.Game === game || p.team === game)
     ) || null;
 
     setSelectedPlayer({ name: playerName, game });
