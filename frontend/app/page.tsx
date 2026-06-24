@@ -80,36 +80,22 @@ export default function Home() {
     return Array.from(playerMap.values());
   }, [hitsData, hrData, tbData, bvpData, last7Data, last15Data, consensusData, clubHits, clubTB, streakData]);
 
-  // Handle player click - use only the clicked row's data for profile display
+  // Handle player click - search main stat tables to get complete player data (same as 100% Club logic)
   const handlePlayerClick = (playerName: string, game: string, rowData: Record<string, unknown>) => {
-    // Determine which data type rowData represents and assign to appropriate profile slot
-    let playerHits: any = null;
-    let playerHR: any = null;
-    let playerTB: any = null;
-    let playerBvP: any = null;
-
-    if (Object.keys(rowData).length > 0) {
-      if (rowData["AVG"] && rowData["H"] && rowData["HR"]) {
-        // Last 7 or Last 15 data
-        playerHits = rowData;
-      } else if (rowData["HR Pred"]) {
-        // HR data
-        playerHR = rowData;
-      } else if (rowData["TB Pred"]) {
-        // TB data
-        playerTB = rowData;
-      } else if (rowData["HH%"]) {
-        // BvP data
-        playerBvP = rowData;
-      } else if (rowData["Pred"]) {
-        // Hits data or Club data
-        playerHits = rowData;
-      } else if (rowData["Consensus"]) {
-        // Consensus/Edge of Day data - use as hits data
-        playerHits = rowData;
+    // Search main stat tables for complete player data
+    let playerHits = hitsData.find(p => p.Batter === playerName || p.player_name === playerName) || null;
+    const playerHR = hrData.find(p => p.Batter === playerName || p.player_name === playerName) || null;
+    const playerTB = tbData.find(p => p.Batter === playerName || p.player_name === playerName) || null;
+    const playerBvP = bvpData.find(p => p.Batter === playerName || p.player_name === playerName) || null;
+    
+    // Fallback for Last 7/Last 15 players (different data structure)
+    if (!playerHits && !playerHR && !playerTB && !playerBvP) {
+      playerHits = (last7Data.find(p => p.Name === playerName || p.player_name === playerName) || null) as any;
+      if (!playerHits) {
+        playerHits = (last15Data.find(p => p.Name === playerName || p.player_name === playerName) || null) as any;
       }
     }
-
+    
     setSelectedPlayer({ name: playerName, game });
     setProfileHitsData(playerHits);
     setProfileHRData(playerHR);

@@ -86,10 +86,14 @@ function StatRow({ label, value, icon, color }: { label: string; value: any; ico
 
 function StatGrid({ title, stats, icon }: { title: string; stats: Record<string, any>; icon: string }) {
   const sortedEntries = useMemo(() => {
-    const ignore = ["Batter", "Pitcher", "Game", "Name", "Team", "Icon"];
+    // Show all data without filtering to ensure display
     return Object.entries(stats)
-      .filter(([key]) => !ignore.includes(key) && stats[key] !== null && stats[key] !== undefined)
-      .slice(0, 12);
+      .filter(([key, value]) => {
+        // Only skip if value is explicitly null or undefined
+        if (value === null || value === undefined) return false;
+        return true;
+      })
+      .slice(0, 50);
   }, [stats]);
 
   if (sortedEntries.length === 0) return null;
@@ -236,17 +240,18 @@ export default function PlayerProfile({
 
             {/* Stats Grid */}
             <div>
+              {/* Display whatever data is available with appropriate titles */}
               {hitsData && Object.keys(hitsData).length > 0 && (
-                <StatGrid title="Hits Projection" stats={hitsData} icon="🎯" />
+                <StatGrid title="Player Stats" stats={hitsData} icon="📊" />
               )}
-              {hrData && Object.keys(hrData).length > 0 && (
-                <StatGrid title="HR Projection" stats={hrData} icon="💣" />
+              {hrData && Object.keys(hrData).length > 0 && hrData !== hitsData && (
+                <StatGrid title="HR Stats" stats={hrData} icon="💣" />
               )}
-              {tbData && Object.keys(tbData).length > 0 && (
-                <StatGrid title="Total Bases Projection" stats={tbData} icon="📊" />
+              {tbData && Object.keys(tbData).length > 0 && tbData !== hitsData && tbData !== hrData && (
+                <StatGrid title="Total Bases Stats" stats={tbData} icon="📊" />
               )}
-              {bvpData && Object.keys(bvpData).length > 0 && (
-                <StatGrid title="Batter vs Pitcher" stats={bvpData} icon="⚔️" />
+              {bvpData && Object.keys(bvpData).length > 0 && bvpData !== hitsData && bvpData !== hrData && bvpData !== tbData && (
+                <StatGrid title="Batter vs Pitcher Stats" stats={bvpData} icon="⚔️" />
               )}
             </div>
 
