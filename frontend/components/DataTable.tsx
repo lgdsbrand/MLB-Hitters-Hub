@@ -263,9 +263,9 @@ export default function DataTable({
                     const display = val === null || val === undefined ? "" : String(val);
 
                     // Special rendering for player name - make it clickable
-                    if ((col.key === batterKey || col.key === "player_name") && onPlayerClick) {
+                    if ((col.key === batterKey || col.key === "player_name" || col.key === "Batter" || col.key === "Name") && onPlayerClick) {
                       const playerName = display;
-                      const game = String(row[gameKey] || "");
+                      const game = String(row[gameKey] || row["Game"] || row["team"] || "");
                       return (
                         <td
                           key={col.key}
