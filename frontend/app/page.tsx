@@ -82,21 +82,66 @@ export default function Home() {
 
   // Handle player click - find their stats across all tables
   const handlePlayerClick = (playerName: string, game: string, rowData: Record<string, unknown>) => {
-    const playerHits = hitsData.find(
-      (p) => (p.Batter === playerName || p.player_name === playerName) && (game === "" || p.Game === game || p.team === game)
-    ) || null;
+    // Normalize game string for comparison (remove spaces, @, vs, etc.)
+    const normalizeGame = (g: string) => g.toLowerCase().replace(/[@\s]/g, '').replace('vs', '');
+    const normalizedGame = normalizeGame(game);
 
-    const playerHR = hrData.find(
-      (p) => (p.Batter === playerName || p.player_name === playerName) && (game === "" || p.Game === game || p.team === game)
-    ) || null;
+    // Helper function to find player with flexible matching
+    const findPlayer = (data: any[], name: string, gameStr: string) => {
+      if (!data || data.length === 0) return null;
+      
+      // Try exact name match with any game first
+      let player = data.find(
+        (p) => (p.Batter === name || p.player_name === name || p.Name === name)
+      );
 
-    const playerTB = tbData.find(
-      (p) => (p.Batter === playerName || p.player_name === playerName) && (game === "" || p.Game === game || p.team === game)
-    ) || null;
+      // If found with any game, return it (prioritize finding the player over exact game match)
+      if (player) return player;
 
-    const playerBvP = bvpData.find(
-      (p) => (p.Batter === playerName || p.player_name === playerName) && (game === "" || p.Game === game || p.team === game)
-    ) || null;
+      // If not found and we have a game to match, try with game
+      if (gameStr) {
+        player = data.find(
+          (p) => {
+            const playerNameMatch = p.Batter === name || p.player_name === name || p.Name === name;
+            if (!playerNameMatch) return false;
+            
+            // Try to match game by normalizing
+            const pGame = p.Game || p.team || "";
+            const normalizedPGame = normalizeGame(pGame);
+            return normalizedGame === normalizedPGame || gameStr === pGame;
+          }
+        );
+      }
+
+      return player || null;
+    };
+
+    // Always try to find in main stat tables first
+    let playerHits = findPlayer(hitsData, playerName, game);
+    let playerHR = findPlayer(hrData, playerName, game);
+    let playerTB = findPlayer(tbData, playerName, game);
+    let playerBvP = findPlayer(bvpData, playerName, game);
+
+    // If still no stats found, use rowData as fallback
+    if (!playerHits && !playerHR && !playerTB && !playerBvP && Object.keys(rowData).length > 0) {
+      // Determine which data source the row came from based on available fields
+      if (rowData["AVG"] && rowData["H"] && rowData["HR"]) {
+        // Last 7 or Last 15 data - assign to hits as fallback
+        playerHits = rowData;
+      } else if (rowData["HR Pred"]) {
+        // HR data
+        playerHR = rowData;
+      } else if (rowData["TB Pred"]) {
+        // TB data
+        playerTB = rowData;
+      } else if (rowData["HH%"]) {
+        // BvP data
+        playerBvP = rowData;
+      } else if (rowData["Pred"]) {
+        // Hits data
+        playerHits = rowData;
+      }
+    }
 
     setSelectedPlayer({ name: playerName, game });
     setProfileHitsData(playerHits);
