@@ -157,27 +157,32 @@ export default function PlayerProfile({
           >
             <div className="flex items-center gap-3 sm:gap-4 flex-1 min-w-0">
               {gameInfo && (
-                <>
-                  <img
-                    src={getTeamLogoUrl(gameInfo.away)}
-                    alt={gameInfo.away}
-                    className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex-shrink-0"
-                    style={{ border: "2px solid rgba(139, 92, 246, 0.3)" }}
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = "/default-logo.png";
-                    }}
-                  />
-                  <div className="flex flex-col gap-1 min-w-0">
-                    <h2 className="text-lg sm:text-2xl font-bold text-text-primary truncate">{playerName}</h2>
-                    <div className="text-xs sm:text-sm text-text-secondary flex items-center gap-2">
-                      <span className="truncate">{gameInfo.away}</span>
-                      <span className="text-text-muted flex-shrink-0">@</span>
-                      <span className="truncate">{gameInfo.home}</span>
-                    </div>
-                  </div>
-                </>
+                <img
+                  src={getTeamLogoUrl(gameInfo.away)}
+                  alt={gameInfo.away}
+                  className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex-shrink-0"
+                  style={{ border: "2px solid rgba(139, 92, 246, 0.3)" }}
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = "/default-logo.png";
+                  }}
+                />
               )}
+              <div className="flex flex-col gap-1 min-w-0">
+                <h2 className="text-lg sm:text-2xl font-bold text-text-primary truncate">{playerName}</h2>
+                {gameInfo ? (
+                  <div className="text-xs sm:text-sm text-text-secondary flex items-center gap-2">
+                    <span className="truncate">{gameInfo.away}</span>
+                    <span className="text-text-muted flex-shrink-0">@</span>
+                    <span className="truncate">{gameInfo.home}</span>
+                  </div>
+                ) : (
+                  game && (
+                    <div className="text-xs sm:text-sm text-text-secondary truncate">{game}</div>
+                  )
+                )}
+              </div>
             </div>
+
             <button
               onClick={onClose}
               className="text-text-muted hover:text-text-primary text-xl sm:text-2xl transition-colors p-2 hover:bg-white/5 rounded-lg flex-shrink-0"

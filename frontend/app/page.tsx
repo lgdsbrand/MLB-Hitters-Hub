@@ -47,35 +47,60 @@ export default function Home() {
 
   const betSheet = useBetSheet();
 
-  // Collect all unique players for search
+  // Collect all unique players for search with stats
   const allPlayers = useMemo(() => {
-    const playerMap = new Map<string, Player>();
+    const playerMap = new Map<string, any>();
 
-    const addPlayers = (data: any[], gameKey = "Game", playerKey = "Batter") => {
+    const addPlayers = (data: any[], gameKey = "Game", playerKey = "Batter", source = "") => {
+      if (!data || data.length === 0) return;
+      
       data.forEach((row) => {
-        const playerName = row[playerKey] || row["Name"] || "";
-        const game = row[gameKey] || "";
-        const key = `${playerName}-${game}`;
+        // Fall back across every field name we've seen used for a player's
+        // name/team across the different tables (Batter, Name, player_name...)
+        const playerName =
+          row[playerKey] ||
+          row["Batter"] ||
+          row["player_name"] ||
+          row["Name"] ||
+          row["Player"] ||
+          "";
+        const game =
+          row[gameKey] ||
+          row["Game"] ||
+          row["game"] ||
+          row["team"] ||
+          row["Team"] ||
+          "";
+        const key = String(playerName).toLowerCase();
 
-        if (playerName && !playerMap.has(key)) {
-          playerMap.set(key, {
-            name: playerName,
-            game,
-          });
+        if (playerName) {
+          // Keep the player with the most complete data
+          const existing = playerMap.get(key);
+          const currentStats = Object.keys(row).length;
+          const existingStats = existing ? Object.keys(existing.stats || {}).length : 0;
+
+          if (!existing || currentStats > existingStats) {
+            playerMap.set(key, {
+              name: playerName,
+              game,
+              source,
+              stats: row, // Include full stats for preview
+            });
+          }
         }
       });
     };
 
-    addPlayers(hitsData, "Game", "Batter");
-    addPlayers(hrData, "Game", "Batter");
-    addPlayers(tbData, "Game", "Batter");
-    addPlayers(bvpData, "Game", "Batter");
-    addPlayers(last7Data, "team", "Name");
-    addPlayers(last15Data, "team", "Name");
-    addPlayers(consensusData, "Game", "Batter");
-    addPlayers(clubHits, "Game", "Batter");
-    addPlayers(clubTB, "Game", "Batter");
-    addPlayers(streakData, "Game", "Batter");
+    addPlayers(hitsData, "Game", "Batter", "Hits");
+    addPlayers(hrData, "Game", "Batter", "HR");
+    addPlayers(tbData, "Game", "Batter", "TB");
+    addPlayers(bvpData, "Game", "Batter", "BvP");
+    addPlayers(last7Data, "team", "player_name", "Last 7");
+    addPlayers(last15Data, "team", "player_name", "Last 15");
+    addPlayers(consensusData, "Game", "Batter", "Consensus");
+    addPlayers(clubHits, "Game", "Batter", "Club Hits");
+    addPlayers(clubTB, "Game", "Batter", "Club TB");
+    addPlayers(streakData, "Game", "Batter", "Streak");
 
     return Array.from(playerMap.values());
   }, [hitsData, hrData, tbData, bvpData, last7Data, last15Data, consensusData, clubHits, clubTB, streakData]);
@@ -294,7 +319,7 @@ export default function Home() {
         <PlayerSearch
           allPlayers={allPlayers}
           onPlayerSelect={(player) => {
-            handlePlayerClick(player.name, player.game, {});
+            handlePlayerClick(player.name, player.game, player.stats || {});
           }}
         />
       </div>
