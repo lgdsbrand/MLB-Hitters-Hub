@@ -21,7 +21,13 @@ interface StoredBetSheet {
 const STORAGE_KEY = "mlb_hitters_hub_betsheet";
 
 function getTodayStr(): string {
-  return new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  // Get current date in Eastern Time
+  const now = new Date();
+  const easternDate = new Date(now.toLocaleString("en-US", { timeZone: "America/New_York" }));
+  const year = easternDate.getFullYear();
+  const month = String(easternDate.getMonth() + 1).padStart(2, "0");
+  const day = String(easternDate.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`; // YYYY-MM-DD in Eastern Time
 }
 
 function loadFromStorage(): BetSelection[] {

@@ -102,6 +102,7 @@ interface DataTableProps {
   emptyMessage?: string;
   batterKey?: string;
   gameKey?: string;
+  onPlayerClick?: (playerName: string, game: string, rowData: Record<string, unknown>) => void;
 }
 
 export default function DataTable({
@@ -114,6 +115,7 @@ export default function DataTable({
   emptyMessage = "No data available",
   batterKey = "Batter",
   gameKey = "Game",
+  onPlayerClick,
 }: DataTableProps) {
   const [sortColumn, setSortColumn] = useState<string | null>(null);
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
@@ -259,6 +261,26 @@ export default function DataTable({
                   {columns.map((col) => {
                     const val = row[col.key];
                     const display = val === null || val === undefined ? "" : String(val);
+
+                    // Special rendering for player name - make it clickable
+                    if ((col.key === batterKey || col.key === "player_name") && onPlayerClick) {
+                      const playerName = display;
+                      const game = String(row[gameKey] || "");
+                      return (
+                        <td
+                          key={col.key}
+                          style={{ textAlign: col.align || "left" }}
+                          className="cursor-pointer"
+                        >
+                          <button
+                            onClick={() => onPlayerClick(playerName, game, row)}
+                            className="text-text-primary hover:text-accent-purple transition-colors font-medium hover:underline text-left"
+                          >
+                            {playerName}
+                          </button>
+                        </td>
+                      );
+                    }
 
                     // Special rendering for game column — show logos
                     if (col.key === gameKey && parsed) {

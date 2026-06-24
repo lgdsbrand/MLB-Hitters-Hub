@@ -1,19 +1,34 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useMemo } from "react";
 import Link from "next/link";
 import GameSelector from "@/components/GameSelector";
 import BestPlays from "@/components/BestPlays";
 import TabBar from "@/components/TabBar";
 import DataTable from "@/components/DataTable";
 import ClubSection from "@/components/ClubSection";
+import PlayerSearch from "@/components/PlayerSearch";
+import PlayerProfile from "@/components/PlayerProfile";
 import { useHittersData } from "@/hooks/useHittersData";
 import { useBetSheet } from "@/hooks/useBetSheet";
+
+interface Player {
+  name: string;
+  game: string;
+  teams?: string;
+}
 
 export default function Home() {
   const [selectedGame, setSelectedGame] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState("last7");
   const tableRef = useRef<HTMLDivElement>(null);
+
+  // Profile modal state
+  const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
+  const [profileHitsData, setProfileHitsData] = useState<Record<string, unknown> | null>(null);
+  const [profileHRData, setProfileHRData] = useState<Record<string, unknown> | null>(null);
+  const [profileTBData, setProfileTBData] = useState<Record<string, unknown> | null>(null);
+  const [profileBvPData, setProfileBvPData] = useState<Record<string, unknown> | null>(null);
 
   const {
     games,
@@ -31,6 +46,64 @@ export default function Home() {
   } = useHittersData(selectedGame);
 
   const betSheet = useBetSheet();
+
+  // Collect all unique players for search
+  const allPlayers = useMemo(() => {
+    const playerMap = new Map<string, Player>();
+
+    const addPlayers = (data: any[], gameKey = "Game", playerKey = "Batter") => {
+      data.forEach((row) => {
+        const playerName = row[playerKey] || row["Name"] || "";
+        const game = row[gameKey] || "";
+        const key = `${playerName}-${game}`;
+
+        if (playerName && !playerMap.has(key)) {
+          playerMap.set(key, {
+            name: playerName,
+            game,
+          });
+        }
+      });
+    };
+
+    addPlayers(hitsData, "Game", "Batter");
+    addPlayers(hrData, "Game", "Batter");
+    addPlayers(tbData, "Game", "Batter");
+    addPlayers(bvpData, "Game", "Batter");
+    addPlayers(last7Data, "team", "Name");
+    addPlayers(last15Data, "team", "Name");
+    addPlayers(consensusData, "Game", "Batter");
+    addPlayers(clubHits, "Game", "Batter");
+    addPlayers(clubTB, "Game", "Batter");
+    addPlayers(streakData, "Game", "Batter");
+
+    return Array.from(playerMap.values());
+  }, [hitsData, hrData, tbData, bvpData, last7Data, last15Data, consensusData, clubHits, clubTB, streakData]);
+
+  // Handle player click - find their stats across all tables
+  const handlePlayerClick = (playerName: string, game: string, rowData: Record<string, unknown>) => {
+    const playerHits = hitsData.find(
+      (p) => p.Batter === playerName && (game === "" || p.Game === game)
+    ) || null;
+
+    const playerHR = hrData.find(
+      (p) => p.Batter === playerName && (game === "" || p.Game === game)
+    ) || null;
+
+    const playerTB = tbData.find(
+      (p) => p.Batter === playerName && (game === "" || p.Game === game)
+    ) || null;
+
+    const playerBvP = bvpData.find(
+      (p) => p.Batter === playerName && (game === "" || p.Game === game)
+    ) || null;
+
+    setSelectedPlayer({ name: playerName, game });
+    setProfileHitsData(playerHits);
+    setProfileHRData(playerHR);
+    setProfileTBData(playerTB);
+    setProfileBvPData(playerBvP);
+  };
 
   const handleAddPlayer = (batter: string, game: string, rowData?: Record<string, unknown>) => {
     let sourceName = "Hits";
@@ -218,11 +291,22 @@ export default function Home() {
         </div>
       </header>
 
+      {/* Search Bar */}
+      <div className="mb-8 w-full max-w-md mx-auto sm:max-w-full">
+        <PlayerSearch
+          allPlayers={allPlayers}
+          onPlayerSelect={(player) => {
+            handlePlayerClick(player.name, player.game, {});
+          }}
+        />
+      </div>
+
       {/* Hero Section */}
       <BestPlays
         players={consensusData}
         onAdd={handleAddPlayer}
         isSelected={betSheet.isSelected}
+        onPlayerClick={handlePlayerClick}
       />
 
       {/* Clubs & Streaks */}
@@ -232,6 +316,7 @@ export default function Home() {
         streakData={streakData}
         onAdd={handleAddPlayer}
         isSelected={betSheet.isSelected}
+        onPlayerClick={handlePlayerClick}
       />
 
       {/* Main Data View */}
@@ -252,12 +337,27 @@ export default function Home() {
         columns={getTableColumns()}
         data={getTableData() as Record<string, unknown>[]}
         onAdd={handleAddPlayer}
+        onPlayerClick={handlePlayerClick}
         isSelected={betSheet.isSelected}
         source={activeTab}
         loading={loading}
         batterKey={activeTab === "last7" || activeTab === "last15" ? "player_name" : "Batter"}
         gameKey={activeTab === "last7" || activeTab === "last15" ? "team" : "Game"}
       />
+
+      {/* Player Profile Modal */}
+      {selectedPlayer && (
+        <PlayerProfile
+          isOpen={!!selectedPlayer}
+          onClose={() => setSelectedPlayer(null)}
+          playerName={selectedPlayer.name}
+          game={selectedPlayer.game}
+          hitsData={profileHitsData}
+          hrData={profileHRData}
+          tbData={profileTBData}
+          bvpData={profileBvPData}
+        />
+      )}
 
       {/* Info Panel */}
       <div className="mt-12 info-panel flex flex-col md:flex-row items-center gap-8">

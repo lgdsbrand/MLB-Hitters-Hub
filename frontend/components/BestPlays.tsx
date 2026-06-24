@@ -8,6 +8,7 @@ interface BestPlaysProps {
   players: ConsensusPlayer[];
   onAdd: (batter: string, game: string, rowData?: Record<string, unknown>) => void;
   isSelected: (batter: string, game: string) => boolean;
+  onPlayerClick?: (playerName: string, game: string, rowData: Record<string, unknown>) => void;
 }
 
 function cleanHitProb(prob: string): string {
@@ -205,9 +206,10 @@ interface BestPlayCardProps {
   idx: number;
   onAdd: BestPlaysProps["onAdd"];
   isSelected: BestPlaysProps["isSelected"];
+  onPlayerClick?: BestPlaysProps["onPlayerClick"];
 }
 
-function BestPlayCard({ player, idx, onAdd, isSelected }: BestPlayCardProps) {
+function BestPlayCard({ player, idx, onAdd, isSelected, onPlayerClick }: BestPlayCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const parsed = parseGameString(player.Game || "");
   const added = isSelected(player.Batter, player.Game);
@@ -241,7 +243,12 @@ function BestPlayCard({ player, idx, onAdd, isSelected }: BestPlayCardProps) {
         <div className="flex items-center gap-3">
           <span className={`rank-badge rank-${idx + 1}`}>{idx + 1}</span>
           <div>
-            <div className="spotlight-player-name">{player.Batter}</div>
+            <button
+              onClick={() => onPlayerClick && onPlayerClick(player.Batter, player.Game, player as Record<string, unknown>)}
+              className="spotlight-player-name hover:text-accent-purple transition-colors cursor-pointer"
+            >
+              {player.Batter}
+            </button>
             <div className="spotlight-game-info">
               {parsed &&
                 (() => {
@@ -452,6 +459,7 @@ export default function BestPlays({
   players,
   onAdd,
   isSelected,
+  onPlayerClick,
 }: BestPlaysProps) {
   const top3 = players.slice(0, 3);
 
@@ -492,6 +500,7 @@ export default function BestPlays({
             idx={idx}
             onAdd={onAdd}
             isSelected={isSelected}
+            onPlayerClick={onPlayerClick}
           />
         ))}
       </div>

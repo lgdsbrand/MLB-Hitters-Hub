@@ -10,6 +10,7 @@ interface ClubSectionProps {
   streakData: ClubPlayer[];
   onAdd: (batter: string, game: string, rowData?: Record<string, unknown>) => void;
   isSelected: (batter: string, game: string) => boolean;
+  onPlayerClick?: (playerName: string, game: string, rowData: Record<string, unknown>) => void;
 }
 
 export default function ClubSection({
@@ -18,6 +19,7 @@ export default function ClubSection({
   streakData,
   onAdd,
   isSelected,
+  onPlayerClick,
 }: ClubSectionProps) {
   const [activeTab, setActiveTab] = useState<"hits" | "tb">("hits");
 
@@ -79,6 +81,9 @@ export default function ClubSection({
         isSelected={isSelected}
         source={activeTab}
         emptyMessage={`No players qualify for the 100% Club today.`}
+        onPlayerClick={onPlayerClick}
+        batterKey="Batter"
+        gameKey="Game"
       />
     </div>
   );

@@ -1218,3 +1218,76 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+
+/* ============================================
+   PLAYER SEARCH - Mobile Responsiveness
+   ============================================ */
+
+@media (max-width: 640px) {
+  /* Search input styling */
+  input[type="text"] {
+    font-size: 16px !important; /* Prevent iOS zoom */
+  }
+}
+
+/* ============================================
+   PLAYER PROFILE - Mobile Responsiveness
+   ============================================ */
+
+@media (max-width: 640px) {
+  /* Profile modal adjustments */
+  .fixed.inset-0.z-50 > div:last-child {
+    padding: 12px;
+  }
+  
+  .fixed.inset-0.z-50 > div:last-child > div {
+    max-height: calc(100vh - 24px);
+  }
+  
+  /* Header adjustments */
+  .fixed.inset-0.z-50 > div:last-child > div > div:first-child {
+    padding: 16px;
+  }
+  
+  .fixed.inset-0.z-50 > div:last-child > div > div:first-child img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  
+  .fixed.inset-0.z-50 > div:last-child > div > div:first-child h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  /* Content adjustments */
+  .fixed.inset-0.z-50 > div:last-child > div > div:nth-child(2) {
+    padding: 16px;
+    max-height: calc(100vh - 180px);
+  }
+  
+  /* Game info section */
+  .fixed.inset-0.z-50 > div:last-child > div > div:nth-child(2) > div:first-child {
+    padding: 16px !important;
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+  }
+  
+  /* Footer adjustments */
+  .fixed.inset-0.z-50 > div:last-child > div > div:last-child {
+    padding: 16px;
+  }
+  
+  .fixed.inset-0.z-50 > div:last-child > div > div:last-child button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for small screens */
+  .fixed.inset-0.z-50 > div:last-child > div > div:first-child h2 {
+    font-size: 1.25rem !important;
+  }
+  
+  .fixed.inset-0.z-50 > div:last-child > div > div:nth-child(2) > div:first-child {
+    padding: 12px !important;
+  }
+}
