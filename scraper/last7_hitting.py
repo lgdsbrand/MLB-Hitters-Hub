@@ -307,11 +307,12 @@ def main():
     run_date = args.date or str(date.today())
 
     # Resolve output path
+    # Resolve output path
     if args.out:
         out_path = args.out
     else:
         ext = args.format
-        out_path = f"last7_days_{run_date}.{ext}"
+        out_path = f"last7_hitting.{ext}"
 
     # Fetch HTML
     if args.html:
