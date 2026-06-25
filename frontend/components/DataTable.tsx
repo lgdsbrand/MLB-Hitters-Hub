@@ -10,65 +10,132 @@ interface Column {
   sortable?: boolean;
 }
 
+// SVG arrow primitives — all rendered at a consistent size and colored via `color` prop
+function ArrowUp({ color }: { color: string }) {
+  return (
+    <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5.5 1L5.5 12M5.5 1L1 5.5M5.5 1L10 5.5" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+}
+function ArrowDown({ color }: { color: string }) {
+  return (
+    <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5.5 12L5.5 1M5.5 12L1 7.5M5.5 12L10 7.5" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+}
+function ArrowRight({ color }: { color: string }) {
+  return (
+    <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 5.5H12M12 5.5L7.5 1M12 5.5L7.5 10" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+}
+function ArrowUpRight({ color }: { color: string }) {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 10L10 2M10 2H4M10 2V8" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+}
+function ArrowDownRight({ color }: { color: string }) {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 2L10 10M10 10H4M10 10V4" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+}
+
+// Each trend maps to: label, background color, and an array of arrow components to render
+interface TrendConfig {
+  label: string;
+  color: string;
+  bgColor: string;
+  arrows: React.ReactNode;
+}
+
 function getTrendDisplay(trend: string) {
-  const trendMap: Record<string, { label: string; color: string; bgColor: string; svg: string }> = {
+  const C = {
+    green:      "#10b981",
+    lightGreen: "#34d399",
+    orange:     "#f97316",
+    yellow:     "#eab308",
+    red:        "#ef4444",
+    darkRed:    "#dc2626",
+  };
+  const BG = {
+    green:      "rgba(16, 185, 129, 0.1)",
+    lightGreen: "rgba(52, 211, 153, 0.1)",
+    orange:     "rgba(249, 115, 22, 0.1)",
+    yellow:     "rgba(234, 179, 8, 0.1)",
+    red:        "rgba(239, 68, 68, 0.1)",
+    darkRed:    "rgba(220, 38, 38, 0.1)",
+  };
+
+  const trendMap: Record<string, TrendConfig> = {
+    // ── Pure up ──────────────────────────────────────────────
     "^^": {
-      label: "Strong Up",
-      color: "#10b981",
-      bgColor: "rgba(16, 185, 129, 0.1)",
-      svg: "↑↑",
+      label: "Strong Up", color: C.green, bgColor: BG.green,
+      arrows: <><ArrowUp color={C.green}/><ArrowUp color={C.green}/></>,
     },
     "^": {
-      label: "Up",
-      color: "#34d399",
-      bgColor: "rgba(52, 211, 153, 0.1)",
-      svg: "↑",
+      label: "Up", color: C.lightGreen, bgColor: BG.lightGreen,
+      arrows: <ArrowUp color={C.lightGreen}/>,
     },
-    "^v": {
-      label: "Up Then Down",
-      color: "#f97316",
-      bgColor: "rgba(249, 115, 22, 0.1)",
-      svg: "↗↘",
-    },
-    ">v": {
-      label: "Mixed",
-      color: "#f97316",
-      bgColor: "rgba(249, 115, 22, 0.1)",
-      svg: "↗",
-    },
-    ">": {
-      label: "Neutral",
-      color: "#eab308",
-      bgColor: "rgba(234, 179, 8, 0.1)",
-      svg: "→",
-    },
-    "v>": {
-      label: "Mixed Down",
-      color: "#f97316",
-      bgColor: "rgba(249, 115, 22, 0.1)",
-      svg: "↘",
-    },
-    "v^": {
-      label: "Down Then Up",
-      color: "#f97316",
-      bgColor: "rgba(249, 115, 22, 0.1)",
-      svg: "↘↗",
+    // ── Pure down ────────────────────────────────────────────
+    "vv": {
+      label: "Strong Down", color: C.darkRed, bgColor: BG.darkRed,
+      arrows: <><ArrowDown color={C.darkRed}/><ArrowDown color={C.darkRed}/></>,
     },
     "v": {
-      label: "Down",
-      color: "#ef4444",
-      bgColor: "rgba(239, 68, 68, 0.1)",
-      svg: "↓",
+      label: "Down", color: C.red, bgColor: BG.red,
+      arrows: <ArrowDown color={C.red}/>,
     },
-    "vv": {
-      label: "Strong Down",
-      color: "#dc2626",
-      bgColor: "rgba(220, 38, 38, 0.1)",
-      svg: "↓↓",
+    // ── Pure neutral ─────────────────────────────────────────
+    ">>": {
+      label: "Steady Neutral", color: C.yellow, bgColor: BG.yellow,
+      arrows: <><ArrowRight color={C.yellow}/><ArrowRight color={C.yellow}/></>,
+    },
+    ">": {
+      label: "Neutral", color: C.yellow, bgColor: BG.yellow,
+      arrows: <ArrowRight color={C.yellow}/>,
+    },
+    // ── Up + mix ─────────────────────────────────────────────
+    "^v": {
+      label: "Up Then Down", color: C.orange, bgColor: BG.orange,
+      arrows: <><ArrowUpRight color={C.orange}/><ArrowDownRight color={C.orange}/></>,
+    },
+    "^>": {
+      label: "Up Then Neutral", color: C.orange, bgColor: BG.orange,
+      arrows: <><ArrowUp color={C.orange}/><ArrowRight color={C.orange}/></>,
+    },
+    // ── Down + mix ───────────────────────────────────────────
+    "v^": {
+      label: "Down Then Up", color: C.orange, bgColor: BG.orange,
+      arrows: <><ArrowDownRight color={C.orange}/><ArrowUpRight color={C.orange}/></>,
+    },
+    "v>": {
+      label: "Down Then Neutral", color: C.orange, bgColor: BG.orange,
+      arrows: <><ArrowDown color={C.orange}/><ArrowRight color={C.orange}/></>,
+    },
+    // ── Neutral + mix ────────────────────────────────────────
+    ">^": {
+      label: "Neutral Then Up", color: C.orange, bgColor: BG.orange,
+      arrows: <><ArrowRight color={C.orange}/><ArrowUp color={C.orange}/></>,
+    },
+    ">v": {
+      label: "Neutral Then Down", color: C.orange, bgColor: BG.orange,
+      arrows: <><ArrowRight color={C.orange}/><ArrowDown color={C.orange}/></>,
     },
   };
 
-  const trendInfo = trendMap[trend] || { label: trend, color: "#9ca3af", bgColor: "rgba(156, 163, 175, 0.1)", svg: trend };
+  const trendInfo = trendMap[trend] ?? {
+    label: trend,
+    color: C.orange,
+    bgColor: BG.orange,
+    arrows: <ArrowRight color={C.orange}/>,
+  };
 
   return (
     <div
@@ -76,18 +143,15 @@ function getTrendDisplay(trend: string) {
         display: "inline-flex",
         alignItems: "center",
         justifyContent: "center",
-        padding: "4px 8px",
+        gap: "2px",
+        padding: "4px 7px",
         borderRadius: "6px",
         backgroundColor: trendInfo.bgColor,
         minWidth: "32px",
-        fontSize: "14px",
-        fontWeight: "600",
-        color: trendInfo.color,
-        letterSpacing: "0.5px",
       }}
       title={trendInfo.label}
     >
-      {trendInfo.svg}
+      {trendInfo.arrows}
     </div>
   );
 }
