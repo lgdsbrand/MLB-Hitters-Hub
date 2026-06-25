@@ -309,7 +309,7 @@ def main():
         out_path = args.out
     else:
         ext = args.format
-        out_path = f"last15_days_{run_date}.{ext}"
+        out_path = f"last15_hitting.{ext}"
 
     # Fetch HTML
     if args.html:
