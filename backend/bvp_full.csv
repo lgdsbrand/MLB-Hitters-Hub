@@ -13,6 +13,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "F. Freeman, 1B (L)",^^,W. Buehler (R),LAN @ SDN,1.2,27%,9%,20,5,0,2,4,.250,.375,.925
 "B. Baty, 3B (L)",v^,Z. Wheeler (R),PHI @ NYN,1.6,33%,8%,14,4,0,1,0,.286,.286,.786
 "M. Semien, 2B (R)",v^,Z. Wheeler (R),PHI @ NYN,1.6,47%,26%,20,4,1,1,1,.200,.238,.638
+"M. Vientos, 3B (R)",^^,Z. Wheeler (R),PHI @ NYN,1.6,44%,44%,12,4,1,0,0,.333,.333,.750
 "S. Steer, OF (R)",>^,P. Skenes (R),CIN @ PIT,1.5,31%,23%,15,4,1,0,0,.267,.267,.600
 "B. Reynolds, OF (B)",^^,A. Abbott (L),CIN @ PIT,1.5,43%,14%,10,4,1,0,0,.400,.400,.900
 "E. De La Cruz, SS (B)",>^,P. Skenes (R),CIN @ PIT,1.5,33%,8%,13,4,1,0,1,.308,.357,.742
@@ -64,10 +65,11 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "A. Chaparro, DH (R)",v^,T. Rogers (L),WAS @ BAL,1.4,33%,33%,2,1,1,0,0,.500,.500,1.500
 "M. Mayer, 2B (L)",v^,W. Warren (R),NYA @ BOS,1.4,50%,0%,2,1,0,1,0,.500,.500,2.500
 "C. Rafaela, OF (R)",>^,W. Warren (R),NYA @ BOS,1.4,33%,33%,6,1,1,0,0,.167,.167,.500
-"M. Vargas, 3B (R)",>>,M. Spence (R),KCA @ CHA,1.2,50%,50%,2,1,1,0,0,.500,.500,1.500
+"M. Vargas, 3B (R)",>>,M. Spence (R),KCA @ CHA,1.1,50%,50%,2,1,1,0,0,.500,.500,1.500
 "R. Refsnyder, OF (R)",vv,J. Cantillo (L),SEA @ CLE,1.2,50%,0%,5,1,0,0,1,.200,.333,.533
 "J. Outman, OF (L)",vv,S. Arrighetti (R),HOU @ DET,1.3,100%,0%,1,1,0,1,1,1.000,1.000,5.000
 "D. Dingler, C (R)",^v,S. Arrighetti (R),HOU @ DET,1.3,67%,33%,3,1,0,0,0,.333,.333,.666
+"M. Vierling, OF (R)",vv,S. Arrighetti (R),HOU @ DET,1.3,50%,0%,2,1,0,1,0,.500,.500,2.500
 "J. Loperfido, OF (L)",v^,K. Montero (R),HOU @ DET,1.3,50%,50%,2,1,0,0,0,.500,.500,1.000
 "K. Carpenter, OF (L)",vv,S. Arrighetti (R),HOU @ DET,1.3,67%,33%,2,1,1,0,1,.500,.667,2.167
 "I. Happ, OF (B)",^^,J. Misiorowski (R),CHN @ MIL,1.2,25%,0%,11,1,0,0,0,.091,.091,.182
@@ -77,7 +79,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Bell, 1B (B)",>v,T. Sugano (R),COL @ MIN,1.1,100%,33%,3,1,0,1,0,.333,.333,1.666
 "E. Tovar, SS (R)",vv,T. Bradley (R),COL @ MIN,1.1,67%,67%,3,1,0,0,0,.333,.333,.666
 "B. Buxton, OF (R)",^v,T. Sugano (R),COL @ MIN,1.1,50%,0%,2,1,0,1,0,.500,.500,2.500
+"E. Julien, 2B (L)",>v,T. Bradley (R),COL @ MIN,1.1,50%,0%,5,1,0,1,1,.200,.333,1.133
 "H. Goodman, OF (R)",vv,T. Bradley (R),COL @ MIN,1.1,33%,33%,3,1,0,0,0,.333,.333,.666
+"H. Davis, C (R)",v^,A. Abbott (L),CIN @ PIT,1.5,33%,0%,8,1,0,1,0,.125,.125,.625
 "M. Ozuna, DH (R)",^^,A. Abbott (L),CIN @ PIT,1.5,60%,20%,5,1,0,0,3,.200,.500,.700
 "E. Valdez, 2B (L)",v^,A. Abbott (L),CIN @ PIT,1.5,50%,50%,4,1,0,0,0,.250,.250,.500
 "M. Betts, SS (R)",^^,W. Buehler (R),LAN @ SDN,1.2,33%,33%,6,1,0,0,0,.167,.167,.334
@@ -99,8 +103,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 ---,,W. Urena,ATH @ ANA,1.5,no matchup history,,,,,,,,,
 "W. Abreu, OF (L)",^^,W. Warren (R),NYA @ BOS,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
 ---,,P. Tolle,NYA @ BOS,1.4,no matchup history,,,,,,,,,
-"C. Meidroth, SS (R)",v>,M. Spence (R),KCA @ CHA,1.2,0%,0%,1,0,0,0,0,.000,.000,.000
----,,D. Sandlin,KCA @ CHA,1.2,no matchup history,,,,,,,,,
+"C. Meidroth, SS (R)",v>,M. Spence (R),KCA @ CHA,1.1,0%,0%,1,0,0,0,0,.000,.000,.000
+---,,D. Sandlin,KCA @ CHA,1.1,no matchup history,,,,,,,,,
 "G. Arias, 3B (R)",v^,L. Castillo (R),SEA @ CLE,1.2,0%,0%,2,0,0,0,0,.000,.000,.000
 "R. Hoskins, 1B (R)",v^,L. Castillo (R),SEA @ CLE,1.2,33%,0%,2,0,0,0,1,.000,.333,.333
 "K. Manzardo, DH (L)",^^,L. Castillo (R),SEA @ CLE,1.2,0%,0%,3,0,0,0,0,.000,.000,.000
@@ -120,6 +124,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 ---,,Z. Thornton,PHI @ NYN,1.6,no matchup history,,,,,,,,,
 "N. Marte, 3B (R)",v^,P. Skenes (R),CIN @ PIT,1.5,0%,0%,7,0,0,0,0,.000,.000,.000
 "E. Suarez, 3B (R)",v^,P. Skenes (R),CIN @ PIT,1.5,38%,13%,6,0,0,0,1,.000,.250,.250
+"J. Mangum, OF (B)",v^,A. Abbott (L),CIN @ PIT,1.5,0%,0%,6,0,0,0,0,.000,.000,.000
 "J. Trevino, C (R)",v^,P. Skenes (R),CIN @ PIT,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
 "R. O'Hearn, 1B (L)",>^,A. Abbott (L),CIN @ PIT,1.5,0%,0%,3,0,0,0,0,.000,.000,.000
 "S. Stewart, 3B (R)",>^,P. Skenes (R),CIN @ PIT,1.5,0%,0%,4,0,0,0,0,.000,.000,.000
