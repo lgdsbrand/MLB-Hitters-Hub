@@ -4,7 +4,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "A. Riley, 3B (R)",v^,L. Webb (R),ATL @ SFN,1.5,42%,23%,25,7,1,0,0,.280,.269,.589
 "M. Harris, OF (L)",>^,L. Webb (R),ATL @ SFN,1.5,57%,21%,14,7,1,2,0,.500,.500,1.571
 "M. Olson, 1B (L)",>^,L. Webb (R),ATL @ SFN,1.5,33%,19%,25,6,1,1,2,.240,.296,.696
-"N. Lopez, 2B (L)",^^,D. Cease (R),TEX @ TOR,1.4,38%,27%,23,6,2,0,3,.261,.346,.694
+"N. Lopez, 2B (L)",v^,D. Cease (R),TEX @ TOR,1.4,38%,27%,23,6,2,0,3,.261,.346,.694
 "L. Arraez, 2B (L)",>v,B. Elder (R),ATL @ SFN,1.5,40%,27%,15,5,0,1,0,.333,.333,.866
 "W. Adames, SS (R)",^v,B. Elder (R),ATL @ SFN,1.5,35%,18%,16,5,2,2,1,.313,.353,1.166
 "B. Witt, SS (R)",^v,D. Martin (R),KCA @ CHA,1.2,40%,20%,16,4,1,0,1,.250,.333,.646
@@ -13,6 +13,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "V. Caratini, C (B)",^v,M. Lorenzen (R),COL @ MIN,1.4,50%,29%,14,4,0,1,0,.286,.286,.786
 "M. Machado, 3B (R)",^^,Y. Yamamoto (R),LAN @ SDN,1.2,56%,22%,14,4,0,2,2,.286,.375,1.089
 "O. Albies, 2B (B)",v^,L. Webb (R),ATL @ SFN,1.5,36%,27%,11,4,1,0,0,.364,.364,.819
+"C. Carroll, OF (L)",^>,M. Grove (R),ARI @ TBA,n/a,44%,22%,9,4,1,1,0,.444,.444,1.333
 "B. Nimmo, OF (L)",^^,D. Cease (R),TEX @ TOR,1.4,56%,22%,9,4,0,0,0,.444,.444,.888
 "N. Kurtz, 1B (L)",v^,R. Detmers (L),ATH @ ANA,1.5,100%,33%,6,3,0,0,3,.500,.667,1.167
 "J. Duran, OF (L)",vv,G. Cole (R),NYA @ BOS,1.2,25%,15%,17,3,1,0,2,.176,.300,.535
@@ -23,12 +24,14 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "F. Tatis, OF (R)",^^,Y. Yamamoto (R),LAN @ SDN,1.2,44%,22%,13,3,1,0,2,.231,.375,.683
 "F. Freeman, 1B (L)",^^,R. Vasquez (R),LAN @ SDN,1.2,40%,0%,7,3,2,0,1,.429,.500,1.214
 "R. Devers, 1B (L)",vv,B. Elder (R),ATL @ SFN,1.5,83%,33%,4,3,1,0,2,.750,.833,1.833
-"H. Hernandez, LF (R)",^^,A. Pallante (R),MIA @ SLN,1.5,50%,0%,6,3,0,0,0,.500,.500,1.000
+"H. Hernandez, LF (R)",^^,A. Pallante (R),MIA @ SLN,1.6,50%,0%,6,3,0,0,0,.500,.500,1.000
 "C. Seager, SS (L)",v^,D. Cease (R),TEX @ TOR,1.4,50%,25%,7,3,1,1,1,.429,.500,1.500
 "J. Pederson, DH (L)",^^,D. Cease (R),TEX @ TOR,1.4,45%,27%,11,3,2,0,0,.273,.273,.728
 "Z. Neto, SS (R)",^v,J. Perkins (R),ATH @ ANA,1.5,100%,33%,7,2,1,1,0,.286,.286,1.143
 "T. Soderstrom, 1B (L)",v^,R. Detmers (L),ATH @ ANA,1.5,50%,50%,6,2,0,0,1,.333,.429,.762
 "L. Thomas, OF (R)",vv,D. Martin (R),KCA @ CHA,1.2,100%,0%,2,2,0,0,0,1.000,1.000,2.000
+"S. Kwan, OF (L)",v^,L. Gilbert (R),SEA @ CLE,1.2,58%,33%,14,2,0,0,0,.143,.133,.276
+"C. Vazquez, C (R)",v^,F. Valdez (L),HOU @ DET,1.2,25%,13%,12,2,1,0,0,.167,.167,.417
 "I. Paredes, 3B (R)",v^,F. Valdez (L),HOU @ DET,1.2,40%,0%,5,2,1,0,2,.400,.500,1.100
 "J. Chourio, OF (R)",vv,D. Peterson (L),CHN @ MIL,1.2,50%,0%,5,2,0,0,1,.400,.500,.900
 "S. Frelick, OF (L)",^v,D. Peterson (L),CHN @ MIL,1.2,25%,0%,5,2,0,0,0,.400,.400,.800
@@ -38,17 +41,22 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "E. De La Cruz, SS (B)",>v,J. Jones (R),CIN @ PIT,1.3,67%,0%,3,2,1,1,0,.667,.667,2.667
 "M. Dubon, OF (R)",^^,L. Webb (R),ATL @ SFN,1.5,71%,29%,7,2,0,0,0,.286,.286,.572
 "M. Chapman, 3B (R)",vv,B. Elder (R),ATL @ SFN,1.5,38%,0%,7,2,0,0,1,.286,.375,.661
+"K. Marte, 2B (B)",^>,M. Grove (R),ARI @ TBA,n/a,50%,50%,8,2,1,0,0,.250,.250,.625
 "J. Burger, 3B (R)",^^,D. Cease (R),TEX @ TOR,1.4,67%,0%,3,2,0,1,0,.667,.667,2.334
+"J. Kelenic, OF (L)",v^,D. Cease (R),TEX @ TOR,1.4,57%,0%,6,2,0,1,1,.333,.429,1.262
 "N. Schanuel, 1B (L)",^v,J. Perkins (R),ATH @ ANA,1.5,33%,33%,5,1,0,0,1,.200,.333,.533
-"T. Ward, OF (R)",^^,F. Griffin (L),WAS @ BAL,1.3,100%,100%,1,1,1,0,0,1.000,1.000,3.000
+"T. Ward, OF (R)",^^,F. Griffin (L),WAS @ BAL,1.2,100%,100%,1,1,1,0,0,1.000,1.000,3.000
 "W. Abreu, OF (L)",^v,G. Cole (R),NYA @ BOS,1.2,60%,0%,5,1,0,0,0,.200,.200,.400
 "J. Rave, RF (L)",^v,D. Martin (R),KCA @ CHA,1.2,25%,25%,4,1,1,0,0,.250,.250,.750
 "K. Teel, C (L)",^v,M. Wacha (R),KCA @ CHA,1.2,33%,0%,3,1,0,0,0,.333,.333,.666
 "M. Vargas, 3B (R)",^v,M. Wacha (R),KCA @ CHA,1.2,44%,22%,8,1,1,0,1,.125,.222,.472
 "C. Meidroth, SS (R)",vv,M. Wacha (R),KCA @ CHA,1.2,33%,0%,7,1,0,1,0,.143,.143,.714
 "J. Caglianone, RF (L)",^v,D. Martin (R),KCA @ CHA,1.2,50%,50%,5,1,1,0,0,.200,.200,.600
-"B. Rocchio, SS (B)",v^,E. Hancock (R),SEA @ CLE,1.2,50%,50%,4,1,0,0,0,.250,.250,.500
+"B. Rocchio, SS (B)",v^,L. Gilbert (R),SEA @ CLE,1.2,50%,50%,4,1,1,0,0,.250,.250,.750
+"K. Manzardo, DH (L)",v^,L. Gilbert (R),SEA @ CLE,1.2,67%,33%,5,1,0,1,0,.200,.200,1.000
+"D. Schneemann, OF (L)",v^,L. Gilbert (R),SEA @ CLE,1.2,0%,0%,5,1,1,0,0,.200,.200,.600
 "C. Walker, 1B (R)",v^,F. Valdez (L),HOU @ DET,1.2,100%,20%,4,1,0,0,4,.250,.625,.875
+"J. Ortiz, 3B (R)",vv,D. Peterson (L),CHN @ MIL,1.2,20%,20%,6,1,1,0,0,.167,.167,.500
 "C. Yelich, DH (L)",vv,D. Peterson (L),CHN @ MIL,1.2,27%,0%,8,1,0,0,2,.125,.300,.425
 "A. Bregman, 3B (R)",v>,K. Harrison (L),CHN @ MIL,1.2,33%,33%,6,1,0,0,0,.167,.167,.334
 "K. Clemens, 1B (L)",vv,M. Lorenzen (R),COL @ MIN,1.4,50%,0%,2,1,0,1,0,.500,.500,2.500
@@ -63,34 +71,32 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "S. Ohtani, DH (L)",^^,R. Vasquez (R),LAN @ SDN,1.2,0%,0%,7,1,0,1,1,.143,.333,.904
 "C. Schmitt, 2B (R)",vv,B. Elder (R),ATL @ SFN,1.5,50%,0%,2,1,0,0,0,.500,.500,1.000
 "D. Baldwin, C (L)",v^,L. Webb (R),ATL @ SFN,1.5,33%,0%,3,1,0,0,0,.333,.333,.666
-G. Pauley,>^,A. Pallante (R),MIA @ SLN,1.5,50%,50%,2,1,0,0,0,.500,.500,1.000
-"J. Marsee, CF (L)",v^,A. Pallante (R),MIA @ SLN,1.5,33%,33%,3,1,0,0,0,.333,.333,.666
-"E. Clement, 3B (R)",vv,K. Rocker (R),TEX @ TOR,1.4,50%,0%,2,1,0,0,0,.500,.500,1.000
+G. Pauley,>^,A. Pallante (R),MIA @ SLN,1.6,50%,50%,2,1,0,0,0,.500,.500,1.000
+"J. Marsee, CF (L)",v^,A. Pallante (R),MIA @ SLN,1.6,33%,33%,3,1,0,0,0,.333,.333,.666
+"G. Perdomo, SS (B)",v>,M. Grove (R),ARI @ TBA,n/a,60%,40%,6,1,0,0,0,.167,.167,.334
 "K. Higashioka, C (R)",v^,D. Cease (R),TEX @ TOR,1.4,17%,17%,6,1,0,0,0,.167,.167,.334
 "J. Adell, OF (R)",>v,J. Perkins (R),ATH @ ANA,1.5,50%,0%,6,0,0,0,0,.000,.000,.000
 "S. Langeliers, C (R)",v^,R. Detmers (L),ATH @ ANA,1.5,0%,0%,5,0,0,0,0,.000,.000,.000
----,,B. Young,WAS @ BAL,1.3,no matchup history,,,,,,,,,
+---,,B. Young,WAS @ BAL,1.2,no matchup history,,,,,,,,,
 "C. Rafaela, OF (R)",vv,G. Cole (R),NYA @ BOS,1.2,0%,0%,2,0,0,0,0,.000,.000,.000
 ---,,J. Bennett,NYA @ BOS,1.2,no matchup history,,,,,,,,,
 "W. Contreras, 1B (R)",^v,G. Cole (R),NYA @ BOS,1.2,0%,0%,5,0,0,0,0,.000,.000,.000
-"S. Kwan, OF (L)",v^,E. Hancock (R),SEA @ CLE,1.2,20%,20%,8,0,0,0,0,.000,.000,.000
+"P. Bailey, C (B)",v^,L. Gilbert (R),SEA @ CLE,1.2,33%,33%,3,0,0,0,0,.000,.000,.000
 "C. Raleigh, C (B)",v^,S. Cecconi (R),SEA @ CLE,1.2,0%,0%,5,0,0,0,1,.000,.167,.167
-"R. Hoskins, 1B (R)",v^,E. Hancock (R),SEA @ CLE,1.2,0%,0%,2,0,0,0,0,.000,.000,.000
-"K. Manzardo, DH (L)",v^,E. Hancock (R),SEA @ CLE,1.2,0%,0%,5,0,0,0,0,.000,.000,.000
 "J. Rodriguez, OF (R)",v^,S. Cecconi (R),SEA @ CLE,1.2,0%,0%,5,0,0,0,1,.000,.167,.167
-"D. Schneemann, OF (L)",v^,E. Hancock (R),SEA @ CLE,1.2,50%,50%,4,0,0,0,0,.000,.000,.000
 ---,,K. Teng,HOU @ DET,1.2,no matchup history,,,,,,,,,
 "I. Happ, OF (B)",v>,K. Harrison (L),CHN @ MIL,1.2,0%,0%,4,0,0,0,0,.000,.000,.000
 "C. Kelly, C (R)",^>,K. Harrison (L),CHN @ MIL,1.2,0%,0%,4,0,0,0,0,.000,.000,.000
 "B. Turang, 2B (L)",>v,D. Peterson (L),CHN @ MIL,1.2,0%,0%,4,0,0,0,0,.000,.000,.000
 "J. Bauers, 1B (L)",^v,D. Peterson (L),CHN @ MIL,1.2,0%,0%,3,0,0,0,0,.000,.000,.000
+"B. Perkins, OF (B)",^v,D. Peterson (L),CHN @ MIL,1.2,40%,0%,4,0,0,0,1,.000,.200,.200
 "G. Mitchell, OF (L)",vv,D. Peterson (L),CHN @ MIL,1.2,0%,0%,0,0,0,0,0,0.000,0.000,.000
 "B. Lee, SS (B)",^v,M. Lorenzen (R),COL @ MIN,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
 "T. Larnach, OF (L)",^v,M. Lorenzen (R),COL @ MIN,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
 "R. Kreidler, SS (R)",^v,M. Lorenzen (R),COL @ MIN,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
 ---,,M. Paredes,COL @ MIN,1.4,no matchup history,,,,,,,,,
----,,A. Rangel,PHI @ NYN,1.4,no matchup history,,,,,,,,,
----,,C. Scott,PHI @ NYN,1.4,no matchup history,,,,,,,,,
+---,,A. Rangel,PHI @ NYN,1.3,no matchup history,,,,,,,,,
+---,,C. Scott,PHI @ NYN,1.3,no matchup history,,,,,,,,,
 "N. Marte, 3B (R)",vv,J. Jones (R),CIN @ PIT,1.3,0%,0%,2,0,0,0,0,.000,.000,.000
 "J. Triolo, 3B (R)",v^,C. Burns (R),CIN @ PIT,1.3,33%,33%,5,0,0,0,0,.000,.000,.000
 "N. Gonzales, 2B (R)",^^,C. Burns (R),CIN @ PIT,1.3,0%,0%,6,0,0,0,0,.000,.000,.000
@@ -100,15 +106,13 @@ G. Pauley,>^,A. Pallante (R),MIA @ SLN,1.5,50%,50%,2,1,0,0,0,.500,.500,1.000
 "T. France, 1B (R)",^^,Y. Yamamoto (R),LAN @ SDN,1.2,50%,0%,1,0,0,0,1,.000,.500,.500
 "J. Merrill, OF (L)",v^,Y. Yamamoto (R),LAN @ SDN,1.2,0%,0%,9,0,0,0,1,.000,.100,.100
 "J. Lee, OF (L)",^v,B. Elder (R),ATL @ SFN,1.5,0%,0%,4,0,0,0,0,.000,.000,.000
-"O. Lopez, 2B (R)",^^,A. Pallante (R),MIA @ SLN,1.5,33%,33%,3,0,0,0,0,.000,.000,.000
-"X. Edwards, SS (B)",^^,A. Pallante (R),MIA @ SLN,1.5,17%,0%,6,0,0,0,0,.000,.000,.000
----,,R. Gusto,MIA @ SLN,1.5,no matchup history,,,,,,,,,
-"K. Marte, 2B (B)",^v,C. Sulser (R),ARI @ TBA,n/a,50%,0%,1,0,0,0,1,.000,.500,.500
-"M. Kepler, OF (L)",vv,C. Sulser (R),ARI @ TBA,n/a,50%,0%,2,0,0,0,0,.000,.000,.000
-"G. Perdomo, SS (B)",vv,C. Sulser (R),ARI @ TBA,n/a,50%,50%,2,0,0,0,0,.000,.000,.000
-"L. Gurriel, OF (R)",vv,C. Sulser (R),ARI @ TBA,n/a,50%,50%,2,0,0,0,0,.000,.000,.000
+"O. Lopez, 2B (R)",^^,A. Pallante (R),MIA @ SLN,1.6,33%,33%,3,0,0,0,0,.000,.000,.000
+"X. Edwards, SS (B)",^^,A. Pallante (R),MIA @ SLN,1.6,17%,0%,6,0,0,0,0,.000,.000,.000
+---,,R. Gusto,MIA @ SLN,1.6,no matchup history,,,,,,,,,
+"G. Moreno, C (R)",>>,M. Grove (R),ARI @ TBA,n/a,100%,0%,0,0,0,0,1,.000,1.000,1.000
+"N. Arenado, 3B (R)",>>,M. Grove (R),ARI @ TBA,n/a,50%,50%,4,0,0,0,0,.000,.000,.000
+"E. Diaz, C (R)",v^,D. Cease (R),TEX @ TOR,1.4,0%,0%,4,0,0,0,0,.000,.000,.000
 "J. Jung, 3B (R)",v^,D. Cease (R),TEX @ TOR,1.4,0%,0%,4,0,0,0,0,.000,.200,.200
 "E. Duran, 3B (R)",v^,D. Cease (R),TEX @ TOR,1.4,33%,33%,3,0,0,0,0,.000,.000,.000
-"N. Lukes, OF (L)",vv,K. Rocker (R),TEX @ TOR,1.4,50%,0%,1,0,0,0,0,.000,.000,.000
-"V. Guerrero, 1B (R)",vv,K. Rocker (R),TEX @ TOR,1.4,50%,0%,1,0,0,0,1,.000,.500,.500
 "W. Langford, OF (R)",^^,D. Cease (R),TEX @ TOR,1.4,50%,0%,1,0,0,0,1,.000,.500,.500
+---,,W. Santos,TEX @ TOR,1.4,no matchup history,,,,,,,,,
