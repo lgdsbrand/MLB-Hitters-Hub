@@ -18,8 +18,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "F. Tatis, OF (R)",^v,S. Imanaga (L),SDN @ CHN,1.7,44%,11%,9,3,0,0,2,.333,.455,.788
 "E. Tovar, SS (R)",v^,S. Alcantara (R),MIA @ COL,1.5,40%,20%,8,3,0,0,0,.375,.375,.750
 "T. Freeman, OF (R)",^^,S. Alcantara (R),MIA @ COL,1.5,60%,40%,5,3,0,0,0,.600,.600,1.200
-"J. Bell, 1B (B)",v^,P. Lambert (R),MIN @ HOU,1.7,60%,20%,5,3,0,1,0,.600,.600,1.800
-"J. Chourio, OF (R)",^v,N. Lodolo (L),CIN @ MIL,1.4,43%,43%,9,3,1,0,0,.333,.333,.777
+"J. Bell, 1B (B)",v^,P. Lambert (R),MIN @ HOU,n/a,60%,20%,5,3,0,1,0,.600,.600,1.800
+"J. Chourio, OF (R)",^v,N. Lodolo (L),CIN @ MIL,n/a,43%,43%,9,3,1,0,0,.333,.333,.777
 "V. Guerrero, 1B (R)",v>,S. Manaea (L),NYN @ TOR,1.4,50%,33%,6,3,0,0,0,.500,.500,1.000
 "L. Arraez, 2B (L)",^^,E. Rodriguez (L),SFN @ ARI,n/a,27%,9%,10,2,0,0,1,.200,.273,.473
 "M. Kepler, OF (L)",vv,T. Mahle (R),SFN @ ARI,n/a,45%,18%,9,2,1,0,2,.222,.364,.697
@@ -31,8 +31,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Machado, 3B (R)",^v,S. Imanaga (L),SDN @ CHN,1.7,22%,0%,11,2,0,2,0,.182,.182,.909
 "H. Goodman, OF (R)",^^,S. Alcantara (R),MIA @ COL,1.5,17%,0%,9,2,1,0,0,.222,.222,.555
 "J. McCarthy, OF (L)",^^,S. Alcantara (R),MIA @ COL,1.5,17%,17%,9,2,0,0,0,.222,.222,.444
-"A. Vaughn, 1B (R)",vv,N. Lodolo (L),CIN @ MIL,1.4,30%,20%,11,2,2,0,1,.182,.250,.614
-"S. Frelick, OF (L)",>v,N. Lodolo (L),CIN @ MIL,1.4,50%,17%,5,2,0,0,1,.400,.500,.900
+"A. Vaughn, 1B (R)",vv,N. Lodolo (L),CIN @ MIL,n/a,30%,20%,11,2,2,0,1,.182,.250,.614
+"S. Frelick, OF (L)",>v,N. Lodolo (L),CIN @ MIL,n/a,50%,17%,5,2,0,0,1,.400,.500,.900
 "A. Volpe, SS (R)",v^,C. Mize (R),DET @ NYA,1.4,25%,13%,9,2,0,0,1,.222,.300,.522
 "Z. McKinstry, SS (L)",^v,R. Weathers (L),DET @ NYA,1.4,100%,100%,4,2,0,0,0,.500,.500,1.000
 "P. Goldschmidt, 1B (R)",^^,C. Mize (R),DET @ NYA,1.4,20%,0%,8,2,0,0,0,.250,.250,.500
@@ -62,13 +62,13 @@ C. Narvaez,v^,M. Mikolas (R),WAS @ BOS,1.2,50%,0%,2,1,1,0,0,.500,.500,1.500
 "J. Merrill, OF (L)",vv,S. Imanaga (L),SDN @ CHN,1.7,33%,33%,4,1,1,0,1,.250,.400,.900
 "P. Crow-Armstrong, OF (L)",vv,G. Canning (R),SDN @ CHN,1.7,33%,0%,3,1,0,1,0,.333,.333,1.666
 "M. Moniak, OF (L)",v^,S. Alcantara (R),MIA @ COL,1.5,18%,0%,10,1,0,0,1,.100,.182,.282
-"D. Myers, OF (R)",vv,R. Gasser (L),CIN @ MIL,1.4,25%,25%,2,1,0,0,0,.500,.500,1.000
-"J. Ortiz, 3B (R)",vv,N. Lodolo (L),CIN @ MIL,1.4,50%,25%,5,1,0,1,0,.200,.200,1.000
-"B. Turang, 2B (L)",vv,N. Lodolo (L),CIN @ MIL,1.4,67%,33%,4,1,0,0,1,.250,.400,.650
-"C. Yelich, DH (L)",vv,N. Lodolo (L),CIN @ MIL,1.4,23%,8%,12,1,0,0,0,.083,.154,.237
-"S. Stewart, 3B (R)",^v,R. Gasser (L),CIN @ MIL,1.4,50%,50%,2,1,0,0,0,.500,.500,1.000
-"W. Contreras, C (R)",^v,N. Lodolo (L),CIN @ MIL,1.4,33%,17%,8,1,1,0,0,.125,.125,.375
-"E. De La Cruz, SS (B)",vv,R. Gasser (L),CIN @ MIL,1.4,50%,0%,2,1,0,0,0,.500,.500,1.000
+"D. Myers, OF (R)",vv,R. Gasser (L),CIN @ MIL,n/a,25%,25%,2,1,0,0,0,.500,.500,1.000
+"J. Ortiz, 3B (R)",vv,N. Lodolo (L),CIN @ MIL,n/a,50%,25%,5,1,0,1,0,.200,.200,1.000
+"B. Turang, 2B (L)",vv,N. Lodolo (L),CIN @ MIL,n/a,67%,33%,4,1,0,0,1,.250,.400,.650
+"C. Yelich, DH (L)",vv,N. Lodolo (L),CIN @ MIL,n/a,23%,8%,12,1,0,0,0,.083,.154,.237
+"S. Stewart, 3B (R)",^v,R. Gasser (L),CIN @ MIL,n/a,50%,50%,2,1,0,0,0,.500,.500,1.000
+"W. Contreras, C (R)",^v,N. Lodolo (L),CIN @ MIL,n/a,33%,17%,8,1,1,0,0,.125,.125,.375
+"E. De La Cruz, SS (B)",vv,R. Gasser (L),CIN @ MIL,n/a,50%,0%,2,1,0,0,0,.500,.500,1.000
 "B. Rice, 1B (L)",v^,C. Mize (R),DET @ NYA,1.4,50%,17%,7,1,1,0,2,.143,.333,.762
 "A. Wells, C (L)",v^,C. Mize (R),DET @ NYA,1.4,50%,25%,6,1,0,0,0,.167,.167,.334
 "M. Vierling, OF (R)",vv,R. Weathers (L),DET @ NYA,1.4,0%,0%,6,1,0,0,0,.167,.167,.334
@@ -106,16 +106,17 @@ C. Narvaez,v^,M. Mikolas (R),WAS @ BOS,1.2,50%,0%,2,1,1,0,0,.500,.500,1.500
 "X. Bogaerts, 2B (R)",vv,S. Imanaga (L),SDN @ CHN,1.7,11%,11%,10,0,0,0,0,.000,.000,.000
 ---,,P. Messick,TEX @ CLE,1.5,no matchup history,,,,,,,,,
 ---,,W. Santos,TEX @ CLE,1.5,no matchup history,,,,,,,,,
+"K. Karros, 3B (R)",^^,S. Alcantara (R),MIA @ COL,1.5,0%,0%,4,0,0,0,0,.000,.200,.200
 "W. Castro, OF (B)",>^,S. Alcantara (R),MIA @ COL,1.5,33%,0%,6,0,0,0,0,.000,.000,.000
 ---,,S. Sullivan,MIA @ COL,1.5,no matchup history,,,,,,,,,
-"K. Clemens, 1B (L)",^^,P. Lambert (R),MIN @ HOU,1.7,0%,0%,1,0,0,0,0,.000,.000,.000
----,,Z. Matthews,MIN @ HOU,1.7,no matchup history,,,,,,,,,
-"N. Marte, 3B (R)",vv,R. Gasser (L),CIN @ MIL,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
-"S. Steer, OF (R)",vv,R. Gasser (L),CIN @ MIL,1.4,50%,0%,1,0,0,0,1,.000,.500,.500
-"M. McLain, 2B (R)",vv,R. Gasser (L),CIN @ MIL,1.4,0%,0%,1,0,0,0,0,.000,.000,.000
-"B. Perkins, OF (B)",^v,N. Lodolo (L),CIN @ MIL,1.4,50%,50%,3,0,0,0,0,.000,.000,.000
-"D. Hamilton, SS (L)",^v,N. Lodolo (L),CIN @ MIL,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
-"T. Stephenson, C (R)",^v,R. Gasser (L),CIN @ MIL,1.4,50%,0%,0,0,0,0,1,.000,1.000,1.000
+"K. Clemens, 1B (L)",^^,P. Lambert (R),MIN @ HOU,n/a,0%,0%,1,0,0,0,0,.000,.000,.000
+---,,Z. Matthews,MIN @ HOU,n/a,no matchup history,,,,,,,,,
+"N. Marte, 3B (R)",vv,R. Gasser (L),CIN @ MIL,n/a,0%,0%,2,0,0,0,0,.000,.000,.000
+"S. Steer, OF (R)",vv,R. Gasser (L),CIN @ MIL,n/a,50%,0%,1,0,0,0,1,.000,.500,.500
+"M. McLain, 2B (R)",vv,R. Gasser (L),CIN @ MIL,n/a,0%,0%,1,0,0,0,0,.000,.000,.000
+"B. Perkins, OF (B)",^v,N. Lodolo (L),CIN @ MIL,n/a,50%,50%,3,0,0,0,0,.000,.000,.000
+"D. Hamilton, SS (L)",^v,N. Lodolo (L),CIN @ MIL,n/a,0%,0%,2,0,0,0,0,.000,.000,.000
+"T. Stephenson, C (R)",^v,R. Gasser (L),CIN @ MIL,n/a,50%,0%,0,0,0,0,1,.000,1.000,1.000
 "J. Rogers, C (R)",vv,R. Weathers (L),DET @ NYA,1.4,0%,0%,4,0,0,0,0,.000,.000,.000
 "R. Greene, OF (L)",vv,R. Weathers (L),DET @ NYA,1.4,0%,0%,6,0,0,0,0,.000,.000,.000
 "B. Marsh, OF (L)",^^,B. Ashcraft (R),PIT @ PHI,1.7,100%,0%,3,0,0,0,1,.000,.250,.250
