@@ -1,6 +1,6 @@
 Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Ozuna, DH (R)",^v,A. Nola (R),PIT @ PHI,1.6,36%,16%,70,17,1,5,2,.243,.264,.735
-"G. Springer, OF (R)",v^,S. Manaea (L),NYN @ TOR,1.6,45%,14%,41,13,2,1,4,.317,.391,.830
+"G. Springer, OF (R)",v>,S. Manaea (L),NYN @ TOR,1.6,45%,14%,41,13,2,1,4,.317,.391,.830
 "K. Marte, 2B (B)",^v,T. Mahle (R),SFN @ ARI,n/a,60%,20%,15,8,3,2,1,.533,.563,1.696
 "M. Chapman, 3B (R)",v^,E. Rodriguez (L),SFN @ ARI,n/a,50%,19%,24,8,4,1,4,.333,.414,1.039
 "A. Bregman, 3B (R)",vv,G. Canning (R),SDN @ CHN,1.7,57%,19%,17,8,0,2,2,.471,.500,1.324
@@ -20,7 +20,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "T. Freeman, OF (R)",^^,S. Alcantara (R),MIA @ COL,1.5,60%,40%,5,3,0,0,0,.600,.600,1.200
 "J. Bell, 1B (B)",v^,P. Lambert (R),MIN @ HOU,1.7,60%,20%,5,3,0,1,0,.600,.600,1.800
 "J. Chourio, OF (R)",^v,N. Lodolo (L),CIN @ MIL,1.4,43%,43%,9,3,1,0,0,.333,.333,.777
-"V. Guerrero, 1B (R)",v^,S. Manaea (L),NYN @ TOR,1.6,50%,33%,6,3,0,0,0,.500,.500,1.000
+"V. Guerrero, 1B (R)",v>,S. Manaea (L),NYN @ TOR,1.6,50%,33%,6,3,0,0,0,.500,.500,1.000
 "L. Arraez, 2B (L)",^^,E. Rodriguez (L),SFN @ ARI,n/a,27%,9%,10,2,0,0,1,.200,.273,.473
 "M. Kepler, OF (L)",vv,T. Mahle (R),SFN @ ARI,n/a,45%,18%,9,2,1,0,2,.222,.364,.697
 "R. Devers, 1B (L)",^^,E. Rodriguez (L),SFN @ ARI,n/a,33%,22%,11,2,1,0,1,.182,.250,.523
@@ -85,7 +85,7 @@ C. Narvaez,v^,M. Mikolas (R),WAS @ BOS,1.2,50%,0%,2,1,1,0,0,.500,.500,1.500
 "L. O'Hoppe, C (R)",vv,G. Kirby (R),ANA @ SEA,1.2,17%,8%,12,1,0,0,0,.083,.083,.166
 "J. Crawford, SS (L)",vv,R. Johnson (R),ANA @ SEA,1.2,100%,100%,1,1,0,0,0,1.000,1.000,2.000
 "R. Arozarena, OF (R)",^v,R. Johnson (R),ANA @ SEA,1.2,100%,0%,1,1,0,0,0,1.000,1.000,2.000
-"E. Clement, 3B (R)",^^,S. Manaea (L),NYN @ TOR,1.6,25%,25%,4,1,0,0,0,.250,.250,.500
+"E. Clement, 3B (R)",^>,S. Manaea (L),NYN @ TOR,1.6,25%,25%,4,1,0,0,0,.250,.250,.500
 "J. Lee, OF (L)",^^,E. Rodriguez (L),SFN @ ARI,n/a,0%,0%,6,0,0,0,0,.000,.000,.000
 "L. Gurriel, OF (R)",>v,T. Mahle (R),SFN @ ARI,n/a,33%,33%,6,0,0,0,0,.000,.000,.000
 ---,,G. Jump,LAN @ ATH,1.6,no matchup history,,,,,,,,,
@@ -122,7 +122,7 @@ C. Narvaez,v^,M. Mikolas (R),WAS @ BOS,1.2,50%,0%,2,1,1,0,0,.500,.500,1.500
 "B. Stott, 2B (L)",v^,B. Ashcraft (R),PIT @ PHI,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
 "N. Gonzales, 2B (R)",^v,A. Nola (R),PIT @ PHI,1.6,33%,0%,3,0,0,0,0,.000,.000,.000
 "Z. Neto, SS (R)",vv,G. Kirby (R),ANA @ SEA,1.2,27%,9%,7,0,0,0,2,.000,.273,.273
-"A. Kirk, C (R)",v^,S. Manaea (L),NYN @ TOR,1.6,33%,33%,3,0,0,0,0,.000,.000,.000
-"N. Lukes, OF (L)",^^,S. Manaea (L),NYN @ TOR,1.6,33%,33%,3,0,0,0,0,.000,.000,.000
-"D. Varsho, OF (L)",^^,S. Manaea (L),NYN @ TOR,1.6,14%,0%,6,0,0,0,1,.000,.143,.143
+"A. Kirk, C (R)",v>,S. Manaea (L),NYN @ TOR,1.6,33%,33%,3,0,0,0,0,.000,.000,.000
+"N. Lukes, OF (L)",^>,S. Manaea (L),NYN @ TOR,1.6,33%,33%,3,0,0,0,0,.000,.000,.000
+"D. Varsho, OF (L)",^>,S. Manaea (L),NYN @ TOR,1.6,14%,0%,6,0,0,0,1,.000,.143,.143
 ---,,T. Yesavage,NYN @ TOR,1.6,no matchup history,,,,,,,,,
