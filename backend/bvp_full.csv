@@ -3,7 +3,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "G. Springer, OF (R)",v>,S. Manaea (L),NYN @ TOR,1.4,45%,14%,41,13,2,1,4,.317,.391,.830
 "K. Marte, 2B (B)",^v,T. Mahle (R),SFN @ ARI,n/a,60%,20%,15,8,3,2,1,.533,.563,1.696
 "M. Chapman, 3B (R)",v^,E. Rodriguez (L),SFN @ ARI,n/a,50%,19%,24,8,4,1,4,.333,.414,1.039
-"A. Bregman, 3B (R)",vv,G. Canning (R),SDN @ CHN,1.7,57%,19%,17,8,0,2,2,.471,.500,1.324
+"A. Bregman, 3B (R)",vv,G. Canning (R),SDN @ CHN,1.8,57%,19%,17,8,0,2,2,.471,.500,1.324
 "W. Contreras, 1B (R)",^^,M. Mikolas (R),WAS @ BOS,1.2,47%,21%,19,7,2,1,0,.368,.368,1.000
 "C. Schmitt, 2B (R)",v^,E. Rodriguez (L),SFN @ ARI,n/a,83%,50%,8,5,0,2,1,.625,.667,2.042
 "B. Reynolds, OF (B)",>v,A. Nola (R),PIT @ PHI,1.7,22%,6%,20,5,0,1,0,.250,.250,.650
@@ -12,10 +12,11 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "C. Durbin, 3B (R)",^^,M. Mikolas (R),WAS @ BOS,1.2,71%,43%,7,4,2,1,0,.571,.571,1.857
 "J. Chisholm, 2B (L)",v^,C. Mize (R),DET @ NYA,1.4,38%,13%,10,4,0,1,1,.400,.455,1.155
 "J. Adell, OF (R)",^v,G. Kirby (R),ANA @ SEA,1.3,33%,13%,14,4,1,0,1,.286,.333,.690
+M. Straw,v>,S. Manaea (L),NYN @ TOR,1.4,62%,23%,11,4,1,0,2,.364,.462,.917
 "H. Ramos, OF (R)",v^,E. Rodriguez (L),SFN @ ARI,n/a,42%,33%,11,3,2,0,0,.273,.250,.705
 "G. Perdomo, SS (B)",^v,T. Mahle (R),SFN @ ARI,n/a,40%,0%,9,3,2,0,0,.333,.300,.856
 "J. Young, OF (R)",v^,R. Suarez (L),WAS @ BOS,1.2,80%,20%,5,3,1,0,0,.600,.600,1.400
-"F. Tatis, OF (R)",^v,S. Imanaga (L),SDN @ CHN,1.7,44%,11%,9,3,0,0,2,.333,.455,.788
+"F. Tatis, OF (R)",^v,S. Imanaga (L),SDN @ CHN,1.8,44%,11%,9,3,0,0,2,.333,.455,.788
 "E. Tovar, SS (R)",v^,S. Alcantara (R),MIA @ COL,1.5,40%,20%,8,3,0,0,0,.375,.375,.750
 "T. Freeman, OF (R)",^^,S. Alcantara (R),MIA @ COL,1.5,60%,40%,5,3,0,0,0,.600,.600,1.200
 "J. Bell, 1B (B)",v^,P. Lambert (R),MIN @ HOU,n/a,60%,20%,5,3,0,1,0,.600,.600,1.800
@@ -27,8 +28,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "C. Meidroth, SS (R)",^v,S. Baz (R),CHA @ BAL,1.4,67%,67%,3,2,1,0,0,.667,.667,1.667
 "W. Abreu, OF (L)",v^,M. Mikolas (R),WAS @ BOS,1.2,75%,50%,3,2,1,0,1,.667,.750,1.750
 "C. Rafaela, OF (R)",>^,M. Mikolas (R),WAS @ BOS,1.2,50%,25%,4,2,0,0,0,.500,.500,1.000
-"M. Andujar, OF (R)",vv,S. Imanaga (L),SDN @ CHN,1.7,75%,25%,4,2,1,1,0,.500,.500,2.000
-"M. Machado, 3B (R)",^v,S. Imanaga (L),SDN @ CHN,1.7,22%,0%,11,2,0,2,0,.182,.182,.909
+"M. Andujar, OF (R)",vv,S. Imanaga (L),SDN @ CHN,1.8,75%,25%,4,2,1,1,0,.500,.500,2.000
+"M. Machado, 3B (R)",^v,S. Imanaga (L),SDN @ CHN,1.8,22%,0%,11,2,0,2,0,.182,.182,.909
+"J. Cronenworth, 2B (L)",>v,S. Imanaga (L),SDN @ CHN,1.8,50%,17%,8,2,1,0,0,.250,.250,.625
 "H. Goodman, OF (R)",^^,S. Alcantara (R),MIA @ COL,1.5,17%,0%,9,2,1,0,0,.222,.222,.555
 "J. McCarthy, OF (L)",^^,S. Alcantara (R),MIA @ COL,1.5,17%,17%,9,2,0,0,0,.222,.222,.444
 "A. Vaughn, 1B (R)",vv,N. Lodolo (L),CIN @ MIL,n/a,30%,20%,11,2,2,0,1,.182,.250,.614
@@ -53,19 +55,22 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "K. Ruiz, C (B)",>^,R. Suarez (L),WAS @ BOS,1.2,13%,0%,8,1,0,0,0,.125,.125,.250
 "D. Crews, OF (R)",v^,R. Suarez (L),WAS @ BOS,1.2,40%,20%,4,1,1,0,1,.250,.400,.900
 "J. Duran, OF (L)",v^,M. Mikolas (R),WAS @ BOS,1.2,44%,22%,9,1,0,0,0,.111,.111,.222
+"L. Garcia, 1B (L)",^^,R. Suarez (L),WAS @ BOS,1.2,25%,0%,8,1,0,0,0,.125,.125,.250
 C. Narvaez,v^,M. Mikolas (R),WAS @ BOS,1.2,50%,0%,2,1,1,0,0,.500,.500,1.500
-"I. Happ, OF (B)",>v,G. Canning (R),SDN @ CHN,1.7,100%,50%,1,1,0,0,1,1.000,1.000,2.000
-"M. Busch, 1B (L)",vv,G. Canning (R),SDN @ CHN,1.7,40%,20%,4,1,1,0,1,.250,.400,.900
-"F. Fermin, C (R)",vv,S. Imanaga (L),SDN @ CHN,1.7,0%,0%,3,1,1,0,0,.333,.500,1.167
-"S. Suzuki, OF (R)",vv,G. Canning (R),SDN @ CHN,1.7,40%,0%,5,1,0,1,0,.200,.200,1.000
-"D. Swanson, SS (R)",vv,G. Canning (R),SDN @ CHN,1.7,50%,0%,4,1,0,0,0,.250,.250,.500
-"J. Merrill, OF (L)",vv,S. Imanaga (L),SDN @ CHN,1.7,33%,33%,4,1,1,0,1,.250,.400,.900
-"P. Crow-Armstrong, OF (L)",vv,G. Canning (R),SDN @ CHN,1.7,33%,0%,3,1,0,1,0,.333,.333,1.666
+"I. Happ, OF (B)",>v,G. Canning (R),SDN @ CHN,1.8,100%,50%,1,1,0,0,1,1.000,1.000,2.000
+"M. Busch, 1B (L)",vv,G. Canning (R),SDN @ CHN,1.8,40%,20%,4,1,1,0,1,.250,.400,.900
+"F. Fermin, C (R)",vv,S. Imanaga (L),SDN @ CHN,1.8,0%,0%,3,1,1,0,0,.333,.500,1.167
+"S. Suzuki, OF (R)",vv,G. Canning (R),SDN @ CHN,1.8,40%,0%,5,1,0,1,0,.200,.200,1.000
+"D. Swanson, SS (R)",vv,G. Canning (R),SDN @ CHN,1.8,50%,0%,4,1,0,0,0,.250,.250,.500
+"J. Merrill, OF (L)",vv,S. Imanaga (L),SDN @ CHN,1.8,33%,33%,4,1,1,0,1,.250,.400,.900
+"M. Conforto, OF (L)",vv,G. Canning (R),SDN @ CHN,1.8,67%,67%,3,1,0,0,0,.333,.333,.666
+"P. Crow-Armstrong, OF (L)",vv,G. Canning (R),SDN @ CHN,1.8,33%,0%,3,1,0,1,0,.333,.333,1.666
 "M. Moniak, OF (L)",v^,S. Alcantara (R),MIA @ COL,1.5,18%,0%,10,1,0,0,1,.100,.182,.282
 "D. Myers, OF (R)",vv,R. Gasser (L),CIN @ MIL,n/a,25%,25%,2,1,0,0,0,.500,.500,1.000
 "J. Ortiz, 3B (R)",vv,N. Lodolo (L),CIN @ MIL,n/a,50%,25%,5,1,0,1,0,.200,.200,1.000
 "B. Turang, 2B (L)",vv,N. Lodolo (L),CIN @ MIL,n/a,67%,33%,4,1,0,0,1,.250,.400,.650
 "C. Yelich, DH (L)",vv,N. Lodolo (L),CIN @ MIL,n/a,23%,8%,12,1,0,0,0,.083,.154,.237
+"G. Sanchez, DH (R)",^v,N. Lodolo (L),CIN @ MIL,n/a,100%,67%,4,1,0,0,1,.250,.400,.650
 "S. Stewart, 3B (R)",^v,R. Gasser (L),CIN @ MIL,n/a,50%,50%,2,1,0,0,0,.500,.500,1.000
 "W. Contreras, C (R)",^v,N. Lodolo (L),CIN @ MIL,n/a,33%,17%,8,1,1,0,0,.125,.125,.375
 "E. De La Cruz, SS (B)",vv,R. Gasser (L),CIN @ MIL,n/a,50%,0%,2,1,0,0,0,.500,.500,1.000
@@ -88,11 +93,12 @@ C. Narvaez,v^,M. Mikolas (R),WAS @ BOS,1.2,50%,0%,2,1,1,0,0,.500,.500,1.500
 "E. Clement, 3B (R)",^>,S. Manaea (L),NYN @ TOR,1.4,25%,25%,4,1,0,0,0,.250,.250,.500
 "J. Lee, OF (L)",^^,E. Rodriguez (L),SFN @ ARI,n/a,0%,0%,6,0,0,0,0,.000,.000,.000
 "L. Gurriel, OF (R)",>v,T. Mahle (R),SFN @ ARI,n/a,33%,33%,6,0,0,0,0,.000,.000,.000
+"J. Heim, C (B)",v^,E. Lauer (L),LAN @ ATH,1.6,50%,50%,2,0,0,0,0,.000,.000,.000
 ---,,G. Jump,LAN @ ATH,1.6,no matchup history,,,,,,,,,
----,,E. Lauer,LAN @ ATH,1.6,no matchup history,,,,,,,,,
 "C. Mayo, 3B (R)",v>,S. Burke (R),CHA @ BAL,1.4,0%,0%,3,0,0,0,0,.000,.250,.250
 "C. Cowser, OF (L)",^>,S. Burke (R),CHA @ BAL,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
 "D. Beavers, RF (L)",^>,S. Burke (R),CHA @ BAL,1.4,0%,0%,3,0,0,0,1,.000,.250,.250
+"R. Grichuk, OF (R)",^v,S. Baz (R),CHA @ BAL,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
 "S. Basallo, C (L)",v>,S. Burke (R),CHA @ BAL,1.4,50%,0%,1,0,0,0,1,.000,.500,.500
 "T. O'Neill, OF (R)",v>,S. Burke (R),CHA @ BAL,1.4,33%,33%,4,0,0,0,0,.000,.200,.200
 "J. Holliday, 2B (L)",^>,S. Burke (R),CHA @ BAL,1.4,20%,0%,4,0,0,0,1,.000,.200,.200
@@ -100,12 +106,11 @@ C. Narvaez,v^,M. Mikolas (R),WAS @ BOS,1.2,50%,0%,2,1,1,0,0,.500,.500,1.500
 "C. Abrams, SS (L)",v^,R. Suarez (L),WAS @ BOS,1.2,11%,11%,9,0,0,0,0,.000,.000,.000
 "M. Yoshida, DH (L)",^^,M. Mikolas (R),WAS @ BOS,1.2,33%,0%,3,0,0,0,0,.000,.000,.000
 "A. Chaparro, DH (R)",v^,R. Suarez (L),WAS @ BOS,1.2,0%,0%,3,0,0,0,0,.000,.000,.000
-"C. Kelly, C (R)",^v,G. Canning (R),SDN @ CHN,1.7,25%,13%,8,0,0,0,0,.000,.000,.000
-"T. France, 1B (R)",^v,S. Imanaga (L),SDN @ CHN,1.7,40%,20%,5,0,0,0,0,.000,.000,.000
-"N. Hoerner, 2B (R)",^v,G. Canning (R),SDN @ CHN,1.7,40%,40%,5,0,0,0,0,.000,.000,.000
-"X. Bogaerts, 2B (R)",vv,S. Imanaga (L),SDN @ CHN,1.7,11%,11%,10,0,0,0,0,.000,.000,.000
----,,P. Messick,TEX @ CLE,1.5,no matchup history,,,,,,,,,
----,,W. Santos,TEX @ CLE,1.5,no matchup history,,,,,,,,,
+"C. Kelly, C (R)",^v,G. Canning (R),SDN @ CHN,1.8,25%,13%,8,0,0,0,0,.000,.000,.000
+"T. France, 1B (R)",^v,S. Imanaga (L),SDN @ CHN,1.8,40%,20%,5,0,0,0,0,.000,.000,.000
+"N. Hoerner, 2B (R)",^v,G. Canning (R),SDN @ CHN,1.8,40%,40%,5,0,0,0,0,.000,.000,.000
+"X. Bogaerts, 2B (R)",vv,S. Imanaga (L),SDN @ CHN,1.8,11%,11%,10,0,0,0,0,.000,.000,.000
+---,,P. Messick,TEX @ CLE,1.4,no matchup history,,,,,,,,,
 "K. Karros, 3B (R)",^^,S. Alcantara (R),MIA @ COL,1.5,0%,0%,4,0,0,0,0,.000,.200,.200
 "W. Castro, OF (B)",>^,S. Alcantara (R),MIA @ COL,1.5,33%,0%,6,0,0,0,0,.000,.000,.000
 ---,,S. Sullivan,MIA @ COL,1.5,no matchup history,,,,,,,,,
@@ -117,6 +122,7 @@ C. Narvaez,v^,M. Mikolas (R),WAS @ BOS,1.2,50%,0%,2,1,1,0,0,.500,.500,1.500
 "B. Perkins, OF (B)",^v,N. Lodolo (L),CIN @ MIL,n/a,50%,50%,3,0,0,0,0,.000,.000,.000
 "D. Hamilton, SS (L)",^v,N. Lodolo (L),CIN @ MIL,n/a,0%,0%,2,0,0,0,0,.000,.000,.000
 "T. Stephenson, C (R)",^v,R. Gasser (L),CIN @ MIL,n/a,50%,0%,0,0,0,0,1,.000,1.000,1.000
+"J. Outman, OF (L)",vv,R. Weathers (L),DET @ NYA,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
 "J. Rogers, C (R)",vv,R. Weathers (L),DET @ NYA,1.4,0%,0%,4,0,0,0,0,.000,.000,.000
 "R. Greene, OF (L)",vv,R. Weathers (L),DET @ NYA,1.4,0%,0%,6,0,0,0,0,.000,.000,.000
 "B. Marsh, OF (L)",^^,B. Ashcraft (R),PIT @ PHI,1.7,100%,0%,3,0,0,0,1,.000,.250,.250
@@ -124,6 +130,7 @@ C. Narvaez,v^,M. Mikolas (R),WAS @ BOS,1.2,50%,0%,2,1,1,0,0,.500,.500,1.500
 "N. Gonzales, 2B (R)",^v,A. Nola (R),PIT @ PHI,1.7,33%,0%,3,0,0,0,0,.000,.000,.000
 "Z. Neto, SS (R)",vv,G. Kirby (R),ANA @ SEA,1.3,27%,9%,7,0,0,0,2,.000,.273,.273
 "A. Kirk, C (R)",v>,S. Manaea (L),NYN @ TOR,1.4,33%,33%,3,0,0,0,0,.000,.000,.000
+"L. Urias, 3B (R)",^>,S. Manaea (L),NYN @ TOR,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
 "N. Lukes, OF (L)",^>,S. Manaea (L),NYN @ TOR,1.4,33%,33%,3,0,0,0,0,.000,.000,.000
 "D. Varsho, OF (L)",^>,S. Manaea (L),NYN @ TOR,1.4,14%,0%,6,0,0,0,1,.000,.143,.143
 ---,,T. Yesavage,NYN @ TOR,1.4,no matchup history,,,,,,,,,
