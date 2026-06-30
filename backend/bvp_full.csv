@@ -1,12 +1,12 @@
 Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "L. Arraez, 2B (L)",^v,B. Pfaadt (R),SFN @ ARI,n/a,59%,36%,21,10,2,0,1,.476,.500,1.071
 "P. Alonso, 1B (R)",^^,E. Fedde (R),CHA @ BAL,1.7,57%,33%,24,8,4,0,6,.333,.469,.969
-"M. Machado, 3B (R)",^^,M. Boyd (L),SDN @ CHN,1.7,43%,29%,17,8,4,0,1,.471,.474,1.180
+"M. Machado, 3B (R)",^^,M. Boyd (L),SDN @ CHN,1.9,43%,29%,17,8,4,0,1,.471,.474,1.180
 "J. Rodriguez, OF (R)",^v,J. Soriano (R),ANA @ SEA,1.2,71%,24%,15,8,1,2,1,.533,.588,1.588
-"J. Soto, OF (L)",^v,K. Gausman (R),NYN @ TOR,1.6,76%,3%,17,8,2,1,12,.471,.690,1.455
-"A. Bregman, 3B (R)",v>,J. Sears (L),SDN @ CHN,1.7,59%,27%,20,7,2,2,2,.350,.409,1.159
+"J. Soto, OF (L)",^v,K. Gausman (R),NYN @ TOR,n/a,76%,3%,17,8,2,1,12,.471,.690,1.455
+"A. Bregman, 3B (R)",v>,J. Sears (L),SDN @ CHN,1.9,59%,27%,20,7,2,2,2,.350,.409,1.159
 "P. Goldschmidt, 1B (R)",^v,T. Skubal (L),DET @ NYA,1.6,64%,18%,13,7,0,4,1,.538,.571,2.033
-"X. Bogaerts, 2B (R)",^^,M. Boyd (L),SDN @ CHN,1.7,37%,16%,20,6,1,1,2,.300,.364,.864
+"X. Bogaerts, 2B (R)",^^,M. Boyd (L),SDN @ CHN,1.9,37%,16%,20,6,1,1,2,.300,.364,.864
 "B. Reynolds, OF (B)",v^,C. Sanchez (L),PIT @ PHI,1.6,42%,8%,15,6,1,0,1,.400,.438,.905
 "R. Hoskins, 1B (R)",v^,J. deGrom (R),TEX @ CLE,1.8,45%,14%,24,5,2,0,5,.208,.345,.637
 "M. Ozuna, DH (R)",^^,C. Sanchez (L),PIT @ PHI,1.6,43%,14%,17,5,1,0,1,.294,.333,.686
@@ -22,10 +22,10 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "Z. Neto, SS (R)",^v,B. Woo (R),ANA @ SEA,1.2,44%,25%,19,4,0,0,0,.211,.211,.422
 "N. Schanuel, 1B (L)",vv,B. Woo (R),ANA @ SEA,1.2,58%,25%,13,4,0,0,1,.308,.400,.708
 "R. Arozarena, OF (R)",^v,J. Soriano (R),ANA @ SEA,1.2,62%,8%,10,4,0,0,2,.400,.538,.938
-"F. Lindor, SS (B)",^v,K. Gausman (R),NYN @ TOR,1.6,62%,23%,11,4,1,1,2,.364,.462,1.189
+"F. Lindor, SS (B)",^v,K. Gausman (R),NYN @ TOR,n/a,62%,23%,11,4,1,1,2,.364,.462,1.189
 "G. Perdomo, SS (B)",^v,L. Roupp (R),SFN @ ARI,n/a,100%,60%,9,3,0,0,2,.333,.455,.788
 "L. Gurriel, OF (R)",^v,L. Roupp (R),SFN @ ARI,n/a,67%,33%,4,3,0,0,1,.750,.800,1.550
-"F. Fermin, C (R)",v^,M. Boyd (L),SDN @ CHN,1.7,29%,0%,11,3,1,0,0,.273,.273,.637
+"F. Fermin, C (R)",v^,M. Boyd (L),SDN @ CHN,1.9,29%,0%,11,3,1,0,0,.273,.273,.637
 "Y. Diaz, C (R)",^^,J. Ryan (R),MIN @ HOU,n/a,50%,17%,6,3,1,1,0,.500,.500,1.667
 "I. Paredes, 3B (R)",^^,J. Ryan (R),MIN @ HOU,n/a,25%,8%,14,3,0,1,0,.214,.267,.696
 "V. Caratini, C (B)",^v,M. Burrows (R),MIN @ HOU,n/a,50%,50%,5,3,1,1,0,.600,.600,2.000
@@ -39,14 +39,14 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Kepler, OF (L)",vv,L. Roupp (R),SFN @ ARI,n/a,50%,0%,4,2,0,0,0,.500,.500,1.000
 "C. Carroll, OF (L)",vv,L. Roupp (R),SFN @ ARI,n/a,33%,0%,9,2,1,0,0,.222,.222,.666
 "S. Ohtani, DH (L)",^v,J. Springs (L),LAN @ ATH,1.7,50%,20%,9,2,1,0,1,.222,.300,.744
-"M. Winn, SS (R)",v^,M. Perez (L),SLN @ ATL,1.5,100%,50%,5,2,0,0,1,.400,.500,.900
-"D. Baldwin, C (L)",vv,M. Liberatore (L),SLN @ ATL,1.5,100%,100%,2,2,0,0,0,1.000,1.000,2.000
+"M. Winn, SS (R)",v^,M. Perez (L),SLN @ ATL,1.7,100%,50%,5,2,0,0,1,.400,.500,.900
+"D. Baldwin, C (L)",vv,M. Liberatore (L),SLN @ ATL,1.7,100%,100%,2,2,0,0,0,1.000,1.000,2.000
 "J. Holliday, 2B (L)",^^,E. Fedde (R),CHA @ BAL,1.7,67%,33%,3,2,0,0,0,.667,.667,1.334
 "G. Henderson, SS (L)",v^,E. Fedde (R),CHA @ BAL,1.7,67%,33%,6,2,0,1,2,.333,.500,1.333
-"C. Kelly, C (R)",^>,J. Sears (L),SDN @ CHN,1.7,100%,33%,2,2,1,0,1,1.000,1.000,2.500
-"F. Tatis, OF (R)",v^,M. Boyd (L),SDN @ CHN,1.7,33%,17%,11,2,0,0,0,.182,.182,.364
-"T. France, 1B (R)",^^,M. Boyd (L),SDN @ CHN,1.7,25%,13%,8,2,1,0,1,.250,.400,.775
-"J. Merrill, OF (L)",v^,M. Boyd (L),SDN @ CHN,1.7,0%,0%,7,2,1,0,0,.286,.286,.715
+"C. Kelly, C (R)",^>,J. Sears (L),SDN @ CHN,1.9,100%,33%,2,2,1,0,1,1.000,1.000,2.500
+"F. Tatis, OF (R)",v^,M. Boyd (L),SDN @ CHN,1.9,33%,17%,11,2,0,0,0,.182,.182,.364
+"T. France, 1B (R)",^^,M. Boyd (L),SDN @ CHN,1.9,25%,13%,8,2,1,0,1,.250,.400,.775
+"J. Merrill, OF (L)",v^,M. Boyd (L),SDN @ CHN,1.9,0%,0%,7,2,1,0,0,.286,.286,.715
 "J. Jung, 3B (R)",v^,T. Bibee (R),TEX @ CLE,1.8,33%,17%,9,2,1,0,0,.222,.222,.555
 "S. Kwan, OF (L)",v^,J. deGrom,TEX @ CLE,1.8,---,,2,2,0,0,0,1.000,1.000,2.000
 "J. Burger, 3B (R)",^^,T. Bibee (R),TEX @ CLE,1.8,100%,0%,5,2,0,2,1,.400,.500,2.100
@@ -72,17 +72,17 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "F. Freeman, 1B (L)",^v,J. Springs (L),LAN @ ATH,1.7,40%,0%,4,1,0,1,1,.250,.400,1.400
 "T. Hernandez, OF (R)",vv,J. Springs (L),LAN @ ATH,1.7,18%,9%,11,1,1,0,0,.091,.091,.273
 "S. Langeliers, C (R)",v^,J. Wrobleski (L),LAN @ ATH,1.7,100%,100%,1,1,0,0,0,1.000,1.000,2.000
-"J. Bart, C (R)",^v,M. Liberatore (L),SLN @ ATL,1.5,17%,0%,6,1,0,1,0,.167,.167,.834
-"A. Riley, 3B (R)",vv,M. Liberatore (L),SLN @ ATL,1.5,50%,17%,4,1,0,0,2,.250,.500,.750
-"M. Olson, 1B (L)",^v,M. Liberatore (L),SLN @ ATL,1.5,17%,0%,6,1,0,0,0,.167,.167,.334
-"M. Harris, OF (L)",vv,M. Liberatore (L),SLN @ ATL,1.5,40%,20%,5,1,1,0,0,.200,.200,.600
-"A. Burleson, OF (L)",v^,M. Perez (L),SLN @ ATL,1.5,67%,50%,5,1,0,0,1,.200,.333,.533
-"L. Nootbaar, OF (L)",^^,M. Perez (L),SLN @ ATL,1.5,50%,0%,2,1,0,0,0,.500,.500,1.000
+"J. Bart, C (R)",^v,M. Liberatore (L),SLN @ ATL,1.7,17%,0%,6,1,0,1,0,.167,.167,.834
+"A. Riley, 3B (R)",vv,M. Liberatore (L),SLN @ ATL,1.7,50%,17%,4,1,0,0,2,.250,.500,.750
+"M. Olson, 1B (L)",^v,M. Liberatore (L),SLN @ ATL,1.7,17%,0%,6,1,0,0,0,.167,.167,.334
+"M. Harris, OF (L)",vv,M. Liberatore (L),SLN @ ATL,1.7,40%,20%,5,1,1,0,0,.200,.200,.600
+"A. Burleson, OF (L)",v^,M. Perez (L),SLN @ ATL,1.7,67%,50%,5,1,0,0,1,.200,.333,.533
+"L. Nootbaar, OF (L)",^^,M. Perez (L),SLN @ ATL,1.7,50%,0%,2,1,0,0,0,.500,.500,1.000
 "C. Mayo, 3B (R)",v^,E. Fedde,CHA @ BAL,1.7,---,,3,1,0,0,0,.333,.333,.666
 "L. Taveras, OF (B)",v^,E. Fedde (R),CHA @ BAL,1.7,50%,0%,2,1,0,1,0,.500,.500,2.500
 "B. Alexander, SS (R)",^^,E. Fedde (R),CHA @ BAL,1.7,50%,0%,2,1,0,1,0,.500,.500,2.500
-"S. Taylor, OF (R)",v^,M. Boyd (L),SDN @ CHN,1.7,100%,50%,2,1,0,0,0,.500,.500,1.000
-"M. Andujar, OF (R)",v^,M. Boyd (L),SDN @ CHN,1.7,67%,33%,3,1,1,0,2,.333,.600,1.267
+"S. Taylor, OF (R)",v^,M. Boyd (L),SDN @ CHN,1.9,100%,50%,2,1,0,0,0,.500,.500,1.000
+"M. Andujar, OF (R)",v^,M. Boyd (L),SDN @ CHN,1.9,67%,33%,3,1,1,0,2,.333,.600,1.267
 "N. Lopez, 2B (L)",v^,T. Bibee (R),TEX @ CLE,1.8,40%,20%,4,1,0,0,0,.250,.250,.500
 "E. Carter, OF (L)",v^,T. Bibee (R),TEX @ CLE,1.8,100%,50%,5,1,0,0,0,.200,.200,.400
 "K. Higashioka, C (R)",v^,T. Bibee (R),TEX @ CLE,1.8,50%,0%,4,1,0,0,1,.250,.400,.650
@@ -129,16 +129,16 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "K. Tucker, OF (L)",^v,J. Springs (L),LAN @ ATH,1.7,100%,0%,2,0,0,0,0,.000,.000,.000
 "L. Butler, OF (L)",^^,J. Wrobleski (L),LAN @ ATH,1.7,0%,0%,1,0,0,0,0,.000,.000,.000
 "T. Soderstrom, 1B (L)",v^,J. Wrobleski (L),LAN @ ATH,1.7,0%,0%,2,0,0,0,0,.000,.000,.000
-"J. Walker, OF (R)",v^,M. Perez (L),SLN @ ATL,1.5,50%,50%,2,0,0,0,0,.000,.000,.000
-"O. Albies, 2B (B)",vv,M. Liberatore (L),SLN @ ATL,1.5,60%,20%,4,0,0,0,1,.000,.200,.200
+"J. Walker, OF (R)",v^,M. Perez (L),SLN @ ATL,1.7,50%,50%,2,0,0,0,0,.000,.000,.000
+"O. Albies, 2B (B)",vv,M. Liberatore (L),SLN @ ATL,1.7,60%,20%,4,0,0,0,1,.000,.200,.200
 "T. Ward, OF (R)",v^,E. Fedde (R),CHA @ BAL,1.7,33%,0%,4,0,0,0,1,.000,.200,.200
 "C. Cowser, OF (L)",v^,E. Fedde (R),CHA @ BAL,1.7,33%,0%,5,0,0,0,1,.000,.167,.167
 ---,,T. Gibson,CHA @ BAL,1.7,no matchup history,,,,,,,,,
 "A. Rutschman, C (B)",v^,E. Fedde (R),CHA @ BAL,1.7,20%,20%,6,0,0,0,1,.000,.143,.143
----,,C. Cavalli,WAS @ BOS,1.6,no matchup history,,,,,,,,,
----,,C. Early,WAS @ BOS,1.6,no matchup history,,,,,,,,,
-"G. Sheets, 1B (L)",^^,M. Boyd,SDN @ CHN,1.7,---,,2,0,0,0,0,.000,.000,.000
-"J. Cronenworth, 2B (L)",>^,M. Boyd (L),SDN @ CHN,1.7,0%,0%,4,0,0,0,0,.000,.000,.000
+---,,C. Cavalli,WAS @ BOS,1.5,no matchup history,,,,,,,,,
+---,,C. Early,WAS @ BOS,1.5,no matchup history,,,,,,,,,
+"G. Sheets, 1B (L)",^^,M. Boyd,SDN @ CHN,1.9,---,,2,0,0,0,0,.000,.000,.000
+"J. Cronenworth, 2B (L)",>^,M. Boyd (L),SDN @ CHN,1.9,0%,0%,4,0,0,0,0,.000,.000,.000
 "B. Nimmo, OF (L)",v^,T. Bibee (R),TEX @ CLE,1.8,33%,33%,5,0,0,0,1,.000,.167,.167
 "E. Duran, 3B (R)",v^,T. Bibee (R),TEX @ CLE,1.8,0%,0%,7,0,0,0,0,.000,.000,.000
 "A. Hedges, C (R)",v^,J. deGrom (R),TEX @ CLE,1.8,27%,9%,9,0,0,0,2,.000,.182,.182
@@ -192,5 +192,5 @@ T. Trammell,^^,J. Ryan (R),MIN @ HOU,n/a,0%,0%,2,0,0,0,0,.000,.000,.000
 "L. Raley, OF (L)",vv,J. Soriano (R),ANA @ SEA,1.2,8%,0%,11,0,0,0,0,.000,.083,.083
 "D. Guzman, SS (R)",>v,B. Woo (R),ANA @ SEA,1.2,0%,0%,2,0,0,0,0,.000,.000,.000
 "D. Canzone, OF (L)",^v,J. Soriano (R),ANA @ SEA,1.2,29%,14%,6,0,0,0,1,.000,.143,.143
-"M. Vientos, 3B (R)",vv,K. Gausman (R),NYN @ TOR,1.6,100%,50%,2,0,0,0,0,.000,.000,.000
----,,N. McLean,NYN @ TOR,1.6,no matchup history,,,,,,,,,
+"M. Vientos, 3B (R)",vv,K. Gausman (R),NYN @ TOR,n/a,100%,50%,2,0,0,0,0,.000,.000,.000
+---,,N. McLean,NYN @ TOR,n/a,no matchup history,,,,,,,,,
