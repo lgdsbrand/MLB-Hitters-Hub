@@ -1,9 +1,9 @@
 Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "L. Arraez, 2B (L)",^v,Z. Gallen (R),SFN @ ARI,n/a,56%,28%,20,6,1,0,0,.300,.286,.636
 "D. Swanson, SS (R)",^^,W. Buehler (R),SDN @ CHN,1.8,38%,23%,21,6,1,0,2,.286,.348,.681
-"C. Yelich, DH (L)",v^,A. Abbott (L),CIN @ MIL,1.4,29%,4%,24,6,0,1,0,.250,.250,.625
+"C. Yelich, DH (L)",v^,A. Abbott (L),CIN @ MIL,n/a,29%,4%,24,6,0,1,0,.250,.250,.625
 "C. Mullins, OF (L)",^v,S. Lugo (R),TBA @ KCA,1.7,83%,33%,11,5,1,1,0,.455,.455,1.273
-"W. Contreras, C (R)",^^,A. Abbott (L),CIN @ MIL,1.4,33%,17%,17,5,1,1,1,.294,.333,.862
+"W. Contreras, C (R)",^^,A. Abbott (L),CIN @ MIL,n/a,33%,17%,17,5,1,1,1,.294,.333,.862
 "B. Lowe, 2B (L)",v^,Z. Wheeler (R),PIT @ PHI,1.6,35%,6%,18,5,3,1,2,.278,.350,1.017
 "W. Adames, SS (R)",^v,Z. Gallen (R),SFN @ ARI,n/a,19%,4%,28,4,0,3,3,.143,.226,.690
 "C. Schmitt, 2B (R)",vv,Z. Gallen (R),SFN @ ARI,n/a,63%,25%,10,4,0,1,0,.400,.364,1.064
@@ -21,8 +21,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "Y. Diaz, C (R)",vv,T. Bradley (R),MIN @ HOU,n/a,46%,15%,13,3,0,2,0,.231,.231,.923
 "J. Aranda, 1B (L)",^v,S. Lugo (R),TBA @ KCA,1.7,33%,33%,9,3,1,0,0,.333,.333,.777
 "J. Caminero, 3B (R)",^v,S. Lugo (R),TBA @ KCA,1.7,33%,0%,6,3,0,2,0,.500,.500,2.000
-"B. Turang, 2B (L)",v^,A. Abbott (L),CIN @ MIL,1.4,44%,11%,8,3,2,0,1,.375,.444,1.069
-"J. Chourio, OF (R)",^^,A. Abbott (L),CIN @ MIL,1.4,63%,25%,7,3,0,2,1,.429,.500,1.786
+"B. Turang, 2B (L)",v^,A. Abbott (L),CIN @ MIL,n/a,44%,11%,8,3,2,0,1,.375,.444,1.069
+"J. Chourio, OF (R)",^^,A. Abbott (L),CIN @ MIL,n/a,63%,25%,7,3,0,2,1,.429,.500,1.786
 "B. Reynolds, OF (B)",v^,Z. Wheeler (R),PIT @ PHI,1.6,31%,8%,15,3,0,0,1,.200,.250,.450
 "E. Haase, C (R)",vv,Z. Gallen (R),SFN @ ARI,n/a,40%,0%,7,2,0,0,0,.286,.286,.572
 "R. Devers, 1B (L)",^v,Z. Gallen (R),SFN @ ARI,n/a,50%,25%,12,2,1,0,3,.167,.333,.583
@@ -42,7 +42,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "N. Loftin, 2B (R)",vv,S. McClanahan,TBA @ KCA,1.7,---,,3,2,0,1,0,.667,.667,2.334
 "C. Simpson, CF (L)",>v,S. Lugo (R),TBA @ KCA,1.7,33%,0%,6,2,1,0,0,.333,.333,.833
 "J. Caglianone, RF (L)",vv,S. McClanahan,TBA @ KCA,1.7,---,,3,2,0,2,0,.667,.667,3.334
-"J. Ortiz, 3B (R)",v^,A. Abbott (L),CIN @ MIL,1.4,20%,0%,10,2,1,1,0,.200,.200,.800
+"J. Ortiz, 3B (R)",v^,A. Abbott (L),CIN @ MIL,n/a,20%,0%,10,2,1,1,0,.200,.200,.800
 "A. Bohm, 3B (R)",v^,P. Skenes (R),PIT @ PHI,1.6,0%,0%,9,2,1,0,0,.222,.222,.555
 "B. Marsh, OF (L)",^^,P. Skenes (R),PIT @ PHI,1.6,40%,20%,7,2,1,0,1,.286,.375,.804
 "B. Harper, 1B (L)",^^,P. Skenes (R),PIT @ PHI,1.6,33%,33%,6,2,0,1,0,.333,.333,1.166
@@ -51,7 +51,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "G. Perdomo, SS (B)",^v,T. McDonald (R),SFN @ ARI,n/a,100%,0%,2,1,0,0,1,.500,.750,1.250
 "M. Chapman, 3B (R)",vv,Z. Gallen (R),SFN @ ARI,n/a,20%,13%,17,1,1,0,0,.059,.059,.177
 "B. Eldridge, 1B (L)",vv,Z. Gallen (R),SFN @ ARI,n/a,50%,0%,4,1,0,0,0,.250,.250,.500
-"C. Robinson, C (R)",>^,J. Ginn (R),LAN @ ATH,1.5,50%,0%,2,1,0,0,0,.500,.500,1.000
+"C. Robinson, C (R)",>^,J. Ginn (R),LAN @ ATH,1.7,50%,0%,2,1,0,0,0,.500,.500,1.000
 "D. Romo, C (B)",v>,D. Kremer (R),CHA @ BAL,1.7,100%,0%,1,1,1,0,0,1.000,1.000,3.000
 "R. Grichuk, OF (R)",^>,D. Kremer (R),CHA @ BAL,1.7,50%,0%,6,1,0,0,0,.167,.167,.334
 "C. Meidroth, SS (R)",^>,D. Kremer (R),CHA @ BAL,1.7,33%,0%,3,1,0,0,0,.333,.333,.666
@@ -73,13 +73,13 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "S. Perez, C (R)",vv,S. McClanahan (L),TBA @ KCA,1.7,43%,43%,10,1,0,0,0,.100,.100,.200
 "T. Tolbert, 2B (R)",vv,S. McClanahan,TBA @ KCA,1.7,---,,1,1,0,0,0,1.000,1.000,2.000
 "R. Palacios, OF (L)",vv,S. Lugo (R),TBA @ KCA,1.7,0%,0%,6,1,0,0,0,.167,.167,.334
-"B. Dunn, OF (R)",v>,S. Drohan (L),CIN @ MIL,1.4,---,,3,1,0,0,0,.333,.333,.666
-"S. Steer, OF (R)",v^,S. Drohan,CIN @ MIL,1.4,---,,2,1,0,0,0,.500,.500,1.000
-"A. Vaughn, 1B (R)",^^,A. Abbott (L),CIN @ MIL,1.4,20%,20%,10,1,0,0,0,.100,.100,.200
-"E. Suarez, 3B (R)",^^,S. Drohan,CIN @ MIL,1.4,---,,1,1,1,0,1,1.000,1.000,3.000
-"B. Perkins, OF (B)",^^,A. Abbott (L),CIN @ MIL,1.4,18%,6%,16,1,0,0,0,.063,.063,.126
-"S. Stewart, 3B (R)",^^,S. Drohan,CIN @ MIL,1.4,---,,2,1,0,0,0,.500,.500,1.000
-"E. De La Cruz, SS (B)",v^,S. Drohan,CIN @ MIL,1.4,---,,3,1,0,0,0,.333,.333,.666
+"B. Dunn, OF (R)",v>,S. Drohan (L),CIN @ MIL,n/a,---,,3,1,0,0,0,.333,.333,.666
+"S. Steer, OF (R)",v^,S. Drohan,CIN @ MIL,n/a,---,,2,1,0,0,0,.500,.500,1.000
+"A. Vaughn, 1B (R)",^^,A. Abbott (L),CIN @ MIL,n/a,20%,20%,10,1,0,0,0,.100,.100,.200
+"E. Suarez, 3B (R)",^^,S. Drohan,CIN @ MIL,n/a,---,,1,1,1,0,1,1.000,1.000,3.000
+"B. Perkins, OF (B)",^^,A. Abbott (L),CIN @ MIL,n/a,18%,6%,16,1,0,0,0,.063,.063,.126
+"S. Stewart, 3B (R)",^^,S. Drohan,CIN @ MIL,n/a,---,,2,1,0,0,0,.500,.500,1.000
+"E. De La Cruz, SS (B)",v^,S. Drohan,CIN @ MIL,n/a,---,,3,1,0,0,0,.333,.333,.666
 "A. Wells, C (L)",v^,T. Melton (R),DET @ NYA,1.8,100%,0%,1,1,0,1,0,1.000,1.000,5.000
 "J. Caballero, SS (R)",v^,T. Melton (R),DET @ NYA,1.8,100%,100%,1,1,0,0,0,1.000,1.000,2.000
 "E. Valdez, 2B (L)",^^,Z. Wheeler (R),PIT @ PHI,1.6,25%,0%,4,1,0,0,0,.250,.250,.500
@@ -92,12 +92,12 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "G. Springer, OF (R)",vv,F. Peralta (R),NYN @ TOR,n/a,17%,17%,5,1,0,0,0,.200,.333,.533
 "G. Moreno, C (R)",^v,T. McDonald (R),SFN @ ARI,n/a,0%,0%,1,0,0,0,0,.000,.000,.000
 "D. Gilbert, CF (L)",^v,Z. Gallen (R),SFN @ ARI,n/a,40%,0%,5,0,0,0,0,.000,.000,.000
----,,C. Barnes,LAN @ ATH,1.5,no matchup history,,,,,,,,,
----,,J. Ginn,LAN @ ATH,1.5,no matchup history,,,,,,,,,
-"M. Winn, SS (R)",v^,R. Lopez (R),SLN @ ATL,1.4,33%,0%,2,0,0,0,1,.000,.333,.333
-"I. Herrera, DH (R)",v^,R. Lopez (R),SLN @ ATL,1.4,0%,0%,1,0,0,0,0,.000,.000,.000
-"A. Burleson, OF (L)",v^,R. Lopez (R),SLN @ ATL,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
-"M. Yastrzemski, OF (L)",v^,M. McGreevy (R),SLN @ ATL,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
+---,,C. Barnes,LAN @ ATH,1.7,no matchup history,,,,,,,,,
+---,,J. Ginn,LAN @ ATH,1.7,no matchup history,,,,,,,,,
+"M. Winn, SS (R)",v^,R. Lopez (R),SLN @ ATL,1.6,33%,0%,2,0,0,0,1,.000,.333,.333
+"I. Herrera, DH (R)",v^,R. Lopez (R),SLN @ ATL,1.6,0%,0%,1,0,0,0,0,.000,.000,.000
+"A. Burleson, OF (L)",v^,R. Lopez (R),SLN @ ATL,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
+"M. Yastrzemski, OF (L)",v^,M. McGreevy (R),SLN @ ATL,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
 "M. Vargas, 3B (R)",^>,D. Kremer (R),CHA @ BAL,1.7,33%,0%,5,0,0,0,1,.000,.167,.167
 ---,,N. Schultz,CHA @ BAL,1.7,no matchup history,,,,,,,,,
 "C. Montgomery, SS (L)",>>,D. Kremer,CHA @ BAL,1.7,---,,2,0,0,0,1,.000,.333,.333
@@ -122,11 +122,11 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "L. Thomas, OF (R)",vv,S. McClanahan (L),TBA @ KCA,1.7,67%,0%,4,0,0,0,2,.000,.333,.333
 "N. Fortes, C (R)",v^,S. Lugo (R),TBA @ KCA,1.7,33%,0%,6,0,0,0,0,.000,.000,.000
 "H. Feduccia, C (L)",vv,S. Lugo,TBA @ KCA,1.7,---,,2,0,0,0,0,.000,.000,.000
-"D. Myers, OF (R)",v>,S. Drohan (L),CIN @ MIL,1.4,---,,1,0,0,0,1,.000,.500,.500
-"N. Marte, 3B (R)",v^,S. Drohan,CIN @ MIL,1.4,---,,2,0,0,0,0,.000,.000,.000
-"M. McLain, 2B (R)",v^,S. Drohan (L),CIN @ MIL,1.4,---,,2,0,0,0,0,.000,.000,.000
-"S. Frelick, OF (L)",^^,A. Abbott (L),CIN @ MIL,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
-"T. Stephenson, C (R)",^^,S. Drohan,CIN @ MIL,1.4,---,,1,0,0,0,1,.000,.500,.500
+"D. Myers, OF (R)",v>,S. Drohan (L),CIN @ MIL,n/a,---,,1,0,0,0,1,.000,.500,.500
+"N. Marte, 3B (R)",v^,S. Drohan,CIN @ MIL,n/a,---,,2,0,0,0,0,.000,.000,.000
+"M. McLain, 2B (R)",v^,S. Drohan (L),CIN @ MIL,n/a,---,,2,0,0,0,0,.000,.000,.000
+"S. Frelick, OF (L)",^^,A. Abbott (L),CIN @ MIL,n/a,0%,0%,2,0,0,0,0,.000,.000,.000
+"T. Stephenson, C (R)",^^,S. Drohan,CIN @ MIL,n/a,---,,1,0,0,0,1,.000,.500,.500
 "B. Rice, 1B (L)",v^,T. Melton (R),DET @ NYA,1.8,0%,0%,1,0,0,0,0,.000,.000,.000
 "C. Keith, 2B (L)",vv,W. Warren (R),DET @ NYA,1.8,0%,0%,3,0,0,0,0,.000,.000,.000
 "R. Greene, OF (L)",^v,W. Warren (R),DET @ NYA,1.8,0%,0%,2,0,0,0,0,.000,.000,.000
