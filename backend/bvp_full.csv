@@ -7,9 +7,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "B. Lowe, 2B (L)",v^,Z. Wheeler (R),PIT @ PHI,1.8,35%,6%,18,5,3,1,2,.278,.350,1.017
 "W. Adames, SS (R)",^v,Z. Gallen (R),SFN @ ARI,n/a,19%,4%,28,4,0,3,3,.143,.226,.690
 "C. Schmitt, 2B (R)",vv,Z. Gallen (R),SFN @ ARI,n/a,63%,25%,10,4,0,1,0,.400,.364,1.064
-"J. Sanoja, 3B (R)",^v,K. Freeland (L),MIA @ COL,1.2,60%,20%,7,4,1,0,0,.571,.571,1.285
-"H. Goodman, OF (R)",^^,M. Meyer (R),MIA @ COL,1.2,100%,0%,6,4,0,2,0,.667,.667,2.334
-"H. Hernandez, LF (R)",^v,K. Freeland (L),MIA @ COL,1.2,83%,33%,8,4,0,0,0,.500,.500,1.000
+"J. Sanoja, 3B (R)",^v,K. Freeland (L),MIA @ COL,1.3,60%,20%,7,4,1,0,0,.571,.571,1.285
+"H. Goodman, OF (R)",^^,M. Meyer (R),MIA @ COL,1.3,100%,0%,6,4,0,2,0,.667,.667,2.334
+"H. Hernandez, LF (R)",^v,K. Freeland (L),MIA @ COL,1.3,83%,33%,8,4,0,0,0,.500,.500,1.000
 "J. Lee, OF (L)",vv,Z. Gallen (R),SFN @ ARI,n/a,56%,11%,10,3,0,1,1,.300,.364,.964
 "K. Marte, 2B (B)",^v,T. McDonald (R),SFN @ ARI,n/a,100%,0%,5,3,0,0,0,.600,.600,1.200
 "S. Suzuki, OF (R)",^^,W. Buehler (R),SDN @ CHN,1.8,33%,17%,8,3,0,0,1,.375,.444,.819
@@ -32,9 +32,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "N. Hoerner, 2B (R)",v^,W. Buehler (R),SDN @ CHN,1.8,80%,20%,8,2,0,0,0,.250,.250,.500
 "E. Duran, 3B (R)",vv,J. Cantillo (L),TEX @ CLE,1.4,50%,50%,5,2,1,0,0,.400,.400,1.000
 "J. Burger, 3B (R)",vv,J. Cantillo (L),TEX @ CLE,1.4,0%,0%,5,2,0,0,0,.400,.400,.800
-"E. Tovar, SS (R)",v^,M. Meyer (R),MIA @ COL,1.2,17%,17%,9,2,0,0,0,.222,.222,.444
-"J. Marsee, CF (L)",vv,K. Freeland (L),MIA @ COL,1.2,33%,0%,6,2,2,0,0,.333,.333,1.000
-"X. Edwards, SS (B)",^v,K. Freeland (L),MIA @ COL,1.2,50%,50%,4,2,0,0,0,.500,.500,1.000
+"E. Tovar, SS (R)",v^,M. Meyer (R),MIA @ COL,1.3,17%,17%,9,2,0,0,0,.222,.222,.444
+"J. Marsee, CF (L)",vv,K. Freeland (L),MIA @ COL,1.3,33%,0%,6,2,2,0,0,.333,.333,1.000
+"X. Edwards, SS (B)",^v,K. Freeland (L),MIA @ COL,1.3,50%,50%,4,2,0,0,0,.500,.500,1.000
 "C. Walker, 1B (R)",^v,T. Bradley (R),MIN @ HOU,1.6,38%,13%,8,2,0,1,0,.250,.250,.875
 "J. Altuve, 2B (R)",vv,T. Bradley (R),MIN @ HOU,1.6,27%,18%,10,2,0,0,1,.200,.273,.473
 "Y. Alvarez, DH (L)",vv,T. Bradley (R),MIN @ HOU,1.6,40%,20%,5,2,1,0,0,.400,.400,1.000
@@ -52,9 +52,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Chapman, 3B (R)",vv,Z. Gallen (R),SFN @ ARI,n/a,20%,13%,17,1,1,0,0,.059,.059,.177
 "B. Eldridge, 1B (L)",vv,Z. Gallen (R),SFN @ ARI,n/a,50%,0%,4,1,0,0,0,.250,.250,.500
 "C. Robinson, C (R)",>^,J. Ginn (R),LAN @ ATH,1.5,50%,0%,2,1,0,0,0,.500,.500,1.000
-"D. Romo, C (B)",v>,D. Kremer (R),CHA @ BAL,1.5,100%,0%,1,1,1,0,0,1.000,1.000,3.000
-"R. Grichuk, OF (R)",^>,D. Kremer (R),CHA @ BAL,1.5,50%,0%,6,1,0,0,0,.167,.167,.334
-"C. Meidroth, SS (R)",^>,D. Kremer (R),CHA @ BAL,1.5,33%,0%,3,1,0,0,0,.333,.333,.666
+"D. Romo, C (B)",v>,D. Kremer (R),CHA @ BAL,1.7,100%,0%,1,1,1,0,0,1.000,1.000,3.000
+"R. Grichuk, OF (R)",^>,D. Kremer (R),CHA @ BAL,1.7,50%,0%,6,1,0,0,0,.167,.167,.334
+"C. Meidroth, SS (R)",^>,D. Kremer (R),CHA @ BAL,1.7,33%,0%,3,1,0,0,0,.333,.333,.666
 "T. France, 1B (R)",^v,C. Rea (R),SDN @ CHN,1.8,40%,0%,5,1,0,0,0,.200,.200,.400
 "A. Bregman, 3B (R)",^^,W. Buehler (R),SDN @ CHN,1.8,40%,40%,4,1,1,0,0,.250,.400,.900
 "X. Bogaerts, 2B (R)",^v,C. Rea (R),SDN @ CHN,1.8,50%,0%,3,1,0,0,0,.333,.333,.666
@@ -62,10 +62,10 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "B. Nimmo, OF (L)",vv,J. Cantillo,TEX @ CLE,1.4,---,,2,1,1,0,1,.500,.667,1.667
 "J. Foscue, DH (R)",^v,J. Cantillo,TEX @ CLE,1.4,---,,2,1,0,1,1,.500,.667,2.667
 "R. Hoskins, 1B (R)",v>,M. Gore (L),TEX @ CLE,1.4,40%,20%,4,1,0,0,1,.250,.400,.650
-"E. Ruiz, OF (R)",vv,K. Freeland (L),MIA @ COL,1.2,50%,0%,2,1,1,0,0,.500,.500,1.500
-"O. Lopez, 2B (R)",^v,K. Freeland (L),MIA @ COL,1.2,44%,22%,8,1,0,0,2,.125,.273,.398
-"W. Castro, OF (B)",>^,M. Meyer,MIA @ COL,1.2,---,,2,1,1,0,1,.500,.667,1.667
-"T. Freeman, OF (R)",^^,M. Meyer (R),MIA @ COL,1.2,50%,50%,2,1,0,0,0,.500,.500,1.000
+"E. Ruiz, OF (R)",vv,K. Freeland (L),MIA @ COL,1.3,50%,0%,2,1,1,0,0,.500,.500,1.500
+"O. Lopez, 2B (R)",^v,K. Freeland (L),MIA @ COL,1.3,44%,22%,8,1,0,0,2,.125,.273,.398
+"W. Castro, OF (B)",>^,M. Meyer,MIA @ COL,1.3,---,,2,1,1,0,1,.500,.667,1.667
+"T. Freeman, OF (R)",^^,M. Meyer (R),MIA @ COL,1.3,50%,50%,2,1,0,0,0,.500,.500,1.000
 "J. Meyers, OF (R)",vv,T. Bradley (R),MIN @ HOU,1.6,50%,25%,5,1,0,0,2,.200,.500,.700
 "I. Paredes, 3B (R)",^v,T. Bradley (R),MIN @ HOU,1.6,17%,0%,6,1,0,1,0,.167,.167,.834
 "B. Witt, SS (R)",^v,S. McClanahan (L),TBA @ KCA,1.7,40%,0%,4,1,0,1,1,.250,.400,1.400
@@ -97,9 +97,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "I. Herrera, DH (R)",v^,R. Lopez (R),SLN @ ATL,1.6,0%,0%,1,0,0,0,0,.000,.000,.000
 "A. Burleson, OF (L)",v^,R. Lopez (R),SLN @ ATL,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
 "M. Yastrzemski, OF (L)",v^,M. McGreevy (R),SLN @ ATL,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
-"M. Vargas, 3B (R)",^>,D. Kremer (R),CHA @ BAL,1.5,33%,0%,5,0,0,0,1,.000,.167,.167
----,,N. Schultz,CHA @ BAL,1.5,no matchup history,,,,,,,,,
-"C. Montgomery, SS (L)",>>,D. Kremer,CHA @ BAL,1.5,---,,2,0,0,0,1,.000,.333,.333
+"M. Vargas, 3B (R)",^>,D. Kremer (R),CHA @ BAL,1.7,33%,0%,5,0,0,0,1,.000,.167,.167
+---,,N. Schultz,CHA @ BAL,1.7,no matchup history,,,,,,,,,
+"C. Montgomery, SS (L)",>>,D. Kremer,CHA @ BAL,1.7,---,,2,0,0,0,1,.000,.333,.333
 ---,,A. Alvarez,WAS @ BOS,1.6,no matchup history,,,,,,,,,
 ---,,P. Tolle,WAS @ BOS,1.6,no matchup history,,,,,,,,,
 "M. Shaw, OF (R)",>^,W. Buehler (R),SDN @ CHN,1.8,---,,2,0,0,0,0,.000,.000,.000
@@ -108,8 +108,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Merrill, OF (L)",vv,C. Rea (R),SDN @ CHN,1.8,50%,0%,3,0,0,0,0,.000,.000,.000
 "A. Hedges, C (R)",v>,M. Gore (L),TEX @ CLE,1.4,100%,50%,1,0,0,0,1,.000,.500,.500
 "K. Higashioka, C (R)",vv,J. Cantillo (L),TEX @ CLE,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
-"M. Moniak, OF (L)",v^,M. Meyer (R),MIA @ COL,1.2,50%,0%,1,0,0,0,1,.000,.500,.500
-"J. McCarthy, OF (L)",^^,M. Meyer,MIA @ COL,1.2,---,,3,0,0,0,0,.000,.000,.000
+"M. Moniak, OF (L)",v^,M. Meyer (R),MIA @ COL,1.3,50%,0%,1,0,0,0,1,.000,.500,.500
+"J. McCarthy, OF (L)",^^,M. Meyer,MIA @ COL,1.3,---,,3,0,0,0,0,.000,.000,.000
 "C. Smith, OF (R)",^v,T. Bradley (R),MIN @ HOU,1.6,0%,0%,5,0,0,0,0,.000,.000,.000
 ---,,T. Imai,MIN @ HOU,1.6,no matchup history,,,,,,,,,
 "J. Loperfido, OF (L)",vv,T. Bradley (R),MIN @ HOU,1.6,50%,0%,2,0,0,0,0,.000,.000,.000
