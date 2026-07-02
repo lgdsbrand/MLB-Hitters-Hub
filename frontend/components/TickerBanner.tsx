@@ -10,9 +10,7 @@ interface TickerItem {
   homeLogo: string;
   gameLabel: string;
   ou?: string;
-  pred?: string;
   odds?: string;
-  pitcher?: string;
 }
 
 interface TickerBannerProps {
@@ -39,9 +37,7 @@ export default function TickerBanner({
     const addItem = (
       gameStr: string,
       ou?: string,
-      pred?: string,
       odds?: string,
-      pitcher?: string,
     ) => {
       if (seen.has(gameStr)) return;
       seen.add(gameStr);
@@ -56,9 +52,7 @@ export default function TickerBanner({
         homeLogo: getTeamLogoUrl(parsed.home),
         gameLabel: gameStr,
         ou,
-        pred,
         odds,
-        pitcher,
       });
     };
 
@@ -67,10 +61,8 @@ export default function TickerBanner({
       const game = String(row["Game"] || row["game"] || "");
       if (!game) return;
       const ou = String(row["O/U"] || row["OU"] || "");
-      const pred = row["Pred"] ? `${row["Pred"]}` : "";
       const odds = String(row["Odds"] || "");
-      const pitcher = String(row["Pitcher"] || "");
-      addItem(game, ou, pred, odds, pitcher);
+      addItem(game, ou, odds);
     });
 
     // Add from TB data (has Line and Over)
@@ -79,9 +71,7 @@ export default function TickerBanner({
       if (!game) return;
       const line = String(row["Line"] || "");
       const overOdds = String(row["Over"] || "");
-      const pred = row["TB Pred"] ? `${row["TB Pred"]}` : "";
-      const pitcher = String(row["Pitcher"] || "");
-      addItem(game, `O/U ${line} (${overOdds})`, pred, "", pitcher);
+      addItem(game, `O/U ${line} (${overOdds})`, "");
     });
 
     // Add from HR data if no hits/tb data for that game
@@ -89,9 +79,7 @@ export default function TickerBanner({
       const game = String(row["Game"] || row["game"] || "");
       if (seen.has(game)) return;
       const odds = String(row["Odds"] || "");
-      const pred = row["HR Pred"] ? `${row["HR Pred"]}` : "";
-      const pitcher = String(row["Pitcher"] || "");
-      addItem(game, "", pred, odds, pitcher);
+      addItem(game, "", odds);
     });
 
     // If no data at all, show games list
@@ -212,16 +200,7 @@ export default function TickerBanner({
                 <span className="ticker-teams">
                   {item.awayTeam} vs {item.homeTeam}
                 </span>
-                {item.pitcher && (
-                  <span className="ticker-pitcher">vs {item.pitcher}</span>
-                )}
                 {item.ou && <span className="ticker-ou">O/U: {item.ou}</span>}
-                {item.pred && (
-                  <span className="ticker-pred">Pred: {item.pred}</span>
-                )}
-                {item.odds && !item.pred && (
-                  <span className="ticker-odds">Odds: {item.odds}</span>
-                )}
               </div>
               <div className="ticker-separator">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -257,16 +236,7 @@ export default function TickerBanner({
                 <span className="ticker-teams">
                   {item.awayTeam} vs {item.homeTeam}
                 </span>
-                {item.pitcher && (
-                  <span className="ticker-pitcher">vs {item.pitcher}</span>
-                )}
                 {item.ou && <span className="ticker-ou">O/U: {item.ou}</span>}
-                {item.pred && (
-                  <span className="ticker-pred">Pred: {item.pred}</span>
-                )}
-                {item.odds && !item.pred && (
-                  <span className="ticker-odds">Odds: {item.odds}</span>
-                )}
               </div>
               <div className="ticker-separator">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

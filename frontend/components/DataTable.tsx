@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { parseGameString, getTeamLogoUrl } from "@/lib/teamLogos";
 
 interface Column {
@@ -184,6 +184,12 @@ export default function DataTable({
   const [sortColumn, setSortColumn] = useState<string | null>(null);
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
 
+  // Reset sort state when source changes so each table's sorting is independent
+  useEffect(() => {
+    setSortColumn(null);
+    setSortDirection("asc");
+  }, [source]);
+
   const handleSort = (columnKey: string, isSortable: boolean) => {
     if (!isSortable) return;
 
@@ -226,7 +232,7 @@ export default function DataTable({
   };
 
   // Determine if sorting should be enabled based on source
-  const isSortingEnabled = ["last7", "last15", "bvp"].includes(source);
+  const isSortingEnabled = ["last7", "last15", "bvp", "hits", "tb"].includes(source);
 
   if (loading) {
     return (
