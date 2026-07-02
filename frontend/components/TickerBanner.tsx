@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef, useEffect, useCallback } from "react";
+import { useMemo, useRef, useEffect, useState } from "react";
 import { getTeamLogoUrl, parseGameString } from "@/lib/teamLogos";
 
 interface TickerItem {
@@ -113,47 +113,59 @@ export default function TickerBanner({
     return items;
   }, [games, hitsData, hrData, tbData]);
 
+  const [ready, setReady] = useState(false);
   const trackRef = useRef<HTMLDivElement>(null);
-  const posRef = useRef(0);
   const rafRef = useRef<number | null>(null);
-
-  const animate = useCallback(() => {
-    const track = trackRef.current;
-    if (!track) return;
-
-    // Speed: 1px per frame = ~60px/s on 60fps (faster on mobile)
-    posRef.current -= 1;
-
-    // Reset when half the track has scrolled (we duplicated items once)
-    const halfWidth = track.scrollWidth / 2;
-    if (Math.abs(posRef.current) >= halfWidth) {
-      posRef.current = 0;
-    }
-
-    track.style.transform = `translateX(${posRef.current}px)`;
-    rafRef.current = requestAnimationFrame(animate);
-  }, []);
+  const posRef = useRef(0);
 
   useEffect(() => {
-    const track = trackRef.current;
-    if (!track || tickerItems.length === 0) return;
+    if (tickerItems.length === 0) return;
 
-    // Ensure layout is computed before starting
-    const start = () => {
-      // Reset position
+    // Wait for layout to settle, then start CSS animation
+    const timer = setTimeout(() => {
+      setReady(true);
+    }, 150);
+
+    return () => clearTimeout(timer);
+  }, [tickerItems]);
+
+  // JS-based scroll as fallback — pixel perfect on all devices
+  useEffect(() => {
+    if (!ready) return;
+
+    // Wait an extra frame for images to load
+    const startTimer = setTimeout(() => {
+      const track = trackRef.current;
+      if (!track) return;
+
       posRef.current = 0;
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rafRef.current = requestAnimationFrame(animate);
-    };
+      const halfW = track.scrollWidth / 2;
 
-    // Small delay to ensure images have loaded and layout is settled
-    const timer = setTimeout(start, 100);
+      const step = () => {
+        if (!track) return;
+        posRef.current -= 1;
+        if (Math.abs(posRef.current) >= halfW) {
+          posRef.current += halfW;
+        }
+        track.style.transform = `translateX(${posRef.current}px)`;
+        rafRef.current = requestAnimationFrame(step);
+      };
+
+      rafRef.current = requestAnimationFrame(step);
+    }, 50);
 
     return () => {
-      clearTimeout(timer);
+      clearTimeout(startTimer);
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
     };
-  }, [tickerItems, animate]);
+  }, [ready]);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
+  }, []);
 
   if (loading && tickerItems.length === 0) {
     return (
@@ -174,8 +186,7 @@ export default function TickerBanner({
       <div className="ticker-inner">
         <div className="ticker-track-js" ref={trackRef}>
           {tickerItems.map((item, idx) => (
-            <div key={`set1-${idx}`} className="ticker-item">
-              {/* Away Logo - only render if URL exists */}
+            <div key={`s1-${idx}`} className="ticker-item">
               {item.awayLogo && (
                 <img
                   src={item.awayLogo}
@@ -186,8 +197,7 @@ export default function TickerBanner({
                   }}
                 />
               )}
-                <span className="ticker-vs">vs</span>
-              {/* Home Logo - only render if URL exists */}
+              <span className="ticker-vs">vs</span>
               {item.homeLogo && (
                 <img
                   src={item.homeLogo}
@@ -198,8 +208,6 @@ export default function TickerBanner({
                   }}
                 />
               )}
-
-              {/* Game info block */}
               <div className="ticker-info">
                 <span className="ticker-teams">
                   {item.awayTeam} vs {item.homeTeam}
@@ -215,28 +223,15 @@ export default function TickerBanner({
                   <span className="ticker-odds">Odds: {item.odds}</span>
                 )}
               </div>
-
-              {/* Separator */}
               <div className="ticker-separator">
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="9 18 15 12 9 6" />
                 </svg>
               </div>
             </div>
           ))}
-          {/* Duplicate set for seamless loop */}
           {tickerItems.map((item, idx) => (
-            <div key={`set2-${idx}`} className="ticker-item">
-              {/* Away Logo - only render if URL exists */}
+            <div key={`s2-${idx}`} className="ticker-item">
               {item.awayLogo && (
                 <img
                   src={item.awayLogo}
@@ -247,8 +242,7 @@ export default function TickerBanner({
                   }}
                 />
               )}
-                <span className="ticker-vs">vs</span>
-              {/* Home Logo - only render if URL exists */}
+              <span className="ticker-vs">vs</span>
               {item.homeLogo && (
                 <img
                   src={item.homeLogo}
@@ -259,8 +253,6 @@ export default function TickerBanner({
                   }}
                 />
               )}
-
-              {/* Game info block */}
               <div className="ticker-info">
                 <span className="ticker-teams">
                   {item.awayTeam} vs {item.homeTeam}
@@ -276,19 +268,8 @@ export default function TickerBanner({
                   <span className="ticker-odds">Odds: {item.odds}</span>
                 )}
               </div>
-
-              {/* Separator */}
               <div className="ticker-separator">
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="9 18 15 12 9 6" />
                 </svg>
               </div>
