@@ -1357,7 +1357,7 @@ html, body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-33.333%);
+    transform: translateX(-50%);
   }
 }
 
@@ -1403,8 +1403,7 @@ html, body {
   }
 
   .ticker-track {
-    animation-duration: 40s;
-    animation-fill-mode: forwards;
+    animation-duration: 25s;
   }
 }
 

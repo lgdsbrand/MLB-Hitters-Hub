@@ -113,9 +113,9 @@ export default function TickerBanner({
     return items;
   }, [games, hitsData, hrData, tbData]);
 
-  // Duplicate items for seamless scrolling
+  // Duplicate items for seamless scrolling (2 copies so -50% translation is exact)
   const duplicatedItems = useMemo(
-    () => [...tickerItems, ...tickerItems, ...tickerItems],
+    () => [...tickerItems, ...tickerItems],
     [tickerItems],
   );
 
