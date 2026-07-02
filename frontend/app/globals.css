@@ -1266,11 +1266,11 @@ html, body {
   background: linear-gradient(270deg, #0f0c1a 0%, transparent 100%);
 }
 
-.ticker-track {
+.ticker-track,
+.ticker-track-js {
   display: flex;
   align-items: center;
   gap: 0;
-  animation: ticker-scroll 90s linear infinite;
   will-change: transform;
 }
 
@@ -1352,14 +1352,6 @@ html, body {
   margin-left: 4px;
 }
 
-@keyframes ticker-scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
 
 /* Mobile adjustments */
 @media (max-width: 640px) {
@@ -1402,9 +1394,6 @@ html, body {
     overflow: hidden !important;
   }
 
-  .ticker-track {
-    animation-duration: 25s;
-  }
 }
 
 /* ============================================
