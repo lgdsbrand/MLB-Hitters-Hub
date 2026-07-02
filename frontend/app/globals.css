@@ -1365,6 +1365,7 @@ html, body {
 @media (max-width: 640px) {
   .ticker-banner {
     height: 42px;
+    overflow: hidden !important;
   }
 
   .ticker-item {
@@ -1397,8 +1398,13 @@ html, body {
     width: 30px;
   }
 
+  .ticker-inner {
+    overflow: hidden !important;
+  }
+
   .ticker-track {
     animation-duration: 40s;
+    animation-fill-mode: forwards;
   }
 }
 

@@ -150,7 +150,7 @@ export default function TickerBanner({
                   }}
                 />
               )}
-                <span className="ticker-vs">@</span>
+                <span className="ticker-vs">vs</span>
               {/* Home Logo - only render if URL exists */}
               {item.homeLogo && (
                 <img
@@ -166,7 +166,7 @@ export default function TickerBanner({
               {/* Game info block */}
               <div className="ticker-info">
                 <span className="ticker-teams">
-                  {item.awayTeam} @ {item.homeTeam}
+                  {item.awayTeam} vs {item.homeTeam}
                 </span>
                 {item.pitcher && (
                   <span className="ticker-pitcher">vs {item.pitcher}</span>
