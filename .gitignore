@@ -1,0 +1,28 @@
+# Node
+node_modules/
+.npm/
+dist/
+
+# Next.js
+.next/
+out/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# MacOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Antigravity artifacts
+.antigravityignore
