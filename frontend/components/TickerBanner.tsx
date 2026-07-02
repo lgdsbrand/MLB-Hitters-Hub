@@ -150,7 +150,7 @@ export default function TickerBanner({
                   }}
                 />
               )}
-              <span className="ticker-vs">vs</span>
+                <span className="ticker-vs">@</span>
               {/* Home Logo - only render if URL exists */}
               {item.homeLogo && (
                 <img
