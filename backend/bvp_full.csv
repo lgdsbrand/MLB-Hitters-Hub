@@ -26,21 +26,21 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Vargas, 3B (R)",^^,S. Cecconi (R),CHA @ CLE,1.6,50%,0%,2,1,1,0,0,.500,.500,1.500
 "B. Rocchio, SS (B)",vv,D. Martin (R),CHA @ CLE,1.6,75%,75%,4,1,0,0,0,.250,.250,.500
 "C. Meidroth, SS (R)",v^,S. Cecconi (R),CHA @ CLE,1.6,100%,0%,2,1,0,1,0,.500,.500,2.500
-"C. Montgomery, SS (L)",>^,S. Cecconi,CHA @ CLE,1.6,---,,2,1,0,1,2,.500,.750,2.750
-"L. Hicks, C (L)",vv,M. Lorenzen,MIA @ COL,1.4,---,,1,1,0,1,0,1.000,.667,4.667
+"C. Montgomery, SS (L)",>^,S. Cecconi (R),CHA @ CLE,1.6,---,,2,1,0,1,2,.500,.750,2.750
+"L. Hicks, C (L)",vv,M. Lorenzen (R),MIA @ COL,1.4,---,,1,1,0,1,0,1.000,.667,4.667
 "O. Lopez, 2B (R)",>v,M. Lorenzen (R),MIA @ COL,1.4,50%,0%,4,1,0,0,0,.250,.250,.500
-"G. Conine, OF (L)",^v,M. Lorenzen,MIA @ COL,1.4,---,,2,1,0,0,0,.500,.500,1.000
+"G. Conine, OF (L)",^v,M. Lorenzen (R),MIA @ COL,1.4,---,,2,1,0,0,0,.500,.500,1.000
 G. Pauley,vv,M. Lorenzen,MIA @ COL,1.4,---,,2,1,0,0,0,.500,.500,1.000
-"O. Caissie, RF (L)",^v,M. Lorenzen,MIA @ COL,1.4,---,,2,1,1,0,0,.500,.500,1.500
-"X. Edwards, SS (B)",^v,M. Lorenzen,MIA @ COL,1.4,---,,3,1,0,0,0,.333,.333,.666
+"O. Caissie, RF (L)",^v,M. Lorenzen (R),MIA @ COL,1.4,---,,2,1,1,0,0,.500,.500,1.500
+"X. Edwards, SS (B)",^v,M. Lorenzen (R),MIA @ COL,1.4,---,,3,1,0,0,0,.333,.333,.666
 "V. Mesa, CF (L)",^v,S. Kolek (R),TBA @ KCA,1.8,100%,50%,2,1,0,0,0,.500,.500,1.000
 "C. Mullins, OF (L)",^v,S. Kolek (R),TBA @ KCA,1.8,100%,100%,1,1,1,0,0,1.000,1.000,3.000
-"F. Tatis, OF (R)",>v,R. Sasaki,SDN @ LAN,1.4,---,,3,1,1,0,0,.333,.333,1.000
+"F. Tatis, OF (R)",>v,R. Sasaki (R),SDN @ LAN,1.4,---,,3,1,1,0,0,.333,.333,1.000
 "M. Muncy, 3B (L)",^v,R. Vasquez (R),SDN @ LAN,1.4,75%,50%,6,1,1,0,1,.167,.250,.583
 "T. Edman, OF (B)",^v,R. Vasquez (R),SDN @ LAN,1.4,0%,0%,4,1,1,0,0,.250,.250,1.000
-"T. France, 1B (R)",^v,R. Sasaki,SDN @ LAN,1.4,---,,2,1,0,1,0,.500,.667,2.667
-"D. Rushing, C (L)",vv,R. Vasquez,SDN @ LAN,1.4,---,,2,1,0,1,0,.500,.500,2.500
-"M. Machado, 3B (R)",^v,R. Sasaki,SDN @ LAN,1.4,---,,1,1,1,0,1,1.000,1.000,3.000
+"T. France, 1B (R)",^v,R. Sasaki (R),SDN @ LAN,1.4,---,,2,1,0,1,0,.500,.667,2.667
+"D. Rushing, C (L)",vv,R. Vasquez (R),SDN @ LAN,1.4,---,,2,1,0,1,0,.500,.500,2.500
+"M. Machado, 3B (R)",^v,R. Sasaki (R),SDN @ LAN,1.4,---,,1,1,1,0,1,1.000,1.000,3.000
 "A. Freeland, SS (S)",v^,R. Vasquez (R),SDN @ LAN,1.4,50%,0%,3,1,0,0,1,.333,.500,.833
 "S. Steer, OF (R)",v^,J. Misiorowski (R),CIN @ MIL,n/a,100%,33%,2,1,0,0,1,.500,.667,1.167
 "T. Friedl, OF (L)",v^,J. Misiorowski (R),CIN @ MIL,n/a,75%,25%,3,1,0,0,1,.333,.500,.833
@@ -62,21 +62,21 @@ D. Smith,>^,D. May (R),SLN @ ATL,1.5,0%,0%,1,0,0,0,0,.000,.000,.000
 "L. Nootbaar, OF (L)",>v,G. Holmes (R),SLN @ ATL,1.5,33%,0%,2,0,0,0,1,.000,.333,.333
 "A. Benintendi, OF (L)",^^,S. Cecconi (R),CHA @ CLE,1.6,0%,0%,4,0,0,0,0,.000,.000,.000
 "E. Julien, 2B (L)",^v,R. Gusto (R),MIA @ COL,1.4,0%,0%,1,0,0,0,0,.000,.000,.000
-"J. Marsee, CF (L)",vv,M. Lorenzen,MIA @ COL,1.4,---,,3,0,0,0,0,.000,.000,.000
-"S. Marte, OF (R)",^>,I. Seymour,TBA @ KCA,1.8,---,,1,0,0,0,1,.000,.500,.500
-"S. Perez, C (R)",v>,I. Seymour,TBA @ KCA,1.8,---,,3,0,0,0,0,.000,.000,.000
-"C. Jensen, C (L)",^>,I. Seymour,TBA @ KCA,1.8,---,,2,0,0,0,0,.000,.000,.000
-"L. Thomas, OF (R)",v>,I. Seymour,TBA @ KCA,1.8,---,,2,0,0,0,0,.000,.000,.000
+"J. Marsee, CF (L)",vv,M. Lorenzen (R),MIA @ COL,1.4,---,,3,0,0,0,0,.000,.000,.000
+"S. Marte, OF (R)",^>,I. Seymour (L),TBA @ KCA,1.8,---,,1,0,0,0,1,.000,.500,.500
+"S. Perez, C (R)",v>,I. Seymour (L),TBA @ KCA,1.8,---,,3,0,0,0,0,.000,.000,.000
+"C. Jensen, C (L)",^>,I. Seymour (L),TBA @ KCA,1.8,---,,2,0,0,0,0,.000,.000,.000
+"L. Thomas, OF (R)",v>,I. Seymour (L),TBA @ KCA,1.8,---,,2,0,0,0,0,.000,.000,.000
 "N. Fortes, C (R)",vv,S. Kolek (R),TBA @ KCA,1.8,0%,0%,1,0,0,0,0,.000,.000,.000
-"N. Loftin, 2B (R)",v>,I. Seymour,TBA @ KCA,1.8,---,,2,0,0,0,0,.000,.000,.000
+"N. Loftin, 2B (R)",v>,I. Seymour (L),TBA @ KCA,1.8,---,,2,0,0,0,0,.000,.000,.000
 "I. Collins, OF (B)",^>,I. Seymour (L),TBA @ KCA,1.8,---,,3,0,0,0,0,.000,.000,.000
-"T. Tolbert, 2B (R)",v>,I. Seymour,TBA @ KCA,1.8,---,,2,0,0,0,0,.000,.000,.000
-"J. Caglianone, RF (L)",v>,I. Seymour,TBA @ KCA,1.8,---,,2,0,0,0,0,.000,.000,.000
+"T. Tolbert, 2B (R)",v>,I. Seymour (L),TBA @ KCA,1.8,---,,2,0,0,0,0,.000,.000,.000
+"J. Caglianone, RF (L)",v>,I. Seymour (L),TBA @ KCA,1.8,---,,2,0,0,0,0,.000,.000,.000
 "M. Betts, SS (R)",^v,R. Vasquez (R),SDN @ LAN,1.4,0%,0%,9,0,0,0,1,.000,.091,.091
-"G. Sheets, 1B (L)",^v,R. Sasaki,SDN @ LAN,1.4,---,,1,0,0,0,1,.000,.500,.500
-"S. Taylor, OF (R)",vv,R. Sasaki,SDN @ LAN,1.4,---,,1,0,0,0,2,.000,.667,.667
-"J. Merrill, OF (L)",vv,R. Sasaki,SDN @ LAN,1.4,---,,2,0,0,0,0,.000,.000,.000
-"X. Bogaerts, 2B (R)",^v,R. Sasaki,SDN @ LAN,1.4,---,,2,0,0,0,0,.000,.000,.000
+"G. Sheets, 1B (L)",^v,R. Sasaki (R),SDN @ LAN,1.4,---,,1,0,0,0,1,.000,.500,.500
+"S. Taylor, OF (R)",vv,R. Sasaki (R),SDN @ LAN,1.4,---,,1,0,0,0,2,.000,.667,.667
+"J. Merrill, OF (L)",vv,R. Sasaki (R),SDN @ LAN,1.4,---,,2,0,0,0,0,.000,.000,.000
+"X. Bogaerts, 2B (R)",^v,R. Sasaki (R),SDN @ LAN,1.4,---,,2,0,0,0,0,.000,.000,.000
 "T. Hernandez, OF (R)",vv,R. Vasquez (R),SDN @ LAN,1.4,0%,0%,7,0,0,0,0,.000,.000,.000
 "N. Marte, 3B (R)",v^,J. Misiorowski (R),CIN @ MIL,n/a,0%,0%,3,0,0,0,0,.000,.000,.000
 "J. Chourio, OF (R)",^^,C. Burns (R),CIN @ MIL,n/a,0%,0%,1,0,0,0,0,.000,.000,.000
