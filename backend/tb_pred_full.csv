@@ -1,151 +1,250 @@
 Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
-"K. McGonigle, SS (L)",N. Eovaldi (R),DET @ TEX,n/a,3.3,"1,0,2,1,4",1.5,+111,never faced,,,,,
-"S. Ohtani, DH (L)",R. Vasquez (R),SDN @ LAN,1.4,2.9,"2,1,5,1,0",1.5,-120,10,2,1,.200,.333,.833
-"H. Lee, 2B (R)",N. Eovaldi (R),DET @ TEX,n/a,2.7,"1,5,0,3,1",,,never faced,,,,,
-"M. Betts, SS (R)",R. Vasquez (R),SDN @ LAN,1.4,2.6,"4,4,2,1,4",1.5,+125,9,0,0,.000,.091,.091
-"F. Freeman, 1B (L)",R. Vasquez (R),SDN @ LAN,1.4,2.6,"4,0,2,3,4",1.5,+105,9,5,0,.556,.600,1.489
-"B. Harper, 1B (L)",J. Jones (R),PIT @ PHI,1.6,2.6,"5,0,4,1,2",1.5,+100,3,0,0,.000,.000,.000
-"B. Reynolds, OF (B)",A. Rangel (R),PIT @ PHI,1.6,2.6,"1,0,2,0,1",1.5,+104,1,0,0,.000,.000,.000
-"K. Schwarber, DH (L)",J. Jones (R),PIT @ PHI,1.6,2.6,"0,5,0,2,0",1.5,-104,3,1,0,.333,.333,.666
-"J. Mack, C (L)",M. Lorenzen (R),MIA @ COL,1.4,2.4,"5,0,1,1,4",1.5,+114,never faced,,,,,
-"J. Caminero, 3B (R)",S. Kolek (R),TBA @ KCA,1.8,2.4,"4,4,6,5,4",1.5,-145,never faced,,,,,
-"C. Mullins, OF (L)",S. Kolek (R),TBA @ KCA,1.8,2.3,"2,4,1,4,5",1.5,+113,1,1,0,1.000,1.000,3.000
-"F. Tatis, OF (R)",R. Sasaki (R),SDN @ LAN,1.4,2.3,"1,1,1,8,0",1.5,+110,3,1,0,.333,.333,1.000
-"E. De La Cruz, SS (B)",J. Misiorowski (R),CIN @ MIL,n/a,2.3,"0,1,4,3,2",,,1,0,0,.000,.500,.500
-"T. Turner, SS (R)",J. Jones (R),PIT @ PHI,1.6,2.3,"0,1,5,6,5",1.5,+101,3,1,0,.333,.333,.666
-"J. Lowe, OF (L)",B. Miller (R),ANA @ SEA,n/a,2.3,"2,1,4,4,1",,,7,5,1,.714,.714,2.143
-"C. Raleigh, C (B)",W. Urena (R),ANA @ SEA,n/a,2.3,"0,0,1,1,0",,,never faced,,,,,
-"M. Olson, 1B (L)",D. May (R),SLN @ ATL,1.5,2.2,"3,0,4,2,0",1.5,+112,8,0,0,.000,.200,.200
-"L. Thomas, OF (R)",I. Seymour (L),TBA @ KCA,1.8,2.2,"0,0,2,2,0",1.5,+115,2,0,0,.000,.000,.000
-"M. Muncy, 3B (L)",R. Vasquez (R),SDN @ LAN,1.4,2.2,"0,4,0,5,2",1.5,+126,6,1,0,.167,.250,.583
-"K. Tucker, OF (L)",R. Vasquez (R),SDN @ LAN,1.4,2.2,"6,1,2,0,0",0.5,+167,9,3,1,.333,.455,1.122
-"C. Yelich, DH (L)",C. Burns (R),CIN @ MIL,n/a,2.2,"0,0,3,2,0",0.5,+182,never faced,,,,,
-"J. Chourio, OF (R)",C. Burns (R),CIN @ MIL,n/a,2.2,"4,1,0,5,1",1.5,+111,1,0,0,.000,.000,.000
-"B. Lowe, 2B (L)",A. Rangel (R),PIT @ PHI,1.6,2.2,"0,4,0,0,1",1.5,-110,never faced,,,,,
-"Z. Neto, SS (R)",B. Miller (R),ANA @ SEA,n/a,2.2,"1,0,0,6,1",0.5,+135,14,2,0,.143,.294,.437
-"A. Burleson, OF (L)",G. Holmes (R),SLN @ ATL,1.5,2.1,"2,0,0,0,0",1.5,+110,4,4,0,1.000,1.000,2.750
-"B. Witt, SS (R)",I. Seymour (L),TBA @ KCA,1.8,2.1,"0,2,0,9,1",1.5,-137,never faced,,,,,
-"M. Machado, 3B (R)",R. Sasaki (R),SDN @ LAN,1.4,2.1,"0,6,0,5,2",0.5,+158,1,1,0,1.000,1.000,3.000
-"S. Steer, OF (R)",J. Misiorowski (R),CIN @ MIL,n/a,2.1,"5,1,0,1,0",,,2,1,0,.500,.667,1.167
-"W. Contreras, C (R)",C. Burns (R),CIN @ MIL,n/a,2.1,"5,0,0,1,1",1.5,+131,never faced,,,,,
-"R. Greene, OF (L)",N. Eovaldi (R),DET @ TEX,n/a,2.1,"0,3,0,8,0",1.5,+110,9,3,0,.333,.333,.889
-"K. Carpenter, OF (L)",N. Eovaldi (R),DET @ TEX,n/a,2.1,"4,5,2,4,1",1.5,+126,2,0,0,.000,.333,.333
-"A. Riley, 3B (R)",D. May (R),SLN @ ATL,1.5,2.0,"1,0,0,0,1",1.5,+158,7,2,2,.286,.286,1.429
-"M. Harris, OF (L)",D. May (R),SLN @ ATL,1.5,2.0,"1,0,0,0,1",,,5,1,0,.200,.200,.400
-"M. Yastrzemski, OF (L)",D. May (R),SLN @ ATL,1.5,2.0,"1,0,0,0,0",1.5,+182,14,7,0,.500,.563,1.206
-"S. Kwan, OF (L)",D. Martin (R),CHA @ CLE,1.6,2.0,"1,0,1,1,1",0.5,+195,9,4,0,.444,.545,.989
-"H. Goodman, OF (R)",R. Gusto (R),MIA @ COL,1.4,2.0,"12,0,6,0,4",1.5,-129,never faced,,,,,
-"J. Aranda, 1B (L)",S. Kolek (R),TBA @ KCA,1.8,2.0,"2,4,0,2,2",1.5,-117,never faced,,,,,
-"B. Marsh, OF (L)",J. Jones (R),PIT @ PHI,1.6,2.0,"1,3,8,0,5",1.5,+122,3,1,1,.333,.333,1.666
-"J. Soler, DH (R)",B. Miller (R),ANA @ SEA,n/a,2.0,"4,0,2,1,0",0.5,+170,5,1,0,.200,.500,.700
-"J. Naylor, 1B (L)",W. Urena (R),ANA @ SEA,n/a,2.0,"0,1,3,0,2",0.5,+133,never faced,,,,,
-"J. Rodriguez, OF (R)",W. Urena (R),ANA @ SEA,n/a,2.0,"1,2,2,1,3",1.5,+121,never faced,,,,,
-"R. Arozarena, OF (R)",W. Urena (R),ANA @ SEA,n/a,2.0,"2,5,0,0,3",0.5,+174,never faced,,,,,
-"C. Seager, SS (L)",F. Valdez (L),DET @ TEX,n/a,2.0,"5,0,4,0,0",,,34,9,1,.265,.306,.747
-"O. Albies, 2B (B)",D. May (R),SLN @ ATL,1.5,1.9,"1,0,0,1,6",1.5,+121,8,0,0,.000,.111,.111
-"L. Nootbaar, OF (L)",G. Holmes (R),SLN @ ATL,1.5,1.9,"1,2,0,2,0",,,2,0,0,.000,.333,.333
-"M. Vargas, 3B (R)",S. Cecconi (R),CHA @ CLE,1.6,1.9,"1,6,2,0,0",1.5,+105,2,1,0,.500,.500,1.500
-"A. Benintendi, OF (L)",S. Cecconi (R),CHA @ CLE,1.6,1.9,"6,1,1,4,0",1.5,+129,4,0,0,.000,.000,.000
-"C. Montgomery, SS (L)",S. Cecconi (R),CHA @ CLE,1.6,1.9,"1,2,0,2,4",0.5,+115,2,1,1,.500,.750,2.750
-"K. Stowers, OF (L)",M. Lorenzen (R),MIA @ COL,1.4,1.9,"2,0,2,6,0",1.5,-132,never faced,,,,,
-"X. Edwards, SS (B)",M. Lorenzen (R),MIA @ COL,1.4,1.9,"1,4,1,1,5",1.5,-129,3,1,0,.333,.333,.666
-"Y. Diaz, 1B (R)",S. Kolek (R),TBA @ KCA,1.8,1.9,"3,1,1,1,0",1.5,-130,never faced,,,,,
-"S. Marte, OF (R)",I. Seymour (L),TBA @ KCA,1.8,1.9,"4,0,0,2,1",1.5,+133,1,0,0,.000,.500,.500
-"A. Pages, OF (R)",R. Vasquez (R),SDN @ LAN,1.4,1.9,"3,0,5,2,2",1.5,+101,10,4,2,.400,.400,1.400
-"J. Merrill, OF (L)",R. Sasaki (R),SDN @ LAN,1.4,1.9,"2,1,1,1,0",0.5,+178,2,0,0,.000,.000,.000
-"T. Hernandez, OF (R)",R. Vasquez (R),SDN @ LAN,1.4,1.9,"1,1,0,2,0",,,7,0,0,.000,.000,.000
-"E. Suarez, 3B (R)",J. Misiorowski (R),CIN @ MIL,n/a,1.9,"1,4,0,0,2",0.5,+220,never faced,,,,,
-"A. Bohm, 3B (R)",J. Jones (R),PIT @ PHI,1.6,1.9,"0,3,0,1,4",1.5,+124,3,2,1,.667,.667,2.334
-"D. Canzone, OF (L)",W. Urena (R),ANA @ SEA,n/a,1.9,"4,0,0,3,4",1.5,+134,never faced,,,,,
-"J. Crawford, SS (L)",W. Urena (R),ANA @ SEA,n/a,1.9,"1,0,2,0,0",0.5,+170,never faced,,,,,
-"B. Nimmo, OF (L)",F. Valdez (L),DET @ TEX,n/a,1.9,"0,0,2,1,0",,,13,3,0,.231,.231,.539
-"K. Teel, C (L)",S. Cecconi (R),CHA @ CLE,1.6,1.8,"1,5,1,1,1",,,5,2,0,.400,.400,.800
-"K. Manzardo, DH (L)",D. Martin (R),CHA @ CLE,1.6,1.8,"1,1,0,4,1",0.5,+133,7,2,1,.286,.286,1.000
-"O. Lopez, 2B (R)",M. Lorenzen (R),MIA @ COL,1.4,1.8,"0,4,0,6,1",1.5,-162,4,1,0,.250,.250,.500
-"W. Castro, OF (B)",R. Gusto (R),MIA @ COL,1.4,1.8,"3,1,0,1,0",1.5,+103,never faced,,,,,
-"S. Perez, C (R)",I. Seymour (L),TBA @ KCA,1.8,1.8,"0,2,2,0,1",1.5,+116,3,0,0,.000,.000,.000
-"G. Sheets, 1B (L)",R. Sasaki (R),SDN @ LAN,1.4,1.8,"0,1,6,0,2",0.5,+178,1,0,0,.000,.500,.500
-"T. France, 1B (R)",R. Sasaki (R),SDN @ LAN,1.4,1.8,"6,4,2,2,3",0.5,+196,2,1,1,.500,.667,2.667
-"J. Cronenworth, 2B (L)",R. Sasaki (R),SDN @ LAN,1.4,1.8,"1,0,0,0,3",,,never faced,,,,,
-"N. Lowe, 1B (L)",J. Misiorowski (R),CIN @ MIL,n/a,1.8,"0,1,2,0,2",0.5,+261,never faced,,,,,
-"B. Turang, 2B (L)",C. Burns (R),CIN @ MIL,n/a,1.8,"0,3,4,1,2",0.5,+171,never faced,,,,,
-"T. Stephenson, C (R)",J. Misiorowski (R),CIN @ MIL,n/a,1.8,"0,2,3,2,3",0.5,+247,1,0,0,.000,.500,.500
-"J. Realmuto, C (R)",J. Jones (R),PIT @ PHI,1.6,1.8,"2,1,1,0,0",1.5,+133,3,1,0,.333,.333,.666
-"N. Schanuel, 1B (L)",B. Miller (R),ANA @ SEA,n/a,1.8,"2,1,1,0,1",,,11,1,0,.091,.167,.258
-"J. Jung, 3B (R)",F. Valdez (L),DET @ TEX,n/a,1.8,"2,3,3,5,0",1.5,+113,18,4,0,.222,.222,.500
-"J. Burger, 3B (R)",F. Valdez (L),DET @ TEX,n/a,1.8,"3,0,1,0,0",1.5,+117,17,4,1,.235,.278,.690
-"S. Torkelson, 1B (R)",N. Eovaldi (R),DET @ TEX,n/a,1.8,"0,2,1,5,0",0.5,+203,6,1,0,.167,.286,.453
-"M. Winn, SS (R)",G. Holmes (R),SLN @ ATL,1.5,1.7,"0,1,1,1,0",1.5,+178,4,0,0,.000,.000,.000
-"D. Baldwin, C (L)",D. May (R),SLN @ ATL,1.5,1.7,"0,0,0,1,1",,,3,0,0,.000,.250,.250
-"J. Marsee, CF (L)",M. Lorenzen (R),MIA @ COL,1.4,1.7,"1,2,0,0,0",1.5,+102,3,0,0,.000,.000,.000
-"M. Moniak, OF (L)",R. Gusto (R),MIA @ COL,1.4,1.7,"0,0,0,4,9",,,never faced,,,,,
-"J. McCarthy, OF (L)",R. Gusto (R),MIA @ COL,1.4,1.7,"7,4,4,0,0",1.5,-115,never faced,,,,,
-"T. Edman, OF (B)",R. Vasquez (R),SDN @ LAN,1.4,1.7,"1,5,0,7,0",,,4,1,0,.250,.250,1.000
-"X. Bogaerts, 2B (R)",R. Sasaki (R),SDN @ LAN,1.4,1.7,"0,2,3,1,0",0.5,+196,2,0,0,.000,.000,.000
-"N. Marte, 3B (R)",J. Misiorowski (R),CIN @ MIL,n/a,1.7,"0,0,1,1,4",,,3,0,0,.000,.000,.000
-"S. Frelick, OF (L)",C. Burns (R),CIN @ MIL,n/a,1.7,"2,1,1,3,4",0.5,+209,1,0,0,.000,.000,.000
-"R. O'Hearn, 1B (L)",A. Rangel (R),PIT @ PHI,1.6,1.7,"0,1,9,2,1",,,never faced,,,,,
-"N. Gonzales, 2B (R)",A. Rangel (R),PIT @ PHI,1.6,1.7,"1,1,1,1,3",1.5,+122,1,0,0,.000,.000,.000
-"L. O'Hoppe, C (R)",B. Miller (R),ANA @ SEA,n/a,1.7,"0,0,1,0,1",,,2,0,0,.000,.600,.600
-"C. Keith, 2B (L)",N. Eovaldi (R),DET @ TEX,n/a,1.7,"4,0,2,1,1",0.5,+169,5,0,0,.000,.000,.000
-"J. Outman, OF (L)",N. Eovaldi (R),DET @ TEX,n/a,1.7,"0,1,1,4,0",,,never faced,,,,,
-D. Smith,D. May (R),SLN @ ATL,1.5,1.6,,,,1,0,0,.000,.000,.000
-"J. Walker, OF (R)",G. Holmes (R),SLN @ ATL,1.5,1.6,"1,1,1,0,1",1.5,+127,never faced,,,,,
-"I. Herrera, DH (R)",G. Holmes (R),SLN @ ATL,1.5,1.6,"0,1,0,0,2",1.5,+134,never faced,,,,,
-"C. Meidroth, SS (R)",S. Cecconi (R),CHA @ CLE,1.6,1.6,"2,0,2,0,0",0.5,+140,2,1,1,.500,.500,2.500
-"E. Tovar, SS (R)",R. Gusto (R),MIA @ COL,1.4,1.6,"2,0,0,2,0",1.5,+126,never faced,,,,,
-"E. Julien, 2B (L)",R. Gusto (R),MIA @ COL,1.4,1.6,"1,0,2,3,0",0.5,+150,1,0,0,.000,.000,.000
-"C. Simpson, CF (L)",S. Kolek (R),TBA @ KCA,1.8,1.6,"2,1,2,1,3",1.5,+103,never faced,,,,,
-"I. Collins, OF (B)",I. Seymour (L),TBA @ KCA,1.8,1.6,"0,2,1,2,2",1.5,+204,3,0,0,.000,.000,.000
-"B. Stott, 2B (L)",J. Jones (R),PIT @ PHI,1.6,1.6,"0,1,1,2,2",0.5,+130,2,0,0,.000,.000,.000
-"G. Arias, 3B (R)",D. Martin (R),CHA @ CLE,1.6,1.5,"1,1,4,0,1",,,5,2,0,.400,.400,.800
-"E. Valdez, 2B (L)",A. Rangel (R),PIT @ PHI,1.6,1.5,"5,7,6,2,1",,,never faced,,,,,
-"J. Mangum, OF (B)",A. Rangel (R),PIT @ PHI,1.6,1.5,"2,2,0,2,2",1.5,+155,never faced,,,,,
-"L. Raley, OF (L)",W. Urena (R),ANA @ SEA,n/a,1.5,"0,2,0,1,0",0.5,+165,never faced,,,,,
-"D. Dingler, C (R)",N. Eovaldi (R),DET @ TEX,n/a,1.5,"1,0,2,3,3",1.5,+126,2,0,0,.000,.000,.000
-"M. Dubon, OF (R)",D. May (R),SLN @ ATL,1.5,1.4,"2,2,2,1,0",1.5,+136,3,0,0,.000,.000,.000
-"J. Wetherholt, SS (L)",G. Holmes (R),SLN @ ATL,1.5,1.4,"0,2,2,0,0",1.5,+126,never faced,,,,,
-"C. DeLauter, RF (L)",D. Martin (R),CHA @ CLE,1.6,1.4,"1,2,3,2,4",1.5,+116,never faced,,,,,
-"T. Walls, SS (B)",S. Kolek (R),TBA @ KCA,1.8,1.4,"0,1,1,0,4",0.5,+171,never faced,,,,,
-"R. Palacios, OF (L)",S. Kolek (R),TBA @ KCA,1.8,1.4,"1,2,0,0,0",0.5,+136,never faced,,,,,
-"E. Arroyo, SS (S)",J. Misiorowski (R),CIN @ MIL,n/a,1.4,"3,2,1,0,1",0.5,+265,never faced,,,,,
-"J. Bauers, 1B (L)",C. Burns (R),CIN @ MIL,n/a,1.4,"5,0,0,6,0",0.5,+173,never faced,,,,,
-"G. Mitchell, OF (L)",C. Burns (R),CIN @ MIL,n/a,1.4,"1,1,4,2,8",0.5,+228,never faced,,,,,
-"J. Adell, OF (R)",B. Miller (R),ANA @ SEA,n/a,1.4,"4,5,0,1,0",0.5,+145,9,0,0,.000,.100,.100
-"P. Bailey, C (B)",D. Martin (R),CHA @ CLE,1.6,1.3,"0,0,0,0,0",0.5,+220,never faced,,,,,
-"L. Hicks, C (L)",M. Lorenzen (R),MIA @ COL,1.4,1.3,"1,1,1,2,2",1.5,-121,1,1,1,1.000,.667,4.667
-"V. Mesa, CF (L)",S. Kolek (R),TBA @ KCA,1.8,1.3,"4,0,3,1,1",1.5,+101,2,1,0,.500,.500,1.000
-"N. Loftin, 2B (R)",I. Seymour (L),TBA @ KCA,1.8,1.3,"0,0,0,0,0",0.5,+176,2,0,0,.000,.000,.000
-"J. Caglianone, RF (L)",I. Seymour (L),TBA @ KCA,1.8,1.3,"0,3,0,0,2",1.5,-105,2,0,0,.000,.000,.000
-"F. Fermin, C (R)",R. Sasaki (R),SDN @ LAN,1.4,1.3,"0,0,0,1,2",0.5,+229,never faced,,,,,
-"D. Hamilton, SS (L)",C. Burns (R),CIN @ MIL,n/a,1.3,"0,0,4,1,0",0.5,+299,1,1,0,1.000,1.000,2.000
-"E. Rodriguez, C (B)",A. Rangel (R),PIT @ PHI,1.6,1.3,"2,3,2,5,1",1.5,+125,never faced,,,,,
-"D. Walton, 3B (L)",B. Miller (R),ANA @ SEA,n/a,1.3,"1,2,1,0,0",0.5,+240,never faced,,,,,
-"Z. McKinstry, SS (L)",N. Eovaldi (R),DET @ TEX,n/a,1.3,"3,5,2,0,1",0.5,+194,6,1,0,.167,.167,.334
-"K. Higashioka, C (R)",F. Valdez (L),DET @ TEX,n/a,1.3,"1,2,0,0,0",0.5,+185,8,0,0,.000,.000,.000
-"H. Kim, SS (R)",D. May (R),SLN @ ATL,1.5,1.2,"0,0,0,0,0",1.5,+190,11,2,0,.182,.182,.455
-"B. Rocchio, SS (B)",D. Martin (R),CHA @ CLE,1.6,1.2,"1,2,1,2,1",0.5,+150,4,1,0,.250,.250,.500
-"C. Young, 2B (L)",W. Urena (R),ANA @ SEA,n/a,1.2,"1,1,2,9,1",0.5,+175,never faced,,,,,
-"D. Guzman, SS (R)",B. Miller (R),ANA @ SEA,n/a,1.2,"0,2,3,1,1",,,never faced,,,,,
-"J. Crooks, C (L)",G. Holmes (R),SLN @ ATL,1.5,1.1,"0,1,0,0,0",1.5,+210,never faced,,,,,
-"G. Conine, OF (L)",M. Lorenzen (R),MIA @ COL,1.4,1.1,"2,1,1,0,5",,,2,1,0,.500,.500,1.000
-"T. Johnston, OF (L)",R. Gusto (R),MIA @ COL,1.4,1.1,"1,0,2,0,1",1.5,+112,never faced,,,,,
-"E. Duran, 3B (R)",F. Valdez (L),DET @ TEX,n/a,1.1,"2,2,0,1,3",0.5,+134,27,4,1,.148,.179,.475
-"N. Lopez, 2B (L)",F. Valdez (L),DET @ TEX,n/a,1.1,"1,1,2,1,2",0.5,+246,7,2,0,.286,.286,.572
-"K. Watson, LF (L)",D. Martin (R),CHA @ CLE,1.6,1.0,"2,2,1,0,3",,,never faced,,,,,
-"T. Peters, LF (L)",S. Cecconi (R),CHA @ CLE,1.6,0.9,"0,1,1,2,1",0.5,+175,never faced,,,,,
-"J. Sanoja, 3B (R)",M. Lorenzen (R),MIA @ COL,1.4,0.9,"3,3,6,6,3",1.5,-108,never faced,,,,,
-"O. Caissie, RF (L)",M. Lorenzen (R),MIA @ COL,1.4,0.9,"1,0,2,4,1",1.5,+104,2,1,0,.500,.500,1.500
-"C. Jensen, C (L)",I. Seymour (L),TBA @ KCA,1.8,0.9,"1,1,4,4,0",0.5,+121,2,0,0,.000,.000,.000
-"H. Feduccia, C (L)",S. Kolek (R),TBA @ KCA,1.8,0.9,"0,0,2,0,0",0.5,+184,never faced,,,,,
-"S. Stewart, 3B (R)",J. Misiorowski (R),CIN @ MIL,n/a,0.9,"5,3,1,6,1",0.5,+186,1,0,0,.000,.000,.000
-"W. Meckler, OF (L)",B. Miller (R),ANA @ SEA,n/a,0.9,"2,0,1,1,2",0.5,+200,never faced,,,,,
-"A. Osuna, LF (L)",F. Valdez (L),DET @ TEX,n/a,0.9,"2,0,1,1,0",,,never faced,,,,,
-"N. Church, LF (L)",G. Holmes (R),SLN @ ATL,1.5,0.8,"0,0,1,4,0",,,never faced,,,,,
-"D. Rushing, C (L)",R. Vasquez (R),SDN @ LAN,1.4,0.8,"0,0,4,2,1",0.5,+198,2,1,1,.500,.500,2.500
-"T. Hopkins, OF (R)",J. Misiorowski (R),CIN @ MIL,n/a,0.8,,,,never faced,,,,,
-"G. Rincones, RF (L)",J. Jones (R),PIT @ PHI,1.6,0.8,"0,0,0,1,2",,,never faced,,,,,
-"S. Taylor, OF (R)",R. Sasaki (R),SDN @ LAN,1.4,0.6,"0,0,0,1,2",,,1,0,0,.000,.667,.667
-"T. Tolbert, 2B (R)",I. Seymour (L),TBA @ KCA,1.8,0.5,"2,1,0,0,0",0.5,+223,2,0,0,.000,.000,.000
-"T. Callihan, LF (L)",A. Rangel (R),PIT @ PHI,1.6,0.5,"0,0,5,0,0",0.5,+178,never faced,,,,,
-"J. Foscue, DH (R)",F. Valdez (L),DET @ TEX,n/a,0.3,"0,3,5,4,1",0.5,+155,never faced,,,,,
+"H. Lee, 2B (R)",K. Rocker(R),DET @ TEX,n/a,2.9,"5,0,3,1,4",,,never faced,,,,,
+"K. McGonigle, SS (L)",K. Rocker(R),DET @ TEX,n/a,2.9,"2,1,4,2,0",1.5,+121,2,1,0,.500,.500,1.000
+"N. Kurtz, 1B (L)",E. Perez(R),MIA @ ATH,1.6,2.7,"1,0,2,5,0",1.5,-113,never faced,,,,,
+"F. Lindor, SS (B)",M. Perez (L),NYN @ ATL,1.6,2.7,"4,0,4,1,2",,,19,8,0,.421,.542,1.016
+"R. Devers, 1B (L)",T. Gordon(R),SFN @ COL,1.3,2.7,"1,4,1,5,1",2.5,-150,2,1,0,.500,.500,1.500
+"B. Harper, 1B (L)",L. Avila (R),PHI @ KCA,1.4,2.7,"4,1,2,2,1",1.5,+101,1,0,0,.000,.000,.000
+"M. Betts, SS (R)",J. Sears (L),SDN @ LAN,1.6,2.7,"1,4,3,0,2",1.5,+111,2,0,0,.000,.333,.333
+"S. Ohtani, DH (L)",J. Sears (L),SDN @ LAN,1.6,2.7,"5,1,0,1,0",1.5,-112,8,4,0,.500,.500,1.250
+"K. Schwarber, DH (L)",L. Avila (R),PHI @ KCA,1.4,2.6,"0,2,0,0,3",1.5,+100,1,0,0,.000,.000,.000
+"B. Buxton, OF (R)",R. Weathers (L),MIN @ NYA,1.4,2.6,"0,4,0,0,2",1.5,-117,2,2,0,1.000,1.000,2.500
+"Y. Alvarez, DH (L)",G. Jax (R),TBA @ HOU,n/a,2.5,"0,6,3,4,9",,,3,1,1,.333,.333,1.666
+"J. Caminero, 3B (R)",P. Lambert(R),TBA @ HOU,n/a,2.5,"5,4,0,4,5",,,never faced,,,,,
+"B. Witt, SS (R)",A. Nola (R),PHI @ KCA,1.4,2.5,"0,9,1,0,0",1.5,-124,6,3,1,.500,.500,1.833
+"K. Marte, 2B (B)",B. Sproat(R),MIL @ ARI,n/a,2.4,"4,5,3,2,0",1.5,+109,3,0,0,.000,.000,.000
+"W. Contreras, C (R)",E. Rodriguez (L),MIL @ ARI,n/a,2.4,"1,1,0,2,2",1.5,+101,10,1,0,.100,.231,.331
+"B. Bichette, 3B (R)",M. Perez (L),NYN @ ATL,1.6,2.4,"0,1,0,2,1",1.5,-115,10,5,0,.500,.545,1.245
+"F. Freeman, 1B (L)",J. Sears (L),SDN @ LAN,1.6,2.4,"3,4,1,1,5",1.5,+109,3,2,0,.667,.667,2.000
+"J. Chourio, OF (R)",E. Rodriguez (L),MIL @ ARI,n/a,2.3,"0,5,1,1,1",1.5,-121,5,2,0,.400,.500,1.100
+"Z. Gelof, 2B (R)",E. Perez(R),MIA @ ATH,1.6,2.3,"4,1,1,3,0",1.5,+118,never faced,,,,,
+"J. Soto, OF (L)",M. Perez (L),NYN @ ATL,1.6,2.3,"2,0,0,5,1",1.5,+106,10,4,1,.400,.455,1.155
+"T. Turner, SS (R)",L. Avila(R),PHI @ KCA,1.4,2.3,"5,6,5,1,1",1.5,-120,never faced,,,,,
+"C. Raleigh, C (B)",T. Yesavage(R),TOR @ SEA,1.2,2.3,"1,0,0,0,4",,,4,0,0,.000,.333,.333
+"B. Reynolds, OF (B)",C. Cavalli (R),PIT @ WAS,1.7,2.3,"0,1,1,6,2",1.5,+127,4,1,0,.250,.400,.650
+"M. Olson, 1B (L)",N. McLean (R),NYN @ ATL,1.6,2.2,"2,0,0,8,1",1.5,+118,5,0,0,.000,.000,.000
+"S. Suzuki, OF (R)",M. Liberatore (L),SLN @ CHN,1.2,2.2,"3,2,7,0,0",1.5,+129,11,1,0,.091,.167,.258
+"T. Ward, OF (R)",N. Lodolo (L),BAL @ CIN,1.6,2.2,"0,0,1,1,1",1.5,+118,3,1,0,.333,.333,1.000
+"P. Alonso, 1B (R)",N. Lodolo (L),BAL @ CIN,1.6,2.2,"0,1,0,1,4",1.5,+106,5,0,0,.000,.000,.000
+"T. O'Neill, OF (R)",N. Lodolo (L),BAL @ CIN,1.6,2.2,"1,0,2,0,4",,,5,2,0,.400,.625,1.225
+"E. De La Cruz, SS (B)",K. Bradish(R),BAL @ CIN,1.6,2.2,"3,2,1,1,2",,,never faced,,,,,
+"C. Mullins, OF (L)",P. Lambert(R),TBA @ HOU,n/a,2.2,"4,5,5,0,1",,,never faced,,,,,
+"F. Tatis, OF (R)",E. Sheehan (R),SDN @ LAN,1.6,2.2,"8,0,2,0,3",1.5,+101,6,1,0,.167,.286,.453
+"M. Machado, 3B (R)",E. Sheehan (R),SDN @ LAN,1.6,2.2,"5,2,4,0,0",1.5,+119,6,2,2,.333,.333,1.666
+"J. Bell, 1B (B)",R. Weathers (L),MIN @ NYA,1.4,2.2,"4,2,4,0,10",1.5,+133,3,0,0,.000,.000,.000
+"R. McMahon, 3B (L)",J. Ryan (R),MIN @ NYA,1.4,2.2,"4,1,0,2,0",1.5,+185,10,2,0,.200,.333,.733
+"P. Goldschmidt, 1B (R)",J. Ryan (R),MIN @ NYA,1.4,2.2,"0,0,0,0,0",1.5,+178,3,0,0,.000,.000,.000
+"B. Nimmo, OF (L)",C. Mize (R),DET @ TEX,n/a,2.2,"0,2,1,0,0",1.5,+113,4,0,0,.000,.200,.200
+"B. Lowe, 2B (L)",C. Cavalli(R),PIT @ WAS,1.7,2.2,"0,1,2,2,1",1.5,+103,2,1,0,.500,.500,1.000
+"J. Wood, OF (L)",B. Chandler (R),PIT @ WAS,1.7,2.2,"4,4,5,5,4",1.5,-108,3,0,0,.000,.000,.000
+"Z. Neto, SS (R)",R. Suarez (L),BOS @ ANA,1.6,2.1,"6,1,0,2,0",1.5,+126,3,2,0,.667,.667,1.334
+"W. Contreras, 1B (R)",R. Johnson(R),BOS @ ANA,1.6,2.1,"4,0,2,3,4",1.5,+120,never faced,,,,,
+"C. Carroll, OF (L)",B. Sproat(R),MIL @ ARI,n/a,2.1,"0,0,0,1,0",1.5,+107,2,0,0,.000,.000,.000
+"M. Winn, SS (R)",J. Assad (R),SLN @ CHN,1.2,2.1,"1,0,3,5,0",1.5,+172,5,5,1,1.000,1.000,2.600
+"D. Swanson, SS (R)",M. Liberatore (L),SLN @ CHN,1.2,2.1,"3,9,12,0,0",1.5,+193,11,2,0,.182,.308,.490
+"L. Arraez, 2B (L)",T. Gordon (R),SFN @ COL,1.3,2.1,"3,8,0,2,3",2.5,-150,9,1,0,.111,.200,.311
+"W. Adames, SS (R)",T. Gordon(R),SFN @ COL,1.3,2.1,"3,1,1,0,3",1.5,-137,1,1,0,1.000,1.000,2.000
+"H. Goodman, OF (R)",T. Mahle (R),SFN @ COL,1.3,2.1,"6,0,4,3,2",1.5,-145,3,2,0,.667,.667,1.667
+"M. Muncy, 3B (L)",J. Sears (L),SDN @ LAN,1.6,2.1,"5,2,3,1,0",1.5,+109,never faced,,,,,
+"T. Hernandez, OF (R)",J. Sears (L),SDN @ LAN,1.6,2.1,"2,0,0,4,0",,,8,2,0,.250,.250,.500
+"B. Rice, 1B (L)",J. Ryan (R),MIN @ NYA,1.4,2.1,"0,4,1,4,0",1.5,-105,3,1,0,.333,.333,.666
+"R. Arozarena, OF (R)",T. Yesavage(R),TOR @ SEA,1.2,2.1,"0,3,1,0,7",1.5,+136,5,3,0,.600,.667,1.267
+"K. Carpenter, OF (L)",K. Rocker(R),DET @ TEX,n/a,2.1,"2,4,1,0,1",1.5,+126,1,0,0,.000,.000,.000
+"C. Abrams, SS (L)",B. Chandler (R),PIT @ WAS,1.7,2.1,"0,2,4,1,0",1.5,+109,3,0,0,.000,.000,.000
+"J. Duran, OF (L)",R. Johnson(R),BOS @ ANA,1.6,2.0,"0,0,0,0,0",1.5,+107,never faced,,,,,
+"J. Soler, DH (R)",R. Suarez (L),BOS @ ANA,1.6,2.0,"1,0,1,1,0",1.5,+176,15,4,2,.267,.368,1.035
+"C. Yelich, DH (L)",E. Rodriguez (L),MIL @ ARI,n/a,2.0,"2,0,0,0,4",,,4,1,0,.250,.400,.650
+"M. Harris, OF (L)",N. McLean (R),NYN @ ATL,1.6,2.0,"0,1,1,5,6",,,5,0,0,.000,.000,.000
+"O. Albies, 2B (B)",N. McLean (R),NYN @ ATL,1.6,2.0,"1,6,0,4,2",1.5,+115,4,1,0,.250,.400,.650
+"F. Alvarez, C (R)",M. Perez (L),NYN @ ATL,1.6,2.0,"2,4,0,2,0",,,4,0,0,.000,.333,.333
+"I. Happ, OF (B)",M. Liberatore (L),SLN @ CHN,1.2,2.0,"0,1,2,0,1",1.5,+178,8,1,1,.125,.417,.917
+"A. Bregman, 3B (R)",M. Liberatore(L),SLN @ CHN,1.2,2.0,"2,4,0,3,0",1.5,+129,2,0,0,.000,.000,.000
+"N. Hoerner, 2B (R)",M. Liberatore (L),SLN @ CHN,1.2,2.0,"1,1,0,2,1",1.5,+131,11,4,0,.364,.417,.872
+"S. Kwan, OF (L)",E. Fedde (R),CHA @ CLE,1.2,2.0,"1,1,1,1,3",1.5,+173,11,7,1,.636,.636,1.545
+"J. Lee, OF (L)",T. Gordon(R),SFN @ COL,1.3,2.0,"1,0,2,1,2",1.5,-136,2,1,0,.500,.500,1.000
+"B. Eldridge, 1B (L)",T. Gordon(R),SFN @ COL,1.3,2.0,"2,0,1,1,6",1.5,-124,2,2,0,1.000,1.000,3.000
+"J. Aranda, 1B (L)",P. Lambert (R),TBA @ HOU,n/a,2.0,"2,2,1,0,1",,,2,0,0,.000,.000,.000
+"I. Paredes, 3B (R)",G. Jax (R),TBA @ HOU,n/a,2.0,"0,0,1,1,1",,,2,1,0,.500,.500,1.000
+"J. Realmuto, C (R)",L. Avila(R),PHI @ KCA,1.4,2.0,"1,1,0,0,4",1.5,+124,never faced,,,,,
+"J. Merrill, OF (L)",E. Sheehan(R),SDN @ LAN,1.6,2.0,"1,0,4,5,0",1.5,+133,4,1,0,.250,.250,.500
+"J. Chisholm, 2B (L)",J. Ryan (R),MIN @ NYA,1.4,2.0,"0,0,3,0,1",1.5,+144,3,0,0,.000,.000,.000
+"V. Guerrero, 1B (R)",E. Hancock (R),TOR @ SEA,1.2,2.0,"0,1,2,1,0",1.5,+126,3,0,0,.000,.250,.250
+"R. Greene, OF (L)",K. Rocker (R),DET @ TEX,n/a,2.0,"0,8,0,2,5",1.5,+119,4,1,0,.250,.250,.500
+"J. Pederson, DH (L)",C. Mize(R),DET @ TEX,n/a,2.0,"5,0,4,4,1",0.5,+124,never faced,,,,,
+"W. Abreu, OF (L)",R. Johnson(R),BOS @ ANA,1.6,1.9,"1,1,1,2,2",1.5,-105,never faced,,,,,
+"C. Durbin, 3B (R)",R. Johnson(R),BOS @ ANA,1.6,1.9,"4,1,0,4,0",1.5,+157,never faced,,,,,
+"N. Arenado, 3B (R)",B. Sproat(R),MIL @ ARI,n/a,1.9,"5,1,1,2,0",0.5,+178,2,1,1,.500,.500,2.500
+"A. Riley, 3B (R)",N. McLean(R),NYN @ ATL,1.6,1.9,"0,1,1,0,4",1.5,+158,never faced,,,,,
+"M. Vientos, 3B (R)",M. Perez (L),NYN @ ATL,1.6,1.9,"0,0,0,0,5",1.5,+122,6,1,0,.167,.167,.334
+"C. Kelly, C (R)",M. Liberatore (L),SLN @ CHN,1.2,1.9,"2,0,2,2,1",1.5,+146,8,2,0,.250,.250,.500
+"L. Nootbaar, OF (L)",J. Assad (R),SLN @ CHN,1.2,1.9,"0,2,0,3,0",,,9,2,0,.222,.300,.744
+"E. Suarez, 3B (R)",K. Bradish (R),BAL @ CIN,1.6,1.9,"0,2,1,0,2",1.5,+171,8,4,0,.500,.500,1.125
+"A. Rutschman, C (B)",N. Lodolo (L),BAL @ CIN,1.6,1.9,"1,0,1,2,4",1.5,+105,6,1,0,.167,.167,.500
+"K. Manzardo, DH (L)",E. Fedde (R),CHA @ CLE,1.2,1.9,"4,1,0,0,1",1.5,+143,3,2,0,.667,.667,1.334
+"A. Benintendi, OF (L)",T. Bibee (R),CHA @ CLE,1.2,1.9,"1,4,0,1,0",1.5,+147,15,3,0,.200,.294,.494
+"H. Ramos, OF (R)",T. Gordon (R),SFN @ COL,1.3,1.9,"4,0,7,1,2",,,3,1,0,.333,.333,.666
+"C. Walker, 1B (R)",G. Jax (R),TBA @ HOU,n/a,1.9,"0,1,0,0,1",,,2,1,0,.500,.500,1.500
+"J. Altuve, 2B (R)",G. Jax (R),TBA @ HOU,n/a,1.9,"0,0,1,0,5",,,4,0,0,.000,.000,.000
+"C. Jensen, C (L)",A. Nola (R),PHI @ KCA,1.4,1.9,"4,4,0,5,0",1.5,+115,2,0,0,.000,.000,.000
+"L. Thomas, OF (R)",A. Nola (R),PHI @ KCA,1.4,1.9,"2,2,0,2,2",1.5,+135,16,4,1,.250,.250,.813
+"T. Edman, OF (B)",J. Sears (L),SDN @ LAN,1.6,1.9,"0,7,0,3,0",,,3,2,0,.667,.667,1.334
+"R. Lewis, 3B (R)",R. Weathers (L),MIN @ NYA,1.4,1.9,"4,1,0,2,1",,,3,1,0,.333,.333,.666
+"T. Grisham, OF (L)",J. Ryan (R),MIN @ NYA,1.4,1.9,"1,4,1,5,0",1.5,+117,7,1,0,.143,.143,.286
+"J. Dominguez, OF (B)",J. Ryan(R),MIN @ NYA,1.4,1.9,"0,2,0,1,6",,,never faced,,,,,
+"M. Yoshida, DH (L)",R. Johnson(R),BOS @ ANA,1.6,1.8,"1,0,0,5,1",1.5,+116,never faced,,,,,
+"G. Perdomo, SS (B)",B. Sproat(R),MIL @ ARI,n/a,1.8,"2,0,1,0,0",1.5,+143,1,0,0,.000,.667,.667
+"J. Marsee, CF (L)",G. Jump(L),MIA @ ATH,1.6,1.8,"0,0,0,4,1",,+172,never faced,,,,,
+"L. Butler, OF (L)",E. Perez(R),MIA @ ATH,1.6,1.8,"2,0,0,1,1",1.5,+146,never faced,,,,,
+"S. Langeliers, C (R)",E. Perez (R),MIA @ ATH,1.6,1.8,"1,0,1,5,0",,,2,1,0,.500,.500,1.500
+"M. Yastrzemski, OF (L)",N. McLean(R),NYN @ ATL,1.6,1.8,"0,0,0,1,0",1.5,+187,2,1,0,.500,.500,1.000
+"P. Crow-Armstrong, OF (L)",M. Liberatore (L),SLN @ CHN,1.2,1.8,"2,4,5,2,1",1.5,+119,10,3,0,.300,.364,.864
+"T. Friedl, OF (L)",K. Bradish(R),BAL @ CIN,1.6,1.8,"0,0,0,5,3",1.5,+230,never faced,,,,,
+"B. Alexander, SS (R)",N. Lodolo(L),BAL @ CIN,1.6,1.8,"0,2,4,0,1",1.5,+130,never faced,,,,,
+"G. Henderson, SS (L)",N. Lodolo (L),BAL @ CIN,1.6,1.8,"3,3,1,0,1",1.5,+107,2,0,0,.000,.333,.333
+"M. Vargas, 3B (R)",T. Bibee (R),CHA @ CLE,1.2,1.8,"0,0,2,5,0",1.5,+112,5,1,0,.200,.333,.533
+"W. Castro, OF (B)",T. Mahle (R),SFN @ COL,1.3,1.8,"0,1,0,1,0",1.5,+114,5,2,0,.400,.400,.800
+"Y. Diaz, 1B (R)",P. Lambert (R),TBA @ HOU,n/a,1.8,"1,1,0,0,1",,,3,0,0,.000,.000,.000
+"B. Marsh, OF (L)",L. Avila(R),PHI @ KCA,1.4,1.8,"8,0,5,0,0",1.5,+101,never faced,,,,,
+"I. Collins, OF (B)",A. Nola (R),PHI @ KCA,1.4,1.8,"1,2,2,4,0",1.5,+185,3,1,1,.333,.333,1.666
+"A. Pages, OF (R)",J. Sears(L),SDN @ LAN,1.6,1.8,"2,2,2,0,1",1.5,-106,never faced,,,,,
+"K. Tucker, OF (L)",J. Sears (L),SDN @ LAN,1.6,1.8,"0,0,5,0,0",1.5,+138,18,4,2,.222,.211,.822
+"T. France, 1B (R)",E. Sheehan (R),SDN @ LAN,1.6,1.8,"2,3,1,0,0",1.5,+169,4,3,0,.750,.750,1.750
+"J. Cronenworth, 2B (L)",E. Sheehan (R),SDN @ LAN,1.6,1.8,"0,3,4,2,0",,,2,1,0,.500,.500,1.500
+"C. Bellinger, OF (L)",J. Ryan (R),MIN @ NYA,1.4,1.8,"0,0,0,0,2",1.5,+125,7,2,1,.286,.375,1.232
+"D. Varsho, OF (L)",E. Hancock (R),TOR @ SEA,1.2,1.8,"1,2,1,0,0",1.5,+174,4,1,0,.250,.250,.500
+"J. Naylor, 1B (L)",T. Yesavage(R),TOR @ SEA,1.2,1.8,"0,2,0,0,1",1.5,+135,5,4,1,.800,.800,2.200
+"D. Canzone, OF (L)",T. Yesavage(R),TOR @ SEA,1.2,1.8,"3,4,0,1,5",1.5,+132,4,1,0,.250,.250,.500
+"J. Crawford, SS (L)",T. Yesavage(R),TOR @ SEA,1.2,1.8,"0,0,2,2,0",1.5,+200,3,0,0,.000,.250,.250
+"C. Keith, 2B (L)",K. Rocker (R),DET @ TEX,n/a,1.8,"2,1,1,4,1",0.5,+130,5,1,0,.200,.200,.400
+"L. Garcia, 1B (L)",B. Chandler (R),PIT @ WAS,1.7,1.8,"8,10,1,8,0",,,2,0,0,.000,.000,.000
+"N. Gonzales, 2B (R)",C. Cavalli (R),PIT @ WAS,1.7,1.8,"1,3,6,2,2",1.5,+130,2,1,0,.500,.500,2.000
+"A. Vaughn, 1B (R)",E. Rodriguez (L),MIL @ ARI,n/a,1.7,"0,3,3,2,0",1.5,+127,14,3,0,.214,.313,.527
+"G. Moreno, C (R)",B. Sproat(R),MIL @ ARI,n/a,1.7,"0,2,1,2,1",1.5,+143,never faced,,,,,
+"L. Gurriel, OF (R)",B. Sproat(R),MIL @ ARI,n/a,1.7,"1,2,6,0,0",,,2,1,0,.500,.500,1.000
+"J. McNeil, 2B (L)",E. Perez (R),MIA @ ATH,1.6,1.7,"0,1,0,2,0",1.5,+171,3,0,0,.000,.250,.250
+"M. Busch, 1B (L)",M. Liberatore (L),SLN @ CHN,1.2,1.7,"0,4,5,1,0",1.5,+178,7,2,1,.286,.286,1.143
+"I. Herrera, DH (R)",J. Assad (R),SLN @ CHN,1.2,1.7,"0,2,1,3,1",1.5,+135,5,0,0,.000,.000,.000
+"A. Burleson, OF (L)",J. Assad (R),SLN @ CHN,1.2,1.7,"0,0,4,2,2",1.5,+113,8,3,0,.375,.333,.833
+"N. Lowe, 1B (L)",K. Bradish (R),BAL @ CIN,1.6,1.7,"2,0,2,1,0",1.5,+174,11,3,0,.273,.273,.546
+"N. Marte, 3B (R)",K. Bradish(R),BAL @ CIN,1.6,1.7,"1,1,4,1,1",,,never faced,,,,,
+"T. Stephenson, C (R)",K. Bradish(R),BAL @ CIN,1.6,1.7,"2,3,2,3,0",1.5,+171,never faced,,,,,
+"K. Teel, C (L)",T. Bibee (R),CHA @ CLE,1.2,1.7,"1,1,1,2,0",,,8,1,0,.125,.300,.425
+"C. DeLauter, RF (L)",E. Fedde(R),CHA @ CLE,1.2,1.7,"2,4,1,0,1",1.5,+108,never faced,,,,,
+"E. Tovar, SS (R)",T. Mahle(R),SFN @ COL,1.3,1.7,"0,2,0,6,0",1.5,+110,never faced,,,,,
+"M. Moniak, OF (L)",T. Mahle (R),SFN @ COL,1.3,1.7,"0,4,9,7,2",,,2,0,0,.000,.000,.000
+"J. McCarthy, OF (L)",T. Mahle(R),SFN @ COL,1.3,1.7,"0,0,5,10,1",1.5,-122,never faced,,,,,
+"A. Bohm, 3B (R)",L. Avila(R),PHI @ KCA,1.4,1.7,"0,1,4,2,6",1.5,+109,never faced,,,,,
+"G. Sheets, 1B (L)",E. Sheehan (R),SDN @ LAN,1.6,1.7,"0,2,2,1,1",1.5,+170,5,0,0,.000,.167,.167
+"X. Bogaerts, 2B (R)",E. Sheehan (R),SDN @ LAN,1.6,1.7,"1,0,2,2,1",1.5,+158,6,1,0,.167,.167,.334
+"N. Lukes, OF (L)",E. Hancock(R),TOR @ SEA,1.2,1.7,"0,0,2,0,0",1.5,+144,never faced,,,,,
+"J. Burger, 3B (R)",C. Mize (R),DET @ TEX,n/a,1.7,"0,1,0,0,0",1.5,+126,5,0,0,.000,.000,.000
+"J. Outman, OF (L)",K. Rocker(R),DET @ TEX,n/a,1.7,"1,4,0,0,0",,,never faced,,,,,
+"D. Lile, RF (L)",B. Chandler (R),PIT @ WAS,1.7,1.7,"0,2,2,10,2",1.5,+114,2,0,0,.000,.000,.000
+"D. Crews, OF (R)",B. Chandler (R),PIT @ WAS,1.7,1.7,"0,2,2,0,1",1.5,+121,2,1,0,.500,.500,1.000
+"R. O'Hearn, 1B (L)",C. Cavalli(R),PIT @ WAS,1.7,1.7,"2,1,2,0,2",,,1,0,0,.000,.000,.000
+"L. O'Hoppe, C (R)",R. Suarez (L),BOS @ ANA,1.6,1.6,"1,0,1,0,0",,,3,1,0,.333,.333,.666
+"B. Turang, 2B (L)",E. Rodriguez (L),MIL @ ARI,n/a,1.6,"1,2,2,3,5",1.5,+118,10,6,0,.600,.600,1.400
+"K. Stowers, OF (L)",G. Jump(L),MIA @ ATH,1.6,1.6,"6,0,1,10,5",1.5,+121,never faced,,,,,
+D. Smith,N. McLean(R),NYN @ ATL,1.6,1.6,,,,never faced,,,,,
+"D. Baldwin, C (L)",N. McLean (R),NYN @ ATL,1.6,1.6,"1,1,1,0,0",,,3,1,0,.333,.333,.666
+"E. Wagaman, 3B (R)",M. Perez(L),NYN @ ATL,1.6,1.6,"0,0,1,0,1",1.5,+158,2,0,0,.000,.000,.000
+"C. Montgomery, SS (L)",T. Bibee(R),CHA @ CLE,1.2,1.6,"2,4,1,0,6",1.5,+140,9,0,0,.000,.100,.100
+"C. Simpson, CF (L)",P. Lambert(R),TBA @ HOU,n/a,1.6,"1,2,1,3,3",,,never faced,,,,,
+"B. Stott, 2B (L)",L. Avila(R),PHI @ KCA,1.4,1.6,"1,2,2,1,1",1.5,+118,never faced,,,,,
+"S. Perez, C (R)",A. Nola (R),PHI @ KCA,1.4,1.6,"0,2,2,0,1",1.5,+127,8,2,1,.250,.250,.875
+"B. Lee, SS (B)",R. Weathers(L),MIN @ NYA,1.4,1.6,"2,1,1,0,0",1.5,+141,never faced,,,,,
+"A. Kirk, C (R)",E. Hancock (R),TOR @ SEA,1.2,1.6,"4,0,1,2,0",,,3,2,0,.667,.750,1.750
+"A. Gimenez, 2B (L)",E. Hancock (R),TOR @ SEA,1.2,1.6,"1,0,0,2,0",1.5,+210,4,1,0,.250,.200,.450
+"E. Diaz, C (R)",C. Mize (R),DET @ TEX,n/a,1.6,"2,0,5,6,0",,,2,1,0,.500,.500,1.500
+"J. Jung, 3B (R)",C. Mize(R),DET @ TEX,n/a,1.6,"3,5,0,3,2",1.5,+131,never faced,,,,,
+"E. Carter, OF (L)",C. Mize (R),DET @ TEX,n/a,1.6,"0,0,2,0,1",0.5,+165,3,0,0,.000,.000,.000
+"S. Torkelson, 1B (R)",K. Rocker (R),DET @ TEX,n/a,1.6,"1,5,0,1,0",0.5,+164,4,0,0,.000,.000,.000
+"K. Ruiz, C (B)",B. Chandler(R),PIT @ WAS,1.7,1.6,"1,1,1,3,0",1.5,+146,never faced,,,,,
+"E. Valdez, 2B (L)",C. Cavalli(R),PIT @ WAS,1.7,1.6,"2,1,4,4,1",,,never faced,,,,,
+"J. Siri, OF (R)",R. Suarez (L),BOS @ ANA,1.6,1.5,"0,2,0,1,4",1.5,+210,2,0,0,.000,.000,.000
+"C. Rafaela, OF (R)",R. Johnson(R),BOS @ ANA,1.6,1.5,"2,0,3,2,2",1.5,+107,never faced,,,,,
+"J. Ortiz, 3B (R)",E. Rodriguez (L),MIL @ ARI,n/a,1.5,"1,4,2,0,2",0.5,+213,7,2,0,.286,.375,.661
+"B. Perkins, OF (B)",E. Rodriguez (L),MIL @ ARI,n/a,1.5,"1,1,0,2,0",,,5,1,0,.200,.200,.400
+"S. Frelick, OF (L)",E. Rodriguez (L),MIL @ ARI,n/a,1.5,"3,4,0,0,0",1.5,+137,5,1,0,.200,.200,.600
+"E. Ruiz, OF (R)",G. Jump(L),MIA @ ATH,1.6,1.5,"1,0,2,0,0",1.5,+127,never faced,,,,,
+"J. Heim, C (B)",E. Perez (R),MIA @ ATH,1.6,1.5,"0,1,1,5,0",1.5,+133,2,0,0,.000,.000,.000
+"X. Edwards, SS (B)",G. Jump(L),MIA @ ATH,1.6,1.5,"1,5,0,0,1",,,never faced,,,,,
+"M. Dubon, OF (R)",N. McLean(R),NYN @ ATL,1.6,1.5,"1,0,2,0,4",1.5,+126,2,0,0,.000,.000,.000
+"J. Walker, OF (R)",J. Assad (R),SLN @ CHN,1.2,1.5,"0,1,5,2,2",1.5,+128,5,0,0,.000,.000,.000
+"J. Wetherholt, SS (L)",J. Assad(R),SLN @ CHN,1.2,1.5,"0,0,2,1,7",1.5,+135,never faced,,,,,
+"C. Meidroth, SS (R)",T. Bibee (R),CHA @ CLE,1.2,1.5,"0,0,4,1,0",1.5,+183,8,2,0,.250,.250,.500
+"C. Schmitt, 2B (R)",T. Gordon(R),SFN @ COL,1.3,1.5,"0,0,0,2,3",2.5,+104,2,0,0,.000,.000,.000
+"C. Smith, OF (R)",G. Jax (R),TBA @ HOU,n/a,1.5,"8,1,2,1,0",,,1,0,0,.000,.000,.000
+"R. Palacios, OF (L)",P. Lambert(R),TBA @ HOU,n/a,1.5,"0,0,0,1,5",,,never faced,,,,,
+"A. Martin, OF (R)",R. Weathers(L),MIN @ NYA,1.4,1.5,"0,2,1,1,0",0.5,+188,never faced,,,,,
+"L. Raley, OF (L)",T. Yesavage(R),TOR @ SEA,1.2,1.5,"1,0,0,0,0",1.5,+180,never faced,,,,,
+"V. Robles, OF (R)",T. Yesavage(R),TOR @ SEA,1.2,1.5,"2,0,1,1,1",1.5,+230,2,0,0,.000,.000,.000
+"N. Lopez, 2B (L)",C. Mize (R),DET @ TEX,n/a,1.5,"2,1,2,3,0",0.5,+270,14,5,0,.357,.400,.829
+"D. Dingler, C (R)",K. Rocker(R),DET @ TEX,n/a,1.5,"2,3,3,3,0",1.5,+128,1,1,1,1.000,1.000,5.000
+"J. Mangum, OF (B)",C. Cavalli(R),PIT @ WAS,1.7,1.5,"2,2,4,2,0",1.5,+142,1,1,0,1.000,1.000,2.000
+"V. Grissom, 2B (R)",R. Suarez (L),BOS @ ANA,1.6,1.4,"0,1,1,0,2",1.5,+155,2,0,0,.000,.333,.333
+"P. Smith, OF (L)",B. Sproat(R),MIL @ ARI,n/a,1.4,"0,2,0,0,1",0.5,+243,never faced,,,,,
+"M. Kepler, OF (L)",B. Sproat(R),MIL @ ARI,n/a,1.4,"0,0,0,3,0",,,never faced,,,,,
+"O. Lopez, 2B (R)",G. Jump(L),MIA @ ATH,1.6,1.4,"6,1,6,2,7",1.5,-125,never faced,,,,,
+"H. Hernandez, LF (R)",G. Jump(L),MIA @ ATH,1.6,1.4,"0,0,2,2,5",1.5,+103,never faced,,,,,
+"L. Taveras, OF (B)",N. Lodolo (L),BAL @ CIN,1.6,1.4,"0,0,1,4,0",1.5,+161,1,1,0,1.000,1.000,3.000
+"G. Arias, 3B (R)",E. Fedde(R),CHA @ CLE,1.2,1.4,"4,0,1,1,0",,,never faced,,,,,
+"B. Rocchio, SS (B)",E. Fedde (R),CHA @ CLE,1.2,1.4,"2,1,4,1,2",1.5,+146,11,2,0,.182,.182,.364
+"T. Walls, SS (B)",P. Lambert(R),TBA @ HOU,n/a,1.4,"0,4,2,0,1",,,never faced,,,,,
+"M. Massey, 2B (L)",A. Nola (R),PHI @ KCA,1.4,1.4,"0,0,1,0,0",1.5,+130,5,1,1,.200,.333,1.133
+"L. Campusano, C (R)",E. Sheehan(R),SDN @ LAN,1.6,1.4,"1,0,0,0,0",,,never faced,,,,,
+"J. Caballero, SS (R)",J. Ryan (R),MIN @ NYA,1.4,1.4,"1,0,0,1,1",1.5,+270,3,1,0,.333,.500,1.167
+"E. Duran, 3B (R)",C. Mize (R),DET @ TEX,n/a,1.4,"0,1,3,2,0",0.5,+170,2,1,0,.500,.500,1.000
+"Z. McKinstry, SS (L)",K. Rocker (R),DET @ TEX,n/a,1.4,"2,0,1,3,1",0.5,+190,2,0,0,.000,.000,.000
+"J. Lowe, OF (L)",R. Suarez (L),BOS @ ANA,1.6,1.3,"4,1,0,1,4",,,3,1,0,.333,.333,.666
+"J. Adell, OF (R)",R. Suarez (L),BOS @ ANA,1.6,1.3,"1,0,0,0,0",1.5,+136,3,0,0,.000,.000,.000
+C. Narvaez,R. Johnson(R),BOS @ ANA,1.6,1.3,"1,0,0,0,1",1.5,+179,never faced,,,,,
+"M. Muncy, 3B (R)",E. Perez(R),MIA @ ATH,1.6,1.3,"2,0,1,1,2",,,never faced,,,,,
+"C. Mayo, 3B (R)",N. Lodolo(L),BAL @ CIN,1.6,1.3,"1,4,0,0,0",1.5,+116,never faced,,,,,
+"V. Mesa, CF (L)",P. Lambert(R),TBA @ HOU,n/a,1.3,"1,1,0,0,0",,,never faced,,,,,
+"L. Keaschall, 2B (R)",R. Weathers(L),MIN @ NYA,1.4,1.3,"0,1,4,3,4",1.5,+170,never faced,,,,,
+"E. Rodriguez, C (B)",C. Cavalli(R),PIT @ WAS,1.7,1.3,"2,5,1,4,0",1.5,+135,never faced,,,,,
+"H. Kim, SS (R)",N. McLean(R),NYN @ ATL,1.6,1.2,"0,0,0,0,0",,,1,0,0,.000,.500,.500
+"S. Basallo, C (L)",N. Lodolo(L),BAL @ CIN,1.6,1.2,"0,1,2,4,4",,,never faced,,,,,
+"P. Bailey, C (B)",E. Fedde(R),CHA @ CLE,1.2,1.2,"0,0,0,0,3",1.5,+190,2,0,0,.000,.000,.000
+"K. Karros, 3B (R)",T. Mahle(R),SFN @ COL,1.3,1.2,"2,4,0,5,1",1.5,+121,never faced,,,,,
+"B. Matthews, SS (R)",G. Jax(R),TBA @ HOU,n/a,1.2,"0,0,0,0,0",,,never faced,,,,,
+"J. Caglianone, RF (L)",A. Nola (R),PHI @ KCA,1.4,1.2,"0,0,2,1,0",1.5,+107,3,1,1,.333,.333,1.666
+"A. Wells, C (L)",J. Ryan (R),MIN @ NYA,1.4,1.2,"0,0,0,0,0",1.5,+185,4,0,0,.000,.000,.000
+"C. Young, 2B (L)",T. Yesavage(R),TOR @ SEA,1.2,1.2,"9,1,0,1,2",1.5,+185,never faced,,,,,
+"E. Clement, 3B (R)",E. Hancock (R),TOR @ SEA,1.2,1.2,"1,0,3,0,0",1.5,+146,5,2,0,.400,.400,.800
+"C. Mead, 2B (R)",B. Chandler(R),PIT @ WAS,1.7,1.2,"2,2,0,4,1",1.5,+127,never faced,,,,,
+"J. Young, OF (R)",B. Chandler(R),PIT @ WAS,1.7,1.2,"2,0,0,0,4",1.5,+155,never faced,,,,,
+"D. Guzman, SS (R)",R. Suarez(L),BOS @ ANA,1.6,1.1,"1,1,1,0,1",,,never faced,,,,,
+"L. Hicks, C (L)",G. Jump(L),MIA @ ATH,1.6,1.1,"2,2,1,1,3",1.5,+171,never faced,,,,,
+"L. Jimenez, SS (R)",G. Jump(L),MIA @ ATH,1.6,1.1,"0,2,4,0,0",1.5,+171,never faced,,,,,
+"J. Crooks, C (L)",J. Assad (R),SLN @ CHN,1.2,1.1,"1,0,0,0,1",1.5,+264,2,1,0,.500,.500,2.000
+"T. Johnston, OF (L)",T. Mahle (R),SFN @ COL,1.3,1.1,"2,0,1,3,0",1.5,+116,2,0,0,.000,.000,.000
+"N. Loftin, 2B (R)",A. Nola(R),PHI @ KCA,1.4,1.1,"0,0,0,0,1",1.5,+178,never faced,,,,,
+"O. Peraza, 2B (R)",R. Suarez(L),BOS @ ANA,1.6,1.0,"0,0,1,0,0",1.5,+180,never faced,,,,,
+"C. Thomas, OF (L)",E. Perez(R),MIA @ ATH,1.6,1.0,"0,5,5,2,0",,,never faced,,,,,
+"J. Sanoja, 3B (R)",G. Jump (L),MIA @ ATH,1.6,1.0,"6,6,3,2,2",1.5,+125,never faced,,,,,
+"K. Watson, LF (L)",E. Fedde(R),CHA @ CLE,1.2,1.0,"1,0,3,0,0",,,2,1,0,.500,.667,1.167
+"T. Peters, LF (L)",T. Bibee(R),CHA @ CLE,1.2,1.0,"2,1,2,1,3",1.5,+217,2,0,0,.000,.000,.000
+"N. Allen, SS (R)",G. Jax(R),TBA @ HOU,n/a,1.0,"1,1,0,0,2",,,never faced,,,,,
+K. Misner,A. Nola(R),PHI @ KCA,1.4,1.0,"1,2,0,1,0",,,never faced,,,,,
+"G. Rincones, RF (L)",L. Avila(R),PHI @ KCA,1.4,1.0,"0,1,2,0,6",,,never faced,,,,,
+K. Alcantara,M. Liberatore(L),SLN @ CHN,1.2,0.9,,1.5,+264,2,1,0,.500,.500,1.000
+"S. Stewart, 3B (R)",K. Bradish(R),BAL @ CIN,1.6,0.9,"6,1,4,0,2",1.5,+119,never faced,,,,,
+"H. Feduccia, C (L)",P. Lambert(R),TBA @ HOU,n/a,0.9,"2,0,0,5,0",,,never faced,,,,,
+T. Trammell,G. Jax(R),TBA @ HOU,n/a,0.9,"5,1,0,0,1",,,never faced,,,,,
+"A. Jackson, C (R)",R. Weathers (L),MIN @ NYA,1.4,0.9,"0,5,2,1,4",,,2,0,0,.000,.000,.000
+"A. Osuna, LF (L)",C. Mize(R),DET @ TEX,n/a,0.9,"1,1,0,3,0",,,never faced,,,,,
+"A. Williams, 2B (R)",E. Perez(R),MIA @ ATH,1.6,0.8,"2,1,4,2,0",1.5,+197,never faced,,,,,
+"N. Church, LF (L)",J. Assad (R),SLN @ CHN,1.2,0.8,"4,0,4,5,0",,,2,0,0,.000,.000,.000
+"E. Arroyo, SS (S)",K. Bradish(R),BAL @ CIN,1.6,0.8,"1,0,1,0,0",1.5,+186,never faced,,,,,
+"T. Hopkins, OF (R)",K. Bradish(R),BAL @ CIN,1.6,0.8,,,,never faced,,,,,
+"J. Loperfido, OF (L)",G. Jax (R),TBA @ HOU,n/a,0.8,"0,0,0,0,1",,,2,1,0,.500,.500,1.500
+"R. Mauricio, 2B (B)",M. Perez(L),NYN @ ATL,1.6,0.7,"0,4,1,2,0",,,never faced,,,,,
+"N. Nunez, SS (B)",B. Chandler(R),PIT @ WAS,1.7,0.7,"0,0,4,2,0",1.5,+240,never faced,,,,,
+"T. Cheng, SS (L)",R. Johnson (R),BOS @ ANA,1.6,0.6,"2,0,0,1,0",,,never faced,,,,,
+"S. Taylor, OF (R)",E. Sheehan(R),SDN @ LAN,1.6,0.6,"0,0,1,2,1",,,3,0,0,.000,.000,.000
+"D. Rushing, C (L)",J. Sears(L),SDN @ LAN,1.6,0.6,"2,1,8,1,0",,+156,never faced,,,,,
+"T. Callihan, LF (L)",C. Cavalli(R),PIT @ WAS,1.7,0.6,"0,5,0,0,1",1.5,+180,never faced,,,,,
+"A. Seigler, 2B (L)",R. Johnson(R),BOS @ ANA,1.6,0.5,"1,3,2,0,2",,,never faced,,,,,
+"R. Kreidler, SS (R)",R. Weathers(L),MIN @ NYA,1.4,0.5,"1,1,0,0,0",1.5,+240,never faced,,,,,
