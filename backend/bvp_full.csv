@@ -42,7 +42,6 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "K. Clemens, 1B (L)",^^,J. Cantillo (L),CLE @ MIN,1.6,33%,17%,6,2,0,0,0,.333,.333,.666
 "S. Perez, C (R)",vv,K. Senga (R),KCA @ NYN,1.2,40%,20%,5,2,1,0,0,.400,.400,1.000
 "B. Bichette, 3B (R)",^v,S. Lugo (R),KCA @ NYN,1.2,67%,44%,8,2,0,0,1,.250,.333,.583
-"B. Reynolds, OF (B)",>v,B. Elder (R),ATL @ PIT,1.6,33%,22%,11,2,0,0,1,.182,.250,.432
 "L. Gurriel, OF (R)",v>,J. Brito (R),ARI @ SDN,1.0,50%,17%,6,2,0,0,0,.333,.333,.666
 "C. Yelich, DH (L)",v^,M. McGreevy,MIL @ SLN,1.4,---,,3,2,1,0,0,.667,.667,1.667
 "J. Bauers, 1B (L)",v^,M. McGreevy,MIL @ SLN,1.4,---,,2,2,0,1,0,1.000,1.000,3.500
@@ -80,8 +79,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "V. Caratini, C (B)",^^,J. Cantillo (L),CLE @ MIN,1.6,25%,25%,4,1,0,0,0,.250,.250,.500
 "L. Thomas, OF (R)",vv,K. Senga (R),KCA @ NYN,1.2,40%,0%,4,1,0,0,1,.250,.400,.650
 "M. Massey, 2B (L)",vv,K. Senga (R),KCA @ NYN,1.2,33%,0%,3,1,1,0,0,.333,.333,1.000
-"A. Riley, 3B (R)",^v,P. Skenes (R),ATL @ PIT,1.6,33%,33%,3,1,0,0,0,.333,.333,.666
-"O. Albies, 2B (B)",^v,P. Skenes (R),ATL @ PIT,1.6,100%,0%,2,1,0,0,1,.500,.667,1.167
+"A. Riley, 3B (R)",^v,P. Skenes (R),ATL @ PIT,1.5,33%,33%,3,1,0,0,0,.333,.333,.666
+"O. Albies, 2B (B)",^v,P. Skenes (R),ATL @ PIT,1.5,100%,0%,2,1,0,0,1,.500,.667,1.167
 "M. Kepler, OF (L)",v>,J. Brito (R),ARI @ SDN,1.0,50%,0%,2,1,0,0,0,.500,.500,1.000
 "C. Carroll, OF (L)",v>,J. Brito (R),ARI @ SDN,1.0,67%,67%,3,1,0,0,0,.333,.333,.666
 "J. Merrill, OF (L)",^v,Z. Gallen (R),ARI @ SDN,1.0,22%,11%,10,1,0,0,0,.100,.100,.200
@@ -124,14 +123,8 @@ T. Heineman,v^,J. deGrom (R),ANA @ TEX,n/a,100%,100%,1,1,1,0,0,1.000,1.000,3.000
 "N. Loftin, 2B (R)",vv,K. Senga (R),KCA @ NYN,1.2,0%,0%,2,0,0,0,0,.000,.000,.000
 "I. Collins, OF (B)",^v,K. Senga (R),KCA @ NYN,1.2,50%,0%,1,0,0,0,1,.000,.500,.500
 "J. Caglianone, RF (L)",vv,K. Senga (R),KCA @ NYN,1.2,0%,0%,2,0,0,0,0,.000,.000,.000
-"B. Lowe, 2B (L)",vv,B. Elder (R),ATL @ PIT,1.6,33%,33%,2,0,0,0,0,.000,.000,.000
-"M. Olson, 1B (L)",^v,P. Skenes (R),ATL @ PIT,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
-"J. Mangum, OF (B)",^v,B. Elder (R),ATL @ PIT,1.6,33%,33%,5,0,0,0,0,.000,.000,.000
-"R. O'Hearn, 1B (L)",vv,B. Elder,ATL @ PIT,1.6,---,,3,0,0,0,0,.000,.000,.000
-"N. Gonzales, 2B (R)",^v,B. Elder,ATL @ PIT,1.6,---,,3,0,0,0,0,.000,.000,.000
-"T. Callihan, LF (L)",>v,B. Elder,ATL @ PIT,1.6,---,,2,0,0,0,0,.000,.000,.000
-"E. Rodriguez, C (B)",^v,B. Elder (R),ATL @ PIT,1.6,67%,33%,3,0,0,0,0,.000,.000,.000
-"M. Yastrzemski, OF (L)",vv,P. Skenes (R),ATL @ PIT,1.6,50%,0%,2,0,0,0,0,.000,.000,.000
+"M. Olson, 1B (L)",^v,P. Skenes (R),ATL @ PIT,1.5,0%,0%,3,0,0,0,0,.000,.000,.000
+"M. Yastrzemski, OF (L)",vv,P. Skenes (R),ATL @ PIT,1.5,50%,0%,2,0,0,0,0,.000,.000,.000
 "K. Marte, 2B (B)",^>,J. Brito (R),ARI @ SDN,1.0,0%,0%,4,0,0,0,0,.000,.000,.000
 "P. Smith, OF (L)",v>,J. Brito (R),ARI @ SDN,1.0,0%,0%,3,0,0,0,0,.000,.000,.000
 "G. Moreno, C (R)",^>,J. Brito (R),ARI @ SDN,1.0,50%,0%,1,0,0,0,0,.000,.500,.500
