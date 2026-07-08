@@ -9,7 +9,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "R. Devers, 1B (L)",^^,D. Cease (R),TOR @ SFN,1.2,47%,13%,12,4,1,1,2,.333,.400,1.067
 "M. Chapman, 3B (R)",v^,D. Cease (R),TOR @ SFN,1.2,42%,11%,19,4,0,1,0,.211,.211,.579
 "M. Conforto, OF (L)",^^,D. Kremer (R),CHN @ BAL,1.6,100%,25%,4,3,0,1,0,.750,.750,2.250
-"B. Bichette, 3B (R)",^v,S. Kolek (R),KCA @ NYN,1.4,60%,20%,5,3,0,0,0,.600,.600,1.200
+"B. Bichette, 3B (R)",^v,S. Kolek (R),KCA @ NYN,1.5,60%,20%,5,3,0,0,0,.600,.600,1.200
 "E. Haase, C (R)",v^,D. Cease (R),TOR @ SFN,1.2,38%,13%,13,3,2,0,3,.231,.375,.760
 "W. Adames, SS (R)",>^,D. Cease (R),TOR @ SFN,1.2,35%,0%,13,3,1,1,3,.231,.353,.891
 "G. Springer, OF (R)",v^,L. Webb (R),TOR @ SFN,1.2,40%,10%,9,3,1,0,1,.333,.400,.844
@@ -29,7 +29,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "K. Tucker, OF (L)",^v,R. Feltner,COL @ LAN,1.5,---,,3,2,0,1,0,.667,.667,2.334
 "L. Raley, OF (L)",vv,T. Phillips (R),SEA @ MIA,n/a,100%,0%,2,2,0,1,0,1.000,1.000,3.500
 "V. Robles, OF (R)",vv,T. Phillips (R),SEA @ MIA,n/a,100%,50%,2,2,0,1,0,1.000,1.000,3.500
-"J. Polanco, 1B (B)",>v,S. Kolek (R),KCA @ NYN,1.4,50%,33%,6,2,1,0,0,.333,.333,.833
+"J. Polanco, 1B (B)",>v,S. Kolek (R),KCA @ NYN,1.5,50%,33%,6,2,1,0,0,.333,.333,.833
 "K. Marte, 2B (B)",^>,M. King (R),ARI @ SDN,1.1,50%,33%,9,2,0,0,0,.222,.222,.444
 "G. Moreno, C (R)",^>,M. King (R),ARI @ SDN,1.1,83%,50%,5,2,0,0,1,.400,.500,.900
 "J. Lee, OF (L)",v^,D. Cease (R),TOR @ SFN,1.2,58%,17%,8,2,1,0,3,.250,.417,.792
@@ -112,9 +112,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "K. Clemens, 1B (L)",^^,S. Cecconi (R),CLE @ MIN,1.4,33%,33%,3,0,0,0,0,.000,.000,.000
 "R. Hoskins, 1B (R)",^v,C. Prielipp,CLE @ MIN,1.4,---,,1,0,0,0,1,.000,.333,.333
 "T. Larnach, OF (L)",^^,S. Cecconi (R),CLE @ MIN,1.4,67%,33%,3,0,0,0,0,.000,.000,.000
-"J. Soto, OF (L)",^v,S. Kolek (R),KCA @ NYN,1.4,100%,0%,1,0,0,0,0,.000,.000,.000
-"F. Lindor, SS (B)",vv,S. Kolek (R),KCA @ NYN,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
-"L. Thomas, OF (R)",^>,C. Scott (R),KCA @ NYN,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
+"J. Soto, OF (L)",^v,S. Kolek (R),KCA @ NYN,1.5,100%,0%,1,0,0,0,0,.000,.000,.000
+"F. Lindor, SS (B)",vv,S. Kolek (R),KCA @ NYN,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
+"L. Thomas, OF (R)",^>,C. Scott (R),KCA @ NYN,1.5,0%,0%,3,0,0,0,0,.000,.000,.000
 "J. Triolo, 3B (R)",v>,G. Holmes (R),ATL @ PIT,1.5,0%,0%,1,0,0,0,0,.000,.000,.000
 "R. O'Hearn, 1B (L)",^>,G. Holmes (R),ATL @ PIT,1.5,33%,0%,2,0,0,0,1,.000,.333,.333
 "B. Reynolds, OF (B)",^>,G. Holmes (R),ATL @ PIT,1.5,0%,0%,1,0,0,0,0,.000,.000,.000
