@@ -63,8 +63,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "C. Carroll, OF (L)",vv,G. Canning (R),ARI @ SDN,1.2,67%,33%,6,2,0,1,0,.333,.333,1.166
 "J. Merrill, OF (L)",vv,M. Kelly (R),ARI @ SDN,1.2,33%,17%,6,2,1,0,0,.333,.333,.833
 "L. Gurriel, OF (R)",vv,G. Canning (R),ARI @ SDN,1.2,20%,0%,10,2,0,1,0,.200,.200,.700
-"J. Lee, OF (L)",vv,R. Feltner (R),COL @ SFN,1.4,---,,5,2,0,0,0,.400,.400,.800
-"C. Schmitt, 2B (R)",vv,R. Feltner (R),COL @ SFN,1.4,---,,5,2,0,0,0,.400,.400,.800
+"J. Lee, OF (L)",vv,R. Feltner,COL @ SFN,1.4,---,,5,2,0,0,0,.400,.400,.800
+"C. Schmitt, 2B (R)",vv,R. Feltner,COL @ SFN,1.4,---,,5,2,0,0,0,.400,.400,.800
 "J. Ortiz, 3B (R)",^^,A. Pallante (R),MIL @ SLN,1.6,17%,0%,7,2,0,0,0,.286,.286,.572
 "C. Yelich, DH (L)",v^,A. Pallante (R),MIL @ SLN,1.6,42%,17%,12,2,0,1,0,.167,.167,.584
 "S. Frelick, OF (L)",v^,A. Pallante (R),MIL @ SLN,1.6,36%,0%,12,2,1,0,2,.167,.286,.536
@@ -83,14 +83,14 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "B. Harper, 1B (L)",v^,B. Singer (R),PHI @ CIN,1.6,20%,20%,5,1,1,0,0,.200,.200,.600
 "E. Suarez, 3B (R)",v^,J. Luzardo (L),PHI @ CIN,1.6,36%,18%,10,1,0,0,1,.100,.182,.282
 "T. Friedl, OF (L)",^^,J. Luzardo (L),PHI @ CIN,1.6,50%,0%,2,1,0,0,0,.500,.500,1.000
-"S. Stewart, 3B (R)",^^,J. Luzardo (L),PHI @ CIN,1.6,---,,2,1,0,0,1,.500,.667,1.167
+"S. Stewart, 3B (R)",^^,J. Luzardo,PHI @ CIN,1.6,---,,2,1,0,0,1,.500,.667,1.167
 "Z. Gelof, 2B (R)",vv,F. Valdez (L),ATH @ DET,1.6,33%,17%,10,1,0,0,2,.100,.250,.350
 "J. Outman, OF (L)",vv,J. Perkins (R),ATH @ DET,1.6,50%,0%,2,1,0,0,0,.500,.500,1.000
 "V. Robles, OF (R)",vv,J. Junk (R),SEA @ MIA,n/a,100%,100%,1,1,0,0,0,1.000,1.000,2.000
 "K. Stowers, OF (L)",^^,B. Miller (R),SEA @ MIA,n/a,50%,50%,2,1,0,0,0,.500,.500,1.000
 "J. Crawford, SS (L)",vv,J. Junk (R),SEA @ MIA,n/a,100%,100%,1,1,0,0,0,1.000,1.000,2.000
 "R. Arozarena, OF (R)",^v,J. Junk (R),SEA @ MIA,n/a,100%,0%,1,1,1,0,0,1.000,1.000,3.000
-"J. Bell, 1B (B)",^v,G. Williams (R),CLE @ MIN,1.2,---,,3,1,0,0,0,.333,.333,.666
+"J. Bell, 1B (B)",^v,G. Williams,CLE @ MIN,1.2,---,,3,1,0,0,0,.333,.333,.666
 "J. Rojas, 3B (L)",>>,S. Manaea (L),KCA @ NYN,1.7,11%,11%,9,1,1,0,0,.111,.111,.333
 "F. Alvarez, C (R)",v^,M. Wacha (R),KCA @ NYN,1.7,67%,0%,3,1,0,0,0,.333,.333,.666
 "T. Tolbert, 2B (R)",^v,S. Manaea (L),KCA @ NYN,1.7,100%,100%,1,1,0,0,0,1.000,1.000,2.000
@@ -101,14 +101,14 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "G. Perdomo, SS (B)",vv,G. Canning (R),ARI @ SDN,1.2,40%,0%,4,1,0,0,1,.250,.400,.650
 "N. Arenado, 3B (R)",>v,G. Canning (R),ARI @ SDN,1.2,42%,17%,10,1,0,0,2,.100,.250,.350
 "L. Campusano, C (R)",^v,M. Kelly (R),ARI @ SDN,1.2,25%,0%,4,1,1,0,0,.250,.250,.750
-"R. Devers, 1B (L)",^v,R. Feltner (R),COL @ SFN,1.4,---,,5,1,0,1,0,.200,.200,1.000
+"R. Devers, 1B (L)",^v,R. Feltner,COL @ SFN,1.4,---,,5,1,0,1,0,.200,.200,1.000
 "W. Adames, SS (R)",>v,R. Feltner (R),COL @ SFN,1.4,17%,0%,17,1,0,0,1,.059,.111,.170
-"B. Eldridge, 1B (L)",vv,R. Feltner (R),COL @ SFN,1.4,---,,4,1,0,0,0,.250,.250,.500
+"B. Eldridge, 1B (L)",vv,R. Feltner,COL @ SFN,1.4,---,,4,1,0,0,0,.250,.250,.500
 "A. Wells, C (L)",v^,D. Rasmussen (R),NYA @ TBA,n/a,25%,0%,6,1,0,1,0,.167,.167,.834
 "T. Walls, SS (B)",vv,R. Yarbrough (L),NYA @ TBA,n/a,0%,0%,5,1,0,0,0,.200,.167,.367
 "J. Aranda, 1B (L)",vv,R. Yarbrough (L),NYA @ TBA,n/a,33%,33%,4,1,0,0,0,.250,.250,.500
 "R. Vilade, OF (R)",^v,R. Yarbrough (L),NYA @ TBA,n/a,100%,100%,1,1,0,0,0,1.000,1.000,2.000
-"C. Simpson, CF (L)",vv,R. Yarbrough (L),NYA @ TBA,n/a,---,,2,1,1,0,0,.500,.500,2.000
+"C. Simpson, CF (L)",vv,R. Yarbrough,NYA @ TBA,n/a,---,,2,1,1,0,0,.500,.500,2.000
 "E. Duran, 3B (R)",v^,R. Detmers (L),ANA @ TEX,n/a,27%,20%,18,1,0,0,0,.056,.056,.112
 "J. Burger, 3B (R)",v^,R. Detmers (L),ANA @ TEX,n/a,33%,0%,5,1,0,1,1,.200,.333,1.133
 "O. Peraza, 2B (R)",v^,N. Eovaldi (R),ANA @ TEX,n/a,50%,0%,4,1,1,0,1,.250,.400,.900
@@ -128,14 +128,14 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "B. Marsh, OF (L)",v^,B. Singer (R),PHI @ CIN,1.6,25%,25%,4,0,0,0,0,.000,.000,.000
 "M. McLain, 2B (R)",v^,J. Luzardo (L),PHI @ CIN,1.6,50%,0%,4,0,0,0,1,.000,.200,.200
 "M. Muncy, 3B (R)",vv,F. Valdez (L),ATH @ DET,1.6,50%,0%,2,0,0,0,2,.000,.500,.500
-"C. Thomas, OF (L)",^v,F. Valdez (L),ATH @ DET,1.6,---,,2,0,0,0,1,.000,.333,.333
+"C. Thomas, OF (L)",^v,F. Valdez,ATH @ DET,1.6,---,,2,0,0,0,1,.000,.333,.333
 "T. Soderstrom, 1B (L)",vv,F. Valdez (L),ATH @ DET,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
 "O. Lopez, 2B (R)",^^,B. Miller (R),SEA @ MIA,n/a,0%,0%,2,0,0,0,0,.000,.000,.000
 "A. Roden, OF (L)",>v,G. Williams (R),CLE @ MIN,1.2,20%,0%,5,0,0,0,0,.000,.000,.000
 "P. Bailey, C (B)",vv,B. Ober (R),CLE @ MIN,1.2,0%,0%,2,0,0,0,0,.000,.000,.000
 "T. Larnach, OF (L)",^v,G. Williams (R),CLE @ MIN,1.2,29%,14%,9,0,0,0,1,.000,.100,.100
 "V. Caratini, C (B)",vv,G. Williams (R),CLE @ MIN,1.2,33%,0%,2,0,0,0,1,.000,.333,.333
-"L. Keaschall, 2B (R)",^v,G. Williams (R),CLE @ MIN,1.2,---,,3,0,0,0,0,.000,.000,.000
+"L. Keaschall, 2B (R)",^v,G. Williams,CLE @ MIN,1.2,---,,3,0,0,0,0,.000,.000,.000
 "L. Maile, C (R)",>v,S. Manaea (L),KCA @ NYN,1.7,20%,0%,3,0,0,0,1,.000,.250,.250
 "S. Marte, OF (R)",vv,S. Manaea (L),KCA @ NYN,1.7,0%,0%,2,0,0,0,0,.000,.000,.000
 "M. Vientos, 3B (R)",v^,M. Wacha (R),KCA @ NYN,1.7,0%,0%,2,0,0,0,0,.000,.000,.000
@@ -144,9 +144,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "B. Lowe, 2B (L)",^v,B. Elder (R),ATL @ PIT,1.6,33%,33%,2,0,0,0,0,.000,.000,.000
 "J. Mangum, OF (B)",vv,B. Elder (R),ATL @ PIT,1.6,33%,33%,5,0,0,0,0,.000,.000,.000
 "D. Baldwin, C (L)",^v,M. Keller (R),ATL @ PIT,1.6,50%,0%,1,0,0,0,1,.000,.500,.500
-"R. O'Hearn, 1B (L)",^v,B. Elder (R),ATL @ PIT,1.6,---,,3,0,0,0,0,.000,.000,.000
-"N. Gonzales, 2B (R)",^v,B. Elder (R),ATL @ PIT,1.6,---,,3,0,0,0,0,.000,.000,.000
-"T. Callihan, LF (L)",vv,B. Elder (R),ATL @ PIT,1.6,---,,2,0,0,0,0,.000,.000,.000
+"R. O'Hearn, 1B (L)",^v,B. Elder,ATL @ PIT,1.6,---,,3,0,0,0,0,.000,.000,.000
+"N. Gonzales, 2B (R)",^v,B. Elder,ATL @ PIT,1.6,---,,3,0,0,0,0,.000,.000,.000
+"T. Callihan, LF (L)",vv,B. Elder,ATL @ PIT,1.6,---,,2,0,0,0,0,.000,.000,.000
 "E. Rodriguez, C (B)",^v,B. Elder (R),ATL @ PIT,1.6,67%,33%,3,0,0,0,0,.000,.000,.000
 "G. Moreno, C (R)",^v,G. Canning (R),ARI @ SDN,1.2,25%,25%,4,0,0,0,0,.000,.000,.000
 "H. Ramos, OF (R)",^v,R. Feltner (R),COL @ SFN,1.4,38%,13%,9,0,0,0,2,.000,.182,.182
@@ -156,11 +156,11 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "Y. Diaz, 1B (R)",^v,R. Yarbrough (L),NYA @ TBA,n/a,20%,0%,4,0,0,0,1,.000,.200,.200
 "A. Volpe, SS (R)",v^,D. Rasmussen (R),NYA @ TBA,n/a,17%,0%,11,0,0,0,1,.000,.083,.083
 "R. McMahon, 3B (L)",v^,D. Rasmussen (R),NYA @ TBA,n/a,25%,0%,7,0,0,0,1,.000,.125,.125
-"J. Caballero, SS (R)",^^,D. Rasmussen (R),NYA @ TBA,n/a,---,,4,0,0,0,0,.000,.000,.000
+"J. Caballero, SS (R)",^^,D. Rasmussen,NYA @ TBA,n/a,---,,4,0,0,0,0,.000,.000,.000
 "M. Schuemann, SS (R)",^^,D. Rasmussen (R),NYA @ TBA,n/a,67%,67%,3,0,0,0,0,.000,.000,.000
 "J. Jung, 3B (R)",^^,R. Detmers (L),ANA @ TEX,n/a,17%,0%,11,0,0,0,1,.000,.083,.083
 "B. Nimmo, OF (L)",v^,R. Detmers (L),ANA @ TEX,n/a,0%,0%,3,0,0,0,0,.000,.250,.250
 "J. Soler, DH (R)",v^,N. Eovaldi (R),ANA @ TEX,n/a,25%,0%,7,0,0,0,0,.000,.000,.000
 "D. Walton, 3B (L)",v^,N. Eovaldi,ANA @ TEX,n/a,---,,3,0,0,0,0,.000,.000,.000
-"J. Foscue, DH (R)",^^,R. Detmers (L),ANA @ TEX,n/a,---,,3,0,0,0,0,.000,.000,.000
+"J. Foscue, DH (R)",^^,R. Detmers,ANA @ TEX,n/a,---,,3,0,0,0,0,.000,.000,.000
 "L. O'Hoppe, C (R)",v^,N. Eovaldi (R),ANA @ TEX,n/a,40%,0%,3,0,0,0,2,.000,.400,.400
