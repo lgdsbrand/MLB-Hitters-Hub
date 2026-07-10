@@ -19,7 +19,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "T. France, 1B (R)",vv,S. Bieber (R),TOR @ SDN,1.2,63%,25%,8,4,2,0,0,.500,.500,1.250
 "X. Bogaerts, 2B (R)",vv,S. Bieber (R),TOR @ SDN,1.2,42%,8%,11,4,1,1,1,.364,.417,1.144
 "K. Karros, 3B (R)",^^,R. Ray (L),COL @ SFN,1.3,50%,50%,7,4,2,0,0,.571,.571,1.428
-"T. Freeman, OF (R)",,R. Ray (L),COL @ SFN,1.3,50%,38%,11,4,0,0,1,.364,.462,.826
+"T. Freeman, OF (R)",v^,R. Ray (L),COL @ SFN,1.3,50%,38%,11,4,0,0,1,.364,.462,.826
 "J. Caminero, 3B (R)",v^,L. Castillo (R),SEA @ TBA,n/a,50%,25%,8,4,1,1,0,.500,.500,1.625
 "J. Altuve, 2B (R)",^v,C. Quantrill (R),HOU @ TEX,n/a,47%,18%,16,4,0,1,2,.250,.333,.771
 "A. Wells, C (L)",vv,Z. Littell (R),NYA @ WAS,1.4,40%,30%,10,4,1,2,0,.400,.400,1.500
@@ -53,7 +53,7 @@ M. Straw,vv,J. Sears (L),TOR @ SDN,1.2,57%,29%,6,3,1,0,1,.500,.571,1.404
 "N. Schanuel, 1B (L)",^v,Z. Matthews (R),ANA @ MIN,1.4,100%,0%,2,2,0,1,0,1.000,1.000,3.500
 "L. Urias, 3B (R)",^v,J. Sears (L),TOR @ SDN,1.2,50%,17%,4,2,2,0,1,.500,.667,1.667
 "W. Adames, SS (R)",>v,T. Gordon,COL @ SFN,1.3,---,,3,2,0,0,1,.667,.750,1.417
-"W. Castro, OF (B)",,R. Ray (L),COL @ SFN,1.3,33%,33%,9,2,0,0,0,.222,.222,.444
+"W. Castro, OF (B)",v^,R. Ray (L),COL @ SFN,1.3,33%,33%,9,2,0,0,0,.222,.222,.444
 "B. Eldridge, 1B (L)",^v,T. Gordon,COL @ SFN,1.3,---,,3,2,2,0,1,.667,.750,2.083
 "A. Riley, 3B (R)",v^,K. Leahy (R),ATL @ SLN,1.5,50%,25%,4,2,1,0,0,.500,.500,1.250
 "N. Fortes, C (R)",v^,L. Castillo (R),SEA @ TBA,n/a,43%,0%,7,2,0,2,0,.286,.286,1.429
@@ -148,7 +148,7 @@ M. Straw,vv,J. Sears (L),TOR @ SDN,1.2,57%,29%,6,3,1,0,1,.500,.571,1.404
 "W. Contreras, C (R)",v^,B. Ashcraft (R),MIL @ PIT,1.2,0%,0%,1,0,0,0,0,.000,.000,.000
 "J. Clase, OF (B)",^v,J. Sears (L),TOR @ SDN,1.2,0%,0%,2,0,0,0,0,.000,.000,.000
 "M. Moniak, OF (L)",^^,R. Ray (L),COL @ SFN,1.3,0%,0%,2,0,0,0,0,.000,.000,.000
-"B. Fulford, C (R)",,R. Ray (L),COL @ SFN,1.3,0%,0%,5,0,0,0,0,.000,.000,.000
+"B. Fulford, C (R)",v^,R. Ray (L),COL @ SFN,1.3,0%,0%,5,0,0,0,0,.000,.000,.000
 "M. Dubon, OF (R)",>^,K. Leahy (R),ATL @ SLN,1.5,50%,50%,2,0,0,0,0,.000,.000,.000
 "M. Olson, 1B (L)",^^,K. Leahy (R),ATL @ SLN,1.5,33%,0%,3,0,0,0,0,.000,.000,.000
 "O. Albies, 2B (B)",^^,K. Leahy (R),ATL @ SLN,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
