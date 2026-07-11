@@ -5,7 +5,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "M. Trout, OF (R)",J. Ryan (R),ANA @ MIN,1.4,27%,"1,1,0,1,0",+330,5,1,0,.200,.200,.600
 "R. Devers, 1B (L)",K. Freeland (L),COL @ SFN,1.3,27%,"0,0,0,0,1",+475,7,2,2,.286,.286,1.429
 "B. Rice, 1B (L)",M. Mikolas (R),NYA @ WAS,1.4,27%,"1,1,0,2,1",+265,1,0,0,.000,.667,.667
-"J. Pederson, DH (L)",P. Lambert (R),HOU @ TEX,n/a,25%3.5,"0,0,0,0,1",+390,14,4,2,.286,.474,1.260
+"J. Pederson, DH (L)",P. Lambert (R),HOU @ TEX,n/a,25%,"0,0,0,0,1",+390,14,4,2,.286,.474,1.260
 "B. Lowe, 2B (L)",S. Drohan(L),MIL @ PIT,1.6,24%,"0,1,0,0,0",+487,2,0,0,.000,.000,.000
 "M. Olson, 1B (L)",M. Liberatore (L),ATL @ SLN,1.4,24%,"2,0,0,1,0",+390,8,1,0,.125,.222,.347
 "J. Wood, OF (L)",C. Schlittler (R),NYA @ WAS,1.4,24%,"0,1,1,0,1",+305,3,1,0,.333,.333,.666
@@ -15,7 +15,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "M. Betts, SS (R)",B. Pfaadt (R),ARI @ LAN,1.5,23%,"0,0,0,0,0",+400,24,10,2,.417,.462,1.170
 "B. Buxton, OF (R)",R. Johnson (R),ANA @ MIN,1.4,23%,"0,0,0,0,0",,1,0,0,.000,.000,.000
 "K. Clemens, 1B (L)",R. Johnson(R),ANA @ MIN,1.4,23%,"0,0,0,0,0",+320,never faced,,,,,
-"J. Soto, OF (L)",B. Bello (R),BOS @ NYN,1.2,23%,"1,1,0,1,0",,9,1,0,.111,.111,.333
 "G. Springer, OF (R)",W. Buehler (R),TOR @ SDN,1.2,23%,"0,0,0,1,0",+475,8,1,1,.125,.222,.722
 "C. Raleigh, C (B)",G. Jax (R),SEA @ TBA,n/a,23%,"0,0,0,0,0",,5,3,1,.600,.750,2.150
 "Y. Alvarez, DH (L)",K. Rocker(R),HOU @ TEX,n/a,23%,"0,0,0,0,1",+245,2,1,1,.500,.333,2.333
@@ -59,8 +58,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "A. Pages, OF (R)",B. Pfaadt (R),ARI @ LAN,1.5,17%,"0,0,0,0,1",+390,11,1,0,.091,.091,.182
 "K. Stowers, OF (L)",T. Bibee (R),CLE @ MIA,n/a,17%,"1,0,1,0,0",+290,2,0,0,.000,.333,.333
 "R. Jeffers, C (R)",R. Johnson(R),ANA @ MIN,1.4,17%,"0,0,1,0,0",,never faced,,,,,
-"F. Lindor, SS (B)",B. Bello (R),BOS @ NYN,1.2,17%,"0,0,0,0,0",,2,2,0,1.000,1.000,2.000
-"F. Alvarez, C (R)",B. Bello(R),BOS @ NYN,1.2,17%,"0,0,0,0,0",,never faced,,,,,
 "B. Reynolds, OF (B)",S. Drohan(L),MIL @ PIT,1.6,17%,"0,1,0,0,1",+533,1,0,0,.000,.500,.500
 "O. Albies, 2B (B)",M. Liberatore (L),ATL @ SLN,1.4,17%,"0,0,0,0,0",+500,6,0,0,.000,.125,.125
 "R. Arozarena, OF (R)",G. Jax (R),SEA @ TBA,n/a,17%,"0,0,0,1,0",+500,6,3,1,.500,.571,1.571
@@ -123,7 +120,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "L. Gurriel, OF (R)",Y. Yamamoto (R),ARI @ LAN,1.5,12%,"0,0,0,0,0",,11,1,0,.091,.091,.182
 "K. Manzardo, DH (L)",E. Perez (R),CLE @ MIA,n/a,12%,"0,0,0,0,0",+475,1,0,0,.000,.500,.500
 "H. Hernandez, LF (R)",T. Bibee (R),CLE @ MIA,n/a,12%,"1,2,0,0,1",+400,3,1,0,.333,.333,.666
-"J. Polanco, 1B (B)",B. Bello (R),BOS @ NYN,1.2,12%,"0,0,0,0,0",,5,2,1,.400,.625,1.625
 "G. Mitchell, OF (L)",B. Chandler(R),MIL @ PIT,1.6,12%,"0,0,0,0,0",+565,never faced,,,,,
 "N. Lukes, OF (L)",W. Buehler (R),TOR @ SDN,1.2,12%,"0,0,0,0,0",+950,3,1,0,.333,.500,.833
 "G. Sheets, 1B (L)",T. Yesavage(R),TOR @ SDN,1.2,12%,"0,0,0,0,0",+500,never faced,,,,,
@@ -134,7 +130,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "K. Ruiz, C (B)",C. Schlittler(R),NYA @ WAS,1.4,12%,"0,0,0,0,1",+750,never faced,,,,,
 "C. Jensen, C (L)",K. Bradish(R),KCA @ BAL,1.2,11%,"0,0,0,0,0",+400,3,1,0,.333,.333,.666
 "M. Yoshida, DH (L)",F. Peralta (R),BOS @ NYN,1.2,11%,"1,0,0,0,0",+650,3,0,0,.000,.000,.000
-"B. Bichette, 3B (R)",B. Bello (R),BOS @ NYN,1.2,11%,"0,0,0,0,0",,17,6,0,.353,.450,.862
 "B. Turang, 2B (L)",B. Chandler (R),MIL @ PIT,1.6,11%,"0,0,0,0,1",+650,3,2,0,.667,.667,1.334
 "R. O'Hearn, 1B (L)",S. Drohan(L),MIL @ PIT,1.6,11%,"0,0,3,0,0",,2,2,0,1.000,1.000,2.500
 "N. Gonzales, 2B (R)",S. Drohan(L),MIL @ PIT,1.6,11%,"0,0,0,0,0",+1160,2,0,0,.000,.000,.000

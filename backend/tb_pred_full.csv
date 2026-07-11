@@ -8,7 +8,6 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "M. Trout, OF (R)",J. Ryan (R),ANA @ MIN,1.4,2.7,"5,6,1,4,0",1.5,+116,5,1,0,.200,.200,.600
 "N. Kurtz, 1B (L)",E. Fedde(R),ATH @ CHA,1.2,2.6,"0,0,0,0,0",,,1,0,0,.000,.500,.500
 "M. Betts, SS (R)",B. Pfaadt (R),ARI @ LAN,1.5,2.6,"2,0,0,1,1",1.5,+105,24,10,2,.417,.462,1.170
-"J. Soto, OF (L)",B. Bello (R),BOS @ NYN,1.2,2.6,"4,4,0,4,1",,,9,1,0,.111,.111,.333
 "K. Marte, 2B (B)",Y. Yamamoto (R),ARI @ LAN,1.5,2.5,"3,2,1,0,1",1.5,+116,18,5,1,.278,.381,.881
 "J. Caminero, 3B (R)",L. Gilbert (R),SEA @ TBA,n/a,2.5,"0,0,0,4,6",1.5,-102,3,1,0,.333,.333,.666
 "B. Rice, 1B (L)",M. Mikolas (R),NYA @ WAS,1.4,2.5,"4,6,1,8,4",1.5,-136,1,0,0,.000,.667,.667
@@ -25,7 +24,6 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "P. Alonso, 1B (R)",N. Cameron (L),KCA @ BAL,1.2,2.3,"0,1,4,0,1",1.5,+113,1,0,0,.000,.667,.667
 "I. Happ, OF (B)",N. Lodolo (L),CHN @ CIN,1.3,2.3,"0,0,1,2,1",0.5,+127,23,8,1,.348,.400,1.096
 "E. De La Cruz, SS (B)",J. Assad (R),CHN @ CIN,1.3,2.3,"0,0,6,0,7",,,12,3,1,.250,.308,.891
-"F. Lindor, SS (B)",B. Bello (R),BOS @ NYN,1.2,2.3,"1,0,0,1,1",,,2,2,0,1.000,1.000,2.000
 "G. Springer, OF (R)",W. Buehler (R),TOR @ SDN,1.2,2.3,"2,3,1,4,1",1.5,+130,8,1,1,.125,.222,.722
 "C. Abrams, SS (L)",C. Schlittler (R),NYA @ WAS,1.4,2.3,"1,6,1,4,2",1.5,+128,2,1,0,.500,.667,1.167
 "T. O'Neill, OF (R)",N. Cameron(L),KCA @ BAL,1.2,2.2,"2,0,4,0,4",,,never faced,,,,,
@@ -33,7 +31,6 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "J. Bell, 1B (B)",R. Johnson(R),ANA @ MIN,1.4,2.2,"1,2,1,0,4",1.5,+109,never faced,,,,,
 "Z. Neto, SS (R)",J. Ryan (R),ANA @ MIN,1.4,2.2,"7,0,5,1,1",1.5,+129,8,4,0,.500,.500,1.250
 "B. Buxton, OF (R)",R. Johnson (R),ANA @ MIN,1.4,2.2,"4,0,0,2,1",,,1,0,0,.000,.000,.000
-"B. Bichette, 3B (R)",B. Bello (R),BOS @ NYN,1.2,2.2,"4,2,1,1,0",,,17,6,0,.353,.450,.862
 "M. Ozuna, DH (R)",S. Drohan(L),MIL @ PIT,1.6,2.2,"5,0,0,1,1",,,3,0,0,.000,.000,.000
 "B. Reynolds, OF (B)",S. Drohan(L),MIL @ PIT,1.6,2.2,"2,4,0,1,4",1.5,+120,1,0,0,.000,.500,.500
 "F. Tatis, OF (R)",T. Yesavage(R),TOR @ SDN,1.2,2.2,"0,2,2,1,1",1.5,+112,never faced,,,,,
@@ -116,7 +113,6 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "R. Hoskins, 1B (R)",E. Perez(R),CLE @ MIA,n/a,1.8,"1,1,0,0,4",,,never faced,,,,,
 "K. Clemens, 1B (L)",R. Johnson(R),ANA @ MIN,1.4,1.8,"0,4,4,0,0",1.5,-105,never faced,,,,,
 "C. Durbin, 3B (R)",F. Peralta(R),BOS @ NYN,1.2,1.8,"0,0,3,4,1",,+156,never faced,,,,,
-"J. Polanco, 1B (B)",B. Bello (R),BOS @ NYN,1.2,1.8,"1,0,2,1,0",,,5,2,1,.400,.625,1.625
 "M. Yoshida, DH (L)",F. Peralta (R),BOS @ NYN,1.2,1.8,"5,1,3,1,4",,+151,3,0,0,.000,.000,.000
 "T. France, 1B (R)",T. Yesavage(R),TOR @ SDN,1.2,1.8,"1,0,0,0,1",0.5,-160,never faced,,,,,
 "E. Tovar, SS (R)",T. Mahle(R),COL @ SFN,1.3,1.8,"4,0,0,0,2",0.5,+183,2,0,0,.000,.000,.000
@@ -135,7 +131,6 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "J. Mack, C (L)",T. Bibee(R),CLE @ MIA,n/a,1.7,"0,5,0,0,0",1.5,+210,never faced,,,,,
 "J. Marsee, CF (L)",T. Bibee (R),CLE @ MIA,n/a,1.7,"1,2,0,2,1",1.5,+181,3,0,0,.000,.000,.000
 "T. Larnach, OF (L)",R. Johnson (R),ANA @ MIN,1.4,1.7,"0,5,0,0,4",1.5,+122,1,0,0,.000,.000,.000
-"F. Alvarez, C (R)",B. Bello(R),BOS @ NYN,1.2,1.7,"0,2,1,1,0",,,never faced,,,,,
 "H. Davis, C (R)",S. Drohan (L),MIL @ PIT,1.6,1.7,"0,4,1,0,0",1.5,-120,2,0,0,.000,.000,.000
 "J. Triolo, 3B (R)",S. Drohan(L),MIL @ PIT,1.6,1.7,"0,4,1,0,0",1.5,-150,never faced,,,,,
 "N. Lukes, OF (L)",W. Buehler (R),TOR @ SDN,1.2,1.7,"0,1,1,1,2",1.5,+144,3,1,0,.333,.500,.833
@@ -188,7 +183,6 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "B. Rocchio, SS (B)",E. Perez (R),CLE @ MIA,n/a,1.5,"2,0,4,2,1",1.5,+158,2,0,0,.000,.000,.000
 "H. Hernandez, LF (R)",T. Bibee (R),CLE @ MIA,n/a,1.5,"5,10,2,0,4",1.5,+131,3,1,0,.333,.333,.666
 "J. Adell, OF (R)",J. Ryan (R),ANA @ MIN,1.4,1.5,"0,3,2,8,0",1.5,+143,5,1,0,.200,.200,.600
-"E. Wagaman, 3B (R)",B. Bello(R),BOS @ NYN,1.2,1.5,"0,0,1,0,1",,,never faced,,,,,
 "J. Ortiz, 3B (R)",B. Chandler (R),MIL @ PIT,1.6,1.5,"1,4,5,2,0",1.5,-160,2,1,0,.500,.500,1.000
 "J. Bauers, 1B (L)",B. Chandler (R),MIL @ PIT,1.6,1.5,"1,4,0,0,5",1.5,-165,1,1,0,1.000,1.000,3.000
 "J. Mangum, OF (B)",S. Drohan(L),MIL @ PIT,1.6,1.5,"0,1,1,0,8",1.5,+125,never faced,,,,,
@@ -200,7 +194,6 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "E. Diaz, C (R)",P. Lambert(R),HOU @ TEX,n/a,1.5,"6,0,0,2,0",,,never faced,,,,,
 "P. Bailey, C (B)",E. Perez(R),CLE @ MIA,n/a,1.4,"0,3,1,0,4",1.5,+274,2,0,0,.000,.000,.000
 "L. O'Hoppe, C (R)",J. Ryan (R),ANA @ MIN,1.4,1.4,"0,1,1,0,0",,,5,0,0,.000,.167,.167
-"B. Baty, 3B (L)",B. Bello(R),BOS @ NYN,1.2,1.4,"1,2,1,1,6",,,never faced,,,,,
 C. Narvaez,F. Peralta(R),BOS @ NYN,1.2,1.4,"0,0,1,0,1",,+168,never faced,,,,,
 "M. Andujar, OF (R)",T. Yesavage(R),TOR @ SDN,1.2,1.4,"1,0,6,0,0",1.5,+192,never faced,,,,,
 "L. Campusano, C (R)",T. Yesavage(R),TOR @ SDN,1.2,1.4,"0,1,2,5,0",,,never faced,,,,,
