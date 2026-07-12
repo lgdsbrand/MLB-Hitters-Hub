@@ -70,14 +70,14 @@ K. Alcantara,v^,A. Abbott (L),CHN @ CIN,1.2,100%,100%,2,1,0,0,0,.500,.500,1.000
 "G. Perdomo, SS (B)",^v,E. Sheehan,ARI @ LAN,1.6,---,,7,1,1,0,0,.143,.143,.429
 "L. Gurriel, OF (R)",vv,E. Sheehan,ARI @ LAN,1.6,---,,2,1,1,0,0,.500,.500,1.500
 "N. Arenado, 3B (R)",^v,E. Sheehan,ARI @ LAN,1.6,---,,5,1,0,1,0,.200,.200,1.000
-"J. Bell, 1B (B)",^v,J. Soriano (R),ANA @ MIN,1.6,100%,0%,1,1,0,1,1,1.000,1.000,5.000
-"Z. Neto, SS (R)",^^,T. Bradley (R),ANA @ MIN,1.6,40%,0%,5,1,0,1,0,.200,.200,1.000
-"J. Adell, OF (R)",^^,T. Bradley (R),ANA @ MIN,1.6,40%,0%,5,1,1,0,0,.200,.200,.600
-"M. Trout, OF (R)",^^,T. Bradley (R),ANA @ MIN,1.6,67%,33%,2,1,0,0,1,.500,.667,1.167
-"O. Peraza, 2B (R)",v^,T. Bradley (R),ANA @ MIN,1.6,20%,20%,5,1,0,0,0,.200,.200,.400
-"L. O'Hoppe, C (R)",v^,T. Bradley (R),ANA @ MIN,1.6,50%,0%,2,1,0,1,0,.500,.500,2.500
-"R. Jeffers, C (R)",^v,J. Soriano (R),ANA @ MIN,1.6,25%,25%,3,1,0,0,0,.333,.500,.833
-"T. Larnach, OF (L)",^v,J. Soriano (R),ANA @ MIN,1.6,25%,0%,4,1,0,0,0,.250,.250,.500
+"J. Bell, 1B (B)",^v,J. Soriano (R),ANA @ MIN,1.8,100%,0%,1,1,0,1,1,1.000,1.000,5.000
+"Z. Neto, SS (R)",^^,T. Bradley (R),ANA @ MIN,1.8,40%,0%,5,1,0,1,0,.200,.200,1.000
+"J. Adell, OF (R)",^^,T. Bradley (R),ANA @ MIN,1.8,40%,0%,5,1,1,0,0,.200,.200,.600
+"M. Trout, OF (R)",^^,T. Bradley (R),ANA @ MIN,1.8,67%,33%,2,1,0,0,1,.500,.667,1.167
+"O. Peraza, 2B (R)",v^,T. Bradley (R),ANA @ MIN,1.8,20%,20%,5,1,0,0,0,.200,.200,.400
+"L. O'Hoppe, C (R)",v^,T. Bradley (R),ANA @ MIN,1.8,50%,0%,2,1,0,1,0,.500,.500,2.500
+"R. Jeffers, C (R)",^v,J. Soriano (R),ANA @ MIN,1.8,25%,25%,3,1,0,0,0,.333,.500,.833
+"T. Larnach, OF (L)",^v,J. Soriano (R),ANA @ MIN,1.8,25%,0%,4,1,0,0,0,.250,.250,.500
 "J. Ortiz, 3B (R)",^v,P. Skenes (R),MIL @ PIT,1.4,25%,0%,4,1,1,0,0,.250,.250,.750
 "J. Bauers, 1B (L)",^v,P. Skenes (R),MIL @ PIT,1.4,0%,0%,6,1,0,0,0,.167,.286,.453
 "J. Chourio, OF (R)",vv,P. Skenes (R),MIL @ PIT,1.4,40%,0%,4,1,0,0,1,.250,.400,.650
@@ -129,8 +129,8 @@ K. Alcantara,v^,A. Abbott (L),CHN @ CIN,1.2,100%,100%,2,1,0,0,0,.500,.500,1.000
 "I. Vargas, 3B (B)",vv,E. Sheehan,ARI @ LAN,1.6,---,,2,0,0,0,0,.000,.000,.000
 "P. Bailey, C (B)",^v,R. Gusto (R),CLE @ MIA,n/a,50%,0%,2,0,0,0,0,.000,.000,.000
 ---,,J. Cantillo,CLE @ MIA,n/a,no matchup history,,,,,,,,,
-"B. Lee, SS (B)",^v,J. Soriano (R),ANA @ MIN,1.6,50%,0%,2,0,0,0,0,.000,.000,.000
-"N. Schanuel, 1B (L)",^^,T. Bradley (R),ANA @ MIN,1.6,67%,33%,2,0,0,0,1,.000,.333,.333
+"B. Lee, SS (B)",^v,J. Soriano (R),ANA @ MIN,1.8,50%,0%,2,0,0,0,0,.000,.000,.000
+"N. Schanuel, 1B (L)",^^,T. Bradley (R),ANA @ MIN,1.8,67%,33%,2,0,0,0,1,.000,.333,.333
 "Z. Short, 3B (R)",>v,P. Tolle (L),BOS @ NYN,1.4,,,2,0,0,0,0,.000,.000,.000
 ---,,Z. Thornton,BOS @ NYN,1.4,no matchup history,,,,,,,,,
 ---,,P. Tolle,BOS @ NYN,1.4,no matchup history,,,,,,,,,
