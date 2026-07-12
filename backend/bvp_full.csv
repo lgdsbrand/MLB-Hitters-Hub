@@ -19,14 +19,14 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "A. Riley, 3B (R)",vv,D. May (R),ATL @ SLN,1.4,40%,0%,8,3,0,2,0,.375,.375,1.500
 "J. Pena, SS (R)",vv,M. Gore (L),HOU @ TEX,n/a,100%,75%,4,3,1,0,0,.750,.750,1.750
 "B. Witt, SS (R)",vv,S. Baz (R),KCA @ BAL,1.4,33%,0%,8,2,1,1,1,.250,.300,1.050
-"C. Jensen, C (L)",vv,S. Baz,KCA @ BAL,1.4,---,,2,2,1,0,1,1.000,1.000,2.500
+"C. Jensen, C (L)",vv,S. Baz (R),KCA @ BAL,1.4,---,,2,2,1,0,1,1.000,1.000,2.500
 "A. Rutschman, C (B)",vv,S. Lugo (R),KCA @ BAL,1.4,50%,33%,8,2,0,0,0,.250,.250,.500
 "V. Pasquantino, 1B (L)",vv,S. Baz (R),KCA @ BAL,1.4,33%,0%,8,2,1,0,0,.250,.222,.597
 "I. Happ, OF (B)",>^,A. Abbott (L),CHN @ CIN,1.4,50%,25%,19,2,0,0,3,.105,.217,.322
 "K. Hayes, 3B (R)",v^,M. Boyd (L),CHN @ CIN,1.4,75%,25%,4,2,0,0,0,.500,.500,1.000
 "M. Busch, 1B (L)",>^,A. Abbott (L),CHN @ CIN,1.4,100%,0%,5,2,0,0,2,.400,.571,.971
 "T. Stephenson, C (R)",>^,M. Boyd (L),CHN @ CIN,1.4,60%,20%,4,2,0,0,1,.500,.600,1.100
-"C. Carroll, OF (L)",vv,E. Sheehan,ARI @ LAN,1.6,---,,7,2,1,1,0,.286,.286,1.143
+"C. Carroll, OF (L)",vv,E. Sheehan (R),ARI @ LAN,1.6,---,,7,2,1,1,0,.286,.286,1.143
 "B. Turang, 2B (L)",^v,P. Skenes (R),MIL @ PIT,1.4,40%,20%,13,2,0,1,0,.154,.154,.539
 "S. Frelick, OF (L)",vv,P. Skenes (R),MIL @ PIT,1.4,50%,0%,12,2,0,1,2,.167,.286,.703
 "A. Gimenez, 2B (L)",vv,G. Marquez (R),TOR @ SDN,1.3,100%,100%,2,2,1,0,0,1.000,1.000,2.500
@@ -56,12 +56,12 @@ K. Alcantara,v^,A. Abbott (L),CHN @ CIN,1.4,100%,100%,2,1,0,0,0,.500,.500,1.000
 "K. Carpenter, OF (L)",v^,Z. Wheeler (R),PHI @ DET,1.4,33%,0%,3,1,0,1,0,.333,.333,1.666
 "K. Schwarber, DH (L)",^^,T. Skubal (L),PHI @ DET,1.4,33%,0%,5,1,0,0,1,.200,.333,.533
 "Z. McKinstry, SS (L)",>^,Z. Wheeler (R),PHI @ DET,1.4,25%,8%,11,1,0,0,1,.091,.167,.258
-"K. Marte, 2B (B)",vv,E. Sheehan,ARI @ LAN,1.6,---,,7,1,0,1,0,.143,.143,.714
-"G. Moreno, C (R)",^v,E. Sheehan,ARI @ LAN,1.6,---,,6,1,0,0,0,.167,.167,.334
+"K. Marte, 2B (B)",vv,E. Sheehan (R),ARI @ LAN,1.6,---,,7,1,0,1,0,.143,.143,.714
+"G. Moreno, C (R)",^v,E. Sheehan (R),ARI @ LAN,1.6,---,,6,1,0,0,0,.167,.167,.334
 "M. Kepler, OF (L)",^v,E. Sheehan (R),ARI @ LAN,1.6,0%,0%,4,1,1,0,0,.250,.250,1.000
-"G. Perdomo, SS (B)",^v,E. Sheehan,ARI @ LAN,1.6,---,,7,1,1,0,0,.143,.143,.429
-"L. Gurriel, OF (R)",vv,E. Sheehan,ARI @ LAN,1.6,---,,2,1,1,0,0,.500,.500,1.500
-"N. Arenado, 3B (R)",^v,E. Sheehan,ARI @ LAN,1.6,---,,5,1,0,1,0,.200,.200,1.000
+"G. Perdomo, SS (B)",^v,E. Sheehan (R),ARI @ LAN,1.6,---,,7,1,1,0,0,.143,.143,.429
+"L. Gurriel, OF (R)",vv,E. Sheehan (R),ARI @ LAN,1.6,---,,2,1,1,0,0,.500,.500,1.500
+"N. Arenado, 3B (R)",^v,E. Sheehan (R),ARI @ LAN,1.6,---,,5,1,0,1,0,.200,.200,1.000
 "S. Kwan, OF (L)",vv,T. Phillips (R),CLE @ MIA,n/a,25%,25%,4,1,0,0,0,.250,.250,.500
 "B. Rocchio, SS (B)",>v,T. Phillips (R),CLE @ MIA,n/a,100%,0%,1,1,0,0,0,1.000,1.000,2.000
 "J. Bell, 1B (B)",^v,J. Soriano (R),ANA @ MIN,1.6,100%,0%,1,1,0,1,1,1.000,1.000,5.000
@@ -87,7 +87,7 @@ K. Alcantara,v^,A. Abbott (L),CHN @ CIN,1.4,100%,100%,2,1,0,0,0,.500,.500,1.000
 "R. Devers, 1B (L)",^>,M. Lorenzen (R),COL @ SFN,1.2,33%,0%,4,1,0,0,1,.250,.400,.650
 "W. Adames, SS (R)",v>,M. Lorenzen (R),COL @ SFN,1.2,25%,13%,8,1,1,0,0,.125,.111,.486
 "C. Schmitt, 2B (R)",^>,M. Lorenzen (R),COL @ SFN,1.2,50%,0%,4,1,0,0,0,.250,.250,.500
-"B. Eldridge, 1B (L)",^>,M. Lorenzen,COL @ SFN,1.2,---,,1,1,1,0,1,1.000,1.000,3.000
+"B. Eldridge, 1B (L)",^>,M. Lorenzen (R),COL @ SFN,1.2,---,,1,1,1,0,1,1.000,1.000,3.000
 "M. Dubon, OF (R)",vv,D. May (R),ATL @ SLN,1.4,0%,0%,4,1,0,0,0,.250,.250,.500
 "M. Harris, OF (L)",vv,D. May (R),ATL @ SLN,1.4,20%,0%,6,1,0,0,0,.167,.167,.334
 "D. Baldwin, C (L)",vv,D. May (R),ATL @ SLN,1.4,100%,25%,4,1,0,0,1,.250,.400,.650
@@ -101,13 +101,13 @@ K. Alcantara,v^,A. Abbott (L),CHN @ CIN,1.4,100%,100%,2,1,0,0,0,.500,.500,1.000
 "T. Grisham, OF (L)",^>,C. Cavalli (R),NYA @ WAS,1.4,50%,0%,2,1,0,1,0,.500,.500,2.500
 "J. Dominguez, OF (B)",^>,C. Cavalli (R),NYA @ WAS,1.4,50%,0%,2,1,1,0,0,.500,.500,1.500
 "N. Loftin, 2B (R)",^v,S. Baz (R),KCA @ BAL,1.4,33%,33%,3,0,0,0,0,.000,.000,.000
-"P. Alonso, 1B (R)",^v,S. Lugo,KCA @ BAL,1.4,---,,3,0,0,0,0,.000,.000,.000
-"D. Beavers, RF (L)",vv,S. Lugo,KCA @ BAL,1.4,---,,3,0,0,0,0,.000,.000,.000
-"I. Collins, OF (B)",^v,S. Baz,KCA @ BAL,1.4,---,,3,0,0,0,0,.000,.000,.000
+"P. Alonso, 1B (R)",^v,S. Lugo (R),KCA @ BAL,1.4,---,,3,0,0,0,0,.000,.000,.000
+"D. Beavers, RF (L)",vv,S. Lugo (R),KCA @ BAL,1.4,---,,3,0,0,0,0,.000,.000,.000
+"I. Collins, OF (B)",^v,S. Baz (R),KCA @ BAL,1.4,---,,3,0,0,0,0,.000,.000,.000
 "L. Taveras, OF (B)",vv,S. Lugo (R),KCA @ BAL,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
-"S. Basallo, C (L)",vv,S. Lugo,KCA @ BAL,1.4,---,,1,0,0,0,2,.000,.667,.667
+"S. Basallo, C (L)",vv,S. Lugo (R),KCA @ BAL,1.4,---,,1,0,0,0,2,.000,.667,.667
 "J. Holliday, 2B (L)",^v,S. Lugo (R),KCA @ BAL,1.4,50%,25%,4,0,0,0,0,.000,.000,.000
-"B. Alexander, SS (R)",^v,S. Lugo,KCA @ BAL,1.4,---,,2,0,0,0,0,.000,.000,.000
+"B. Alexander, SS (R)",^v,S. Lugo (R),KCA @ BAL,1.4,---,,2,0,0,0,0,.000,.000,.000
 "J. Caglianone, RF (L)",^v,S. Baz (R),KCA @ BAL,1.4,0%,0%,6,0,0,0,0,.000,.000,.000
 "T. Peters, LF (L)",^^,J. Ginn (R),ATH @ CHA,1.2,100%,100%,1,0,0,0,0,.000,.000,.000
 ---,,N. Schultz,ATH @ CHA,1.2,no matchup history,,,,,,,,,
@@ -122,7 +122,7 @@ K. Alcantara,v^,A. Abbott (L),CHN @ CIN,1.4,100%,100%,2,1,0,0,0,.500,.500,1.000
 "D. Dingler, C (R)",v^,Z. Wheeler (R),PHI @ DET,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
 "S. Torkelson, 1B (R)",v^,Z. Wheeler (R),PHI @ DET,1.4,0%,0%,6,0,0,0,0,.000,.000,.000
 "P. Smith, OF (L)",vv,E. Sheehan,ARI @ LAN,1.6,---,,2,0,0,0,2,.000,.500,.500
-"I. Vargas, 3B (B)",vv,E. Sheehan,ARI @ LAN,1.6,---,,2,0,0,0,0,.000,.000,.000
+"I. Vargas, 3B (B)",vv,E. Sheehan (R),ARI @ LAN,1.6,---,,2,0,0,0,0,.000,.000,.000
 ---,,M. Bratt,ARI @ LAN,1.6,no matchup history,,,,,,,,,
 "G. Arias, 3B (R)",^v,T. Phillips (R),CLE @ MIA,n/a,0%,0%,1,0,0,0,0,.000,.000,.000
 ---,,J. Cantillo,CLE @ MIA,n/a,no matchup history,,,,,,,,,
@@ -131,7 +131,6 @@ K. Alcantara,v^,A. Abbott (L),CHN @ CIN,1.4,100%,100%,2,1,0,0,0,.500,.500,1.000
 "N. Schanuel, 1B (L)",^^,T. Bradley (R),ANA @ MIN,1.6,67%,33%,2,0,0,0,1,.000,.333,.333
 "Z. Short, 3B (R)",v>,P. Tolle (L),BOS @ NYN,1.4,,,2,0,0,0,0,.000,.000,.000
 ---,,Z. Thornton,BOS @ NYN,1.4,no matchup history,,,,,,,,,
----,,P. Tolle,BOS @ NYN,1.4,no matchup history,,,,,,,,,
 "J. Triolo, 3B (R)",v>,R. Gasser (L),MIL @ PIT,1.4,50%,0%,1,0,0,0,1,.000,.500,.500
 "D. Hamilton, SS (L)",>v,P. Skenes,MIL @ PIT,1.4,---,,2,0,0,0,0,.000,.000,.000
 "G. Mitchell, OF (L)",^v,P. Skenes (R),MIL @ PIT,1.4,50%,0%,3,0,0,0,1,.000,.250,.250
