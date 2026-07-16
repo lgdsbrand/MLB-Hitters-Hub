@@ -1,16 +1,17 @@
 Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
-"T. Turner, SS (R)",C. Scott(R),NYN @ PHI,1.6,74%,"1,0,0,0,1",0.5,-250,1,0,0,.000,.500,.500
-"J. Realmuto, C (R)",C. Scott(R),NYN @ PHI,1.6,68%,"0,1,0,1,2",0.5,-176,never faced,,,,,
-"A. Bohm, 3B (R)",C. Scott(R),NYN @ PHI,1.6,66%,"1,0,0,0,1",0.5,-200,never faced,,,,,
+"T. Turner, SS (R)",C. Scott (R),NYN @ PHI,1.6,74%,"1,0,0,0,1",0.5,-250,1,0,0,.000,.500,.500
+"J. Realmuto, C (R)",C. Scott (R),NYN @ PHI,1.6,68%,"0,1,0,1,2",0.5,-176,never faced,,,,,
+"A. Bohm, 3B (R)",C. Scott (R),NYN @ PHI,1.6,66%,"1,0,0,0,1",0.5,-200,never faced,,,,,
 "F. Lindor, SS (B)",A. Nola (R),NYN @ PHI,1.6,66%,"0,1,1,0,2",0.5,,41,8,1,.195,.267,.584
-"B. Harper, 1B (L)",C. Scott(R),NYN @ PHI,1.6,64%,"0,0,0,2,1",0.5,-250,2,1,1,.500,.500,2.500
-"J. Polanco, 1B (B)",A. Nola(R),NYN @ PHI,1.6,64%,"0,1,1,0,1",0.5,,never faced,,,,,
+"B. Harper, 1B (L)",C. Scott (R),NYN @ PHI,1.6,64%,"0,0,0,2,1",0.5,-250,2,1,1,.500,.500,2.500
+"J. Polanco, 1B (B)",A. Nola (R),NYN @ PHI,1.6,64%,"0,1,1,0,1",0.5,,never faced,,,,,
 "J. Soto, OF (L)",A. Nola (R),NYN @ PHI,1.6,62%,"0,1,1,0,0",0.5,-235,45,12,5,.267,.468,1.135
-"B. Stott, 2B (L)",C. Scott(R),NYN @ PHI,1.6,62%,"0,1,0,2,2",0.5,-209,2,0,0,.000,.000,.000
-"B. Marsh, OF (L)",C. Scott(R),NYN @ PHI,1.6,60%,"1,2,1,0,0",0.5,-240,2,1,0,.500,.500,1.000
-"K. Schwarber, DH (L)",C. Scott(R),NYN @ PHI,1.6,60%,"1,1,0,1,2",0.5,-197,1,0,0,.000,.500,.500
+"B. Stott, 2B (L)",C. Scott (R),NYN @ PHI,1.6,62%,"0,1,0,2,2",0.5,-209,2,0,0,.000,.000,.000
+"B. Marsh, OF (L)",C. Scott (R),NYN @ PHI,1.6,60%,"1,2,1,0,0",0.5,-240,2,1,0,.500,.500,1.000
+"K. Schwarber, DH (L)",C. Scott (R),NYN @ PHI,1.6,60%,"1,1,0,1,2",0.5,-197,1,0,0,.000,.500,.500
+"M. Semien, 2B (R)",A. Nola (R),NYN @ PHI,1.6,58%,"0,0,0,0,1",0.5,-164,9,1,0,.111,.111,.222
 "F. Alvarez, C (R)",A. Nola (R),NYN @ PHI,1.6,57%,"2,1,1,0,2",0.5,,8,3,1,.375,.375,1.125
 "B. Baty, 3B (L)",A. Nola (R),NYN @ PHI,1.6,52%,"1,1,3,0,0",0.5,-148,12,1,0,.083,.267,.350
-"G. Rincones, RF (L)",C. Scott(R),NYN @ PHI,1.6,47%,"1,1,0,0,0",0.5,,2,0,0,.000,.000,.000
+"G. Rincones, RF (L)",C. Scott (R),NYN @ PHI,1.6,47%,"1,1,0,0,0",0.5,,2,0,0,.000,.000,.000
 "D. Hill, OF (R)",C. Scott (R),NYN @ PHI,1.6,44%,"0,1,2,3,1",0.5,,never faced,,,,,
 "B. Bichette, 3B (R)",A. Nola (R),NYN @ PHI,1.6,40%,"3,2,1,1,0",1.5,+188,13,4,1,.308,.308,.923
