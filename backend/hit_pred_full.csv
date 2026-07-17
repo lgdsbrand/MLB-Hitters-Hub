@@ -22,7 +22,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "L. Keaschall, 2B (R)",C. Rea (R),MIN @ CHN,1.6,69%,"1,0,0,1,2",0.5,-209,never faced,,,,,
 "N. Gonzales, 2B (R)",G. Williams (R),PIT @ CLE,1.4,69%,"0,0,1,0,2",0.5,-213,never faced,,,,,
 "J. Lee, OF (L)",B. Miller (R),SFN @ SEA,n/a,69%,"0,0,1,0,0",0.5,-213,3,2,0,.667,.667,2.000
-"J. Lowe, OF (L)",T. Melton(R),DET @ ANA,1.6,68%,"0,1,1,0,0",0.5,,never faced,,,,,
+"J. Lowe, OF (L)",T. Melton (R),DET @ ANA,1.6,68%,"0,1,1,0,0",0.5,,never faced,,,,,
 "N. Schanuel, 1B (L)",T. Melton (R),DET @ ANA,1.6,68%,"1,4,1,2,2",0.5,,1,0,0,.000,.000,.000
 "K. Ruiz, C (B)",G. Jump (L),WAS @ ATH,1.6,68%,"2,0,1,1,0",0.5,-197,never faced,,,,,
 "J. Jung, 3B (R)",C. Sale (L),TEX @ ATL,1.6,68%,"1,1,1,0,2",0.5,-209,never faced,,,,,
@@ -73,7 +73,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "C. Wong, C (R)",M. Englert (R),TBA @ BOS,1.6,63%,"1,1,1,0,1",0.5,-157,never faced,,,,,
 "A. Bregman, 3B (R)",B. Ober (R),MIN @ CHN,1.6,63%,"0,0,0,1,3",0.5,-250,6,0,0,.000,.222,.222
 "R. Jeffers, C (R)",C. Rea (R),MIN @ CHN,1.6,63%,"1,2,1,1,1",0.5,,3,1,0,.333,.333,1.000
-"N. Marte, 3B (R)",G. Hughes (R),CIN @ COL,1.0,63%,"0,2,0,0,1",0.5,,never faced,,,,,
+"N. Marte, 3B (R)",G. Hughes(R),CIN @ COL,1.0,63%,"0,2,0,0,1",0.5,,never faced,,,,,
 "T. Freeman, OF (R)",B. Singer (R),CIN @ COL,1.0,63%,"1,1,0,2,1",0.5,,5,2,0,.400,.333,.733
 "T. Stephenson, C (R)",G. Hughes (R),CIN @ COL,1.0,63%,"2,1,1,2,0",0.5,-240,never faced,,,,,
 "J. Pena, SS (R)",D. Kremer (R),BAL @ HOU,n/a,63%,"3,1,1,1,0",0.5,-250,15,1,0,.067,.125,.192
@@ -118,7 +118,7 @@ D. Smith,C. Quantrill (R),TEX @ ATL,1.6,59%,,0.5,,never faced,,,,,
 "D. Canzone, OF (L)",L. Roupp (R),SFN @ SEA,n/a,59%,"0,1,2,0,1",0.5,-200,never faced,,,,,
 "Z. McKinstry, SS (L)",R. Detmers (L),DET @ ANA,1.6,58%,"0,1,0,0,1",0.5,-145,1,1,0,1.000,1.000,2.000
 "C. Mead, 2B (R)",G. Jump (L),WAS @ ATH,1.6,58%,"3,2,0,1,2",0.5,-245,never faced,,,,,
-"J. Heim, C (B)",C. Cavalli (R),WAS @ ATH,1.6,58%,"1,1,0,0,1",0.5,-205,never faced,,,,,
+"J. Heim, C (B)",C. Cavalli(R),WAS @ ATH,1.6,58%,"1,1,0,0,1",0.5,-205,never faced,,,,,
 "T. Soderstrom, 1B (L)",C. Cavalli (R),WAS @ ATH,1.6,58%,"0,0,1,1,0",0.5,-240,2,0,0,.000,.000,.000
 "J. Burger, 3B (R)",C. Sale (L),TEX @ ATL,1.6,58%,"0,1,1,0,0",0.5,-164,1,0,0,.000,.667,.667
 "W. Abreu, OF (L)",M. Englert (R),TBA @ BOS,1.6,58%,"1,1,3,0,0",0.5,-213,3,0,0,.000,.000,.000
@@ -160,7 +160,7 @@ D. Smith,C. Quantrill (R),TEX @ ATL,1.6,59%,,0.5,,never faced,,,,,
 "M. Vargas, 3B (R)",S. Miles (R),CHA @ TOR,1.4,54%,"0,0,3,0,2",0.5,-218,1,0,0,.000,.000,.000
 "T. Peters, LF (L)",S. Miles (R),CHA @ TOR,1.4,54%,"2,2,0,4,1",0.5,-170,never faced,,,,,
 "J. Wetherholt, SS (L)",M. Kelly (R),SLN @ ARI,n/a,53%,"0,2,0,0,0",0.5,-271,3,2,0,.667,.667,1.334
-"J. Pederson, DH (L)",C. Sale (L),TEX @ ATL,1.6,53%,"0,0,1,0,1",0.5,,never faced,,,,,
+"J. Pederson, DH (L)",C. Sale(L),TEX @ ATL,1.6,53%,"0,0,1,0,1",0.5,,never faced,,,,,
 "J. Triolo, 3B (R)",G. Williams (R),PIT @ CLE,1.4,53%,"0,0,0,0,3",0.5,-143,never faced,,,,,
 "K. Watson, LF (L)",J. Jones (R),PIT @ CLE,1.4,53%,"0,0,0,1,2",0.5,,never faced,,,,,
 "R. Hoskins, 1B (R)",J. Jones (R),PIT @ CLE,1.4,53%,"1,1,0,0,1",0.5,-130,2,1,1,.500,.667,2.667
@@ -175,27 +175,27 @@ D. Smith,C. Quantrill (R),TEX @ ATL,1.6,59%,,0.5,,never faced,,,,,
 "C. Cowser, OF (L)",P. Lambert (R),BAL @ HOU,n/a,51%,"0,1,0,0,0",0.5,-115,2,0,0,.000,.000,.000
 "J. Crooks, C (L)",M. Kelly(R),SLN @ ARI,n/a,50%,"0,0,0,1,0",0.5,,3,0,0,.000,.000,.000
 "A. Hedges, C (R)",J. Jones (R),PIT @ CLE,1.4,50%,"1,1,1,1,2",0.5,-120,never faced,,,,,
-"B. MatthewsD, SS (R)",D. Kremer (R),BAL @ HOU,n/a,50%,"2,1,1,0,0",0.5,-117,never faced,,,,,
+"B. MatthewsD, SS (R)",D. Kremer(R),BAL @ HOU,n/a,50%,"2,1,1,0,0",0.5,-117,never faced,,,,,
 "H. Hernandez, LF (R)",L. Henderson (R),MIA @ MIL,n/a,50%,"1,0,1,1,1",0.5,-159,never faced,,,,,
 "E. Julien, 2B (L)",B. Singer (R),CIN @ COL,1.0,49%,"1,0,1,1,0",0.5,-176,5,0,0,.000,.167,.167
 "L. Raley, OF (L)",L. Roupp (R),SFN @ SEA,n/a,49%,"1,1,2,0,0",0.5,-130,never faced,,,,,
-"N. Lukes, OF (L)",A. Kay (L),CHA @ TOR,1.4,49%,"1,1,2,1,1",0.5,-190,never faced,,,,,
+"N. Lukes, OF (L)",A. Kay(L),CHA @ TOR,1.4,49%,"1,1,2,1,1",0.5,-190,never faced,,,,,
 "O. Peraza, 2B (R)",T. Melton(R),DET @ ANA,1.6,48%,"0,0,1,0,1",0.5,,never faced,,,,,
 "D. Lile, RF (L)",G. Jump (L),WAS @ ATH,1.6,48%,"0,0,2,0,0",0.5,-250,never faced,,,,,
 "H. Davis, C (R)",G. Williams (R),PIT @ CLE,1.4,48%,"1,0,0,1,2",0.5,-121,never faced,,,,,
 "N. Loftin, 2B (R)",M. King (R),SDN @ KCA,1.6,48%,"3,1,2,0,0",0.5,-179,2,1,0,.500,.500,1.000
 "B. Torres, OF (L)",M. Kelly (R),SLN @ ARI,n/a,47%,"1,0,0,0,1",0.5,-190,never faced,,,,,
 B. Hicklen,C. Quantrill (R),TEX @ ATL,1.6,47%,,0.5,,never faced,,,,,
-J. Jones,M. Englert (R),TBA @ BOS,1.6,47%,"0,0,0,0,0",0.5,,never faced,,,,,
+J. Jones,M. Englert(R),TBA @ BOS,1.6,47%,"0,0,0,0,0",0.5,,never faced,,,,,
 "J. Gonzalez, SS (L)",G. Williams (R),PIT @ CLE,1.4,47%,"3,0,1,1,0",0.5,,1,0,0,.000,.000,.000
 "L. Hicks, C (L)",L. Henderson (R),MIA @ MIL,n/a,47%,"3,0,1,2,1",0.5,-200,never faced,,,,,
-"D. SusacIL, C (R)",B. Miller (R),SFN @ SEA,n/a,47%,"0,1,0,0,0",0.5,-110,never faced,,,,,
+"D. SusacIL, C (R)",B. Miller(R),SFN @ SEA,n/a,47%,"0,1,0,0,0",0.5,-110,never faced,,,,,
 "J. Sanoja, 3B (R)",L. Henderson (R),MIA @ MIL,n/a,46%,"1,1,0,0,2",0.5,-157,never faced,,,,,
 "K. Karros, 3B (R)",B. Singer (R),CIN @ COL,1.0,45%,"2,0,3,1,0",0.5,-275,never faced,,,,,
 "V. Grissom, 2B (R)",T. Melton (R),DET @ ANA,1.6,44%,"0,4,1,2,0",0.5,-182,never faced,,,,,
 "C. Young, 2B (L)",L. Roupp (R),SFN @ SEA,n/a,44%,"0,0,1,1,1",0.5,-157,never faced,,,,,
-"C. Thomas, OF (L)",C. Cavalli (R),WAS @ ATH,1.6,43%,"1,0,0,0,0",0.5,-200,never faced,,,,,
-"A. Williams, 2B (R)",C. Cavalli (R),WAS @ ATH,1.6,43%,"1,1,0,0,0",0.5,-165,never faced,,,,,
+"C. Thomas, OF (L)",C. Cavalli(R),WAS @ ATH,1.6,43%,"1,0,0,0,0",0.5,-200,never faced,,,,,
+"A. Williams, 2B (R)",C. Cavalli(R),WAS @ ATH,1.6,43%,"1,1,0,0,0",0.5,-165,never faced,,,,,
 "T. Johnston, OF (L)",B. Singer (R),CIN @ COL,1.0,43%,"1,0,0,0,0",0.5,-235,never faced,,,,,
 "A. Chaparro, DH (R)",G. Jump (L),WAS @ ATH,1.6,41%,"0,1,0,1,1",0.5,-145,never faced,,,,,
 "J. Bauers, 1B (L)",S. Alcantara (R),MIA @ MIL,n/a,41%,"0,2,1,0,1",0.5,-164,14,0,0,.000,.000,.000
