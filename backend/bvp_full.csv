@@ -12,10 +12,10 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Andujar, OF (R)",>v,S. Lugo (R),SDN @ KCA,1.6,38%,25%,8,3,0,1,0,.375,.375,1.125
 "R. Greene, OF (L)",^v,R. Detmers (L),DET @ ANA,1.5,75%,0%,3,2,0,0,1,.667,.750,1.417
 "M. Winn, SS (R)",vv,M. Kelly (R),SLN @ ARI,n/a,17%,0%,9,2,0,0,0,.222,.222,.444
-"N. Church, LF (L)",vv,M. Kelly (R),SLN @ ARI,n/a,---,,2,2,0,0,0,1.000,1.000,2.000
+"N. Church, LF (L)",vv,M. Kelly,SLN @ ARI,n/a,---,,2,2,0,0,0,1.000,1.000,2.000
 "A. Burleson, OF (L)",^v,M. Kelly (R),SLN @ ARI,n/a,44%,22%,10,2,0,0,2,.200,.333,.533
 "L. Nootbaar, OF (L)",^v,M. Kelly (R),SLN @ ARI,n/a,36%,9%,11,2,0,1,3,.182,.357,.812
-"J. Wetherholt, SS (L)",vv,M. Kelly (R),SLN @ ARI,n/a,---,,3,2,0,0,0,.667,.667,1.334
+"J. Wetherholt, SS (L)",vv,M. Kelly,SLN @ ARI,n/a,---,,3,2,0,0,0,.667,.667,1.334
 "B. Nimmo, OF (L)",^^,C. Sale (L),TEX @ ATL,1.6,33%,11%,7,2,0,0,1,.286,.375,.661
 "M. Harris, OF (L)",v^,C. Quantrill (R),TEX @ ATL,1.6,33%,33%,6,2,2,0,0,.333,.333,1.000
 "J. Duran, OF (L)",v^,M. Englert (R),TBA @ BOS,1.6,67%,0%,3,2,0,0,1,.667,.750,1.417
@@ -70,8 +70,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Naylor, 1B (L)",^v,L. Roupp (R),SFN @ SEA,n/a,50%,50%,2,1,0,0,0,.500,.500,1.000
 "L. Arraez, 2B (L)",^^,B. Miller (R),SFN @ SEA,n/a,44%,44%,9,1,1,0,0,.111,.111,.333
 "R. Devers, 1B (L)",^^,B. Miller (R),SFN @ SEA,n/a,67%,22%,5,1,0,0,3,.200,.444,.644
-"V. Guerrero, 1B (R)",^>,A. Kay (L),CHA @ TOR,1.4,---,,2,1,0,1,0,.500,.500,2.500
-"C. Montgomery, SS (L)",v^,S. Miles (R),CHA @ TOR,1.4,---,,1,1,0,0,0,1.000,1.000,2.000
+"V. Guerrero, 1B (R)",^>,A. Kay,CHA @ TOR,1.4,---,,2,1,0,1,0,.500,.500,2.500
+"C. Montgomery, SS (L)",v^,S. Miles,CHA @ TOR,1.4,---,,1,1,0,0,0,1.000,1.000,2.000
 "Z. Neto, SS (R)",^^,T. Melton (R),DET @ ANA,1.5,100%,100%,1,0,0,0,0,.000,.000,.000
 "M. Trout, OF (R)",^^,T. Melton (R),DET @ ANA,1.5,100%,100%,1,0,0,0,0,.000,.000,.000
 "L. O'Hoppe, C (R)",v^,T. Melton (R),DET @ ANA,1.5,0%,0%,1,0,0,0,0,.000,.000,.000
@@ -85,22 +85,22 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "N. Lopez, 2B (L)",v^,C. Sale (L),TEX @ ATL,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
 "J. Burger, 3B (R)",v^,C. Sale (L),TEX @ ATL,1.6,67%,0%,1,0,0,0,2,.000,.667,.667
 "W. Abreu, OF (L)",^^,M. Englert (R),TBA @ BOS,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
-"C. Durbin, 3B (R)",^^,M. Englert (R),TBA @ BOS,1.6,---,,1,0,0,0,0,.000,.000,.000
+"C. Durbin, 3B (R)",^^,M. Englert,TBA @ BOS,1.6,---,,1,0,0,0,0,.000,.000,.000
 "W. Contreras, 1B (R)",^^,M. Englert (R),TBA @ BOS,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
 "B. Lee, SS (B)",^^,C. Rea (R),MIN @ CHN,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
 "C. Kelly, C (R)",^v,B. Ober (R),MIN @ CHN,1.6,33%,33%,3,0,0,0,0,.000,.000,.000
 "A. Bregman, 3B (R)",^v,B. Ober (R),MIN @ CHN,1.6,17%,0%,6,0,0,0,1,.000,.222,.222
-"J. Gonzalez, SS (L)",^v,G. Williams (R),PIT @ CLE,1.5,---,,1,0,0,0,0,.000,.000,.000
+"J. Gonzalez, SS (L)",^v,G. Williams,PIT @ CLE,1.5,---,,1,0,0,0,0,.000,.000,.000
 "E. Tovar, SS (R)",v^,B. Singer (R),CIN @ COL,1.0,20%,0%,5,0,0,0,0,.000,.000,.000
 "E. Julien, 2B (L)",v^,B. Singer (R),CIN @ COL,1.0,17%,17%,5,0,0,0,0,.000,.167,.167
 "J. McCarthy, OF (L)",^^,B. Singer (R),CIN @ COL,1.0,17%,0%,5,0,0,0,0,.000,.000,.000
 ---,,G. Hughes,CIN @ COL,1.0,no matchup history,,,,,,,,,
-"C. Mayo, 3B (R)",>^,P. Lambert (R),BAL @ HOU,n/a,---,,2,0,0,0,0,.000,.000,.000
+"C. Mayo, 3B (R)",>^,P. Lambert,BAL @ HOU,n/a,---,,2,0,0,0,0,.000,.000,.000
 "T. Ward, OF (R)",^^,P. Lambert (R),BAL @ HOU,n/a,50%,50%,4,0,0,0,0,.000,.000,.000
-"C. Cowser, OF (L)",v^,P. Lambert (R),BAL @ HOU,n/a,---,,2,0,0,0,0,.000,.000,.000
-"D. Beavers, RF (L)",v^,P. Lambert (R),BAL @ HOU,n/a,---,,1,0,0,0,1,.000,.500,.500
-"A. Rutschman, C (B)",v^,P. Lambert (R),BAL @ HOU,n/a,---,,2,0,0,0,0,.000,.000,.000
-"G. Henderson, SS (L)",v^,P. Lambert (R),BAL @ HOU,n/a,---,,2,0,0,0,0,.000,.000,.000
+"C. Cowser, OF (L)",v^,P. Lambert,BAL @ HOU,n/a,---,,2,0,0,0,0,.000,.000,.000
+"D. Beavers, RF (L)",v^,P. Lambert,BAL @ HOU,n/a,---,,1,0,0,0,1,.000,.500,.500
+"A. Rutschman, C (B)",v^,P. Lambert,BAL @ HOU,n/a,---,,2,0,0,0,0,.000,.000,.000
+"G. Henderson, SS (L)",v^,P. Lambert,BAL @ HOU,n/a,---,,2,0,0,0,0,.000,.000,.000
 "J. Rojas, 3B (L)",>>,M. King (R),SDN @ KCA,1.6,50%,25%,3,0,0,0,1,.000,.250,.250
 "L. Thomas, OF (R)",^^,M. King (R),SDN @ KCA,1.6,50%,0%,1,0,0,0,1,.000,.500,.500
 "M. Massey, 2B (L)",^^,M. King (R),SDN @ KCA,1.6,33%,33%,3,0,0,0,0,.000,.000,.000
@@ -114,10 +114,10 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 ---,,R. Sasaki,LAN @ NYA,1.6,no matchup history,,,,,,,,,
 "H. Ramos, OF (R)",v^,B. Miller (R),SFN @ SEA,n/a,33%,0%,3,0,0,0,0,.000,.000,.000
 "R. Arozarena, OF (R)",^v,L. Roupp (R),SFN @ SEA,n/a,0%,0%,2,0,0,0,0,.000,.000,.000
-"D. Varsho, OF (L)",v>,A. Kay (L),CHA @ TOR,1.4,---,,2,0,0,0,0,.000,.000,.000
-"M. Vargas, 3B (R)",^^,S. Miles (R),CHA @ TOR,1.4,---,,1,0,0,0,0,.000,.000,.000
+"D. Varsho, OF (L)",v>,A. Kay,CHA @ TOR,1.4,---,,2,0,0,0,0,.000,.000,.000
+"M. Vargas, 3B (R)",^^,S. Miles,CHA @ TOR,1.4,---,,1,0,0,0,0,.000,.000,.000
 "A. Gimenez, 2B (L)",v>,A. Kay (L),CHA @ TOR,1.4,33%,0%,5,0,0,0,0,.000,.000,.000
-"E. Clement, 3B (R)",^>,A. Kay (L),CHA @ TOR,1.4,---,,2,0,0,0,0,.000,.000,.000
-"G. Springer, OF (R)",v>,A. Kay (L),CHA @ TOR,1.4,---,,2,0,0,0,0,.000,.000,.000
-"M. Murakami, IF (L)",v^,S. Miles (R),CHA @ TOR,1.4,---,,1,0,0,0,0,.000,.000,.000
-"A. Benintendi, OF (L)",>^,S. Miles (R),CHA @ TOR,1.4,---,,1,0,0,0,0,.000,.000,.000
+"E. Clement, 3B (R)",^>,A. Kay,CHA @ TOR,1.4,---,,2,0,0,0,0,.000,.000,.000
+"G. Springer, OF (R)",v>,A. Kay,CHA @ TOR,1.4,---,,2,0,0,0,0,.000,.000,.000
+"M. Murakami, IF (L)",v^,S. Miles,CHA @ TOR,1.4,---,,1,0,0,0,0,.000,.000,.000
+"A. Benintendi, OF (L)",>^,S. Miles,CHA @ TOR,1.4,---,,1,0,0,0,0,.000,.000,.000
