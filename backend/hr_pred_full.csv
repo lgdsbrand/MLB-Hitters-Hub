@@ -24,7 +24,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "S. Suzuki, OF (R)",T. Bradley (R),MIN @ CHN,1.3,21%,"1,0,0,0,0",+390,4,1,0,.250,.400,.650
 "A. Bregman, 3B (R)",T. Bradley (R),MIN @ CHN,1.3,21%3.5,"0,0,1,1,0",+575,6,2,2,.333,.429,1.762
 "B. Lowe, 2B (L)",L. Allen (L),PIT @ CLE,1.4,21%,"0,0,0,0,0",+330,6,1,0,.167,.167,.334
-"C. DeLauter, RF (L)",B. Ashcraft (R),PIT @ CLE,1.4,21%,"0,1,1,0,1",+475,never faced,,,,,
 "T. Turner, SS (R)",S. Manaea (L),NYN @ PHI,1.6,21%,"0,0,0,0,1",+400,21,7,1,.333,.391,.867
 "G. Springer, OF (R)",D. Martin (R),CHA @ TOR,n/a,21%,"0,1,0,0,1",+475,3,1,0,.333,.333,.666
 "A. Riley, 3B (R)",M. Gore (L),TEX @ ATL,1.6,20%,"0,0,0,0,1",+425,12,4,0,.333,.308,.725
@@ -92,8 +91,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "T. Tawa, 2B (R)",D. May (R),SLN @ ARI,n/a,14%,"0,1,0,1,1",,4,1,0,.250,.400,.650
 "J. Wetherholt, SS (L)",B. Pfaadt (R),SLN @ ARI,n/a,14%,"0,0,0,0,1",+575,never faced,,,,,
 "I. Happ, OF (B)",T. Bradley (R),MIN @ CHN,1.3,14%,"0,0,0,0,0",+370,3,0,0,.000,.000,.000
-"H. Davis, C (R)",L. Allen (L),PIT @ CLE,1.4,14%,"0,0,0,0,1",+525,1,0,0,.000,.500,.500
-"K. Manzardo, DH (L)",B. Ashcraft (R),PIT @ CLE,1.4,14%,"0,0,0,0,0",+400,never faced,,,,,
+"H. Davis, C (R)",L. Allen(L),PIT @ CLE,1.4,14%,"0,0,0,0,1",+525,1,0,0,.000,.500,.500
 "J. Altuve, 2B (R)",T. Rogers (L),BAL @ HOU,n/a,14%,"0,0,0,1,0",,6,1,0,.167,.167,.500
 "J. Cronenworth, 2B (L)",R. Dobnak (R),SDN @ KCA,1.8,14%,"0,0,0,0,0",,never faced,,,,,
 "F. Freeman, 1B (L)",R. Weathers (L),LAN @ NYA,1.5,14%,"0,0,0,0,0",+425,10,5,0,.500,.500,1.200
@@ -136,11 +134,11 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "B. Turang, 2B (L)",M. Meyer (R),MIA @ MIL,n/a,11%,"1,0,0,1,0",+575,2,0,0,.000,.000,.000
 "G. Mitchell, OF (L)",M. Meyer (R),MIA @ MIL,n/a,11%,"0,0,0,0,0",+475,2,1,0,.500,.500,1.000
 "D. Hill, OF (R)",S. Manaea (L),NYN @ PHI,1.6,11%,"0,0,1,0,0",,5,2,0,.400,.400,1.000
+"J. Rodriguez, OF (R)",L. Webb (R),SFN @ SEA,1.2,11%,"0,0,0,0,0",+507,3,0,0,.000,.250,.250
 "N. Lukes, OF (L)",D. Martin (R),CHA @ TOR,n/a,11%,"0,0,0,0,1",+850,3,0,0,.000,.000,.000
 "M. Winn, SS (R)",B. Pfaadt (R),SLN @ ARI,n/a,10%,"0,0,0,0,0",+950,9,3,1,.333,.455,1.122
 "L. Butler, OF (L)",Z. Littell (R),WAS @ ATH,1.6,10%,"0,0,0,0,0",+350,never faced,,,,,
 "N. Fortes, C (R)",P. Sandoval (L),TBA @ BOS,1.6,10%,"0,0,0,0,0",+750,5,2,1,.400,.400,1.600
-"G. Arias, 3B (R)",B. Ashcraft (R),PIT @ CLE,1.4,10%,"1,0,1,0,0",,never faced,,,,,
 "R. O'Hearn, 1B (L)",L. Allen (L),PIT @ CLE,1.4,10%,"0,0,0,0,0",,never faced,,,,,
 "E. Julien, 2B (L)",R. Lowder (R),CIN @ COL,1.2,10%,"0,0,0,1,0",+575,never faced,,,,,
 "T. Friedl, OF (L)",T. Sugano(R),CIN @ COL,1.2,10%,"0,0,0,0,0",+575,3,0,0,.000,.000,.000

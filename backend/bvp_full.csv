@@ -63,7 +63,6 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Ozuna, DH (R)",>>,L. Allen (L),PIT @ CLE,1.4,---,,4,1,1,0,1,.250,.400,.900
 "J. Mangum, OF (B)",^>,L. Allen (L),PIT @ CLE,1.4,---,,2,1,0,0,1,.500,.667,1.167
 "J. Triolo, 3B (R)",v>,L. Allen (L),PIT @ CLE,1.4,---,,4,1,0,0,0,.250,.250,.500
-"P. Bailey, C (B)",^>,B. Ashcraft (R),PIT @ CLE,1.4,100%,50%,2,1,0,0,0,.500,.500,1.000
 "S. Steer, OF (R)",^v,T. Sugano (R),CIN @ COL,1.2,---,,1,1,0,0,1,1.000,1.000,2.000
 "W. Castro, OF (B)",vv,R. Lowder (R),CIN @ COL,1.2,50%,50%,2,1,0,0,0,.500,.500,1.000
 "S. Stewart, 3B (R)",vv,T. Sugano (R),CIN @ COL,1.2,---,,3,1,0,0,0,.333,.333,.666
@@ -98,6 +97,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Outman, OF (L)",vv,G. Rodriguez (R),DET @ ANA,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
 "O. Peraza, 2B (R)",v^,T. Skubal (L),DET @ ANA,1.4,50%,33%,6,0,0,0,0,.000,.000,.000
 "D. Dingler, C (R)",vv,G. Rodriguez (R),DET @ ANA,1.4,---,,2,0,0,0,0,.000,.000,.000
+"N. Schanuel, 1B (L)",^^,T. Skubal (L),DET @ ANA,1.4,0%,0%,6,0,0,0,0,.000,.000,.000
 "K. Carpenter, OF (L)",vv,G. Rodriguez (R),DET @ ANA,1.4,33%,33%,3,0,0,0,0,.000,.000,.000
 "K. McGonigle, SS (L)",vv,G. Rodriguez (R),DET @ ANA,1.4,---,,2,0,0,0,0,.000,.000,.000
 "S. Torkelson, 1B (R)",vv,G. Rodriguez (R),DET @ ANA,1.4,100%,50%,3,0,0,0,1,.000,.250,.250
@@ -120,7 +120,7 @@ C. Narvaez,v>,I. Seymour (L),TBA @ BOS,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
 "W. Contreras, 1B (R)",^>,I. Seymour (L),TBA @ BOS,1.6,---,,2,0,0,0,0,.000,.000,.000
 "I. Happ, OF (B)",^^,T. Bradley (R),MIN @ CHN,1.3,0%,0%,3,0,0,0,0,.000,.000,.000
 "P. Crow-Armstrong, OF (L)",v^,T. Bradley (R),MIN @ CHN,1.3,0%,0%,3,0,0,0,0,.000,.000,.000
-"H. Davis, C (R)",^>,L. Allen (L),PIT @ CLE,1.4,---,,1,0,0,0,1,.000,.500,.500
+"H. Davis, C (R)",^>,L. Allen,PIT @ CLE,1.4,---,,1,0,0,0,1,.000,.500,.500
 "N. Gonzales, 2B (R)",v>,L. Allen (L),PIT @ CLE,1.4,---,,2,0,0,0,0,.000,.000,.000
 "E. Suarez, 3B (R)",^v,T. Sugano (R),CIN @ COL,1.2,0%,0%,2,0,0,0,0,.000,.000,.000
 "T. Friedl, OF (L)",vv,T. Sugano,CIN @ COL,1.2,---,,3,0,0,0,0,.000,.000,.000
@@ -150,5 +150,6 @@ C. Narvaez,v>,I. Seymour (L),TBA @ BOS,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
 "R. Devers, 1B (L)",^v,B. Woo (R),SFN @ SEA,1.2,33%,33%,3,0,0,0,0,.000,.000,.000
 "C. Raleigh, C (B)",v^,L. Webb (R),SFN @ SEA,1.2,0%,0%,3,0,0,0,0,.000,.000,.000
 "C. Schmitt, 2B (R)",^v,B. Woo (R),SFN @ SEA,1.2,0%,0%,2,0,0,0,0,.000,.000,.000
+"J. Rodriguez, OF (R)",^^,L. Webb (R),SFN @ SEA,1.2,75%,25%,3,0,0,0,1,.000,.250,.250
 "R. Arozarena, OF (R)",^^,L. Webb (R),SFN @ SEA,1.2,20%,0%,4,0,0,0,1,.000,.200,.200
 "N. Lukes, OF (L)",^v,D. Martin (R),CHA @ TOR,n/a,---,,3,0,0,0,0,.000,.000,.000

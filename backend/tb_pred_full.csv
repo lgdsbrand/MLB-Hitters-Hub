@@ -1,7 +1,6 @@
 Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "J. Wood, OF (L)",J. Ginn (R),WAS @ ATH,1.6,2.6,"0,7,6,4,1",1.5,-114,never faced,,,,,
 "M. Olson, 1B (L)",M. Gore (L),TEX @ ATL,1.6,2.6,"4,0,1,1,5",1.5,+108,22,5,0,.227,.346,.710
-"C. DeLauter, RF (L)",B. Ashcraft (R),PIT @ CLE,1.4,2.6,"2,4,5,0,4",1.5,+119,never faced,,,,,
 "E. De La Cruz, SS (B)",T. Sugano (R),CIN @ COL,1.2,2.6,"0,7,2,1,7",,,2,0,0,.000,.333,.333
 "J. Soto, OF (L)",J. Luzardo (L),NYN @ PHI,1.6,2.6,"4,1,0,0,1",1.5,+122,21,7,1,.333,.517,1.041
 "S. Suzuki, OF (R)",T. Bradley (R),MIN @ CHN,1.3,2.5,"7,3,1,1,2",1.5,+129,4,1,0,.250,.400,.650
@@ -40,7 +39,6 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "C. Abrams, SS (L)",J. Ginn (R),WAS @ ATH,1.6,2.1,"4,2,1,1,3",1.5,-113,never faced,,,,,
 "Y. Diaz, 1B (R)",P. Sandoval (L),TBA @ BOS,1.6,2.1,"0,2,2,0,0",1.5,-125,17,3,0,.176,.263,.498
 "J. Bell, 1B (B)",M. Boyd (L),MIN @ CHN,1.3,2.1,"0,4,2,0,1",0.5,+122,14,4,0,.286,.412,.769
-"S. Kwan, OF (L)",B. Ashcraft (R),PIT @ CLE,1.4,2.1,"0,0,1,2,2",1.5,+197,never faced,,,,,
 "B. Reynolds, OF (B)",L. Allen (L),PIT @ CLE,1.4,2.1,"1,4,0,3,1",1.5,+117,5,2,0,.400,.400,.800
 "J. Pena, SS (R)",T. Rogers (L),BAL @ HOU,n/a,2.1,"1,1,1,0,2",1.5,-103,7,3,0,.429,.429,.858
 "I. Paredes, 3B (R)",T. Rogers (L),BAL @ HOU,n/a,2.1,"3,0,3,1,1",1.5,+133,never faced,,,,,
@@ -132,7 +130,7 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "D. Baldwin, C (L)",M. Gore (L),TEX @ ATL,1.6,1.7,"2,0,1,1,6",,,never faced,,,,,
 "R. Palacios, OF (L)",P. Sandoval (L),TBA @ BOS,1.6,1.7,"0,2,3,4,0",1.5,+200,never faced,,,,,
 "C. Kelly, C (R)",T. Bradley(R),MIN @ CHN,1.3,1.7,"0,0,5,0,0",0.5,+169,never faced,,,,,
-"H. Davis, C (R)",L. Allen (L),PIT @ CLE,1.4,1.7,"1,0,0,1,5",0.5,+170,1,0,0,.000,.500,.500
+"H. Davis, C (R)",L. Allen(L),PIT @ CLE,1.4,1.7,"1,0,0,1,5",0.5,+170,1,0,0,.000,.500,.500
 "M. Moniak, OF (L)",R. Lowder (R),CIN @ COL,1.2,1.7,"0,1,2,0,0",,,never faced,,,,,
 "W. Castro, OF (B)",R. Lowder (R),CIN @ COL,1.2,1.7,"0,1,0,1,1",,,2,1,0,.500,.500,1.000
 "J. McCarthy, OF (L)",R. Lowder (R),CIN @ COL,1.2,1.7,"0,3,1,4,1",1.5,-125,never faced,,,,,
@@ -154,7 +152,6 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "V. Caratini, C (B)",M. Boyd (L),MIN @ CHN,1.3,1.6,"1,1,2,1,1",0.5,-185,never faced,,,,,
 "J. Triolo, 3B (R)",L. Allen (L),PIT @ CLE,1.4,1.6,"0,0,0,0,4",1.5,+191,4,1,0,.250,.250,.500
 "R. O'Hearn, 1B (L)",L. Allen (L),PIT @ CLE,1.4,1.6,"1,0,0,0,3",,,never faced,,,,,
-"K. Manzardo, DH (L)",B. Ashcraft (R),PIT @ CLE,1.4,1.6,"0,0,0,1,1",1.5,+163,never faced,,,,,
 "E. Tovar, SS (R)",R. Lowder (R),CIN @ COL,1.2,1.6,"0,2,0,0,0",1.5,+122,never faced,,,,,
 "N. Marte, 3B (R)",T. Sugano (R),CIN @ COL,1.2,1.6,"0,6,0,0,1",,,never faced,,,,,
 "E. Julien, 2B (L)",R. Lowder (R),CIN @ COL,1.2,1.6,"1,0,1,4,0",0.5,+181,never faced,,,,,
@@ -172,9 +169,7 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "A. Burleson, OF (L)",B. Pfaadt (R),SLN @ ARI,n/a,1.5,"2,0,0,2,1",1.5,-112,7,0,0,.000,.000,.000
 "J. Wetherholt, SS (L)",B. Pfaadt (R),SLN @ ARI,n/a,1.5,"3,0,0,0,5",1.5,+110,never faced,,,,,
 "A. Martin, OF (R)",M. Boyd (L),MIN @ CHN,1.3,1.5,"1,1,0,3,1",1.5,+138,never faced,,,,,
-"G. Arias, 3B (R)",B. Ashcraft (R),PIT @ CLE,1.4,1.5,"5,0,4,3,1",,,never faced,,,,,
 "J. Mangum, OF (B)",L. Allen (L),PIT @ CLE,1.4,1.5,"1,0,8,1,3",1.5,+122,2,1,0,.500,.667,1.167
-"B. Rocchio, SS (B)",B. Ashcraft (R),PIT @ CLE,1.4,1.5,"4,2,1,2,5",1.5,+138,never faced,,,,,
 "C. Cowser, OF (L)",S. Arrighetti (R),BAL @ HOU,n/a,1.5,"1,0,0,0,1",0.5,+198,6,1,0,.167,.167,.334
 "D. Beavers, RF (L)",S. Arrighetti (R),BAL @ HOU,n/a,1.5,"0,3,1,1,0",,,2,0,0,.000,.000,.000
 "G. Sheets, 1B (L)",R. Dobnak (R),SDN @ KCA,1.8,1.5,"0,0,0,0,0",1.5,+110,never faced,,,,,
@@ -197,7 +192,6 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 C. Narvaez,I. Seymour (L),TBA @ BOS,1.6,1.4,"0,0,1,0,1",1.5,+204,2,0,0,.000,.000,.000
 "T. Larnach, OF (L)",M. Boyd (L),MIN @ CHN,1.3,1.4,"5,0,0,4,1",1.5,+180,never faced,,,,,
 "L. Keaschall, 2B (R)",M. Boyd (L),MIN @ CHN,1.3,1.4,"0,0,1,2,2",0.5,+165,never faced,,,,,
-"P. Bailey, C (B)",B. Ashcraft (R),PIT @ CLE,1.4,1.4,"1,0,4,2,1",0.5,+210,2,1,0,.500,.500,1.000
 "T. Freeman, OF (R)",R. Lowder(R),CIN @ COL,1.2,1.4,"1,1,0,2,1",,,never faced,,,,,
 "S. Song, 3B (L)",R. Dobnak(R),SDN @ KCA,1.8,1.4,"0,1,0,1,0",0.5,+170,never faced,,,,,
 "F. Fermin, C (R)",R. Dobnak (R),SDN @ KCA,1.8,1.4,"0,0,1,2,2",1.5,+146,never faced,,,,,
@@ -219,7 +213,7 @@ C. Narvaez,I. Seymour (L),TBA @ BOS,1.6,1.4,"0,0,1,0,1",1.5,+204,2,0,0,.000,.000
 "J. Caballero, SS (R)",E. Sheehan (R),LAN @ NYA,1.5,1.3,"1,1,2,1,0",0.5,+249,never faced,,,,,
 "B. Marsh, OF (L)",S. Manaea (L),NYN @ PHI,1.6,1.3,"2,1,0,0,0",1.5,+158,6,0,0,.000,.143,.143
 "E. Clement, 3B (R)",D. Martin (R),CHA @ TOR,n/a,1.3,"1,2,1,4,2",1.5,+112,2,1,0,.500,.500,1.000
-"J. Lowe, OF (L)",T. Skubal (L),DET @ ANA,1.4,1.2,"1,0,0,4,0",,,never faced,,,,,
+"J. Lowe, OF (L)",T. Skubal(L),DET @ ANA,1.4,1.2,"1,0,0,4,0",,,never faced,,,,,
 "C. Mead, 2B (R)",J. Ginn (R),WAS @ ATH,1.6,1.2,"3,0,1,5,7",1.5,+109,1,0,0,.000,.000,.000
 "J. Young, OF (R)",J. Ginn (R),WAS @ ATH,1.6,1.2,"4,1,0,1,2",0.5,+144,never faced,,,,,
 J. Jones,I. Seymour (L),TBA @ BOS,1.6,1.2,"0,0,0,0,0",,,1,0,0,.000,.000,.000
@@ -244,8 +238,6 @@ J. Jones,I. Seymour (L),TBA @ BOS,1.6,1.2,"0,0,0,0,0",,,1,0,0,.000,.000,.000
 "T. Peters, LF (L)",S. Bieber (R),CHA @ TOR,n/a,1.1,"5,0,10,1,1",0.5,+175,never faced,,,,,
 "J. Fermin, 3B (R)",B. Pfaadt (R),SLN @ ARI,n/a,1.0,"1,4,0,0,1",0.5,+176,never faced,,,,,
 "C. Cortes, LF (L)",Z. Littell (R),WAS @ ATH,1.6,1.0,"3,2,1,0,1",1.5,+107,never faced,,,,,
-"K. Watson, LF (L)",B. Ashcraft (R),PIT @ CLE,1.4,1.0,"0,0,0,2,2",,,never faced,,,,,
-"P. Halpin, CF (L)",B. Ashcraft (R),PIT @ CLE,1.4,1.0,"1,0,0,1,1",,,never faced,,,,,
 "J. Trevino, C (R)",T. Sugano (R),CIN @ COL,1.2,1.0,"0,1,1,0,1",,,2,0,0,.000,.000,.000
 "S. Basallo, C (L)",S. Arrighetti (R),BAL @ HOU,n/a,1.0,"0,4,1,4,0",0.5,+127,2,1,0,.500,.500,1.000
 "J. Caglianone, RF (L)",G. Canning (R),SDN @ KCA,1.8,1.0,"2,5,1,1,1",1.5,-106,never faced,,,,,
