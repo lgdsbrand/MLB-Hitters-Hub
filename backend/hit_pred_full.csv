@@ -24,7 +24,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "L. Garcia, 1B (L)",M. Lorenzen (R),WAS @ COL,1.3,69%,"2,3,0,1,0",0.5,,1,0,0,.000,.000,.000
 "Y. Alvarez, DH (L)",T. Phillips(R),MIA @ HOU,n/a,69%,"2,2,2,1,1",0.5,,never faced,,,,,
 "H. Ramos, OF (R)",L. Avila(R),SFN @ KCA,1.4,69%,"1,2,2,1,1",0.5,,never faced,,,,,
-"J. Rodriguez, OF (R)",C. Burns(R),CIN @ SEA,1.4,69%,"1,3,0,0,1",0.5,,never faced,,,,,
+"J. RodriguezD, OF (R)",C. Burns(R),CIN @ SEA,1.4,69%,"1,3,0,0,1",0.5,,never faced,,,,,
 "Z. Neto, SS (R)",M. Liberatore (L),SLN @ ANA,1.6,68%,"2,0,2,0,1",1.5,+220,1,1,0,1.000,1.000,2.000
 "N. Arenado, 3B (R)",J. Perkins(R),ATH @ ARI,n/a,68%,"1,1,0,2,1",0.5,,never faced,,,,,
 "O. Albies, 2B (B)",W. Buehler (R),SDN @ ATL,1.4,68%,"0,1,2,0,0",0.5,-294,25,7,0,.280,.308,.668
@@ -100,7 +100,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "D. Canzone, OF (L)",C. Burns(R),CIN @ SEA,1.4,60%,"2,0,1,0,1",0.5,,never faced,,,,,
 "N. Lopez, 2B (L)",N. Schultz (L),CHA @ TEX,n/a,60%,"0,1,1,0,3",0.5,,never faced,,,,,
 "M. Murakami, IF (L)",K. Rocker(R),CHA @ TEX,n/a,60%,"0,0,1,1,0",0.5,,never faced,,,,,
-"C. Montgomery, SS (L)",K. Rocker(R),CHA @ TEX,n/a,60%,"0,1,2,0,2",0.5,,never faced,,,,,
+"C. MontgomeryD, SS (L)",K. Rocker(R),CHA @ TEX,n/a,60%,"0,1,2,0,2",0.5,,never faced,,,,,
 "L. Nootbaar, OF (L)",W. Urena(R),SLN @ ANA,1.6,59%,"1,0,1,1,0",0.5,-140,never faced,,,,,
 "G. Perdomo, SS (B)",J. Perkins (R),ATH @ ARI,n/a,59%,"0,0,0,0,1",0.5,,2,1,0,.500,.500,1.500
 D. Smith,W. Buehler(R),SDN @ ATL,1.4,59%,,0.5,,never faced,,,,,
@@ -151,7 +151,7 @@ B. Hicklen,W. Buehler(R),SDN @ ATL,1.4,47%,,0.5,-175,never faced,,,,,
 "V. Mesa, CF (L)",K. Gausman(R),TBA @ TOR,n/a,47%,"1,3,0,1,1",0.5,-154,never faced,,,,,
 "J. Tena, 3B (L)",M. Lorenzen (R),WAS @ COL,1.3,46%,"0,0,1,1,0",0.5,,never faced,,,,,
 "T. Johnston, OF (L)",M. Mikolas (R),WAS @ COL,1.3,44%,"0,0,0,1,0",0.5,,2,0,0,.000,.000,.000
-"C. Thomas, OF (L)",K. Drake(L),ATH @ ARI,n/a,43%,"0,0,0,0,1",0.5,,never faced,,,,,
+"C. ThomasD, OF (L)",K. Drake(L),ATH @ ARI,n/a,43%,"0,0,0,0,1",0.5,,never faced,,,,,
 "K. Karros, 3B (R)",M. Mikolas (R),WAS @ COL,1.3,43%,"3,1,0,0,1",0.5,,3,0,0,.000,.000,.000
 "C. Young, 2B (L)",C. Burns(R),CIN @ SEA,1.4,43%,"1,1,0,2,2",0.5,,never faced,,,,,
 "C. Mayo, 3B (R)",R. Suarez (L),BAL @ BOS,1.5,42%,"0,0,1,1,2",0.5,,3,2,1,.667,.667,2.334
