@@ -41,7 +41,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "A. Martin, OF (R)",v^,P. Messick (L),MIN @ CLE,1.2,33%,0%,6,2,1,0,0,.333,.333,.833
 "L. Keaschall, 2B (R)",^^,P. Messick (L),MIN @ CLE,1.2,33%,0%,6,2,1,0,0,.333,.333,.833
 "M. Moniak, OF (L)",vv,M. Mikolas (R),WAS @ COL,1.3,60%,60%,5,2,1,0,0,.400,.400,1.000
-"S. Perez, C (R)",^^,T. Mahle (R),SFN @ KCA,1.6,33%,0%,6,2,0,1,0,.333,.333,1.166
+"S. Perez, C (R)",^^,T. Mahle (R),SFN @ KCA,1.4,33%,0%,6,2,0,1,0,.333,.333,1.166
 "J. Mangum, OF (B)",vv,W. Warren (R),PIT @ NYA,1.5,67%,0%,3,2,0,0,0,.667,.667,1.334
 "K. Schwarber, DH (L)",^^,J. Wrobleski (L),LAN @ PHI,1.6,100%,100%,4,2,0,1,0,.500,.500,1.750
 "E. Clement, 3B (R)",^v,D. Rasmussen (R),TBA @ TOR,n/a,50%,50%,7,2,0,0,0,.286,.286,.572
@@ -58,7 +58,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "D. Baldwin, C (L)",^v,W. Buehler (R),SDN @ ATL,1.4,33%,33%,3,1,0,0,0,.333,.333,.666
 "J. Cronenworth, 2B (L)",v^,R. Lopez (R),SDN @ ATL,1.4,36%,18%,8,1,0,0,2,.125,.300,.425
 "T. Ward, OF (R)",^^,R. Suarez (L),BAL @ BOS,1.5,67%,0%,2,1,1,0,1,.500,.667,1.667
-"C. Durbin, 3B (R)",^^,K. Bradish,BAL @ BOS,1.5,---,,2,1,0,0,0,.500,.500,1.000
+"C. Durbin, 3B (R)",^^,K. Bradish (R),BAL @ BOS,1.5,---,,2,1,0,0,0,.500,.500,1.000
 "C. Rafaela, OF (R)",>^,K. Bradish (R),BAL @ BOS,1.5,0%,0%,4,1,1,0,0,.250,.250,.750
 "J. Jackson, 2B (R)",v^,R. Suarez (L),BAL @ BOS,1.5,33%,0%,3,1,1,0,0,.333,.333,1.000
 "M. Yoshida, DH (L)",^^,K. Bradish (R),BAL @ BOS,1.5,14%,0%,7,1,0,0,0,.143,.143,.286
@@ -67,17 +67,17 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "G. Torres, 2B (R)",^v,D. Peterson (L),DET @ CHN,1.1,50%,0%,3,1,0,1,1,.333,.500,1.833
 "N. Hoerner, 2B (R)",^^,F. Valdez (L),DET @ CHN,1.1,33%,33%,3,1,0,0,0,.333,.333,.666
 "M. Vierling, OF (R)",>v,D. Peterson (L),DET @ CHN,1.1,75%,0%,4,1,0,0,0,.250,.250,.500
-"J. Bell, 1B (B)",>^,P. Messick,MIN @ CLE,1.2,---,,3,1,0,0,0,.333,.333,.666
+"J. Bell, 1B (B)",>^,P. Messick (L),MIN @ CLE,1.2,---,,3,1,0,0,0,.333,.333,.666
 "R. Lewis, 3B (R)",^^,P. Messick (L),MIN @ CLE,1.2,50%,0%,4,1,0,0,0,.250,.250,.500
 "B. Buxton, OF (R)",v^,P. Messick (L),MIN @ CLE,1.2,0%,0%,6,1,1,0,0,.167,.167,.500
-"R. Jeffers, C (R)",^^,P. Messick,MIN @ CLE,1.2,---,,2,1,0,0,1,.500,.667,1.167
+"R. Jeffers, C (R)",^^,P. Messick (L),MIN @ CLE,1.2,---,,2,1,0,0,1,.500,.667,1.167
 "K. Ruiz, C (B)",v^,M. Lorenzen (R),WAS @ COL,1.3,43%,14%,5,1,0,0,2,.200,.429,.629
 "E. Tovar, SS (R)",vv,M. Mikolas (R),WAS @ COL,1.3,33%,33%,6,1,0,0,0,.167,.167,.334
 "C. Abrams, SS (L)",^^,M. Lorenzen (R),WAS @ COL,1.3,29%,14%,7,1,0,1,0,.143,.143,.714
 "T. Freeman, OF (R)",vv,M. Mikolas (R),WAS @ COL,1.3,33%,33%,3,1,0,0,0,.333,.333,.666
 "J. McCarthy, OF (L)",^v,M. Mikolas (R),WAS @ COL,1.3,14%,14%,7,1,1,0,0,.143,.143,.429
-"L. Thomas, OF (R)",^^,T. Mahle (R),SFN @ KCA,1.6,25%,17%,12,1,0,0,0,.083,.083,.166
-"V. Pasquantino, 1B (L)",v^,T. Mahle (R),SFN @ KCA,1.6,67%,33%,3,1,0,1,0,.333,.333,1.666
+"L. Thomas, OF (R)",^^,T. Mahle (R),SFN @ KCA,1.4,25%,17%,12,1,0,0,0,.083,.083,.166
+"V. Pasquantino, 1B (L)",v^,T. Mahle (R),SFN @ KCA,1.4,67%,33%,3,1,0,1,0,.333,.333,1.666
 "E. Valdez, 2B (L)",^v,W. Warren (R),PIT @ NYA,1.5,50%,50%,2,1,1,0,0,.500,.500,2.000
 "B. Reynolds, OF (B)",^v,W. Warren (R),PIT @ NYA,1.5,50%,0%,2,1,1,0,0,.500,.500,1.500
 "B. Marsh, OF (L)",v^,J. Wrobleski (L),LAN @ PHI,1.6,100%,0%,3,1,0,1,0,.333,.333,1.666
@@ -101,7 +101,7 @@ C. Narvaez,>^,K. Bradish (R),BAL @ BOS,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
 "S. Suzuki, OF (R)",^^,F. Valdez (L),DET @ CHN,1.1,20%,20%,5,0,0,0,0,.000,.000,.000
 "A. Bregman, 3B (R)",^^,F. Valdez (L),DET @ CHN,1.1,33%,33%,3,0,0,0,0,.000,.000,.000
 "P. Crow-Armstrong, OF (L)",v^,F. Valdez (L),DET @ CHN,1.1,0%,0%,3,0,0,0,0,.000,.000,.000
-"V. Caratini, C (B)",>^,P. Messick,MIN @ CLE,1.2,---,,2,0,0,0,0,.000,.000,.000
+"V. Caratini, C (B)",>^,P. Messick (L),MIN @ CLE,1.2,---,,2,0,0,0,0,.000,.000,.000
 "C. Mead, 2B (R)",^^,M. Lorenzen (R),WAS @ COL,1.3,0%,0%,2,0,0,0,0,.000,.000,.000
 "J. Wood, OF (L)",v^,M. Lorenzen (R),WAS @ COL,1.3,0%,0%,1,0,0,0,0,.000,.000,.000
 "D. Crews, OF (R)",v^,M. Lorenzen (R),WAS @ COL,1.3,0%,0%,1,0,0,0,0,.000,.000,.000
@@ -113,19 +113,19 @@ C. Narvaez,>^,K. Bradish (R),BAL @ BOS,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
 "T. Johnston, OF (L)",vv,M. Mikolas (R),WAS @ COL,1.3,50%,50%,2,0,0,0,0,.000,.000,.000
 ---,,T. Imai,MIA @ HOU,n/a,no matchup history,,,,,,,,,
 ---,,T. Phillips,MIA @ HOU,n/a,no matchup history,,,,,,,,,
-"B. Witt, SS (R)",v^,T. Mahle (R),SFN @ KCA,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
-"M. Massey, 2B (L)",>^,T. Mahle (R),SFN @ KCA,1.6,33%,0%,3,0,0,0,0,.000,.000,.000
----,,L. Avila,SFN @ KCA,1.6,no matchup history,,,,,,,,,
+"B. Witt, SS (R)",v^,T. Mahle (R),SFN @ KCA,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
+"M. Massey, 2B (L)",>^,T. Mahle (R),SFN @ KCA,1.4,33%,0%,3,0,0,0,0,.000,.000,.000
+---,,L. Avila,SFN @ KCA,1.4,no matchup history,,,,,,,,,
 ---,,B. Sproat,NYN @ MIL,n/a,no matchup history,,,,,,,,,
 ---,,Z. Thornton,NYN @ MIL,n/a,no matchup history,,,,,,,,,
 "J. Triolo, 3B (R)",^v,W. Warren (R),PIT @ NYA,1.5,0%,0%,1,0,0,0,0,.000,.000,.000
 ---,,B. Chandler,PIT @ NYA,1.5,no matchup history,,,,,,,,,
-"A. Bohm, 3B (R)",v^,J. Wrobleski,LAN @ PHI,1.6,---,,3,0,0,0,0,.000,.000,.000
-"A. Pages, OF (R)",v^,Z. Wheeler,LAN @ PHI,1.6,---,,3,0,0,0,0,.000,.000,.000
+"A. Bohm, 3B (R)",v^,J. Wrobleski (L),LAN @ PHI,1.6,---,,3,0,0,0,0,.000,.000,.000
+"A. Pages, OF (R)",v^,Z. Wheeler (R),LAN @ PHI,1.6,---,,3,0,0,0,0,.000,.000,.000
 "B. Stott, 2B (L)",^^,J. Wrobleski (L),LAN @ PHI,1.6,0%,0%,4,0,0,0,0,.000,.000,.000
 "M. Betts, SS (R)",^^,Z. Wheeler (R),LAN @ PHI,1.6,17%,0%,8,0,0,0,1,.000,.111,.111
-"T. Turner, SS (R)",^^,J. Wrobleski,LAN @ PHI,1.6,---,,3,0,0,0,0,.000,.000,.000
-"J. Realmuto, C (R)",^^,J. Wrobleski,LAN @ PHI,1.6,---,,2,0,0,0,0,.000,.000,.000
+"T. Turner, SS (R)",^^,J. Wrobleski (L),LAN @ PHI,1.6,---,,3,0,0,0,0,.000,.000,.000
+"J. Realmuto, C (R)",^^,J. Wrobleski (L),LAN @ PHI,1.6,---,,2,0,0,0,0,.000,.000,.000
 "T. Friedl, OF (L)",v>,L. Castillo (R),CIN @ SEA,n/a,33%,33%,3,0,0,0,0,.000,.000,.000
 ---,,C. Burns,CIN @ SEA,n/a,no matchup history,,,,,,,,,
 "E. De La Cruz, SS (B)",^>,L. Castillo (R),CIN @ SEA,n/a,33%,0%,2,0,0,0,1,.000,.333,.333
