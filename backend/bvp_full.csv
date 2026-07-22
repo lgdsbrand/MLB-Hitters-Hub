@@ -30,8 +30,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "K. Tucker, OF (L)",vv,A. Nola (R),LAN @ PHI,1.4,25%,13%,12,3,1,2,0,.250,.250,1.083
 "T. Hernandez, OF (R)",vv,A. Nola (R),LAN @ PHI,1.4,47%,13%,15,3,0,1,1,.200,.250,.650
 "J. Naylor, 1B (L)",^^,B. Singer (R),CIN @ SEA,1.4,28%,21%,28,3,1,1,0,.107,.107,.357
-"A. Gimenez, 2B (L)",vv,G. Jax (R),TBA @ TOR,1.0,38%,8%,12,3,0,0,2,.250,.357,.607
-"G. Springer, OF (R)",^v,G. Jax (R),TBA @ TOR,1.0,60%,0%,7,3,0,2,1,.429,.500,1.786
+"A. Gimenez, 2B (L)",vv,G. Jax (R),TBA @ TOR,1.2,38%,8%,12,3,0,0,2,.250,.357,.607
+"G. Springer, OF (R)",^v,G. Jax (R),TBA @ TOR,1.2,60%,0%,7,3,0,2,1,.429,.500,1.786
 "M. Trout, OF (R)",v>,H. Dobbins (R),SLN @ ANA,1.6,100%,50%,2,2,0,0,0,1.000,1.000,2.000
 "C. Cortes, LF (L)",^^,M. Kelly (R),ATH @ ARI,n/a,100%,67%,3,2,2,0,0,.667,.667,2.000
 "M. Dubon, OF (R)",v^,M. King (R),SDN @ ATL,1.4,33%,17%,9,2,0,0,0,.222,.222,.444
@@ -50,7 +50,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "N. Lowe, 1B (L)",vv,E. Hancock (R),CIN @ SEA,1.4,57%,43%,7,2,0,0,0,.286,.286,.572
 "D. Canzone, OF (L)",v^,B. Singer (R),CIN @ SEA,1.4,60%,40%,5,2,0,0,0,.400,.400,.800
 "E. De La Cruz, SS (B)",^v,E. Hancock (R),CIN @ SEA,1.4,100%,0%,2,2,0,0,0,1.000,1.000,2.000
-"V. Guerrero, 1B (R)",vv,G. Jax (R),TBA @ TOR,1.0,38%,25%,11,2,1,0,1,.182,.250,.523
+"V. Guerrero, 1B (R)",vv,G. Jax (R),TBA @ TOR,1.2,38%,25%,11,2,1,0,1,.182,.250,.523
 "M. Winn, SS (R)",vv,R. Detmers (L),SLN @ ANA,1.6,25%,25%,4,1,0,0,0,.250,.250,.500
 "J. Adell, OF (R)",^>,H. Dobbins (R),SLN @ ANA,1.6,50%,0%,2,1,0,1,0,.500,.500,2.500
 "P. Pages, C (R)",vv,R. Detmers (L),SLN @ ANA,1.6,100%,50%,2,1,1,0,0,.500,.500,1.500
@@ -93,9 +93,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "R. Arozarena, OF (R)",v^,B. Singer (R),CIN @ SEA,1.4,27%,7%,12,1,0,0,2,.083,.214,.297
 "B. Nimmo, OF (L)",^^,A. Kay (L),CHA @ TEX,n/a,100%,0%,1,1,0,0,0,1.000,1.000,2.000
 "N. Lopez, 2B (L)",v^,A. Kay (L),CHA @ TEX,n/a,100%,0%,1,1,1,0,0,1.000,1.000,4.000
-"D. Varsho, OF (L)",vv,G. Jax (R),TBA @ TOR,1.0,20%,20%,6,1,0,0,1,.167,.286,.453
-"J. Aranda, 1B (L)",vv,S. Miles,TBA @ TOR,1.0,---,,1,1,0,0,0,1.000,1.000,2.000
-"E. Clement, 3B (R)",^v,G. Jax (R),TBA @ TOR,1.0,75%,50%,6,1,0,0,0,.167,.167,.334
+"D. Varsho, OF (L)",vv,G. Jax (R),TBA @ TOR,1.2,20%,20%,6,1,0,0,1,.167,.286,.453
+"J. Aranda, 1B (L)",vv,S. Miles,TBA @ TOR,1.2,---,,1,1,0,0,0,1.000,1.000,2.000
+"E. Clement, 3B (R)",^v,G. Jax (R),TBA @ TOR,1.2,75%,50%,6,1,0,0,0,.167,.167,.334
 "J. Lowe, OF (L)",v>,H. Dobbins (R),SLN @ ANA,1.6,0%,0%,1,0,0,0,0,.000,.000,.000
 "Z. Neto, SS (R)",v>,H. Dobbins (R),SLN @ ANA,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
 "J. Soler, DH (R)",v>,H. Dobbins (R),SLN @ ANA,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
@@ -145,8 +145,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "B. Stott, 2B (L)",^^,E. Lauer (L),LAN @ PHI,1.4,50%,50%,2,0,0,0,0,.000,.000,.000
 "E. Suarez, 3B (R)",^v,E. Hancock (R),CIN @ SEA,1.4,0%,0%,5,0,0,0,0,.000,.000,.000
 "T. Friedl, OF (L)",vv,E. Hancock (R),CIN @ SEA,1.4,33%,0%,2,0,0,0,0,.000,.000,.000
-"A. Kirk, C (R)",^v,G. Jax (R),TBA @ TOR,1.0,67%,33%,3,0,0,0,1,.000,.250,.250
-"Y. Diaz, 1B (R)",vv,S. Miles,TBA @ TOR,1.0,---,,1,0,0,0,0,.000,.000,.000
-"N. Lukes, OF (L)",^v,G. Jax (R),TBA @ TOR,1.0,33%,0%,2,0,0,0,1,.000,.333,.333
-"C. Mullins, OF (L)",vv,S. Miles,TBA @ TOR,1.0,---,,1,0,0,0,0,.000,.000,.000
-"J. Caminero, 3B (R)",^v,S. Miles,TBA @ TOR,1.0,---,,1,0,0,0,0,.000,.000,.000
+"A. Kirk, C (R)",^v,G. Jax (R),TBA @ TOR,1.2,67%,33%,3,0,0,0,1,.000,.250,.250
+"Y. Diaz, 1B (R)",vv,S. Miles,TBA @ TOR,1.2,---,,1,0,0,0,0,.000,.000,.000
+"N. Lukes, OF (L)",^v,G. Jax (R),TBA @ TOR,1.2,33%,0%,2,0,0,0,1,.000,.333,.333
+"C. Mullins, OF (L)",vv,S. Miles,TBA @ TOR,1.2,---,,1,0,0,0,0,.000,.000,.000
+"J. Caminero, 3B (R)",^v,S. Miles,TBA @ TOR,1.2,---,,1,0,0,0,0,.000,.000,.000
