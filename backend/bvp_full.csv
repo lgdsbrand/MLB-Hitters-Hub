@@ -20,7 +20,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. McNeil, 2B (L)",vv,M. Kelly (R),ATH @ ARI,n/a,33%,8%,12,3,1,2,0,.250,.250,1.167
 "A. Riley, 3B (R)",^^,M. King (R),SDN @ ATL,1.4,50%,25%,6,3,0,0,0,.500,.500,1.000
 "M. Yastrzemski, OF (L)",^^,M. King (R),SDN @ ATL,1.4,50%,20%,12,3,0,0,1,.250,.308,.558
-"P. Alonso, 1B (R)",v^,R. Suarez (L),BAL @ BOS,1.5,50%,7%,21,3,2,0,9,.143,.400,.638
+"P. Alonso, 1B (R)",v^,R. Suarez (L),BAL @ BOS,1.7,50%,7%,21,3,2,0,9,.143,.400,.638
 "S. Kwan, OF (L)",^v,B. Ober (R),MIN @ CLE,1.1,39%,26%,24,3,0,0,1,.125,.160,.285
 "K. Manzardo, DH (L)",vv,B. Ober (R),MIN @ CLE,1.1,38%,23%,15,3,1,0,0,.200,.200,.467
 "B. Harper, 1B (L)",^^,E. Lauer (L),LAN @ PHI,1.4,46%,23%,12,3,0,1,1,.250,.308,.808
@@ -34,10 +34,10 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Dubon, OF (R)",v^,M. King (R),SDN @ ATL,1.4,33%,17%,9,2,0,0,0,.222,.222,.444
 "M. Olson, 1B (L)",^^,M. King (R),SDN @ ATL,1.4,33%,0%,8,2,0,0,1,.250,.333,.583
 "L. Campusano, C (R)",vv,M. Perez (L),SDN @ ATL,1.4,67%,0%,3,2,0,0,0,.667,.667,1.334
-"C. Mayo, 3B (R)",^^,R. Suarez (L),BAL @ BOS,1.5,67%,0%,3,2,0,1,0,.667,.667,2.334
-"J. Duran, OF (L)",v^,K. Bradish (R),BAL @ BOS,1.5,25%,25%,11,2,1,1,0,.182,.182,.727
-"G. Henderson, SS (L)",^^,R. Suarez (L),BAL @ BOS,1.5,33%,17%,6,2,0,0,0,.333,.333,.666
-"W. Contreras, 1B (R)",^^,K. Bradish (R),BAL @ BOS,1.5,100%,0%,4,2,0,2,2,.500,.667,2.667
+"C. Mayo, 3B (R)",^^,R. Suarez (L),BAL @ BOS,1.7,67%,0%,3,2,0,1,0,.667,.667,2.334
+"J. Duran, OF (L)",v^,K. Bradish (R),BAL @ BOS,1.7,25%,25%,11,2,1,1,0,.182,.182,.727
+"G. Henderson, SS (L)",^^,R. Suarez (L),BAL @ BOS,1.7,33%,17%,6,2,0,0,0,.333,.333,.666
+"W. Contreras, 1B (R)",^^,K. Bradish (R),BAL @ BOS,1.7,100%,0%,4,2,0,2,2,.500,.667,2.667
 "B. Lee, SS (B)",>^,S. Cecconi,MIN @ CLE,1.1,---,,2,2,0,0,0,1.000,1.000,2.000
 "B. Rocchio, SS (B)",vv,B. Ober (R),MIN @ CLE,1.1,25%,6%,18,2,0,0,0,.111,.111,.222
 "K. Clemens, 1B (L)",>^,S. Cecconi (R),MIN @ CLE,1.1,33%,33%,5,2,1,0,0,.400,.400,1.000
@@ -58,12 +58,12 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "L. Butler, OF (L)",v^,M. Kelly (R),ATH @ ARI,n/a,67%,0%,3,1,0,1,0,.333,.333,1.666
 "O. Albies, 2B (B)",v^,M. King (R),SDN @ ATL,1.4,50%,0%,8,1,0,1,0,.125,.125,.625
 "M. Andujar, OF (R)",v>,M. Perez (L),SDN @ ATL,1.4,29%,14%,8,1,0,0,1,.125,.222,.347
-"T. Ward, OF (R)",^^,R. Suarez (L),BAL @ BOS,1.5,67%,0%,2,1,1,0,1,.500,.667,1.667
-"C. Durbin, 3B (R)",^^,K. Bradish,BAL @ BOS,1.5,---,,2,1,0,0,0,.500,.500,1.000
-"C. Rafaela, OF (R)",>^,K. Bradish (R),BAL @ BOS,1.5,0%,0%,4,1,1,0,0,.250,.250,.750
-"J. Jackson, 2B (R)",v^,R. Suarez (L),BAL @ BOS,1.5,33%,0%,3,1,1,0,0,.333,.333,1.000
-"M. Yoshida, DH (L)",^^,K. Bradish (R),BAL @ BOS,1.5,14%,0%,7,1,0,0,0,.143,.143,.286
-"C. Encarnacion-Strand, 1B (R)",^^,R. Suarez (L),BAL @ BOS,1.5,67%,33%,3,1,0,0,0,.333,.333,.666
+"T. Ward, OF (R)",^^,R. Suarez (L),BAL @ BOS,1.7,67%,0%,2,1,1,0,1,.500,.667,1.667
+"C. Durbin, 3B (R)",^^,K. Bradish,BAL @ BOS,1.7,---,,2,1,0,0,0,.500,.500,1.000
+"C. Rafaela, OF (R)",>^,K. Bradish (R),BAL @ BOS,1.7,0%,0%,4,1,1,0,0,.250,.250,.750
+"J. Jackson, 2B (R)",v^,R. Suarez (L),BAL @ BOS,1.7,33%,0%,3,1,1,0,0,.333,.333,1.000
+"M. Yoshida, DH (L)",^^,K. Bradish (R),BAL @ BOS,1.7,14%,0%,7,1,0,0,0,.143,.143,.286
+"C. Encarnacion-Strand, 1B (R)",^^,R. Suarez (L),BAL @ BOS,1.7,67%,33%,3,1,0,0,0,.333,.333,.666
 "M. Busch, 1B (L)",^^,K. Montero (R),DET @ CHN,1.2,67%,0%,2,1,0,1,1,.500,.667,2.667
 "A. Bregman, 3B (R)",>^,K. Montero (R),DET @ CHN,1.2,50%,0%,2,1,0,1,0,.500,.500,2.500
 "N. Hoerner, 2B (R)",^^,K. Montero (R),DET @ CHN,1.2,33%,0%,3,1,0,0,0,.333,.333,.666
@@ -107,10 +107,10 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "F. Tatis, OF (R)",^v,M. Perez (L),SDN @ ATL,1.4,33%,0%,5,0,0,0,1,.000,.167,.167
 "D. Baldwin, C (L)",^^,M. King (R),SDN @ ATL,1.4,50%,0%,4,0,0,0,1,.000,.200,.200
 "J. Merrill, OF (L)",^v,M. Perez,SDN @ ATL,1.4,---,,2,0,0,0,0,.000,.000,.000
-"W. Abreu, OF (L)",^^,K. Bradish (R),BAL @ BOS,1.5,0%,0%,2,0,0,0,1,.000,.333,.333
-C. Narvaez,>^,K. Bradish (R),BAL @ BOS,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
-"L. Taveras, OF (B)",>^,R. Suarez (L),BAL @ BOS,1.5,67%,33%,3,0,0,0,0,.000,.000,.000
-"T. O'Neill, OF (R)",^^,R. Suarez (L),BAL @ BOS,1.5,33%,0%,2,0,0,0,1,.000,.333,.333
+"W. Abreu, OF (L)",^^,K. Bradish (R),BAL @ BOS,1.7,0%,0%,2,0,0,0,1,.000,.333,.333
+C. Narvaez,>^,K. Bradish (R),BAL @ BOS,1.7,0%,0%,2,0,0,0,0,.000,.000,.000
+"L. Taveras, OF (B)",>^,R. Suarez (L),BAL @ BOS,1.7,67%,33%,3,0,0,0,0,.000,.000,.000
+"T. O'Neill, OF (R)",^^,R. Suarez (L),BAL @ BOS,1.7,33%,0%,2,0,0,0,1,.000,.333,.333
 "I. Happ, OF (B)",^^,K. Montero (R),DET @ CHN,1.2,0%,0%,3,0,0,0,0,.000,.000,.000
 "G. Torres, 2B (R)",^^,C. Rea (R),DET @ CHN,1.2,20%,20%,5,0,0,0,0,.000,.000,.000
 "R. Greene, OF (L)",^^,C. Rea (R),DET @ CHN,1.2,67%,0%,2,0,0,0,1,.000,.333,.333
