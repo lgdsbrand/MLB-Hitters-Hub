@@ -1,6 +1,7 @@
 Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "F. Freeman, 1B (L)",vv,A. Nola (R),LAN @ PHI,1.4,47%,22%,76,18,4,2,10,.237,.326,.694
 "M. Betts, SS (R)",^v,A. Nola (R),LAN @ PHI,1.4,43%,26%,24,10,2,2,0,.417,.417,1.209
+"J. Ramirez, 3B (B)",vv,B. Ober (R),MIN @ CLE,1.2,44%,25%,28,9,2,2,3,.321,.406,1.013
 "M. Machado, 3B (R)",^v,M. Perez (L),SDN @ ATL,1.4,56%,12%,21,7,1,1,6,.333,.481,1.005
 "B. Lowe, 2B (L)",vv,G. Cole (R),PIT @ NYA,1.6,39%,11%,40,7,0,1,5,.175,.267,.517
 "T. Grisham, OF (L)",vv,M. Keller (R),PIT @ NYA,1.6,64%,21%,12,6,1,0,2,.500,.571,1.154
@@ -37,12 +38,14 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Dubon, OF (R)",v^,M. King (R),SDN @ ATL,1.4,33%,17%,9,2,0,0,0,.222,.222,.444
 "M. Olson, 1B (L)",^^,M. King (R),SDN @ ATL,1.4,33%,0%,8,2,0,0,1,.250,.333,.583
 "L. Campusano, C (R)",vv,M. Perez (L),SDN @ ATL,1.4,67%,0%,3,2,0,0,0,.667,.667,1.334
+"J. Cronenworth, 2B (L)",vv,M. Perez (L),SDN @ ATL,1.4,100%,33%,3,2,0,0,0,.667,.667,1.334
 "W. Contreras, 1B (R)",^>,D. Kremer (R),BAL @ BOS,1.7,67%,33%,3,2,0,0,0,.667,.667,1.334
 "B. Lee, SS (B)",>^,S. Cecconi,MIN @ CLE,1.2,---,,2,2,0,0,0,1.000,1.000,2.000
 "B. Rocchio, SS (B)",vv,B. Ober (R),MIN @ CLE,1.2,25%,6%,18,2,0,0,0,.111,.111,.222
 "K. Clemens, 1B (L)",>^,S. Cecconi (R),MIN @ CLE,1.2,33%,33%,5,2,1,0,0,.400,.400,1.000
 "J. Pena, SS (R)",^^,S. Alcantara (R),MIA @ HOU,n/a,75%,50%,3,2,2,0,1,.667,.750,2.083
 "Y. Diaz, C (R)",v^,S. Alcantara (R),MIA @ HOU,n/a,67%,33%,3,2,1,0,0,.667,.667,1.667
+"N. Allen, SS (R)",v^,S. Alcantara (R),MIA @ HOU,n/a,50%,38%,8,2,0,0,0,.250,.250,.500
 "W. Adames, SS (R)",^v,S. Lugo (R),SFN @ KCA,1.4,38%,13%,7,2,0,1,1,.286,.375,1.089
 "R. O'Hearn, 1B (L)",>v,G. Cole (R),PIT @ NYA,1.6,32%,21%,19,2,1,1,0,.105,.105,.421
 "J. Dominguez, OF (B)",vv,M. Keller (R),PIT @ NYA,1.6,100%,100%,2,2,1,0,0,1.000,1.000,2.500
@@ -67,10 +70,13 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Busch, 1B (L)",^^,K. Montero (R),DET @ CHN,1.0,67%,0%,2,1,0,1,1,.500,.667,2.667
 "A. Bregman, 3B (R)",>^,K. Montero (R),DET @ CHN,1.0,50%,0%,2,1,0,1,0,.500,.500,2.500
 "N. Hoerner, 2B (R)",^^,K. Montero (R),DET @ CHN,1.0,33%,0%,3,1,0,0,0,.333,.333,.666
+"M. Conforto, OF (L)",^^,K. Montero (R),DET @ CHN,1.0,67%,0%,2,1,1,0,1,.500,.667,2.167
 "S. Torkelson, 1B (R)",v^,C. Rea (R),DET @ CHN,1.0,50%,0%,2,1,0,0,0,.500,.500,1.000
 "P. Crow-Armstrong, OF (L)",>^,K. Montero (R),DET @ CHN,1.0,50%,0%,2,1,0,1,0,.500,.500,2.500
 "J. Bell, 1B (B)",^^,S. Cecconi,MIN @ CLE,1.2,---,,2,1,0,0,0,.500,.500,1.000
+"A. Roden, OF (L)",v^,S. Cecconi,MIN @ CLE,1.2,---,,2,1,0,0,0,.500,.500,1.000
 "P. Halpin, CF (L)",^v,B. Ober (R),MIN @ CLE,1.2,50%,0%,2,1,0,0,0,.500,.500,1.000
+"V. Caratini, C (B)",>^,S. Cecconi (R),MIN @ CLE,1.2,33%,33%,5,1,0,0,0,.200,.200,.400
 "L. Keaschall, 2B (R)",^^,S. Cecconi (R),MIN @ CLE,1.2,33%,0%,4,1,1,0,0,.250,.200,.700
 "C. Smith, OF (R)",v^,S. Alcantara (R),MIA @ HOU,n/a,33%,0%,3,1,0,0,0,.333,.333,.666
 "J. Altuve, 2B (R)",v^,S. Alcantara (R),MIA @ HOU,n/a,25%,0%,4,1,0,0,0,.250,.250,.500
@@ -131,6 +137,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 ---,,C. Cavalli,WAS @ COL,1.3,no matchup history,,,,,,,,,
 ---,,G. Hughes,WAS @ COL,1.3,no matchup history,,,,,,,,,
 "L. Wade, 1B (L)",v^,S. Alcantara (R),MIA @ HOU,n/a,33%,0%,2,0,0,0,1,.000,.333,.333
+"C. Vazquez, C (R)",v^,S. Alcantara (R),MIA @ HOU,n/a,33%,17%,5,0,0,0,1,.000,.167,.167
 ---,,P. Lambert,MIA @ HOU,n/a,no matchup history,,,,,,,,,
 "H. Ramos, OF (R)",>v,S. Lugo (R),SFN @ KCA,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
 "S. Marte, OF (R)",v^,L. Roupp (R),SFN @ KCA,1.4,0%,0%,1,0,0,0,0,.000,.000,.000
@@ -143,6 +150,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "E. Sosa, SS (R)",v^,E. Lauer (L),LAN @ PHI,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
 "B. Marsh, OF (L)",v^,E. Lauer (L),LAN @ PHI,1.4,0%,0%,2,0,0,0,0,.000,.000,.000
 "B. Stott, 2B (L)",^^,E. Lauer (L),LAN @ PHI,1.4,50%,50%,2,0,0,0,0,.000,.000,.000
+"R. Marchan, C (R)",v^,E. Lauer (L),LAN @ PHI,1.4,50%,0%,2,0,0,0,0,.000,.000,.000
+"B. De La Cruz, OF (R)",>^,E. Lauer (L),LAN @ PHI,1.4,0%,0%,1,0,0,0,0,.000,.000,.000
 "E. Suarez, 3B (R)",^v,E. Hancock (R),CIN @ SEA,1.4,0%,0%,5,0,0,0,0,.000,.000,.000
 "T. Friedl, OF (L)",vv,E. Hancock (R),CIN @ SEA,1.4,33%,0%,2,0,0,0,0,.000,.000,.000
 "A. Kirk, C (R)",^v,G. Jax (R),TBA @ TOR,1.2,67%,33%,3,0,0,0,1,.000,.250,.250
