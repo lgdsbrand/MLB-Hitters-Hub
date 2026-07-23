@@ -17,7 +17,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "A. Riley, 3B (R)",G. Canning (R),SDN @ ATL,1.4,68%,"1,3,0,0,2",0.5,-205,5,1,0,.200,.200,.400
 "R. Greene, OF (L)",R. Dobnak(R),KCA @ DET,1.2,68%,"0,1,2,0,1",0.5,-265,never faced,,,,,
 "V. Pasquantino, 1B (L)",T. Melton (R),KCA @ DET,1.2,68%,"1,1,0,2,1",0.5,-200,1,0,0,.000,.000,.000
-"K. Marte, 2B (B)",M. McGreevy(R),ARI @ SLN,1.4,68%,"2,1,1,0,2",0.5,-245,3,1,0,.333,.333,.666
+"K. MarteD, 2B (B)",M. McGreevy(R),ARI @ SLN,1.4,68%,"2,1,1,0,2",0.5,-245,3,1,0,.333,.333,.666
 "O. Albies, 2B (B)",G. Canning (R),SDN @ ATL,1.4,66%,"0,0,2,0,1",0.5,-250,1,0,0,.000,.000,.000
 "T. France, 1B (R)",C. Sale (L),SDN @ ATL,1.4,66%,"2,2,2,2,0",0.5,-170,6,1,0,.167,.286,.453
 "G. Moreno, C (R)",M. McGreevy(R),ARI @ SLN,1.4,66%,"2,0,1,1,1",0.5,-245,3,2,0,.667,.667,1.667
@@ -27,6 +27,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "D. Baldwin, C (L)",G. Canning(R),SDN @ ATL,1.4,65%,"2,5,0,0,2",0.5,-260,never faced,,,,,
 "J. Bell, 1B (B)",G. Williams(R),MIN @ CLE,1.2,65%,"1,1,2,1,1",0.5,-157,6,1,0,.167,.167,.334
 "G. Torres, 2B (R)",R. Dobnak (R),KCA @ DET,1.2,65%,"0,2,0,2,0",0.5,,2,0,0,.000,.500,.500
+"J. Walker, OF (R)",B. Pfaadt (R),ARI @ SLN,1.4,65%,"1,1,1,1,0",0.5,-250,11,2,0,.182,.182,.364
 "C. Keith, 2B (L)",R. Dobnak(R),KCA @ DET,1.2,64%,"0,4,0,1,0",0.5,-230,never faced,,,,,
 "I. Collins, OF (B)",T. Melton(R),KCA @ DET,1.2,64%,"1,1,1,2,0",0.5,-154,never faced,,,,,
 "D. Dingler, C (R)",R. Dobnak(R),KCA @ DET,1.2,63%,"1,0,4,2,1",0.5,-235,never faced,,,,,
@@ -59,6 +60,7 @@ D. Smith,G. Canning (R),SDN @ ATL,1.4,59%,,0.5,,4,1,1,.250,.400,1.400
 "J. Cronenworth, 2B (L)",C. Sale (L),SDN @ ATL,1.4,56%,"2,2,0,2,0",0.5,-109,10,0,0,.000,.000,.000
 "M. Yastrzemski, OF (L)",G. Canning (R),SDN @ ATL,1.4,55%,"1,1,1,0,0",0.5,,4,1,0,.250,.250,.500
 "P. Bailey, C (B)",T. Bradley(R),MIN @ CLE,1.2,55%,"1,0,0,4,1",0.5,-127,2,0,0,.000,.000,.000
+"J. Rojas, 3B (L)",T. Melton(R),KCA @ DET,1.2,55%,,0.5,-136,never faced,,,,,
 "C. Jensen, C (L)",T. Melton(R),KCA @ DET,1.2,55%,"2,1,0,1,0",0.5,-179,never faced,,,,,
 "C. Mullins, OF (L)",S. Bieber (R),TBA @ TOR,1.5,55%,"1,0,1,2,0",0.5,-182,7,1,1,.143,.143,.714
 "B. Lee, SS (B)",G. Williams (R),MIN @ CLE,1.2,54%,"1,1,1,2,2",0.5,-157,11,2,0,.182,.308,.490
@@ -82,6 +84,5 @@ B. Hicklen,G. Canning(R),SDN @ ATL,1.4,52%,"2,1,2,0,2",0.5,-137,never faced,,,,,
 "K. McGonigle, SS (L)",R. Dobnak(R),KCA @ DET,1.2,45%,"2,1,1,1,1",1.5,+182,never faced,,,,,
 "T. Tolbert, 2B (R)",T. Melton(R),KCA @ DET,1.2,40%,"5,0,1,0,0",0.5,-120,never faced,,,,,
 "Y. Diaz, 1B (R)",S. Bieber (R),TBA @ TOR,1.5,31%,"1,0,2,2,0",1.5,+166,9,1,0,.111,.200,.311
-"J. Walker, OF (R)",B. Pfaadt (R),ARI @ SLN,1.4,30%,"1,1,1,1,0",0.5,-250,11,2,0,.182,.182,.364
 "A. Burleson, OF (L)",B. Pfaadt (R),ARI @ SLN,1.4,24%,"2,3,0,3,0",1.5,+177,10,2,0,.200,.200,.400
 "R. Kreidler, SS (R)",G. Williams(R),MIN @ CLE,1.2,20%,"1,0,1,0,0",0.5,+103,never faced,,,,,
