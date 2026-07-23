@@ -2,6 +2,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "J. Caminero, 3B (R)",S. Bieber (R),TBA @ TOR,1.5,29%,"0,0,0,0,0",+225,2,1,1,.500,.667,2.667
 "M. Olson, 1B (L)",G. Canning (R),SDN @ ATL,1.4,28%3.5,"0,0,0,0,0",+305,19,4,2,.211,.250,.829
 "F. Tatis, OF (R)",C. Sale (L),SDN @ ATL,1.4,24%,"1,1,0,1,0",+475,12,4,1,.333,.333,1.000
+"J. Wetherholt, SS (L)",B. Pfaadt(R),ARI @ SLN,1.4,24%,"0,0,0,0,1",-130,3,1,0,.333,.333,.666
 "B. Valenzuela, C (S)",I. Seymour(L),TBA @ TOR,1.5,24%,"1,0,1,0,0",+450,2,0,0,.000,.333,.333
 "A. Riley, 3B (R)",G. Canning (R),SDN @ ATL,1.4,22%,"0,2,0,0,0",+390,5,1,0,.200,.200,.400
 "M. Machado, 3B (R)",C. Sale (L),SDN @ ATL,1.4,22%,"0,0,1,2,0",+400,31,11,1,.355,.444,.992
@@ -19,30 +20,39 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "L. Thomas, OF (R)",T. Melton(R),KCA @ DET,1.2,18%,"1,0,0,0,0",+575,never faced,,,,,
 "D. Baldwin, C (L)",G. Canning(R),SDN @ ATL,1.4,17%,"0,2,0,0,0",+370,never faced,,,,,
 "J. Ramirez, 3B (B)",T. Bradley (R),MIN @ CLE,1.2,17%,"0,0,0,0,0",,8,3,0,.375,.444,.944
+"C. Carroll, OF (L)",M. McGreevy(R),ARI @ SLN,1.4,17%,"1,0,0,0,1",+400,3,0,0,.000,.000,.000
 "V. Guerrero, 1B (R)",I. Seymour (L),TBA @ TOR,1.5,17%,"0,0,0,0,0",+390,6,1,0,.167,.167,.334
 "T. France, 1B (R)",C. Sale (L),SDN @ ATL,1.4,16%,"0,2,1,0,0",+500,6,1,0,.167,.286,.453
 "R. Jeffers, C (R)",G. Williams (R),MIN @ CLE,1.2,16%,"0,1,0,0,1",+475,16,6,0,.375,.375,.875
 "K. Manzardo, DH (L)",T. Bradley(R),MIN @ CLE,1.2,16%,"0,0,0,0,1",+475,3,0,0,.000,.000,.000
 "B. Witt, SS (R)",T. Melton (R),KCA @ DET,1.2,16%,"0,0,0,0,0",,2,1,1,.500,.500,2.500
-"S. Torkelson, 1B (R)",R. Dobnak(R),KCA @ DET,1.2,16%,"2,0,0,0,1",+475,never faced,,,,,
+"S. Torkelson, 1B (R)",R. Dobnak(R),KCA @ DET,1.2,16%,"2,0,0,0,1",+425,never faced,,,,,
+"M. Kepler, OF (L)",M. McGreevy(R),ARI @ SLN,1.4,16%,"0,0,0,0,1",+525,3,1,0,.333,.333,.666
 "C. Mullins, OF (L)",S. Bieber (R),TBA @ TOR,1.5,16%,"0,0,1,0,0",+400,7,1,1,.143,.143,.714
 "K. McGonigle, SS (L)",R. Dobnak(R),KCA @ DET,1.2,15%,"0,1,0,0,0",+525,never faced,,,,,
+"T. Tawa, 2B (R)",M. McGreevy(R),ARI @ SLN,1.4,15%,"1,0,0,0,0",+750,2,1,1,.500,.500,2.500
 "L. Urias, 3B (R)",I. Seymour(L),TBA @ TOR,1.5,15%,"0,0,0,0,1",+700,never faced,,,,,
 "L. Campusano, C (R)",C. Sale(L),SDN @ ATL,1.4,14%,"0,0,0,0,0",+600,never faced,,,,,
 "J. Bell, 1B (B)",G. Williams(R),MIN @ CLE,1.2,14%,"0,0,0,0,0",+500,6,1,0,.167,.167,.334
 "C. Keith, 2B (L)",R. Dobnak(R),KCA @ DET,1.2,14%,"0,0,0,0,0",+700,never faced,,,,,
 "J. Outman, OF (L)",R. Dobnak(R),KCA @ DET,1.2,14%,"0,0,0,0,0",+700,never faced,,,,,
+"L. Nootbaar, OF (L)",B. Pfaadt (R),ARI @ SLN,1.4,14%,"0,0,0,0,0",+625,12,3,1,.250,.250,.750
+"D. Schneider, OF (R)",I. Seymour (L),TBA @ TOR,1.5,14%,"1,0,0,0,0",,3,1,0,.333,.600,.933
 "G. Torres, 2B (R)",R. Dobnak (R),KCA @ DET,1.2,13%,"0,0,0,0,0",,2,0,0,.000,.500,.500
 "A. Kirk, C (R)",I. Seymour (L),TBA @ TOR,1.5,13%,"0,0,0,0,1",+575,4,2,1,.500,.400,1.900
 "J. Aranda, 1B (L)",S. Bieber (R),TBA @ TOR,1.5,13%,"0,0,0,0,0",+425,2,1,1,.500,.500,2.500
 "O. Albies, 2B (B)",G. Canning (R),SDN @ ATL,1.4,12%,"0,0,1,0,0",+525,1,0,0,.000,.000,.000
 "M. Yastrzemski, OF (L)",G. Canning (R),SDN @ ATL,1.4,12%,"0,1,0,0,0",,4,1,0,.250,.250,.500
+"K. Marte, 2B (B)",M. McGreevy(R),ARI @ SLN,1.4,12%,"0,0,1,0,0",+400,3,1,0,.333,.333,.666
+"J. Walker, OF (R)",B. Pfaadt (R),ARI @ SLN,1.4,12%,"0,0,0,0,0",+425,11,2,0,.182,.182,.364
 "J. Merrill, OF (L)",C. Sale (L),SDN @ ATL,1.4,11%,"0,2,0,1,1",+850,7,1,0,.143,.143,.286
 "L. Rengifo, 3B (B)",C. Sale (L),SDN @ ATL,1.4,11%,"0,0,0,0,1",+700,3,0,0,.000,.000,.000
 "X. Bogaerts, 2B (R)",C. Sale (L),SDN @ ATL,1.4,11%,"0,0,0,0,0",+625,22,7,1,.318,.423,.878
 "B. Lee, SS (B)",G. Williams (R),MIN @ CLE,1.2,11%,"0,0,0,0,1",+750,11,2,0,.182,.308,.490
-"V. Pasquantino, 1B (L)",T. Melton (R),KCA @ DET,1.2,11%,"0,0,0,0,0",+500,1,0,0,.000,.000,.000
+"V. Pasquantino, 1B (L)",T. Melton (R),KCA @ DET,1.2,11%,"0,0,0,0,0",+475,1,0,0,.000,.000,.000
+"A. Burleson, OF (L)",B. Pfaadt (R),ARI @ SLN,1.4,11%,"0,0,0,0,0",+475,10,2,0,.200,.200,.400
 "J. Cronenworth, 2B (L)",C. Sale (L),SDN @ ATL,1.4,10%,"0,0,0,0,0",+1100,10,0,0,.000,.000,.000
 "G. Arias, 3B (R)",T. Bradley (R),MIN @ CLE,1.2,10%,"0,0,0,0,0",,2,1,0,.500,.500,1.000
 "D. Dingler, C (R)",R. Dobnak(R),KCA @ DET,1.2,10%,"0,0,2,1,0",+500,never faced,,,,,
 "Y. Diaz, 1B (R)",S. Bieber (R),TBA @ TOR,1.5,10%,"0,0,0,1,0",+500,9,1,0,.111,.200,.311
+"J. DeLuca, OF (R)",S. Bieber(R),TBA @ TOR,1.5,10%,"0,0,0,0,0",,never faced,,,,,

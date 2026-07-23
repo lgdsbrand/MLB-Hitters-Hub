@@ -8,14 +8,19 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "R. Lewis, 3B (R)",vv,G. Williams (R),MIN @ CLE,1.2,25%,25%,18,4,1,1,0,.222,.222,.666
 "A. Martin, OF (R)",vv,G. Williams (R),MIN @ CLE,1.2,40%,40%,7,4,0,0,1,.571,.625,1.196
 "B. Buxton, OF (R)",^v,G. Williams (R),MIN @ CLE,1.2,63%,13%,10,4,1,0,1,.400,.455,.955
+"M. Winn, SS (R)",v^,B. Pfaadt (R),ARI @ SLN,1.4,45%,18%,10,4,0,1,2,.400,.538,1.238
 "E. Clement, 3B (R)",vv,I. Seymour (L),TBA @ TOR,1.5,60%,40%,8,4,1,0,0,.500,.500,1.125
 "M. Dubon, OF (R)",vv,G. Canning (R),SDN @ ATL,1.4,50%,25%,8,3,0,0,1,.375,.444,.819
 "J. Ramirez, 3B (B)",v^,T. Bradley (R),MIN @ CLE,1.2,67%,44%,8,3,1,0,1,.375,.444,.944
+"L. Nootbaar, OF (L)",v^,B. Pfaadt (R),ARI @ SLN,1.4,33%,11%,12,3,0,1,0,.250,.250,.750
 "G. Springer, OF (R)",^v,I. Seymour (L),TBA @ TOR,1.5,67%,33%,6,3,0,0,1,.500,.571,1.071
 "B. Lee, SS (B)",^v,G. Williams (R),MIN @ CLE,1.2,57%,14%,11,2,0,0,2,.182,.308,.490
 "K. Clemens, 1B (L)",^v,G. Williams (R),MIN @ CLE,1.2,17%,0%,12,2,2,0,0,.167,.167,.500
 "R. Hoskins, 1B (R)",>^,T. Bradley (R),MIN @ CLE,1.2,50%,50%,5,2,1,1,0,.400,.400,1.600
 "C. DeLauter, RF (L)",^^,T. Bradley,MIN @ CLE,1.2,---,,3,2,1,0,0,.667,.667,1.667
+"G. Moreno, C (R)",^^,M. McGreevy,ARI @ SLN,1.4,---,,3,2,1,0,0,.667,.667,1.667
+"J. Walker, OF (R)",v^,B. Pfaadt (R),ARI @ SLN,1.4,38%,13%,11,2,0,0,0,.182,.182,.364
+"A. Burleson, OF (L)",^^,B. Pfaadt (R),ARI @ SLN,1.4,25%,13%,10,2,0,0,0,.200,.200,.400
 "A. Kirk, C (R)",^v,I. Seymour (L),TBA @ TOR,1.5,60%,40%,4,2,1,1,0,.500,.400,1.900
 "A. Riley, 3B (R)",^v,G. Canning (R),SDN @ ATL,1.4,50%,50%,5,1,0,0,0,.200,.200,.400
 D. Smith,>v,G. Canning (R),SDN @ ATL,1.4,60%,0%,4,1,0,1,1,.250,.400,1.400
@@ -29,6 +34,11 @@ D. Smith,>v,G. Canning (R),SDN @ ATL,1.4,60%,0%,4,1,0,1,1,.250,.400,1.400
 "B. Rocchio, SS (B)",^^,T. Bradley (R),MIN @ CLE,1.2,50%,50%,5,1,0,0,0,.200,.200,.400
 "B. Witt, SS (R)",v^,T. Melton (R),KCA @ DET,1.2,50%,0%,2,1,0,1,0,.500,.500,2.500
 "M. Massey, 2B (L)",^^,T. Melton (R),KCA @ DET,1.2,100%,100%,1,1,0,0,0,1.000,1.000,2.000
+"T. Tawa, 2B (R)",>^,M. McGreevy,ARI @ SLN,1.4,---,,2,1,0,1,0,.500,.500,2.500
+"K. Marte, 2B (B)",^^,M. McGreevy,ARI @ SLN,1.4,---,,3,1,0,0,0,.333,.333,.666
+"I. Vargas, 3B (B)",^^,M. McGreevy,ARI @ SLN,1.4,---,,3,1,1,0,0,.333,.333,1.333
+"M. Kepler, OF (L)",^^,M. McGreevy,ARI @ SLN,1.4,---,,3,1,0,0,0,.333,.333,.666
+"J. Wetherholt, SS (L)",v^,B. Pfaadt,ARI @ SLN,1.4,---,,3,1,0,0,0,.333,.333,.666
 "Y. Diaz, 1B (R)",vv,S. Bieber (R),TBA @ TOR,1.5,29%,14%,9,1,0,0,1,.111,.200,.311
 M. Straw,vv,I. Seymour (L),TBA @ TOR,1.5,0%,0%,4,1,0,0,1,.250,.400,.650
 "T. Walls, SS (B)",^v,S. Bieber (R),TBA @ TOR,1.5,100%,100%,4,1,0,0,0,.250,.250,.500
@@ -37,6 +47,7 @@ M. Straw,vv,I. Seymour (L),TBA @ TOR,1.5,0%,0%,4,1,0,0,1,.250,.400,.650
 "C. Mullins, OF (L)",^v,S. Bieber (R),TBA @ TOR,1.5,14%,0%,7,1,0,1,0,.143,.143,.714
 "J. Caminero, 3B (R)",^v,S. Bieber (R),TBA @ TOR,1.5,67%,33%,2,1,0,1,1,.500,.667,2.667
 "V. Guerrero, 1B (R)",vv,I. Seymour (L),TBA @ TOR,1.5,80%,60%,6,1,0,0,0,.167,.167,.334
+"D. Schneider, OF (R)",>v,I. Seymour (L),TBA @ TOR,1.5,60%,20%,3,1,0,0,2,.333,.600,.933
 "O. Albies, 2B (B)",vv,G. Canning (R),SDN @ ATL,1.4,0%,0%,1,0,0,0,0,.000,.000,.000
 "L. Rengifo, 3B (B)",^^,C. Sale (L),SDN @ ATL,1.4,33%,33%,3,0,0,0,0,.000,.000,.000
 "J. Cronenworth, 2B (L)",v^,C. Sale (L),SDN @ ATL,1.4,10%,0%,10,0,0,0,0,.000,.000,.000
@@ -48,6 +59,10 @@ M. Straw,vv,I. Seymour (L),TBA @ TOR,1.5,0%,0%,4,1,0,0,1,.250,.400,.650
 "S. Perez, C (R)",^^,T. Melton (R),KCA @ DET,1.2,50%,0%,2,0,0,0,0,.000,.000,.000
 "G. Torres, 2B (R)",^^,R. Dobnak (R),KCA @ DET,1.2,67%,0%,2,0,0,0,2,.000,.500,.500
 "V. Pasquantino, 1B (L)",^^,T. Melton (R),KCA @ DET,1.2,100%,100%,1,0,0,0,0,.000,.000,.000
+"J. Fermin, 3B (R)",>^,B. Pfaadt,ARI @ SLN,1.4,---,,2,0,0,0,0,.000,.000,.000
+"N. Church, LF (L)",v^,B. Pfaadt,ARI @ SLN,1.4,---,,2,0,0,0,0,.000,.000,.000
+"C. Carroll, OF (L)",^^,M. McGreevy,ARI @ SLN,1.4,---,,3,0,0,0,0,.000,.000,.000
+"G. Perdomo, SS (B)",v^,M. McGreevy,ARI @ SLN,1.4,---,,2,0,0,0,1,.000,.333,.333
 "C. Simpson, CF (L)",^v,S. Bieber (R),TBA @ TOR,1.5,0%,0%,3,0,0,0,0,.000,.000,.000
 "H. Feduccia, C (L)",vv,S. Bieber (R),TBA @ TOR,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
 "B. Valenzuela, C (S)",^>,I. Seymour,TBA @ TOR,1.5,---,,2,0,0,0,1,.000,.333,.333
