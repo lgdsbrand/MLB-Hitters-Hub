@@ -6,6 +6,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Olson, 1B (L)",>v,G. Canning (R),SDN @ ATL,1.4,35%,10%,19,4,1,2,1,.211,.250,.829
 "M. Harris, OF (L)",^v,G. Canning (R),SDN @ ATL,1.4,75%,50%,5,4,2,0,0,.800,.800,2.000
 "R. Lewis, 3B (R)",vv,G. Williams (R),MIN @ CLE,1.2,25%,25%,18,4,1,1,0,.222,.222,.666
+"A. Martin, OF (R)",,G. Williams (R),MIN @ CLE,1.2,40%,40%,7,4,0,0,1,.571,.625,1.196
 "B. Buxton, OF (R)",^v,G. Williams (R),MIN @ CLE,1.2,63%,13%,10,4,1,0,1,.400,.455,.955
 "E. Clement, 3B (R)",vv,I. Seymour (L),TBA @ TOR,1.5,60%,40%,8,4,1,0,0,.500,.500,1.125
 "M. Dubon, OF (R)",vv,G. Canning (R),SDN @ ATL,1.4,50%,25%,8,3,0,0,1,.375,.444,.819
@@ -18,6 +19,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "A. Kirk, C (R)",^v,I. Seymour (L),TBA @ TOR,1.5,60%,40%,4,2,1,1,0,.500,.400,1.900
 "A. Riley, 3B (R)",^v,G. Canning (R),SDN @ ATL,1.4,50%,50%,5,1,0,0,0,.200,.200,.400
 D. Smith,>v,G. Canning (R),SDN @ ATL,1.4,60%,0%,4,1,0,1,1,.250,.400,1.400
+"G. Sheets, 1B (L)",v^,C. Sale (L),SDN @ ATL,1.4,33%,0%,3,1,0,1,0,.333,.333,1.666
 "T. France, 1B (R)",^^,C. Sale (L),SDN @ ATL,1.4,43%,14%,6,1,0,0,1,.167,.286,.453
 "J. Merrill, OF (L)",^^,C. Sale (L),SDN @ ATL,1.4,25%,13%,7,1,0,0,0,.143,.143,.286
 "M. Yastrzemski, OF (L)",^v,G. Canning (R),SDN @ ATL,1.4,33%,0%,4,1,0,0,0,.250,.250,.500
@@ -37,6 +39,7 @@ M. Straw,vv,I. Seymour (L),TBA @ TOR,1.5,0%,0%,4,1,0,0,1,.250,.400,.650
 "V. Guerrero, 1B (R)",vv,I. Seymour (L),TBA @ TOR,1.5,80%,60%,6,1,0,0,0,.167,.167,.334
 "O. Albies, 2B (B)",vv,G. Canning (R),SDN @ ATL,1.4,0%,0%,1,0,0,0,0,.000,.000,.000
 "L. Rengifo, 3B (B)",^^,C. Sale (L),SDN @ ATL,1.4,33%,33%,3,0,0,0,0,.000,.000,.000
+"J. Cronenworth, 2B (L)",v^,C. Sale (L),SDN @ ATL,1.4,10%,0%,10,0,0,0,0,.000,.000,.000
 "K. Watson, LF (L)",v^,T. Bradley,MIN @ CLE,1.2,---,,3,0,0,0,0,.000,.000,.000
 "P. Bailey, C (B)",^^,T. Bradley,MIN @ CLE,1.2,---,,2,0,0,0,0,.000,.000,.000
 "T. Larnach, OF (L)",^v,G. Williams (R),MIN @ CLE,1.2,29%,14%,12,0,0,0,1,.000,.077,.077
