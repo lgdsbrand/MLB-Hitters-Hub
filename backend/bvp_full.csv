@@ -25,7 +25,6 @@ M. Straw,v>,P. Sandoval (L),TOR @ BOS,1.5,56%,44%,9,3,1,0,0,.333,.333,.777
 "V. Pasquantino, 1B (L)",^^,T. Skubal (L),KCA @ DET,1.2,28%,11%,16,3,0,0,2,.188,.278,.466
 "M. Rojas, SS (R)",^>,S. Manaea (L),LAN @ NYN,1.5,36%,18%,10,3,1,0,1,.300,.364,.764
 "S. Ohtani, DH (L)",vv,S. Manaea (L),LAN @ NYN,1.5,56%,22%,12,3,0,0,2,.250,.357,.607
-"J. Realmuto, C (R)",^v,W. Warren (R),NYA @ PHI,1.4,60%,40%,5,3,0,0,0,.600,.600,1.200
 "D. Swanson, SS (R)",^^,J. Jones (R),CHN @ PIT,1.2,80%,20%,5,3,0,2,0,.600,.600,2.400
 "N. Hoerner, 2B (R)",^^,J. Jones (R),CHN @ PIT,1.2,50%,50%,8,3,2,0,0,.375,.375,1.000
 "E. Suarez, 3B (R)",^v,D. May (R),CIN @ SLN,1.2,50%,33%,6,3,0,1,0,.500,.500,1.500
@@ -43,7 +42,6 @@ M. Straw,v>,P. Sandoval (L),TOR @ BOS,1.5,56%,44%,9,3,1,0,0,.333,.333,.777
 "R. Jeffers, C (R)",^v,J. Lopez (L),ATH @ MIN,1.7,60%,40%,5,2,0,1,0,.400,.400,1.400
 "M. Muncy, 3B (L)",^v,S. Manaea (L),LAN @ NYN,1.5,38%,13%,9,2,0,2,2,.222,.417,1.306
 "A. Volpe, SS (R)",v^,J. Luzardo (L),NYA @ PHI,1.4,60%,0%,4,2,0,2,1,.500,.600,2.600
-"T. Turner, SS (R)",^v,W. Warren (R),NYA @ PHI,1.4,33%,17%,6,2,0,0,0,.333,.333,.666
 "T. Grisham, OF (L)",v^,J. Luzardo (L),NYA @ PHI,1.4,33%,33%,6,2,1,0,0,.333,.333,.833
 "C. Bellinger, OF (L)",^^,J. Luzardo (L),NYA @ PHI,1.4,80%,40%,4,2,2,0,1,.500,.600,1.850
 "M. Busch, 1B (L)",^^,J. Jones (R),CHN @ PIT,1.2,22%,11%,9,2,2,0,0,.222,.222,.666
@@ -91,9 +89,6 @@ M. Straw,v>,P. Sandoval (L),TOR @ BOS,1.5,56%,44%,9,3,1,0,0,.333,.333,.777
 "L. Butler, OF (L)",vv,Z. Matthews (R),ATH @ MIN,1.7,33%,33%,3,1,0,0,0,.333,.333,.666
 "T. Larnach, OF (L)",^v,J. Lopez (L),ATH @ MIN,1.7,60%,0%,4,1,0,1,1,.250,.400,1.400
 "A. Pages, OF (R)",vv,S. Manaea (L),LAN @ NYN,1.5,50%,50%,5,1,1,0,0,.200,.200,.600
-"A. Bohm, 3B (R)",^v,W. Warren (R),NYA @ PHI,1.4,67%,33%,3,1,1,0,0,.333,.333,1.000
-"B. Marsh, OF (L)",vv,W. Warren (R),NYA @ PHI,1.4,67%,33%,5,1,0,0,1,.200,.333,.533
-"K. Schwarber, DH (L)",vv,W. Warren (R),NYA @ PHI,1.4,50%,17%,4,1,0,1,2,.250,.500,1.500
 "Z. Neto, SS (R)",vv,L. Webb (R),ANA @ SFN,1.4,50%,0%,2,1,1,0,0,.500,.500,1.500
 "L. Arraez, 2B (L)",vv,G. Rodriguez (R),ANA @ SFN,1.4,33%,0%,3,1,0,0,0,.333,.333,.666
 "N. Schanuel, 1B (L)",^v,L. Webb (R),ANA @ SFN,1.4,50%,50%,2,1,1,0,0,.500,.500,1.500
@@ -152,8 +147,7 @@ T. Heineman,v^,L. Webb (R),ANA @ SFN,1.4,33%,33%,2,1,1,0,0,.500,.667,1.667
 "A. Call, OF (R)",^>,S. Manaea (L),LAN @ NYN,1.5,38%,13%,6,0,0,0,2,.000,.250,.250
 "M. Semien, 2B (R)",vv,R. Sasaki (R),LAN @ NYN,1.5,33%,33%,3,0,0,0,0,.000,.000,.000
 "B. Bichette, 3B (R)",>v,R. Sasaki,LAN @ NYN,1.5,---,,1,0,0,0,0,.000,.000,.000
-"B. Stott, 2B (L)",^v,W. Warren (R),NYA @ PHI,1.4,25%,0%,3,0,0,0,1,.000,.250,.250
-"B. Harper, 1B (L)",^v,W. Warren (R),NYA @ PHI,1.4,17%,0%,5,0,0,0,1,.000,.167,.167
+---,,C. Schlittler,NYA @ PHI,1.4,no matchup history,,,,,,,,,
 "J. Caballero, SS (R)",v^,J. Luzardo (L),NYA @ PHI,1.4,50%,25%,3,0,0,0,0,.000,.250,.250
 "H. Davis, C (R)",^^,M. Boyd (L),CHN @ PIT,1.2,25%,0%,4,0,0,0,0,.000,.000,.000
 "M. Ozuna, DH (R)",^^,M. Boyd (L),CHN @ PIT,1.2,25%,0%,3,0,0,0,1,.000,.250,.250
