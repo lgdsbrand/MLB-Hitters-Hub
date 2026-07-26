@@ -43,7 +43,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "B. Turang, 2B (L)",^v,K. Freeland (L),COL @ MIL,n/a,43%,29%,10,2,0,1,0,.200,.200,.700
 "C. Yelich, DH (L)",^v,K. Freeland (L),COL @ MIL,n/a,20%,5%,19,2,0,0,1,.105,.150,.255
 "G. Sanchez, DH (R)",^v,K. Freeland (L),COL @ MIL,n/a,27%,9%,12,2,0,1,1,.167,.231,.648
-"R. Lewis, 3B (R)",vv,J. Springs (L),ATH @ MIN,1.6,50%,0%,5,2,0,0,1,.400,.500,.900
+"R. Lewis, 3B (R)",vv,J. Springs (L),ATH @ MIN,1.8,50%,0%,5,2,0,0,1,.400,.500,.900
 "T. Turner, SS (R)",^v,W. Warren (R),NYA @ PHI,1.6,33%,17%,6,2,0,0,0,.333,.333,.666
 "J. Chisholm, 2B (L)",^v,C. Sanchez (L),NYA @ PHI,1.6,38%,38%,8,2,1,0,0,.250,.250,.625
 "C. Bellinger, OF (L)",^v,C. Sanchez (L),NYA @ PHI,1.6,67%,17%,5,2,0,0,1,.400,.500,.900
@@ -85,9 +85,9 @@ S. Huff,vv,R. Lopez (R),ATL @ BAL,1.4,100%,100%,1,1,0,0,0,1.000,1.000,2.000
 B. Sullivan,v^,J. Misiorowski,COL @ MIL,n/a,---,,3,1,0,0,0,.333,.333,.666
 "J. McCarthy, OF (L)",^^,J. Misiorowski (R),COL @ MIL,n/a,0%,0%,6,1,0,0,0,.167,.167,.334
 "T. Johnston, OF (L)",v^,J. Misiorowski,COL @ MIL,n/a,---,,3,1,0,0,0,.333,.333,.666
-"B. Lee, SS (B)",>v,J. Springs (L),ATH @ MIN,1.6,17%,17%,6,1,0,0,0,.167,.167,.334
-"J. Heim, C (B)",v>,T. Adams (R),ATH @ MIN,1.6,100%,100%,1,1,0,0,0,1.000,1.000,2.000
-"R. Jeffers, C (R)",>v,J. Springs (L),ATH @ MIN,1.6,50%,0%,7,1,0,0,1,.143,.250,.393
+"B. Lee, SS (B)",>v,J. Springs (L),ATH @ MIN,1.8,17%,17%,6,1,0,0,0,.167,.167,.334
+"J. Heim, C (B)",v>,T. Adams (R),ATH @ MIN,1.8,100%,100%,1,1,0,0,0,1.000,1.000,2.000
+"R. Jeffers, C (R)",>v,J. Springs (L),ATH @ MIN,1.8,50%,0%,7,1,0,0,1,.143,.250,.393
 "A. Pages, OF (R)",>v,F. Peralta (R),LAN @ NYN,1.4,25%,0%,8,1,1,0,1,.125,.300,.550
 "M. Betts, SS (R)",^v,F. Peralta (R),LAN @ NYN,1.4,36%,27%,14,1,0,1,1,.071,.133,.419
 "M. Semien, 2B (R)",vv,E. Sheehan (R),LAN @ NYN,1.4,33%,0%,3,1,0,0,0,.333,.333,.666
@@ -146,12 +146,12 @@ M. Straw,v^,R. Suarez (L),TOR @ BOS,1.2,40%,40%,8,0,0,0,0,.000,.000,.000
 "W. Castro, OF (B)",>^,J. Misiorowski (R),COL @ MIL,n/a,50%,50%,2,0,0,0,0,.000,.000,.000
 "H. Goodman, OF (R)",^^,J. Misiorowski,COL @ MIL,n/a,---,,2,0,0,0,1,.000,.333,.333
 "G. Mitchell, OF (L)",vv,K. Freeland,COL @ MIL,n/a,---,,2,0,0,0,0,.000,.000,.000
-"J. Bell, 1B (B)",vv,J. Springs (L),ATH @ MIN,1.6,20%,0%,5,0,0,0,0,.000,.000,.000
-"A. Martin, OF (R)",vv,J. Springs (L),ATH @ MIN,1.6,50%,0%,1,0,0,0,1,.000,.500,.500
-"B. Buxton, OF (R)",^v,J. Springs (L),ATH @ MIN,1.6,0%,0%,6,0,0,0,0,.000,.000,.000
-"J. Wilson, SS (R)",^>,T. Adams,ATH @ MIN,1.6,---,,1,0,0,0,0,.000,.000,.000
-"V. Caratini, C (B)",vv,J. Springs (L),ATH @ MIN,1.6,20%,20%,5,0,0,0,0,.000,.000,.000
-"T. Soderstrom, 1B (L)",v>,T. Adams,ATH @ MIN,1.6,---,,1,0,0,0,0,.000,.000,.000
+"J. Bell, 1B (B)",vv,J. Springs (L),ATH @ MIN,1.8,20%,0%,5,0,0,0,0,.000,.000,.000
+"A. Martin, OF (R)",vv,J. Springs (L),ATH @ MIN,1.8,50%,0%,1,0,0,0,1,.000,.500,.500
+"B. Buxton, OF (R)",^v,J. Springs (L),ATH @ MIN,1.8,0%,0%,6,0,0,0,0,.000,.000,.000
+"J. Wilson, SS (R)",^>,T. Adams,ATH @ MIN,1.8,---,,1,0,0,0,0,.000,.000,.000
+"V. Caratini, C (B)",vv,J. Springs (L),ATH @ MIN,1.8,20%,20%,5,0,0,0,0,.000,.000,.000
+"T. Soderstrom, 1B (L)",v>,T. Adams,ATH @ MIN,1.8,---,,1,0,0,0,0,.000,.000,.000
 "B. Bichette, 3B (R)",>v,E. Sheehan,LAN @ NYN,1.4,---,,1,0,0,0,0,.000,.000,.000
 "B. Stott, 2B (L)",>v,W. Warren (R),NYA @ PHI,1.6,25%,0%,3,0,0,0,1,.000,.250,.250
 "B. Harper, 1B (L)",vv,W. Warren (R),NYA @ PHI,1.6,17%,0%,5,0,0,0,1,.000,.167,.167
