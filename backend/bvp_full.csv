@@ -5,7 +5,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Soto, OF (L)",vv,M. Perez (L),ATL @ NYN,1.5,60%,20%,13,6,0,1,1,.462,.500,1.192
 "B. Bichette, 3B (R)",vv,M. Perez (L),ATL @ NYN,1.5,75%,50%,12,6,2,0,1,.500,.538,1.205
 "L. Garcia, 1B (L)",^v,M. Scherzer (R),TOR @ WAS,1.6,73%,36%,11,6,1,2,0,.545,.545,1.727
-"R. Grichuk, OF (R)",v>,M. Fried (L),NYA @ CHA,1.3,47%,24%,16,5,1,0,1,.313,.353,.728
+"R. Grichuk, OF (R)",v>,M. Fried (L),NYA @ CHA,1.2,47%,24%,16,5,1,0,1,.313,.353,.728
 "O. Lopez, 2B (R)",v^,Z. Wheeler (R),PHI @ MIA,n/a,70%,30%,14,5,2,0,2,.357,.438,.938
 "C. Cowser, OF (L)",v^,K. Montero (R),BAL @ DET,1.6,80%,40%,5,4,1,2,0,.800,.800,3.000
 "G. Torres, 2B (R)",v^,K. Bradish (R),BAL @ DET,1.6,73%,27%,8,4,0,0,3,.500,.636,1.136
@@ -28,9 +28,10 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "C. Raleigh, C (B)",v>,K. Rocker (R),SEA @ TEX,n/a,50%,10%,8,3,1,1,2,.375,.500,1.375
 "C. Walker, 1B (R)",v^,W. Urena,HOU @ ANA,1.6,---,,6,2,1,0,0,.333,.333,.833
 "Y. Alvarez, DH (L)",^^,W. Urena,HOU @ ANA,1.6,---,,2,2,0,0,2,1.000,1.000,2.000
-"C. Montgomery, SS (L)",v>,M. Fried,NYA @ CHA,1.3,---,,3,2,1,0,0,.667,.667,1.667
+"C. Montgomery, SS (L)",v>,M. Fried,NYA @ CHA,1.2,---,,3,2,1,0,0,.667,.667,1.667
 "N. Lowe, 1B (L)",^v,S. Cecconi (R),CLE @ CIN,1.6,50%,33%,6,2,1,1,0,.333,.333,1.333
 "S. Steer, OF (R)",vv,S. Cecconi (R),CLE @ CIN,1.6,44%,11%,8,2,0,0,1,.250,.333,.583
+"T. Friedl, OF (L)",vv,S. Cecconi (R),CLE @ CIN,1.6,17%,8%,11,2,1,0,0,.182,.167,.440
 "E. De La Cruz, SS (B)",^v,S. Cecconi (R),CLE @ CIN,1.6,42%,17%,11,2,0,0,1,.182,.250,.432
 "G. Henderson, SS (L)",>^,K. Montero (R),BAL @ DET,1.6,43%,0%,6,2,1,0,1,.333,.429,.929
 "X. Edwards, SS (B)",v^,Z. Wheeler (R),PHI @ MIA,n/a,17%,0%,11,2,1,0,1,.182,.250,.523
@@ -56,10 +57,12 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "N. Kurtz, 1B (L)",v>,P. Tolle (L),BOS @ ATH,1.8,33%,0%,3,1,0,1,0,.333,.333,1.666
 "L. Butler, OF (L)",v^,P. Tolle (L),BOS @ ATH,1.8,50%,0%,2,1,0,0,0,.500,.500,1.000
 "S. Langeliers, C (R)",^>,P. Tolle (L),BOS @ ATH,1.8,100%,0%,1,1,0,1,0,1.000,1.000,5.000
-"M. Vargas, 3B (R)",v>,M. Fried (L),NYA @ CHA,1.3,67%,0%,2,1,0,0,1,.500,.667,1.167
+"M. Vargas, 3B (R)",v>,M. Fried (L),NYA @ CHA,1.2,67%,0%,2,1,0,0,1,.500,.667,1.167
+"C. Mayo, 3B (R)",^^,K. Montero (R),BAL @ DET,1.6,67%,33%,3,1,0,0,0,.333,.333,.666
 "T. Ward, OF (R)",v^,K. Montero (R),BAL @ DET,1.6,67%,0%,2,1,0,0,1,.500,.667,1.167
 "R. Greene, OF (L)",v^,K. Bradish (R),BAL @ DET,1.6,33%,33%,3,1,0,0,0,.333,.333,.666
 "J. Holliday, 2B (L)",^^,K. Montero (R),BAL @ DET,1.6,40%,20%,4,1,0,0,1,.250,.400,.650
+"M. Vierling, OF (R)",^^,K. Bradish (R),BAL @ DET,1.6,50%,0%,2,1,0,0,0,.500,.500,1.000
 "J. Mack, C (L)",^^,Z. Wheeler,PHI @ MIA,n/a,---,,1,1,1,0,1,1.000,1.000,3.000
 "B. Stott, 2B (L)",^v,T. Phillips (R),PHI @ MIA,n/a,100%,0%,5,1,1,0,0,.200,.200,.800
 "L. Hicks, C (L)",v^,Z. Wheeler (R),PHI @ MIA,n/a,0%,0%,7,1,0,0,1,.143,.250,.393
@@ -91,10 +94,10 @@ K. Alcantara,vv,M. Liberatore,CHN @ SLN,1.8,---,,4,1,0,0,0,.250,.250,.500
 "J. Wilson, SS (R)",v>,P. Tolle (L),BOS @ ATH,1.8,0%,0%,2,0,0,0,0,.000,.000,.000
 ---,,J. Perkins,BOS @ ATH,1.8,no matchup history,,,,,,,,,
 "T. Soderstrom, 1B (L)",^>,P. Tolle (L),BOS @ ATH,1.8,50%,50%,2,0,0,0,0,.000,.000,.000
-"E. Quero, C (S)",v>,M. Fried (L),NYA @ CHA,1.3,0%,0%,3,0,0,0,0,.000,.000,.000
-"L. Acuna, CF (R)",v>,M. Fried (L),NYA @ CHA,1.3,0%,0%,1,0,0,0,0,.000,.000,.000
-"C. Meidroth, SS (R)",^>,M. Fried (L),NYA @ CHA,1.3,0%,0%,3,0,0,0,0,.000,.000,.000
----,,N. Schultz,NYA @ CHA,1.3,no matchup history,,,,,,,,,
+"E. Quero, C (S)",v>,M. Fried (L),NYA @ CHA,1.2,0%,0%,3,0,0,0,0,.000,.000,.000
+"L. Acuna, CF (R)",v>,M. Fried (L),NYA @ CHA,1.2,0%,0%,1,0,0,0,0,.000,.000,.000
+"C. Meidroth, SS (R)",^>,M. Fried (L),NYA @ CHA,1.2,0%,0%,3,0,0,0,0,.000,.000,.000
+---,,N. Schultz,NYA @ CHA,1.2,no matchup history,,,,,,,,,
 "N. Marte, 3B (R)",vv,S. Cecconi (R),CLE @ CIN,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
 "J. Bleday, OF (L)",vv,S. Cecconi (R),CLE @ CIN,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
 "P. Bailey, C (B)",^^,C. Burns,CLE @ CIN,1.6,---,,2,0,0,0,0,.000,.000,.000
@@ -120,4 +123,5 @@ K. Alcantara,vv,M. Liberatore,CHN @ SLN,1.8,---,,4,1,0,0,0,.250,.250,.500
 ---,,B. Sproat,MIL @ SFN,1.4,no matchup history,,,,,,,,,
 "L. Nootbaar, OF (L)",vv,D. Peterson,CHN @ SLN,1.8,---,,2,0,0,0,0,.000,.000,.000
 "J. Burger, 3B (R)",^^,G. Kirby (R),SEA @ TEX,n/a,33%,33%,9,0,0,0,0,.000,.000,.000
+"J. Vivas, 2B (L)",^v,M. Scherzer (R),TOR @ WAS,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
 ---,,A. Alvarez,TOR @ WAS,1.6,no matchup history,,,,,,,,,
