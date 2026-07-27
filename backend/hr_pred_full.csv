@@ -88,9 +88,10 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "B. Reynolds, OF (B)",M. Kelly (R),ARI @ PIT,1.6,14%,"0,0,0,0,0",+475,12,0,0,.000,.000,.000
 "I. Happ, OF (B)",M. Liberatore (L),CHN @ SLN,1.8,14%,"0,0,0,0,0",+475,9,1,1,.111,.429,.873
 "N. Velazquez, DH (R)",D. Peterson (L),CHN @ SLN,1.8,14%,"0,0,0,0,0",+500,5,1,1,.200,.286,1.086
-"M. Garver, DH (R)",K. Rocker(R),SEA @ TEX,n/a,14%,"0,0,1,0,0",+500,never faced,,,,,
+"M. Garver, DH (R)",K. Rocker (R),SEA @ TEX,n/a,14%,"0,0,1,0,0",+500,never faced,,,,,
 "J. Lowe, OF (L)",T. Imai (R),HOU @ ANA,1.6,13%,"1,0,0,0,0",+475,never faced,,,,,
 "J. Heim, C (B)",P. Tolle (L),BOS @ ATH,1.8,13%,"0,0,0,0,0",+425,never faced,,,,,
+"N. Marte, 3B (R)",S. Cecconi (R),CLE @ CIN,1.6,13%,"0,0,0,0,0",+500,2,0,0,.000,.000,.000
 "K. Manzardo, DH (L)",C. Burns (R),CLE @ CIN,1.6,13%,"0,1,0,0,0",+425,never faced,,,,,
 "K. Carpenter, OF (L)",K. Bradish (R),BAL @ DET,1.4,13%,"0,0,0,0,0",+425,never faced,,,,,
 "J. Realmuto, C (R)",T. Phillips (R),PHI @ MIA,n/a,13%,"0,0,0,0,0",+750,5,0,0,.000,.000,.000
