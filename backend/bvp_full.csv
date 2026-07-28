@@ -30,7 +30,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Harris, OF (L)",>^,C. Scott (R),ATL @ NYN,1.6,100%,33%,5,4,0,1,0,.800,.800,2.200
 "T. France, 1B (R)",^v,M. Lorenzen (R),COL @ SDN,1.4,50%,36%,14,4,2,0,0,.286,.286,.715
 "L. Rengifo, 3B (B)",^v,M. Lorenzen (R),COL @ SDN,1.4,38%,15%,11,4,0,2,1,.364,.417,1.326
-"L. Nootbaar, OF (L)",vv,C. Rea (R),CHN @ SLN,1.4,63%,31%,13,4,1,0,3,.308,.438,.823
+"I. Happ, OF (B)",>^,M. McGreevy (R),CHN @ SLN,1.6,67%,33%,8,4,0,0,1,.500,.556,1.056
+"L. Nootbaar, OF (L)",vv,C. Rea (R),CHN @ SLN,1.6,63%,31%,13,4,1,0,3,.308,.438,.823
 "I. Paredes, 3B (R)",^v,R. Detmers (L),HOU @ ANA,1.6,43%,29%,12,3,1,0,1,.250,.308,.641
 "R. Grichuk, OF (R)",v>,G. Cole (R),NYA @ CHA,1.6,13%,13%,23,3,0,0,0,.130,.130,.260
 "S. Perez, C (R)",^^,T. Bradley (R),KCA @ MIN,1.4,25%,13%,11,3,1,0,0,.273,.273,.637
@@ -38,6 +39,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Machado, 3B (R)",^v,M. Lorenzen (R),COL @ SDN,1.4,36%,27%,10,3,1,0,1,.300,.364,.764
 "B. Turang, 2B (L)",^^,L. Roupp (R),MIL @ SFN,1.4,29%,0%,8,3,2,0,2,.375,.500,1.250
 "W. Contreras, C (R)",v^,L. Roupp (R),MIL @ SFN,1.4,75%,0%,6,3,0,0,0,.500,.429,.929
+"C. Kelly, C (R)",v^,M. McGreevy (R),CHN @ SLN,1.6,38%,13%,8,3,0,0,0,.375,.375,.750
+"M. Busch, 1B (L)",v^,M. McGreevy (R),CHN @ SLN,1.6,38%,13%,8,3,1,2,0,.375,.375,1.625
 "Y. Diaz, 1B (R)",vv,C. Quantrill (R),TEX @ TBA,n/a,56%,33%,9,3,1,0,0,.333,.333,.889
 "L. O'Hoppe, C (R)",v^,P. Lambert,HOU @ ANA,1.6,---,,2,2,0,1,0,1.000,1.000,3.500
 "N. Lowe, 1B (L)",^^,G. Williams (R),CLE @ CIN,1.6,33%,0%,7,2,1,0,2,.286,.444,.873
@@ -60,8 +63,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "E. Tovar, SS (R)",v^,M. King (R),COL @ SDN,1.4,18%,9%,10,2,1,0,0,.200,.200,.500
 "J. Bauers, 1B (L)",^^,L. Roupp (R),MIL @ SFN,1.4,60%,0%,6,2,0,0,2,.333,.500,.833
 "J. Chourio, OF (R)",v^,L. Roupp (R),MIL @ SFN,1.4,60%,40%,6,2,2,0,2,.333,.500,1.167
-"M. Winn, SS (R)",vv,C. Rea (R),CHN @ SLN,1.4,67%,27%,14,2,1,0,1,.143,.200,.414
-"M. Busch, 1B (L)",v^,H. Dobbins,CHN @ SLN,1.4,---,,2,2,0,0,0,1.000,1.000,2.000
+"M. Winn, SS (R)",vv,C. Rea (R),CHN @ SLN,1.6,67%,27%,14,2,1,0,1,.143,.200,.414
+"S. Suzuki, OF (R)",>^,M. McGreevy (R),CHN @ SLN,1.6,50%,25%,7,2,0,1,1,.286,.375,1.089
+"N. Hoerner, 2B (R)",v^,M. McGreevy (R),CHN @ SLN,1.6,57%,14%,6,2,0,0,1,.333,.429,.762
 "N. Lopez, 2B (L)",vv,G. Jax (R),TEX @ TBA,n/a,45%,0%,8,2,2,0,2,.250,.400,.900
 "C. Mullins, OF (L)",^v,C. Quantrill (R),TEX @ TBA,n/a,33%,0%,8,2,0,1,1,.250,.333,.958
 "C. Smith, OF (R)",vv,R. Detmers (L),HOU @ ANA,1.6,100%,0%,4,1,0,0,1,.250,.400,.650
@@ -100,9 +104,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "A. Vaughn, 1B (R)",^^,L. Roupp,MIL @ SFN,1.4,---,,2,1,0,0,0,.500,.500,1.000
 "C. Yelich, DH (L)",^^,L. Roupp (R),MIL @ SFN,1.4,50%,50%,3,1,0,0,1,.333,.400,.733
 "D. Hamilton, SS (L)",v^,L. Roupp (R),MIL @ SFN,1.4,0%,0%,4,1,0,0,0,.250,.250,.500
-"A. Bregman, 3B (R)",v^,H. Dobbins,CHN @ SLN,1.4,---,,2,1,0,1,0,.500,.500,2.500
-"I. Herrera, DH (R)",>v,C. Rea (R),CHN @ SLN,1.4,38%,13%,7,1,0,0,1,.143,.250,.393
-"M. Conforto, OF (L)",^>,H. Dobbins,CHN @ SLN,1.4,---,,2,1,1,0,0,.500,.500,1.500
+"D. Swanson, SS (R)",^^,M. McGreevy (R),CHN @ SLN,1.6,67%,33%,5,1,0,0,1,.200,.333,.533
+"I. Herrera, DH (R)",>v,C. Rea (R),CHN @ SLN,1.6,38%,13%,7,1,0,0,1,.143,.250,.393
+"P. Crow-Armstrong, OF (L)",^^,M. McGreevy (R),CHN @ SLN,1.6,14%,14%,7,1,0,0,0,.143,.143,.286
 "J. Burger, 3B (R)",^v,G. Jax (R),TEX @ TBA,n/a,67%,50%,6,1,1,0,0,.167,.167,.500
 "H. Feduccia, C (L)",vv,C. Quantrill (R),TEX @ TBA,n/a,50%,0%,2,1,0,0,0,.500,.500,1.000
 "C. Abrams, SS (L)",^>,S. Bieber (R),TOR @ WAS,1.6,33%,0%,3,1,0,0,0,.333,.333,.666
@@ -160,14 +164,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Cronenworth, 2B (L)",^v,M. Lorenzen (R),COL @ SDN,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
 "G. Mitchell, OF (L)",v^,L. Roupp (R),MIL @ SFN,1.4,40%,0%,3,0,0,0,2,.000,.400,.400
 ---,,L. Henderson,MIL @ SFN,1.4,no matchup history,,,,,,,,,
-"I. Happ, OF (B)",>^,H. Dobbins,CHN @ SLN,1.4,---,,2,0,0,0,0,.000,.000,.000
-"C. Kelly, C (R)",v^,H. Dobbins,CHN @ SLN,1.4,---,,2,0,0,0,0,.000,.000,.000
-"J. Walker, OF (R)",vv,C. Rea (R),CHN @ SLN,1.4,17%,17%,6,0,0,0,0,.000,.000,.000
-"S. Suzuki, OF (R)",>^,H. Dobbins,CHN @ SLN,1.4,---,,2,0,0,0,0,.000,.000,.000
-"D. Swanson, SS (R)",^^,H. Dobbins (R),CHN @ SLN,1.4,,,1,0,0,0,0,.000,.000,.000
-"N. Hoerner, 2B (R)",v^,H. Dobbins,CHN @ SLN,1.4,---,,1,0,0,0,0,.000,.000,.000
-"A. Burleson, OF (L)",^v,C. Rea (R),CHN @ SLN,1.4,17%,0%,11,0,0,0,1,.000,.083,.083
-"P. Crow-Armstrong, OF (L)",^^,H. Dobbins,CHN @ SLN,1.4,---,,1,0,0,0,0,.000,.000,.000
+"J. Walker, OF (R)",vv,C. Rea (R),CHN @ SLN,1.6,17%,17%,6,0,0,0,0,.000,.000,.000
+"A. Burleson, OF (L)",^v,C. Rea (R),CHN @ SLN,1.6,17%,0%,11,0,0,0,1,.000,.083,.083
 "B. Nimmo, OF (L)",^v,G. Jax (R),TEX @ TBA,n/a,0%,0%,3,0,0,0,0,.000,.000,.000
 "E. Duran, 3B (R)",^v,G. Jax (R),TEX @ TBA,n/a,0%,0%,2,0,0,0,0,.000,.333,.333
 "J. Smith, 3B (L)",vv,G. Jax (R),TEX @ TBA,n/a,0%,0%,3,0,0,0,0,.000,.000,.000
