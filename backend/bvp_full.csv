@@ -30,7 +30,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "L. Nootbaar, OF (L)",vv,C. Rea (R),CHN @ SLN,1.4,63%,31%,13,4,1,0,3,.308,.438,.823
 "I. Paredes, 3B (R)",>v,R. Detmers (L),HOU @ ANA,1.6,43%,29%,12,3,1,0,1,.250,.308,.641
 "R. Grichuk, OF (R)",v>,G. Cole (R),NYA @ CHA,1.6,13%,13%,23,3,0,0,0,.130,.130,.260
-"T. Stephenson, C (R)",,S. Cecconi (R),CLE @ CIN,1.7,43%,29%,7,3,1,0,0,.429,.429,1.000
+"T. Stephenson, C (R)",vv,S. Cecconi (R),CLE @ CIN,1.7,43%,29%,7,3,1,0,0,.429,.429,1.000
 "S. Perez, C (R)",^^,T. Bradley (R),KCA @ MIN,1.4,25%,13%,11,3,1,0,0,.273,.273,.637
 "G. Sheets, 1B (L)",vv,M. Lorenzen (R),COL @ SDN,1.4,57%,43%,13,3,1,0,1,.231,.286,.594
 "M. Machado, 3B (R)",^v,M. Lorenzen (R),COL @ SDN,1.4,36%,27%,10,3,1,0,1,.300,.364,.764
@@ -40,8 +40,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Busch, 1B (L)",v^,M. McGreevy (R),CHN @ SLN,1.4,38%,13%,8,3,1,2,0,.375,.375,1.625
 "Y. Diaz, 1B (R)",vv,C. Quantrill (R),TEX @ TBA,n/a,56%,33%,9,3,1,0,0,.333,.333,.889
 "L. O'Hoppe, C (R)",v^,P. Lambert,HOU @ ANA,1.6,---,,2,2,0,1,0,1.000,1.000,3.500
-"N. Lowe, 1B (L)",,S. Cecconi (R),CLE @ CIN,1.7,50%,33%,6,2,1,1,0,.333,.333,1.333
-"E. De La Cruz, SS (B)",,S. Cecconi (R),CLE @ CIN,1.7,42%,17%,11,2,0,0,1,.182,.250,.432
+"N. Lowe, 1B (L)",^v,S. Cecconi (R),CLE @ CIN,1.7,50%,33%,6,2,1,1,0,.333,.333,1.333
+"E. De La Cruz, SS (B)",^v,S. Cecconi (R),CLE @ CIN,1.7,42%,17%,11,2,0,0,1,.182,.250,.432
 "R. Greene, OF (L)",vv,D. Kremer (R),BAL @ DET,1.7,44%,22%,7,2,0,0,2,.286,.444,.730
 "J. Marsee, CF (L)",^v,A. Nola,PHI @ MIA,n/a,---,,3,2,0,0,0,.667,.667,1.334
 "X. Edwards, SS (B)",vv,A. Nola (R),PHI @ MIA,n/a,40%,20%,7,2,1,0,0,.286,.286,.715
@@ -116,9 +116,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Dominguez, OF (B)",v>,A. Kay,NYA @ CHA,1.6,---,,2,0,0,0,0,.000,.000,.000
 "C. Montgomery, SS (L)",v>,G. Cole,NYA @ CHA,1.6,---,,2,0,0,0,0,.000,.000,.000
 "P. Goldschmidt, 1B (R)",^>,A. Kay,NYA @ CHA,1.6,---,,3,0,0,0,0,.000,.000,.000
-"N. Marte, 3B (R)",,S. Cecconi (R),CLE @ CIN,1.7,0%,0%,2,0,0,0,0,.000,.000,.000
-"J. Bleday, OF (L)",,S. Cecconi (R),CLE @ CIN,1.7,0%,0%,3,0,0,0,0,.000,.000,.000
-"P. Bailey, C (B)",,C. Burns,CLE @ CIN,1.7,---,,2,0,0,0,0,.000,.000,.000
+"N. Marte, 3B (R)",vv,S. Cecconi (R),CLE @ CIN,1.7,0%,0%,2,0,0,0,0,.000,.000,.000
+"J. Bleday, OF (L)",>v,S. Cecconi (R),CLE @ CIN,1.7,0%,0%,3,0,0,0,0,.000,.000,.000
+"P. Bailey, C (B)",^>,C. Burns,CLE @ CIN,1.7,---,,2,0,0,0,0,.000,.000,.000
 "T. Ward, OF (R)",v^,T. Melton (R),BAL @ DET,1.7,0%,0%,5,0,0,0,0,.000,.000,.000
 "C. Keith, 2B (L)",^v,D. Kremer (R),BAL @ DET,1.7,33%,33%,3,0,0,0,0,.000,.000,.000
 "C. Cowser, OF (L)",v^,T. Melton,BAL @ DET,1.7,---,,1,0,0,0,1,.000,.500,.500
