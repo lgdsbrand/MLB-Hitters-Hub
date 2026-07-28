@@ -3,25 +3,21 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "F. Lindor, SS (B)",^^,C. Sale (L),ATL @ NYN,1.6,46%,23%,41,16,2,2,1,.390,.405,.990
 "B. Harper, 1B (L)",v>,S. Alcantara (R),PHI @ MIA,n/a,50%,22%,46,15,4,3,9,.326,.421,1.030
 "A. Bohm, 3B (R)",^>,S. Alcantara (R),PHI @ MIA,n/a,53%,35%,35,13,3,0,2,.371,.405,.891
-"J. Ramirez, 3B (B)",v^,B. Singer (R),CLE @ CIN,1.6,54%,19%,31,12,2,3,7,.387,.525,1.267
 "J. Realmuto, C (R)",^>,S. Alcantara (R),PHI @ MIA,n/a,30%,15%,39,12,2,2,0,.308,.308,.821
 "T. Edman, OF (B)",vv,L. Castillo (R),SEA @ LAN,1.5,52%,27%,31,10,2,0,2,.323,.364,.751
 "K. Schwarber, DH (L)",^>,S. Alcantara (R),PHI @ MIA,n/a,39%,20%,42,10,3,0,8,.238,.373,.683
-"S. Kwan, OF (L)",^^,B. Singer (R),CLE @ CIN,1.6,57%,23%,27,9,1,0,3,.333,.419,.789
 "G. Torres, 2B (R)",vv,D. Kremer (R),BAL @ DET,1.7,41%,22%,29,8,2,0,2,.276,.323,.668
 "B. Stott, 2B (L)",^>,S. Alcantara (R),PHI @ MIA,n/a,36%,21%,33,8,2,0,1,.242,.250,.553
 "J. Pena, SS (R)",^v,R. Detmers (L),HOU @ ANA,1.6,50%,9%,20,7,1,0,2,.350,.409,.809
 "J. Altuve, 2B (R)",vv,R. Detmers (L),HOU @ ANA,1.6,52%,14%,24,7,0,2,2,.292,.370,.912
 "B. Marsh, OF (L)",v>,S. Alcantara (R),PHI @ MIA,n/a,50%,29%,27,7,3,0,0,.259,.259,.629
 "J. Polanco, 1B (B)",v^,C. Sale (L),ATL @ NYN,1.6,43%,29%,19,7,1,0,0,.368,.381,.802
-"K. Manzardo, DH (L)",>^,B. Singer (R),CLE @ CIN,1.6,71%,57%,9,6,3,1,0,.667,.667,2.000
 "M. Semien, 2B (R)",^^,C. Sale (L),ATL @ NYN,1.6,55%,15%,18,6,0,3,2,.333,.400,1.233
 "X. Bogaerts, 2B (R)",vv,M. Lorenzen (R),COL @ SDN,1.4,100%,57%,6,6,1,0,1,1.000,1.000,2.167
 "Y. Diaz, C (R)",vv,R. Detmers (L),HOU @ ANA,1.6,50%,36%,15,5,2,0,1,.333,.375,.842
 "Y. Alvarez, DH (L)",^v,R. Detmers (L),HOU @ ANA,1.6,56%,19%,19,5,3,0,2,.263,.364,.785
 "O. Lopez, 2B (R)",>v,A. Nola (R),PHI @ MIA,n/a,67%,50%,9,5,2,0,0,.556,.556,1.334
 "V. Caratini, C (B)",vv,S. Lugo (R),KCA @ MIN,1.4,70%,30%,12,5,1,0,0,.417,.417,.917
-"B. Rocchio, SS (B)",v^,B. Singer (R),CLE @ CIN,1.6,50%,25%,4,4,0,1,0,1.000,.833,2.583
 "Z. McKinstry, SS (L)",^v,D. Kremer (R),BAL @ DET,1.7,78%,44%,9,4,2,0,0,.444,.444,1.111
 "K. Tucker, OF (L)",^v,L. Castillo (R),SEA @ LAN,1.5,42%,33%,15,4,1,2,0,.267,.267,1.000
 "S. Ohtani, DH (L)",vv,L. Castillo (R),SEA @ LAN,1.5,46%,15%,11,4,2,1,2,.364,.462,1.280
@@ -34,6 +30,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "L. Nootbaar, OF (L)",vv,C. Rea (R),CHN @ SLN,1.4,63%,31%,13,4,1,0,3,.308,.438,.823
 "I. Paredes, 3B (R)",>v,R. Detmers (L),HOU @ ANA,1.6,43%,29%,12,3,1,0,1,.250,.308,.641
 "R. Grichuk, OF (R)",v>,G. Cole (R),NYA @ CHA,1.6,13%,13%,23,3,0,0,0,.130,.130,.260
+"T. Stephenson, C (R)",,S. Cecconi (R),CLE @ CIN,1.7,43%,29%,7,3,1,0,0,.429,.429,1.000
 "S. Perez, C (R)",^^,T. Bradley (R),KCA @ MIN,1.4,25%,13%,11,3,1,0,0,.273,.273,.637
 "G. Sheets, 1B (L)",vv,M. Lorenzen (R),COL @ SDN,1.4,57%,43%,13,3,1,0,1,.231,.286,.594
 "M. Machado, 3B (R)",^v,M. Lorenzen (R),COL @ SDN,1.4,36%,27%,10,3,1,0,1,.300,.364,.764
@@ -43,11 +40,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Busch, 1B (L)",v^,M. McGreevy (R),CHN @ SLN,1.4,38%,13%,8,3,1,2,0,.375,.375,1.625
 "Y. Diaz, 1B (R)",vv,C. Quantrill (R),TEX @ TBA,n/a,56%,33%,9,3,1,0,0,.333,.333,.889
 "L. O'Hoppe, C (R)",v^,P. Lambert,HOU @ ANA,1.6,---,,2,2,0,1,0,1.000,1.000,3.500
-"N. Lowe, 1B (L)",^^,G. Williams (R),CLE @ CIN,1.6,33%,0%,7,2,1,0,2,.286,.444,.873
-"S. Steer, OF (R)",v^,G. Williams,CLE @ CIN,1.6,---,,3,2,0,0,0,.667,.667,1.334
-"S. Stewart, 3B (R)",v^,G. Williams,CLE @ CIN,1.6,---,,3,2,0,0,0,.667,.667,1.334
-"C. DeLauter, RF (L)",v^,B. Singer,CLE @ CIN,1.6,---,,2,2,0,1,0,1.000,1.000,3.500
-"E. De La Cruz, SS (B)",^^,G. Williams,CLE @ CIN,1.6,---,,3,2,1,1,0,.667,.667,2.667
+"N. Lowe, 1B (L)",,S. Cecconi (R),CLE @ CIN,1.7,50%,33%,6,2,1,1,0,.333,.333,1.333
+"E. De La Cruz, SS (B)",,S. Cecconi (R),CLE @ CIN,1.7,42%,17%,11,2,0,0,1,.182,.250,.432
 "R. Greene, OF (L)",vv,D. Kremer (R),BAL @ DET,1.7,44%,22%,7,2,0,0,2,.286,.444,.730
 "J. Marsee, CF (L)",^v,A. Nola,PHI @ MIA,n/a,---,,3,2,0,0,0,.667,.667,1.334
 "X. Edwards, SS (B)",vv,A. Nola (R),PHI @ MIA,n/a,40%,20%,7,2,1,0,0,.286,.286,.715
@@ -122,11 +116,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Dominguez, OF (B)",v>,A. Kay,NYA @ CHA,1.6,---,,2,0,0,0,0,.000,.000,.000
 "C. Montgomery, SS (L)",v>,G. Cole,NYA @ CHA,1.6,---,,2,0,0,0,0,.000,.000,.000
 "P. Goldschmidt, 1B (R)",^>,A. Kay,NYA @ CHA,1.6,---,,3,0,0,0,0,.000,.000,.000
-"E. Suarez, 3B (R)",^^,G. Williams (R),CLE @ CIN,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
-"J. Bleday, OF (L)",>^,G. Williams (R),CLE @ CIN,1.6,100%,0%,4,0,0,0,2,.000,.333,.333
-"P. Bailey, C (B)",^^,B. Singer,CLE @ CIN,1.6,---,,4,0,0,0,0,.000,.000,.000
-"A. Martinez, OF (B)",v^,B. Singer,CLE @ CIN,1.6,---,,2,0,0,0,0,.000,.000,.000
-"T. Stephenson, C (R)",v^,G. Williams,CLE @ CIN,1.6,---,,3,0,0,0,0,.000,.000,.000
+"N. Marte, 3B (R)",,S. Cecconi (R),CLE @ CIN,1.7,0%,0%,2,0,0,0,0,.000,.000,.000
+"J. Bleday, OF (L)",,S. Cecconi (R),CLE @ CIN,1.7,0%,0%,3,0,0,0,0,.000,.000,.000
+"P. Bailey, C (B)",,C. Burns,CLE @ CIN,1.7,---,,2,0,0,0,0,.000,.000,.000
 "T. Ward, OF (R)",v^,T. Melton (R),BAL @ DET,1.7,0%,0%,5,0,0,0,0,.000,.000,.000
 "C. Keith, 2B (L)",^v,D. Kremer (R),BAL @ DET,1.7,33%,33%,3,0,0,0,0,.000,.000,.000
 "C. Cowser, OF (L)",v^,T. Melton,BAL @ DET,1.7,---,,1,0,0,0,1,.000,.500,.500
