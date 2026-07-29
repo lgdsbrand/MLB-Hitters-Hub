@@ -37,8 +37,8 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "C. DeLauter, RF (L)",v^,B. Singer,CLE @ CIN,1.4,---,,2,2,0,1,0,1.000,1.000,3.500
 "L. Taveras, OF (B)",v^,T. Skubal (L),BAL @ DET,1.5,57%,14%,6,2,0,0,1,.333,.429,.762
 "G. Henderson, SS (L)",v^,T. Skubal (L),BAL @ DET,1.5,33%,17%,6,2,0,0,0,.333,.333,.666
-"J. Naylor, 1B (L)",v^,E. Lauer (L),SEA @ LAN,1.5,100%,50%,2,2,0,0,0,1.000,1.000,2.000
-"J. Rodriguez, OF (R)",v^,E. Lauer (L),SEA @ LAN,1.5,40%,40%,5,2,0,1,0,.400,.400,1.400
+"J. Naylor, 1B (L)",v^,E. Lauer (L),SEA @ LAN,1.6,100%,50%,2,2,0,0,0,1.000,1.000,2.000
+"J. Rodriguez, OF (R)",v^,E. Lauer (L),SEA @ LAN,1.6,40%,40%,5,2,0,1,0,.400,.400,1.400
 "B. Marsh, OF (L)",v^,R. Gusto,PHI @ MIA,n/a,---,,3,2,1,0,0,.667,.667,1.667
 "J. Marsee, CF (L)",^^,J. Luzardo (L),PHI @ MIA,n/a,80%,40%,8,2,0,0,0,.250,.250,.500
 "X. Edwards, SS (B)",>^,J. Luzardo (L),PHI @ MIA,n/a,40%,30%,16,2,0,0,1,.125,.176,.301
@@ -75,10 +75,10 @@ J. Jones,^v,J. Lopez,BOS @ ATH,1.8,---,,3,1,1,0,0,.333,.333,1.000
 "T. O'Neill, OF (R)",v^,T. Skubal (L),BAL @ DET,1.5,33%,17%,5,1,0,1,1,.200,.333,1.133
 "K. McGonigle, SS (L)",^^,T. Rogers,BAL @ DET,1.5,---,,3,1,0,0,0,.333,.333,.666
 "S. Torkelson, 1B (R)",v^,T. Rogers (L),BAL @ DET,1.5,100%,50%,3,1,0,0,1,.333,.500,.833
-"K. Tucker, OF (L)",^^,E. Hancock (R),SEA @ LAN,1.5,67%,33%,3,1,0,1,0,.333,.333,1.666
-"M. Garver, DH (R)",v^,E. Lauer (L),SEA @ LAN,1.5,75%,25%,4,1,0,0,0,.250,.250,.500
-"R. Arozarena, OF (R)",^^,E. Lauer (L),SEA @ LAN,1.5,57%,14%,4,1,0,0,2,.250,.500,.750
-"R. Refsnyder, OF (R)",v^,E. Lauer (L),SEA @ LAN,1.5,17%,0%,6,1,0,0,0,.167,.167,.334
+"K. Tucker, OF (L)",^^,E. Hancock (R),SEA @ LAN,1.6,67%,33%,3,1,0,1,0,.333,.333,1.666
+"M. Garver, DH (R)",v^,E. Lauer (L),SEA @ LAN,1.6,75%,25%,4,1,0,0,0,.250,.250,.500
+"R. Arozarena, OF (R)",^^,E. Lauer (L),SEA @ LAN,1.6,57%,14%,4,1,0,0,2,.250,.500,.750
+"R. Refsnyder, OF (R)",v^,E. Lauer (L),SEA @ LAN,1.6,17%,0%,6,1,0,0,0,.167,.167,.334
 "E. Sosa, SS (R)",v^,R. Gusto (R),PHI @ MIA,n/a,,,2,1,0,0,0,.500,.500,1.000
 "L. Jimenez, SS (R)",^^,J. Luzardo,PHI @ MIA,n/a,---,,5,1,1,0,0,.200,.333,.733
 "G. Rincones, RF (L)",v^,R. Gusto,PHI @ MIA,n/a,---,,3,1,0,1,0,.333,.333,1.666
@@ -130,7 +130,7 @@ S. Huff,v^,T. Skubal (L),BAL @ DET,1.5,33%,33%,3,0,0,0,0,.000,.000,.000
 "R. Greene, OF (L)",v^,T. Rogers,BAL @ DET,1.5,---,,2,0,0,0,0,.000,.000,.000
 "J. Holliday, 2B (L)",^^,T. Skubal (L),BAL @ DET,1.5,20%,20%,5,0,0,0,0,.000,.000,.000
 "Z. McKinstry, SS (L)",^^,T. Rogers (L),BAL @ DET,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
-"C. Raleigh, C (B)",v^,E. Lauer (L),SEA @ LAN,1.5,50%,0%,1,0,0,0,1,.000,.500,.500
+"C. Raleigh, C (B)",v^,E. Lauer (L),SEA @ LAN,1.6,50%,0%,1,0,0,0,1,.000,.500,.500
 "B. Stott, 2B (L)",^^,R. Gusto,PHI @ MIA,n/a,---,,1,0,0,0,2,.000,.667,.667
 "L. Hicks, C (L)",v^,J. Luzardo (L),PHI @ MIA,n/a,0%,0%,4,0,0,0,0,.000,.000,.000
 "B. Harper, 1B (L)",v^,R. Gusto,PHI @ MIA,n/a,---,,2,0,0,0,1,.000,.333,.333
