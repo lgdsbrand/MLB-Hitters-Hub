@@ -10,24 +10,22 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "L. Rengifo, 3B (B)",^^,R. Ray (L),SFN @ SDN,1.2,62%,23%,11,6,1,2,0,.545,.583,1.765
 "M. Machado, 3B (R)",^^,R. Ray (L),SFN @ SDN,1.2,54%,7%,22,6,0,3,6,.273,.429,1.111
 "X. Bogaerts, 2B (R)",v^,R. Ray (L),SFN @ SDN,1.2,46%,13%,21,6,3,1,3,.286,.375,.946
+"M. Winn, SS (R)",^^,J. Assad (R),CHN @ SLN,1.4,100%,33%,7,6,0,1,1,.857,.875,2.161
 "S. Suzuki, OF (R)",^>,A. Pallante (R),CHN @ SLN,1.4,56%,33%,12,6,2,0,2,.500,.571,1.238
-"M. Winn, SS (R)",^^,S. Imanaga (L),CHN @ SLN,1.4,50%,8%,16,5,0,1,0,.313,.313,.813
 "C. Kelly, C (R)",v>,A. Pallante (R),CHN @ SLN,1.4,100%,25%,8,5,0,0,0,.625,.625,1.250
 "Y. Diaz, 1B (R)",v^,N. Eovaldi (R),TEX @ TBA,n/a,48%,28%,26,5,0,0,2,.192,.250,.442
 "M. Olson, 1B (L)",vv,J. Irvin (R),WAS @ ATL,1.6,41%,12%,19,4,0,2,2,.211,.286,.812
-"S. Ohtani, DH (L)",^v,B. Miller (R),SEA @ LAN,1.6,44%,44%,9,4,2,0,0,.444,.444,1.222
 "R. Jeffers, C (R)",^v,N. Cameron (L),KCA @ MIN,1.6,50%,50%,8,4,2,0,0,.500,.500,1.250
 "N. Hoerner, 2B (R)",^>,A. Pallante (R),CHN @ SLN,1.4,63%,13%,11,4,1,1,2,.364,.462,1.189
 "J. Duran, OF (L)",>v,M. Barnett (R),BOS @ ATH,1.8,67%,17%,5,3,1,0,1,.600,.667,1.467
 "A. Riley, 3B (R)",vv,J. Irvin (R),WAS @ ATL,1.6,45%,9%,13,3,0,0,2,.231,.333,.564
 "R. Acuna, OF (R)",vv,J. Irvin (R),WAS @ ATL,1.6,100%,60%,8,3,1,0,0,.375,.500,1.125
-"F. Freeman, 1B (L)",^v,B. Miller (R),SEA @ LAN,1.6,71%,29%,5,3,1,1,2,.600,.714,2.114
+"S. Ohtani, DH (L)",^^,B. Woo (R),SEA @ LAN,1.6,63%,13%,6,3,0,1,2,.500,.625,1.625
 "A. Martin, OF (R)",vv,N. Cameron (L),KCA @ MIN,1.6,100%,100%,8,3,0,0,1,.375,.444,.819
 "N. Loftin, 2B (R)",^v,B. Ober (R),KCA @ MIN,1.6,50%,30%,9,3,2,0,1,.333,.400,.956
 "B. Bichette, 3B (R)",>^,E. Perez (R),MIA @ NYN,1.2,60%,40%,8,3,1,0,0,.375,.375,.875
 "R. Devers, 1B (L)",^>,G. Marquez (R),SFN @ SDN,1.2,44%,0%,10,3,1,0,1,.300,.364,.764
-"I. Herrera, DH (R)",>^,S. Imanaga (L),CHN @ SLN,1.4,50%,33%,10,3,0,1,0,.300,.364,.964
-"J. Wetherholt, SS (L)",v^,S. Imanaga,CHN @ SLN,1.4,---,,5,3,2,1,1,.600,.667,2.267
+"A. Burleson, OF (L)",>^,J. Assad (R),CHN @ SLN,1.4,44%,22%,10,3,1,0,0,.300,.273,.673
 "J. McNeil, 2B (L)",^^,S. Gray (R),BOS @ ATH,1.8,38%,0%,8,2,1,0,0,.250,.250,.625
 "J. Wilson, SS (R)",v^,S. Gray (R),BOS @ ATH,1.8,50%,50%,3,2,0,0,0,.667,.667,1.334
 "K. Ruiz, C (B)",v^,G. Holmes (R),WAS @ ATL,1.6,25%,0%,6,2,1,0,0,.333,.333,.833
@@ -36,6 +34,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "O. Albies, 2B (B)",^v,J. Irvin (R),WAS @ ATL,1.6,54%,23%,15,2,1,0,2,.133,.235,.435
 "E. De La Cruz, SS (B)",^>,H. Barco (L),PIT @ CIN,1.6,100%,100%,2,2,0,1,0,1.000,1.000,3.500
 "B. Lee, SS (B)",vv,N. Cameron (L),KCA @ MIN,1.6,17%,0%,11,2,0,0,0,.182,.182,.364
+"J. Rojas, 3B (L)",>v,B. Ober (R),KCA @ MIN,1.6,60%,60%,5,2,1,0,0,.400,.400,1.000
 "R. Lewis, 3B (R)",vv,N. Cameron (L),KCA @ MIN,1.6,0%,0%,10,2,1,0,0,.200,.200,.500
 "M. Massey, 2B (L)",>v,B. Ober (R),KCA @ MIN,1.6,29%,21%,14,2,0,1,0,.143,.143,.500
 "J. Lee, OF (L)",^>,G. Marquez (R),SFN @ SDN,1.2,25%,25%,6,2,2,0,0,.333,.333,1.166
@@ -53,6 +52,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Wood, OF (L)",^^,G. Holmes (R),WAS @ ATL,1.6,67%,33%,4,1,0,1,2,.250,.500,1.500
 "D. Crews, OF (R)",^^,G. Holmes (R),WAS @ ATL,1.6,100%,50%,3,1,0,1,1,.333,.500,1.833
 "D. Baldwin, C (L)",^v,J. Irvin (R),WAS @ ATL,1.6,0%,0%,5,1,0,0,0,.200,.200,.400
+"M. Yastrzemski, OF (L)",vv,J. Irvin (R),WAS @ ATL,1.6,58%,17%,12,1,0,1,3,.083,.267,.600
 "B. Rice, 1B (L)",v^,S. Burke,NYA @ CHA,1.2,---,,3,1,0,0,0,.333,.333,.666
 "L. Acuna, CF (R)",^v,R. Weathers,NYA @ CHA,1.2,---,,2,1,0,0,0,.500,.500,1.000
 "R. Grichuk, OF (R)",vv,R. Weathers (L),NYA @ CHA,1.2,20%,0%,8,1,0,0,0,.125,.125,.250
@@ -67,22 +67,14 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "R. O'Hearn, 1B (L)",^v,R. Lowder,PIT @ CIN,1.6,---,,1,1,1,0,1,1.000,1.000,3.000
 "S. Stewart, 3B (R)",^>,H. Barco,PIT @ CIN,1.6,---,,2,1,0,1,0,.500,.500,2.500
 "N. Gonzales, 2B (R)",>v,R. Lowder (R),PIT @ CIN,1.6,33%,33%,4,1,0,0,0,.250,.250,.500
-"M. Betts, SS (R)",vv,B. Miller (R),SEA @ LAN,1.6,29%,29%,7,1,0,0,0,.143,.143,.286
-"M. Muncy, 3B (L)",^v,B. Miller (R),SEA @ LAN,1.6,75%,0%,3,1,0,1,1,.333,.500,1.833
 "J. Naylor, 1B (L)",vv,R. Sasaki (R),SEA @ LAN,1.6,50%,0%,2,1,1,0,0,.500,.500,1.500
-"K. Tucker, OF (L)",^v,B. Miller (R),SEA @ LAN,1.6,46%,15%,10,1,0,1,3,.100,.308,.708
+"K. Tucker, OF (L)",^^,B. Woo (R),SEA @ LAN,1.6,100%,0%,2,1,1,0,1,.500,.667,1.667
 "R. Arozarena, OF (R)",^v,R. Sasaki (R),SEA @ LAN,1.6,100%,100%,1,1,1,0,0,1.000,1.000,3.000
-"T. Hernandez, OF (R)",^v,B. Miller (R),SEA @ LAN,1.6,50%,0%,4,1,0,0,0,.250,.250,.500
 "K. Clemens, 1B (L)",^v,N. Cameron (L),KCA @ MIN,1.6,67%,33%,5,1,0,0,1,.200,.333,.533
 "L. Keaschall, 2B (R)",vv,N. Cameron (L),KCA @ MIN,1.6,33%,0%,7,1,0,0,0,.143,.143,.286
 "G. Sheets, 1B (L)",v^,R. Ray (L),SFN @ SDN,1.2,33%,17%,6,1,0,0,0,.167,.167,.334
 "J. Merrill, OF (L)",^^,R. Ray (L),SFN @ SDN,1.2,33%,17%,6,1,1,0,0,.167,.167,.500
 "J. Cronenworth, 2B (L)",>^,R. Ray (L),SFN @ SDN,1.2,33%,22%,7,1,0,0,1,.143,.333,.476
-"P. Pages, C (R)",v^,S. Imanaga (L),CHN @ SLN,1.4,22%,11%,11,1,0,1,0,.091,.091,.455
-"J. Fermin, 3B (R)",v^,S. Imanaga,CHN @ SLN,1.4,---,,4,1,0,0,0,.250,.250,.500
-"J. Walker, OF (R)",v^,S. Imanaga (L),CHN @ SLN,1.4,33%,33%,6,1,0,0,2,.167,.375,.542
-"A. Burleson, OF (L)",>^,S. Imanaga (L),CHN @ SLN,1.4,50%,38%,13,1,1,0,0,.077,.077,.231
-"N. Velazquez, DH (R)",v^,S. Imanaga,CHN @ SLN,1.4,---,,2,1,0,1,0,.500,.667,2.667
 "P. Crow-Armstrong, OF (L)",^>,A. Pallante (R),CHN @ SLN,1.4,40%,40%,10,1,1,0,0,.100,.100,.300
 "E. Duran, 3B (R)",^^,S. McClanahan (L),TEX @ TBA,n/a,40%,20%,5,1,0,1,0,.200,.200,1.000
 "T. Walls, SS (B)",>^,N. Eovaldi (R),TEX @ TBA,n/a,50%,50%,4,1,1,0,0,.250,.250,.750
@@ -100,12 +92,16 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "D. Myers, OF (R)",v>,H. Barco,PIT @ CIN,1.6,---,,1,0,0,0,0,.000,.000,.000
 "N. Marte, 3B (R)",v>,H. Barco (L),PIT @ CIN,1.6,100%,100%,2,0,0,0,0,.000,.000,.000
 "B. Reynolds, OF (B)",vv,R. Lowder (R),PIT @ CIN,1.6,100%,67%,2,0,0,0,1,.000,.333,.333
-"A. Pages, OF (R)",vv,B. Miller (R),SEA @ LAN,1.6,50%,50%,2,0,0,0,0,.000,.000,.000
 "C. Young, 2B (L)",^v,R. Sasaki (R),SEA @ LAN,1.6,0%,0%,1,0,0,0,0,.000,.000,.000
-"T. Edman, OF (B)",^v,B. Miller (R),SEA @ LAN,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
+"M. Betts, SS (R)",v^,B. Woo (R),SEA @ LAN,1.6,33%,0%,2,0,0,0,1,.000,.333,.333
+"M. Muncy, 3B (L)",^^,B. Woo (R),SEA @ LAN,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
+"T. Edman, OF (B)",^^,B. Woo (R),SEA @ LAN,1.6,0%,0%,2,0,0,0,0,.000,.000,.000
 "C. Raleigh, C (B)",vv,R. Sasaki (R),SEA @ LAN,1.6,0%,0%,1,0,0,0,0,.000,.000,.000
+"F. Freeman, 1B (L)",^^,B. Woo (R),SEA @ LAN,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
 "J. Crawford, SS (L)",vv,R. Sasaki (R),SEA @ LAN,1.6,0%,0%,1,0,0,0,0,.000,.000,.000
+"T. Hernandez, OF (R)",^^,B. Woo (R),SEA @ LAN,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
 "J. Bell, 1B (B)",vv,N. Cameron,KCA @ MIN,1.6,---,,5,0,0,0,0,.000,.000,.000
+"A. Roden, OF (L)",vv,N. Cameron (L),KCA @ MIN,1.6,0%,0%,1,0,0,0,0,.000,.500,.500
 "B. Buxton, OF (R)",vv,N. Cameron,KCA @ MIN,1.6,---,,3,0,0,0,0,.000,.000,.000
 "L. Thomas, OF (R)",vv,B. Ober (R),KCA @ MIN,1.6,17%,0%,6,0,0,0,0,.000,.000,.000
 "A. Jackson, C (R)",^v,N. Cameron,KCA @ MIN,1.6,---,,2,0,0,0,0,.000,.000,.000
@@ -128,6 +124,10 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "L. Arraez, 2B (L)",^>,G. Marquez (R),SFN @ SDN,1.2,30%,10%,10,0,0,0,2,.000,.167,.167
 "D. Gilbert, CF (L)",^>,G. Marquez (R),SFN @ SDN,1.2,33%,0%,2,0,0,0,1,.000,.333,.333
 "B. Eldridge, 1B (L)",>>,G. Marquez (R),SFN @ SDN,1.2,50%,0%,1,0,0,0,1,.000,.500,.500
+"J. Fermin, 3B (R)",v^,J. Assad (R),CHN @ SLN,1.4,67%,33%,3,0,0,0,2,.000,.400,.400
+"J. Walker, OF (R)",v^,J. Assad (R),CHN @ SLN,1.4,0%,0%,6,0,0,0,1,.000,.143,.143
+"I. Herrera, DH (R)",>^,J. Assad (R),CHN @ SLN,1.4,0%,0%,7,0,0,0,0,.000,.000,.000
+"J. Wetherholt, SS (L)",v^,J. Assad,CHN @ SLN,1.4,---,,2,0,0,0,0,.000,.000,.000
 "N. Lopez, 2B (L)",v^,S. McClanahan (L),TEX @ TBA,n/a,0%,0%,3,0,0,0,0,.000,.000,.000
 "J. Aranda, 1B (L)",v^,N. Eovaldi (R),TEX @ TBA,n/a,0%,0%,2,0,0,0,0,.000,.000,.000
 "R. Palacios, OF (L)",v^,N. Eovaldi (R),TEX @ TBA,n/a,0%,0%,6,0,0,0,0,.000,.000,.000
