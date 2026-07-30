@@ -48,7 +48,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "C. Rafaela, OF (R)",vv,M. Barnett (R),BOS @ ATH,1.8,50%,0%,2,1,0,0,0,.500,.500,1.000
 "M. Yoshida, DH (L)",vv,M. Barnett (R),BOS @ ATH,1.8,75%,50%,3,1,0,0,1,.333,.500,.833
 "D. Lile, OF (L)",v^,G. Holmes,WAS @ ATL,1.6,---,,2,1,1,0,0,.500,.500,2.000
-"J. Tena, 3B (L)",^^,G. Holmes (R),WAS @ ATL,1.6,33%,33%,6,1,0,0,0,.167,.167,.334
+"J. Tena, DH (L)",^^,G. Holmes (R),WAS @ ATL,1.6,33%,33%,6,1,0,0,0,.167,.167,.334
 "J. Wood, OF (L)",^^,G. Holmes (R),WAS @ ATL,1.6,67%,33%,4,1,0,1,2,.250,.500,1.500
 "D. Crews, OF (R)",^^,G. Holmes (R),WAS @ ATL,1.6,100%,50%,3,1,0,1,1,.333,.500,1.833
 "D. Baldwin, C (L)",^v,J. Irvin (R),WAS @ ATL,1.6,0%,0%,5,1,0,0,0,.200,.200,.400
@@ -111,12 +111,13 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "A. Jackson, C (R)",^v,N. Cameron,KCA @ MIN,1.6,---,,2,0,0,0,0,.000,.000,.000
 "R. Kreidler, SS (R)",^v,N. Cameron,KCA @ MIN,1.6,---,,2,0,0,0,0,.000,.000,.000
 "V. Caratini, C (B)",vv,N. Cameron,KCA @ MIN,1.6,---,,2,0,0,0,0,.000,.000,.000
+"B. Baty, 3B (L)",>^,E. Perez (R),MIA @ NYN,1.2,50%,50%,4,0,0,0,0,.000,.000,.000
 "A. Ewing, OF (L)",>^,E. Perez,MIA @ NYN,1.2,---,,2,0,0,0,0,.000,.000,.000
 "C. Benge, OF (L)",>^,E. Perez,MIA @ NYN,1.2,---,,3,0,0,0,0,.000,.000,.000
 "L. Hicks, C (L)",v^,N. McLean,MIA @ NYN,1.2,---,,2,0,0,0,1,.000,.333,.333
 "O. Lopez, SS (R)",>^,N. McLean,MIA @ NYN,1.2,---,,2,0,0,0,0,.000,.333,.333
 "F. Lindor, SS (B)",^^,E. Perez (R),MIA @ NYN,1.2,50%,0%,4,0,0,0,2,.000,.333,.333
-"J. Marsee, OF (L)",^^,N. McLean (R),MIA @ NYN,1.2,---,,1,0,0,0,1,.000,.500,.500
+"J. Marsee, OF (L)",^^,N. McLean,MIA @ NYN,1.2,---,,1,0,0,0,1,.000,.500,.500
 "J. Sanoja, 3B (R)",v^,N. McLean,MIA @ NYN,1.2,---,,2,0,0,0,1,.000,.333,.333
 "L. Robert, OF (R)",>^,E. Perez (R),MIA @ NYN,1.2,33%,0%,3,0,0,0,0,.000,.000,.000
 "M. Semien, 2B (R)",^^,E. Perez,MIA @ NYN,1.2,---,,2,0,0,0,0,.000,.000,.000

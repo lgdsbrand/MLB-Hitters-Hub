@@ -17,7 +17,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "T. France, 1B (R)",R. Ray (L),SFN @ SDN,1.2,22%,"0,0,0,0,0",+360,15,7,2,.467,.500,1.433
 "B. Rice, 1B (L)",S. Burke(R),NYA @ CHA,1.2,21%,"0,1,0,0,0",+245,3,1,0,.333,.333,.666
 "J. Chisholm, 2B (L)",S. Burke(R),NYA @ CHA,1.2,21%,"0,0,0,0,0",+360,never faced,,,,,
-"J. Mack, C (L)",N. McLean(R),MIA @ NYN,1.2,21%,"0,1,0,0,0",+750,never faced,,,,,
+"J. Mack, C (L)",N. McLean (R),MIA @ NYN,1.2,21%,"0,1,0,0,0",+750,never faced,,,,,
 "M. Busch, 1B (L)",A. Pallante (R),CHN @ SLN,1.4,21%,"0,0,0,0,0",+450,9,7,2,.778,.778,2.334
 "W. Contreras, 1B (R)",M. Barnett(R),BOS @ ATH,1.8,20%,"0,0,0,0,0",+220,never faced,,,,,
 "A. Riley, 3B (R)",J. Irvin (R),WAS @ ATL,1.6,20%,"0,0,0,0,0",+305,13,3,0,.231,.333,.564
@@ -100,5 +100,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "L. Nootbaar, OF (L)",J. Assad (R),CHN @ SLN,1.4,11%,"0,0,0,0,0",+425,11,2,0,.182,.250,.614
 "J. Bart, C (R)",J. Irvin(R),WAS @ ATL,1.6,10%,"0,0,0,0,0",+500,never faced,,,,,
 "M. Vargas, 3B (R)",R. Weathers (L),NYA @ CHA,1.2,10%,"0,1,0,0,0",+280,4,0,0,.000,.200,.200
+"B. Baty, 3B (L)",E. Perez (R),MIA @ NYN,1.2,10%,"0,0,1,0,0",+625,4,0,0,.000,.000,.000
 "J. Merrill, OF (L)",R. Ray (L),SFN @ SDN,1.2,10%,"0,0,1,0,0",+425,6,1,0,.167,.167,.500
 "E. Diaz, C (R)",S. McClanahan(L),TEX @ TBA,n/a,10%,"0,0,0,0,0",+600,never faced,,,,,
