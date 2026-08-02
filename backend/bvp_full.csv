@@ -26,7 +26,6 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "E. Duran, SS (R)",v^,P. Lambert (R),TEX @ HOU,n/a,100%,100%,6,3,1,1,0,.500,.500,1.667
 "C. Seager, SS (L)",^^,P. Lambert (R),TEX @ HOU,n/a,60%,40%,5,3,0,1,0,.600,.600,1.800
 "Y. Alvarez, DH (L)",^^,K. Rocker,TEX @ HOU,n/a,---,,4,3,1,2,1,.750,.667,3.167
-"R. Devers, 1B (L)",>v,R. Vasquez (R),SFN @ SDN,1.5,75%,25%,7,3,0,1,1,.429,.444,1.301
 "K. Clemens, 1B (L)",v^,G. Kirby (R),MIN @ SEA,n/a,29%,14%,9,3,1,0,1,.333,.400,.844
 "T. Larnach, OF (L)",v^,G. Kirby (R),MIN @ SEA,n/a,29%,0%,9,3,0,1,1,.333,.400,1.067
 "E. Clement, 2B (R)",v>,M. Liberatore (L),SLN @ TOR,n/a,60%,20%,5,3,1,1,0,.600,.600,2.000
@@ -46,8 +45,6 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "L. Thomas, OF (R)",vv,K. Freeland (L),KCA @ COL,1.2,38%,13%,14,2,0,0,2,.143,.250,.393
 "J. Pena, SS (R)",^^,K. Rocker,TEX @ HOU,n/a,---,,5,2,0,0,0,.400,.571,.971
 "C. Vazquez, C (R)",v^,K. Rocker,TEX @ HOU,n/a,---,,5,2,0,1,0,.400,.400,1.400
-"L. Arraez, 2B (L)",>v,R. Vasquez (R),SFN @ SDN,1.5,100%,100%,6,2,2,0,0,.333,.333,1.000
-"W. Adames, SS (R)",vv,R. Vasquez (R),SFN @ SDN,1.5,50%,0%,7,2,0,0,0,.286,.286,.572
 "L. Rengifo, 3B (B)",>>,L. Roupp (R),SFN @ SDN,1.5,33%,0%,4,2,0,0,1,.500,.600,1.100
 "X. Bogaerts, SS (R)",v>,L. Roupp (R),SFN @ SDN,1.5,14%,0%,9,2,0,0,0,.222,.222,.444
 "L. Campusano, C (R)",^>,L. Roupp (R),SFN @ SDN,1.5,100%,50%,4,2,0,0,0,.500,.500,1.000
@@ -104,9 +101,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "W. Contreras, 1B (R)",^>,E. Sheehan (R),BOS @ LAN,1.8,50%,50%,2,1,0,0,0,.500,.500,1.000
 "F. Alvarez, C (R)",v^,S. Alcantara (R),MIA @ NYN,1.7,33%,0%,3,1,0,0,0,.333,.333,.666
 "B. Bichette, 3B (R)",v^,S. Alcantara (R),MIA @ NYN,1.7,29%,14%,6,1,0,0,0,.167,.286,.453
-"J. Lee, OF (L)",vv,R. Vasquez,SFN @ SDN,1.5,---,,4,1,1,0,1,.250,.400,.900
-"H. Ramos, OF (R)",^v,R. Vasquez,SFN @ SDN,1.5,---,,5,1,0,0,0,.200,.200,.400
 "G. Sheets, 1B (L)",v>,L. Roupp (R),SFN @ SDN,1.5,71%,0%,6,1,0,1,3,.167,.444,1.111
+"L. Arraez, 2B (L)",>v,G. Canning (R),SFN @ SDN,1.5,50%,0%,2,1,0,0,0,.500,.500,1.000
+"R. Devers, 1B (L)",>v,G. Canning (R),SFN @ SDN,1.5,44%,22%,8,1,0,0,1,.125,.222,.347
 "J. Cronenworth, 2B (L)",v>,L. Roupp (R),SFN @ SDN,1.5,80%,40%,6,1,0,0,2,.167,.375,.542
 "B. Lee, 3B (B)",^^,G. Kirby,MIN @ SEA,n/a,---,,2,1,0,0,0,.500,.500,1.000
 "C. Young, 2B (L)",^^,T. Bradley,MIN @ SEA,n/a,---,,3,1,1,0,0,.333,.333,1.000
@@ -167,14 +164,15 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "W. Abreu, OF (L)",v>,E. Sheehan (R),BOS @ LAN,1.8,0%,0%,2,0,0,0,0,.000,.000,.000
 "C. Durbin, 3B (R)",^>,E. Sheehan (R),BOS @ LAN,1.8,0%,0%,1,0,0,0,0,.000,.000,.000
 "C. Rafaela, OF (R)",^>,E. Sheehan (R),BOS @ LAN,1.8,0%,0%,2,0,0,0,0,.000,.000,.000
+"M. Yoshida, DH (L)",v>,E. Sheehan (R),BOS @ LAN,1.8,0%,0%,2,0,0,0,0,.000,.000,.000
 ---,,J. Bennett,BOS @ LAN,1.8,no matchup history,,,,,,,,,
 "L. Robert, OF (R)",v^,S. Alcantara (R),MIA @ NYN,1.7,0%,0%,3,0,0,0,0,.000,.000,.000
 "J. Polanco, DH (B)",v^,S. Alcantara (R),MIA @ NYN,1.7,33%,0%,3,0,0,0,0,.000,.000,.000
 ---,,R. Stock,MIA @ NYN,1.7,no matchup history,,,,,,,,,
+"O. Basabe, SS (R)",>v,G. Canning (R),SFN @ SDN,1.5,100%,100%,1,0,0,0,0,.000,.000,.000
 "T. France, 1B (R)",^>,L. Roupp (R),SFN @ SDN,1.5,0%,0%,3,0,0,0,0,.000,.000,.000
-"D. Gilbert, OF (L)",^v,R. Vasquez,SFN @ SDN,1.5,---,,2,0,0,0,0,.000,.000,.000
+"W. Adames, SS (R)",vv,G. Canning (R),SFN @ SDN,1.5,67%,33%,2,0,0,0,1,.000,.333,.333
 "J. Merrill, OF (L)",v>,L. Roupp (R),SFN @ SDN,1.5,17%,17%,8,0,0,0,0,.000,.000,.000
-"B. Eldridge, DH (L)",vv,R. Vasquez,SFN @ SDN,1.5,---,,3,0,0,0,1,.000,.250,.250
 "L. Raley, OF (L)",v^,T. Bradley (R),MIN @ SEA,n/a,0%,0%,5,0,0,0,0,.000,.000,.000
 "R. Lewis, 3B (R)",v^,G. Kirby,MIN @ SEA,n/a,---,,2,0,0,0,0,.000,.000,.000
 "R. Arozarena, OF (R)",^^,T. Bradley,MIN @ SEA,n/a,---,,3,0,0,0,0,.000,.000,.000

@@ -31,6 +31,8 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "B. Harper, 1B (L)",K. Bradish (R),PHI @ BAL,1.7,22.3%,"1,0,0,0,0",+290,5,0,0,.000,.000,.000
 "B. Reynolds, OF (B)",C. Burns (R),PIT @ CIN,1.3,22.9%,"1,0,0,0,0",+340,10,2,0,.200,.273,.573
 "J. Pederson, DH (L)",P. Lambert (R),TEX @ HOU,n/a,22.3%,"0,2,0,1,0",+340,16,4,2,.250,.455,1.143
+"H. Ramos, OF (R)",G. Canning (R),SFN @ SDN,1.5,22.7%,"0,0,0,0,0",+325,never faced,,,,,
+"R. Devers, 1B (L)",G. Canning (R),SFN @ SDN,1.5,22.4%,"0,0,0,0,0",+280,8,1,0,.125,.222,.347
 "M. Machado, 3B (R)",L. Roupp (R),SFN @ SDN,1.5,22.5%,"0,0,0,0,0",+340,13,4,1,.308,.357,.895
 "M. Vargas, 3B (R)",G. Jax (R),CHA @ TBA,n/a,22.4%,"0,0,0,1,0",+340,4,1,0,.250,.250,.750
 "L. Nootbaar, OF (L)",M. Scherzer (R),SLN @ TOR,n/a,22%,"0,0,0,0,0",+340,3,1,0,.333,.333,1.000
@@ -40,7 +42,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "C. Seager, SS (L)",P. Lambert (R),TEX @ HOU,n/a,21.8%,"1,0,0,0,0",,5,3,1,.600,.600,1.800
 "T. Trammell, OF (L)",K. Rocker (R),TEX @ HOU,n/a,21.4%,"0,0,0,0,0",+380,3,0,0,.000,.000,.000
 "W. Contreras, 1B (R)",E. Sheehan (R),BOS @ LAN,1.8,21.6%,"0,0,0,1,0",+305,2,1,0,.500,.500,1.000
-"R. Devers, 1B (L)",R. Vasquez (R),SFN @ SDN,1.5,21.4%,"0,0,0,0,0",+280,7,3,1,.429,.444,1.301
 "J. Bell, DH (B)",G. Kirby (R),MIN @ SEA,n/a,21.2%,"0,0,0,0,0",+400,10,4,2,.400,.400,1.400
 "K. Clemens, 1B (L)",G. Kirby (R),MIN @ SEA,n/a,21.7%,"0,0,1,0,0",+325,9,3,0,.333,.400,.844
 "V. Guerrero, 1B (R)",M. Liberatore (L),SLN @ TOR,n/a,21.4%,"0,0,0,0,0",+360,4,2,0,.500,.500,1.000
@@ -56,10 +57,9 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "W. Castro, 2B (B)",S. Lugo (R),KCA @ COL,1.2,20%,"0,1,1,0,1",+340,10,4,0,.400,.455,1.055
 "J. Burger, 1B (R)",P. Lambert (R),TEX @ HOU,n/a,20.2%,"1,0,0,0,0",+305,5,1,1,.200,.200,1.000
 "I. Paredes, 3B (R)",K. Rocker (R),TEX @ HOU,n/a,20.1%,"0,0,0,1,0",+360,5,1,0,.200,.333,.733
+"M. Muncy, 3B (L)",J. Bennett (L),BOS @ LAN,1.8,20.1%,"1,0,0,1,0",+280,never faced,,,,,
 "D. Rushing, C (L)",J. Bennett (L),BOS @ LAN,1.8,20.4%,"0,0,0,1,0",+400,never faced,,,,,
 ---,J. Bennett(L),BOS @ LAN,1.8,20.4%,,+400,no matchup history,,,,,
-"H. Ramos, OF (R)",R. Vasquez (R),SFN @ SDN,1.5,20.2%,"0,0,0,0,0",+325,5,1,0,.200,.200,.400
-"W. Adames, SS (R)",R. Vasquez (R),SFN @ SDN,1.5,20.9%,"0,0,0,0,0",+360,7,2,0,.286,.286,.572
 "R. Lewis, 3B (R)",G. Kirby (R),MIN @ SEA,n/a,20.8%,"0,0,0,1,0",+360,2,0,0,.000,.000,.000
 "R. Arozarena, OF (R)",T. Bradley (R),MIN @ SEA,n/a,20.1%,"0,0,0,0,1",+380,3,0,0,.000,.000,.000
 "C. Montgomery, SS (L)",G. Jax (R),CHA @ TBA,n/a,20.9%,"0,0,0,1,0",+325,1,0,0,.000,.500,.500
@@ -73,10 +73,10 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "T. Grisham, OF (L)",C. Rea (R),NYA @ CHN,1.1,19.9%,"0,0,0,0,0",+425,4,1,1,.250,.400,1.400
 "C. Smith, OF (R)",K. Rocker (R),TEX @ HOU,n/a,19.5%,"0,0,0,0,0",+425,2,0,0,.000,.000,.000
 "C. Walker, 1B (R)",K. Rocker (R),TEX @ HOU,n/a,19%,"0,1,0,1,0",+325,5,0,0,.000,.167,.167
-"R. Gonzalez, DH (R)",E. Sheehan (R),BOS @ LAN,1.8,19.5%,"0,0,0,0,0",+450,never faced,,,,,
 "T. Hernandez, OF (R)",J. Bennett (L),BOS @ LAN,1.8,19.1%,"0,0,1,0,1",+325,never faced,,,,,
 "J. Young, 1B (L)",S. Alcantara (R),MIA @ NYN,1.7,19.3%,"0,0,0,0,0",+400,never faced,,,,,
-"B. Eldridge, DH (L)",R. Vasquez (R),SFN @ SDN,1.5,19.1%,"1,0,0,0,0",+340,3,0,0,.000,.250,.250
+"W. Adames, SS (R)",G. Canning (R),SFN @ SDN,1.5,19.8%,"0,0,0,0,0",+360,2,0,0,.000,.333,.333
+"B. Eldridge, DH (L)",G. Canning (R),SFN @ SDN,1.5,19.1%,"1,0,0,0,0",+340,never faced,,,,,
 "J. Rodriguez, OF (R)",T. Bradley (R),MIN @ SEA,n/a,19%,"1,0,0,0,0",+380,12,4,1,.333,.333,1.000
 "A. Kirk, C (R)",M. Liberatore (L),SLN @ TOR,n/a,19.2%,"0,0,0,0,0",+380,4,1,0,.250,.250,.500
 "L. Urias, 2B (R)",M. Liberatore (L),SLN @ TOR,n/a,19.8%,"0,0,1,0,0",+400,3,1,0,.333,.333,.666
@@ -87,6 +87,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "T. Bazzana, 2B (L)",M. Kelly (R),ARI @ CLE,1.2,18.1%,"0,0,0,0,0",+425,never faced,,,,,
 "J. Pena, SS (R)",K. Rocker (R),TEX @ HOU,n/a,18.1%,"0,0,1,0,0",+400,5,2,0,.400,.571,.971
 "F. Freeman, 1B (L)",J. Bennett (L),BOS @ LAN,1.8,18.1%,"0,0,0,0,0",+380,never faced,,,,,
+"M. Yoshida, DH (L)",E. Sheehan (R),BOS @ LAN,1.8,18.1%,"0,0,0,0,0",+400,2,0,0,.000,.000,.000
 "F. Alvarez, C (R)",S. Alcantara (R),MIA @ NYN,1.7,18.8%,"0,0,0,0,0",+340,3,1,0,.333,.333,.666
 "J. Merrill, OF (L)",L. Roupp (R),SFN @ SDN,1.5,18%,"0,0,0,0,0",+400,8,0,0,.000,.000,.000
 "R. Jeffers, C (R)",G. Kirby (R),MIN @ SEA,n/a,18.5%,"0,0,0,1,0",+450,5,2,0,.400,.400,.800
@@ -104,7 +105,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "N. Loftin, 3B (R)",K. Freeland (L),KCA @ COL,1.2,17.8%,"0,0,0,0,0",+400,3,0,0,.000,.000,.000
 "B. Nimmo, OF (L)",P. Lambert (R),TEX @ HOU,n/a,17.8%,"0,0,0,0,0",+400,7,0,0,.000,.125,.125
 "A. Pages, OF (R)",J. Bennett (L),BOS @ LAN,1.8,17.9%,"0,1,0,0,0",+325,never faced,,,,,
-"E. Hernandez, 1B (R)",J. Bennett (L),BOS @ LAN,1.8,17.1%,"0,1,0,0,0",,never faced,,,,,
 "T. France, 1B (R)",L. Roupp (R),SFN @ SDN,1.5,17.4%,"0,0,0,0,0",+425,3,0,0,.000,.000,.000
 "I. Herrera, DH (R)",M. Scherzer (R),SLN @ TOR,n/a,17.6%,"0,0,0,0,0",+400,never faced,,,,,
 "M. Trout, OF (R)",J. Misiorowski (R),MIL @ ANA,1.6,16.3%,"0,0,0,0,0",+340,never faced,,,,,
@@ -145,7 +145,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "J. Dominguez, OF (B)",C. Rea (R),NYA @ CHN,1.1,14.6%,"0,0,0,0,0",+700,2,1,1,.500,.500,2.500
 "N. Marte, OF (R)",M. Keller (R),PIT @ CIN,1.3,14.8%,"0,0,0,0,0",+425,3,0,0,.000,.250,.250
 "J. Gonzalez, SS (L)",C. Burns (R),PIT @ CIN,1.3,14.3%,"0,0,0,0,0",+450,never faced,,,,,
-"N. Allen, SS (R)",K. Rocker (R),TEX @ HOU,n/a,14.7%,"0,0,0,0,0",,4,1,0,.250,.250,.500
 "K. Tucker, OF (L)",J. Bennett (L),BOS @ LAN,1.8,14.9%,"0,0,0,0,0",+380,never faced,,,,,
 "C. Emerson, SS (L)",T. Bradley (R),MIN @ SEA,n/a,14.2%,"0,0,0,0,0",+750,never faced,,,,,
 "J. Aranda, 1B (L)",A. Kay (L),CHA @ TBA,n/a,14.2%,"0,0,0,0,0",+700,never faced,,,,,
@@ -170,6 +169,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "H. Bolte, OF (R)",K. Montero (R),DET @ ATH,1.7,12.8%,"0,0,0,0,1",+700,1,0,0,.000,.000,.000
 "P. Halpin, OF (L)",M. Kelly (R),ARI @ CLE,1.2,12.9%,"0,0,0,0,0",+700,never faced,,,,,
 "E. Julien, 2B (L)",S. Lugo (R),KCA @ COL,1.2,12.7%,"0,0,1,0,0",+670,10,1,0,.100,.100,.200
+"D. Cavanaugh, C (L)",G. Canning (R),SFN @ SDN,1.5,12.6%,"0,0,0,0,0",+750,never faced,,,,,
 "V. Grissom, 2B (R)",J. Misiorowski (R),MIL @ ANA,1.6,11.1%,"1,0,0,0,0",+750,never faced,,,,,
 "T. White, 3B (R)",K. Montero (R),DET @ ATH,1.7,11.9%,"0,0,0,0,0",+700,never faced,,,,,
 "L. Taveras, OF (B)",Z. Wheeler (R),PHI @ BAL,1.7,11.1%,"1,0,0,0,0",+750,3,1,0,.333,.333,.666
@@ -181,6 +181,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "E. Diaz, C (R)",P. Lambert (R),TEX @ HOU,n/a,11.5%,"0,0,0,0,1",+700,2,1,0,.500,.500,1.000
 "E. Carter, OF (L)",P. Lambert (R),TEX @ HOU,n/a,11.4%,"0,0,0,0,0",+625,5,0,0,.000,.000,.000
 "J. Polanco, DH (B)",S. Alcantara (R),MIA @ NYN,1.7,11.9%,"0,0,0,0,0",+450,3,0,0,.000,.000,.000
+"D. Gilbert, OF (L)",G. Canning (R),SFN @ SDN,1.5,11.4%,"0,0,0,0,0",+850,never faced,,,,,
 "L. Campusano, C (R)",L. Roupp (R),SFN @ SDN,1.5,11.4%,"0,0,0,0,0",+700,4,2,0,.500,.500,1.000
 "R. Kreidler, SS (R)",G. Kirby (R),MIN @ SEA,n/a,11.4%,"0,0,0,0,0",+850,never faced,,,,,
 "J. DeLuca, OF (R)",A. Kay (L),CHA @ TBA,n/a,11.1%,"0,0,0,1,0",+750,1,0,0,.000,.500,.500
@@ -198,7 +199,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "C. Vazquez, C (R)",K. Rocker (R),TEX @ HOU,n/a,10.5%,"0,0,0,0,0",+750,5,2,1,.400,.400,1.400
 "C. Rafaela, OF (R)",E. Sheehan (R),BOS @ LAN,1.8,10.8%,"0,0,0,1,2",+700,2,0,0,.000,.000,.000
 "G. Sheets, 1B (L)",L. Roupp (R),SFN @ SDN,1.5,10%,"0,0,0,0,0",+700,6,1,1,.167,.444,1.111
-"D. Cavanaugh, C (L)",R. Vasquez (R),SFN @ SDN,1.5,10.7%,"0,0,0,0,0",+750,never faced,,,,,
 "S. Antonacci, SS (L)",G. Jax (R),CHA @ TBA,n/a,10.3%,"0,0,1,0,0",+850,never faced,,,,,
 "M. Straw, OF (R)",M. Liberatore (L),SLN @ TOR,n/a,10.9%,"0,0,0,0,0",+950,6,2,0,.333,.333,.666
 "J. Fermin, OF (R)",M. Scherzer (R),SLN @ TOR,n/a,10.9%,"0,0,1,0,0",+700,never faced,,,,,
