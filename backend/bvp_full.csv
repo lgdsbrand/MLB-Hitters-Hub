@@ -35,6 +35,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "Y. Diaz, DH (R)",^v,M. Lorenzen (R),TBA @ COL,1.1,67%,11%,7,2,1,0,2,.286,.444,.873
 "C. Mullins, OF (L)",vv,M. Lorenzen (R),TBA @ COL,1.1,71%,29%,5,2,0,1,1,.400,.571,1.571
 "R. Palacios, 2B (L)",vv,M. Lorenzen (R),TBA @ COL,1.1,100%,25%,2,2,0,0,2,1.000,1.000,2.000
+"J. Ortiz, SS (R)",^v,B. Chandler (R),PIT @ MIL,1.2,50%,0%,4,2,0,0,0,.500,.500,1.000
 "A. Vaughn, 1B (R)",^v,B. Chandler (R),PIT @ MIL,1.2,100%,100%,2,2,0,0,0,1.000,1.000,2.000
 "L. Arraez, 2B (L)",vv,A. Alvarez,WAS @ PHI,1.4,---,,4,2,1,0,0,.500,.500,1.500
 "J. Lee, OF (L)",^v,C. Quantrill (R),SFN @ TEX,n/a,40%,0%,5,2,0,0,0,.400,.400,.800
@@ -58,6 +59,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Pena, SS (R)",^v,S. Bieber (R),TOR @ HOU,n/a,33%,0%,3,1,1,0,0,.333,.333,1.000
 "L. Wade, OF (L)",>v,S. Bieber (R),TOR @ HOU,n/a,33%,17%,6,1,0,1,0,.167,.167,.834
 "C. Smith, OF (R)",^v,S. Bieber,TOR @ HOU,n/a,---,,2,1,0,1,0,.500,.500,2.500
+"M. Straw, OF (R)",v^,C. Javier (R),TOR @ HOU,n/a,29%,29%,7,1,1,0,0,.143,.143,.429
 "N. Lukes, OF (L)",v^,C. Javier (R),TOR @ HOU,n/a,33%,33%,3,1,1,0,0,.333,.333,1.000
 "E. Clement, 2B (R)",v^,C. Javier (R),TOR @ HOU,n/a,40%,0%,5,1,0,0,0,.200,.200,.400
 "J. Sanchez, OF (L)",v^,C. Javier (R),TOR @ HOU,n/a,50%,50%,2,1,0,0,0,.500,.500,1.000
@@ -68,12 +70,13 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Bauers, 1B (L)",^v,B. Chandler (R),PIT @ MIL,1.2,100%,0%,2,1,1,0,2,.500,.750,1.750
 "J. Chourio, OF (R)",vv,B. Chandler,PIT @ MIL,1.2,---,,3,1,0,0,0,.333,.333,.666
 "G. Mitchell, OF (L)",vv,B. Chandler,PIT @ MIL,1.2,---,,2,1,0,0,0,.500,.500,1.000
-"L. Garcia, 1B (L)",^v,M. McGreevy,SLN @ NYA,1.5,---,,3,1,0,0,0,.333,.333,.666
-"R. McMahon, 3B (L)",vv,M. McGreevy (R),SLN @ NYA,1.5,40%,40%,5,1,0,0,0,.200,.200,.400
+"L. Garcia, 1B (L)",^v,M. McGreevy,SLN @ NYA,1.6,---,,3,1,0,0,0,.333,.333,.666
+"R. McMahon, 3B (L)",vv,M. McGreevy (R),SLN @ NYA,1.6,40%,40%,5,1,0,0,0,.200,.200,.400
 "D. Lile, OF (L)",^>,A. Nola (R),WAS @ PHI,1.4,40%,20%,7,1,0,0,0,.143,.143,.286
 "J. Vivas, 3B (L)",v>,A. Nola,WAS @ PHI,1.4,---,,2,1,0,1,0,.500,.500,2.500
 "N. Nunez, 2B (B)",v>,A. Nola (R),WAS @ PHI,1.4,100%,0%,4,1,0,0,0,.250,.250,.500
 "C. Koss, 2B (R)",vv,C. Quantrill (R),SFN @ TEX,n/a,50%,50%,2,1,0,1,0,.500,.500,2.500
+"A. Wynns, C (R)",vv,L. Webb (R),SFN @ TEX,n/a,50%,50%,2,1,0,0,0,.500,.500,1.000
 "H. Ramos, OF (R)",^v,C. Quantrill (R),SFN @ TEX,n/a,13%,0%,7,1,1,0,0,.143,.250,.679
 "W. Langford, OF (R)",vv,L. Webb (R),SFN @ TEX,n/a,33%,0%,3,1,1,0,0,.333,.333,1.000
 "T. Tawa, OF (R)",v^,M. King,SDN @ ARI,n/a,---,,2,0,0,0,0,.000,.000,.000
@@ -97,7 +100,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "B. Reynolds, OF (B)",v>,B. Sproat,PIT @ MIL,1.2,---,,1,0,0,0,0,.000,.500,.500
 "N. Gonzales, 3B (R)",v>,B. Sproat,PIT @ MIL,1.2,---,,1,0,0,0,1,.000,.500,.500
 "W. Contreras, C (R)",>v,B. Chandler (R),PIT @ MIL,1.2,50%,0%,1,0,0,0,1,.000,.500,.500
----,,C. Schlittler,SLN @ NYA,1.5,no matchup history,,,,,,,,,
+---,,C. Schlittler,SLN @ NYA,1.6,no matchup history,,,,,,,,,
 "D. Hill, OF (R)",>v,A. Alvarez (L),WAS @ PHI,1.4,0%,0%,1,0,0,0,0,.000,.000,.000
 "B. House, 3B (R)",>v,A. Nola (R),WAS @ PHI,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
 "A. Chaparro, 1B (R)",>>,A. Nola (R),WAS @ PHI,1.4,33%,0%,3,0,0,0,0,.000,.000,.000
