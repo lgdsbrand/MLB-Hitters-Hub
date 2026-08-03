@@ -18,6 +18,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "B. Turang, 2B (L)",B. Chandler (R),PIT @ MIL,1.2,71%,"3,2,1,1,1",0.5,-245,6,3,0,.500,.500,1.167
 "C. Yelich, DH (L)",B. Chandler (R),PIT @ MIL,1.2,71%,"0,1,1,1,0",0.5,-209,3,1,0,.333,.333,.666
 "L. Garcia, 1B (L)",A. Nola (R),WAS @ PHI,1.6,71%,"2,1,3,0,1",0.5,,42,14,3,.333,.378,.997
+"B. De La Cruz, OF (R)",A. Alvarez (L),WAS @ PHI,1.6,71%,"2,2,0,1,1",0.5,,never faced,,,,,
 "N. Gonzales, 3B (R)",B. Sproat (R),PIT @ MIL,1.2,70%,"1,2,2,0,0",0.5,-265,1,0,0,.000,.500,.500
 "C. Carroll, OF (L)",M. King (R),SDN @ ARI,n/a,69%,"1,1,0,2,0",0.5,-260,9,1,0,.111,.273,.384
 "M. Betts, SS (R)",M. Boyd (L),LAN @ CHN,1.2,69%,"1,1,2,1,0",0.5,-265,18,6,0,.333,.368,.812
@@ -85,8 +86,9 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "D. Varsho, OF (L)",C. Javier (R),TOR @ HOU,n/a,58%,"1,2,0,1,0",0.5,-213,11,3,0,.273,.333,.969
 "E. Carter, OF (L)",L. Webb (R),SFN @ TEX,n/a,58%,"2,2,2,0,1",0.5,-182,never faced,,,,,
 "P. Crow-Armstrong, OF (L)",J. Wrobleski (L),LAN @ CHN,1.2,57%,"1,2,0,1,0",0.5,-230,2,1,0,.500,.667,1.167
-"B. Doyle, OF (R)",I. Seymour (L),TBA @ COL,1.1,57%,"2,1,0,1,1",0.5,,never faced,,,,,
+"B. Doyle, OF (R)",I. Seymour(L),TBA @ COL,1.1,57%,"2,1,0,1,1",0.5,,never faced,,,,,
 "J. Sanchez, OF (L)",C. Javier (R),TOR @ HOU,n/a,57%,"0,0,1,0,0",0.5,,2,1,0,.500,.500,1.000
+"E. Sosa, OF (R)",A. Alvarez (L),WAS @ PHI,1.6,57%,"1,1,0,2,0",0.5,,never faced,,,,,
 "K. Schwarber, DH (L)",A. Alvarez (L),WAS @ PHI,1.6,57%,"1,1,0,0,0",0.5,-250,never faced,,,,,
 "J. Triolo, SS (R)",B. Sproat (R),PIT @ MIL,1.2,56%,"1,1,0,2,0",0.5,,1,0,0,.000,.000,.000
 "L. Nootbaar, OF (L)",C. Schlittler (R),SLN @ NYA,1.6,56%,"1,0,0,1,1",0.5,-170,never faced,,,,,
@@ -96,6 +98,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "A. Gimenez, SS (L)",C. Javier (R),TOR @ HOU,n/a,55%,"3,0,0,2,1",0.5,-162,8,0,0,.000,.100,.100
 "E. Valdez, 1B (L)",B. Sproat (R),PIT @ MIL,1.2,55%,,0.5,,never faced,,,,,
 "A. Wells, C (L)",M. McGreevy (R),SLN @ NYA,1.6,55%,"1,0,0,1,0",0.5,-130,never faced,,,,,
+"D. Hill, OF (R)",A. Alvarez (L),WAS @ PHI,1.6,55%,"3,1,0,0,0",0.5,,1,0,0,.000,.000,.000
 "T. Edman, 2B (B)",M. Boyd (L),LAN @ CHN,1.2,54%,"2,0,0,0,0",0.5,-290,11,1,1,.091,.091,.455
 "E. Hernandez, 1B (R)",M. Boyd (L),LAN @ CHN,1.2,54%,"2,2,0,1,0",0.5,,3,0,0,.000,.400,.400
 "T. Freeman, OF (R)",I. Seymour (L),TBA @ COL,1.1,54%,"0,1,1,0,1",0.5,-250,never faced,,,,,
@@ -109,7 +112,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "D. Hamilton, 3B (L)",B. Chandler (R),PIT @ MIL,1.2,51%,"1,1,1,0,0",0.5,,never faced,,,,,
 "L. Wade, OF (L)",S. Bieber (R),TOR @ HOU,n/a,50%,"1,0,0,1,1",0.5,-112,6,1,1,.167,.167,.834
 "E. Rodriguez, C (B)",B. Sproat (R),PIT @ MIL,1.2,49%,"1,1,1,1,0",0.5,,never faced,,,,,
-"B. Marsh, OF (L)",A. Alvarez (L),WAS @ PHI,1.6,49%,"0,1,0,2,1",0.5,-240,never faced,,,,,
+"B. Marsh, OF (L)",A. Alvarez(L),WAS @ PHI,1.6,49%,"0,1,0,2,1",0.5,-240,never faced,,,,,
 "M. Amaya, C (R)",J. Wrobleski (L),LAN @ CHN,1.2,48%,"2,2,0,1,0",0.5,-114,never faced,,,,,
 "J. Bauers, 1B (L)",B. Chandler (R),PIT @ MIL,1.2,48%,"1,2,2,1,1",0.5,-170,2,1,0,.500,.750,1.750
 "J. Garcia, OF (R)",B. Sproat (R),PIT @ MIL,1.2,48%,"1,0,0,1,0",0.5,,never faced,,,,,
@@ -119,6 +122,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "J. Wetherholt, SS (L)",C. Schlittler (R),SLN @ NYA,1.6,47%,"1,0,2,0,0",0.5,-200,never faced,,,,,
 "T. Grisham, OF (L)",M. McGreevy (R),SLN @ NYA,1.6,46%,"1,0,2,0,0",0.5,-265,never faced,,,,,
 "E. Diaz, C (R)",L. Webb (R),SFN @ TEX,n/a,46%,"0,0,1,1,0",0.5,-176,25,3,0,.120,.148,.268
+"L. Hicks, C (L)",M. Lorenzen (R),TBA @ COL,1.1,43%,"2,0,2,0,2",0.5,,4,1,1,.250,.333,1.333
 "T. Walls, SS (B)",M. Lorenzen (R),TBA @ COL,1.1,42%,"0,0,0,0,0",0.5,-240,4,0,0,.000,.000,.000
 "T. Turner, SS (R)",A. Alvarez (L),WAS @ PHI,1.6,42%,"0,2,3,2,1",1.5,+169,never faced,,,,,
 "G. Sheets, 1B (L)",B. Pfaadt (R),SDN @ ARI,n/a,40%,"0,1,1,0,1",0.5,-209,13,1,1,.077,.143,.451
@@ -126,7 +130,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "J. Mangum, OF (B)",B. Sproat (R),PIT @ MIL,1.2,38%,"2,1,2,2,0",1.5,+191,1,0,0,.000,.500,.500
 "J. Merrill, OF (L)",B. Pfaadt (R),SDN @ ARI,n/a,37%,"1,1,0,1,2",1.5,+188,19,4,0,.211,.286,.602
 "C. Simpson, OF (L)",M. Lorenzen (R),TBA @ COL,1.1,37%,"0,0,1,1,3",1.5,+118,5,1,0,.200,.200,.800
-"L. Arraez, 2B (L)",A. Alvarez (L),WAS @ PHI,1.6,35%,"1,4,0,1,0",1.5,+155,4,2,0,.500,.500,1.500
+"L. Arraez, 2B (L)",A. Alvarez(L),WAS @ PHI,1.6,35%,"1,4,0,1,0",1.5,+155,4,2,0,.500,.500,1.500
 "F. Tatis, OF (R)",B. Pfaadt (R),SDN @ ARI,n/a,34%,"5,1,1,1,0",1.5,+143,29,6,1,.207,.233,.578
 "B. Harper, 1B (L)",A. Alvarez (L),WAS @ PHI,1.6,34%,"1,1,1,2,1",1.5,+181,never faced,,,,,
 "J. Caminero, 3B (R)",M. Lorenzen (R),TBA @ COL,1.1,30%,"0,0,1,0,2",1.5,+111,6,3,2,.500,.500,2.167

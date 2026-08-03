@@ -22,6 +22,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "J. Walker, OF (R)",C. Schlittler (R),SLN @ NYA,1.6,22.7%,"0,0,0,0,0",+325,never faced,,,,,
 "T. Grisham, OF (L)",M. McGreevy (R),SLN @ NYA,1.6,22.5%,"0,0,0,0,0",+280,never faced,,,,,
 "J. Chisholm, 2B (L)",M. McGreevy (R),SLN @ NYA,1.6,22.8%,"0,0,0,0,0",+305,never faced,,,,,
+"B. De La Cruz, OF (R)",A. Alvarez (L),WAS @ PHI,1.6,22.1%,"0,0,0,0,1",,never faced,,,,,
 "H. Ramos, OF (R)",C. Quantrill (R),SFN @ TEX,n/a,22.5%,"0,0,0,0,0",+340,7,1,0,.143,.250,.679
 "W. Langford, OF (R)",L. Webb (R),SFN @ TEX,n/a,22.3%,"0,0,0,1,0",+360,3,1,0,.333,.333,1.000
 "I. Paredes, 3B (R)",S. Bieber (R),TOR @ HOU,n/a,21.3%,"0,0,1,0,0",+360,12,3,0,.250,.250,.583
@@ -69,7 +70,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "K. Karros, 3B (R)",I. Seymour (L),TBA @ COL,1.1,16.7%,"0,0,0,0,0",+425,never faced,,,,,
 "Y. Diaz, C (R)",S. Bieber (R),TOR @ HOU,n/a,16.8%,"0,0,1,1,0",+425,8,4,1,.500,.500,1.625
 "D. Varsho, OF (L)",C. Javier (R),TOR @ HOU,n/a,16.4%,"0,0,0,0,0",+360,11,3,0,.273,.333,.969
-"B. Marsh, OF (L)",A. Alvarez (L),WAS @ PHI,1.6,16.3%,"0,0,0,0,0",+380,never faced,,,,,
 "J. Realmuto, C (R)",A. Alvarez (L),WAS @ PHI,1.6,16.7%,"0,0,1,0,0",+400,never faced,,,,,
 "C. Seager, SS (L)",L. Webb (R),SFN @ TEX,n/a,16.5%,"0,0,0,0,0",,17,4,0,.235,.235,.588
 "A. Pages, OF (R)",M. Boyd (L),LAN @ CHN,1.2,15.7%,"1,0,0,0,0",+400,6,1,1,.167,.167,.834
@@ -92,7 +92,6 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "B. Jordan, 1B (R)",C. Schlittler (R),SLN @ NYA,1.6,13.9%,"0,0,0,0,0",+700,never faced,,,,,
 "L. Garcia, 1B (L)",M. McGreevy (R),SLN @ NYA,1.6,13.7%,"1,0,1,0,0",,3,1,0,.333,.333,.666
 "N. Arenado, 3B (R)",M. King (R),SDN @ ARI,n/a,12.3%,"0,0,0,1,0",+625,6,2,0,.333,.429,.929
-"H. Feduccia, C (L)",M. Lorenzen (R),TBA @ COL,1.1,12.4%,"0,0,0,0,0",+700,never faced,,,,,
 "R. Palacios, 2B (L)",M. Lorenzen (R),TBA @ COL,1.1,12.8%,"0,0,0,0,0",+625,2,2,0,1.000,1.000,2.000
 "T. Trammell, OF (L)",S. Bieber (R),TOR @ HOU,n/a,12%,"0,0,0,0,0",+625,5,1,1,.200,.200,1.000
 "B. Stott, 2B (L)",A. Alvarez (L),WAS @ PHI,1.6,12.3%,"0,0,0,0,0",+425,never faced,,,,,
@@ -109,6 +108,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "X. Bogaerts, SS (R)",B. Pfaadt (R),SDN @ ARI,n/a,10.8%,"0,0,0,0,0",+750,18,3,0,.167,.211,.433
 "L. Campusano, C (R)",B. Pfaadt (R),SDN @ ARI,n/a,10.4%,"0,0,0,0,0",+750,5,1,0,.200,.200,.400
 "J. McCarthy, OF (L)",I. Seymour (L),TBA @ COL,1.1,10%,"0,0,0,0,1",+750,never faced,,,,,
+"T. Johnston, OF (L)",I. Seymour (L),TBA @ COL,1.1,10.5%,"0,0,0,0,0",+625,never faced,,,,,
 "N. Lukes, OF (L)",C. Javier (R),TOR @ HOU,n/a,10.9%,"0,0,0,0,0",+750,3,1,0,.333,.333,1.000
 "A. Gimenez, SS (L)",C. Javier (R),TOR @ HOU,n/a,10.6%,"0,0,0,0,0",+750,8,0,0,.000,.100,.100
 "J. Sanchez, OF (L)",C. Javier (R),TOR @ HOU,n/a,10.8%,"0,0,0,0,0",,2,1,0,.500,.500,1.000

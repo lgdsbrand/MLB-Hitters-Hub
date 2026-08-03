@@ -70,6 +70,7 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "L. Garcia, 1B (L)",M. McGreevy (R),SLN @ NYA,1.6,1.8,"5,1,9,0,2",,,3,1,0,.333,.333,.666
 "J. Dominguez, OF (B)",M. McGreevy (R),SLN @ NYA,1.6,1.8,"0,2,0,2,1",1.5,+127,never faced,,,,,
 "C. Abrams, SS (L)",A. Nola (R),WAS @ PHI,1.6,1.8,"0,0,4,1,0",1.5,+106,24,6,1,.250,.308,.683
+"B. De La Cruz, OF (R)",A. Alvarez (L),WAS @ PHI,1.6,1.8,"2,3,0,1,4",,,never faced,,,,,
 "H. Ramos, OF (R)",C. Quantrill (R),SFN @ TEX,n/a,1.8,"4,1,0,1,1",1.5,+119,7,1,0,.143,.250,.679
 "L. Arraez, 2B (L)",C. Quantrill (R),SFN @ TEX,n/a,1.8,"1,4,0,1,0",1.5,+105,32,7,0,.219,.242,.586
 "J. Pederson, DH (L)",L. Webb (R),SFN @ TEX,n/a,1.8,"8,1,4,1,0",1.5,+126,13,2,0,.154,.267,.421
@@ -98,23 +99,25 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "T. Grisham, OF (L)",M. McGreevy (R),SLN @ NYA,1.6,1.6,"1,0,2,0,0",1.5,+116,never faced,,,,,
 "A. Burleson, 1B (L)",C. Schlittler (R),SLN @ NYA,1.6,1.6,"1,1,2,2,1",1.5,+132,never faced,,,,,
 "B. Stott, 2B (L)",A. Alvarez (L),WAS @ PHI,1.6,1.6,"0,2,0,1,0",0.5,+135,never faced,,,,,
-"L. Arraez, 2B (L)",A. Alvarez (L),WAS @ PHI,1.6,1.6,"1,4,0,1,0",1.5,+105,4,2,0,.500,.500,1.500
+"L. Arraez, 2B (L)",A. Alvarez(L),WAS @ PHI,1.6,1.6,"1,4,0,1,0",1.5,+105,4,2,0,.500,.500,1.500
 "P. Crow-Armstrong, OF (L)",J. Wrobleski (L),LAN @ CHN,1.2,1.5,"4,4,0,3,0",1.5,+129,2,1,0,.500,.667,1.167
 "R. Palacios, 2B (L)",M. Lorenzen (R),TBA @ COL,1.1,1.5,"0,1,0,0,0",1.5,+118,2,2,0,1.000,1.000,2.000
 "L. Wade, OF (L)",S. Bieber (R),TOR @ HOU,n/a,1.5,"1,0,0,2,1",0.5,+260,6,1,1,.167,.167,.834
 "J. Bauers, 1B (L)",B. Chandler (R),PIT @ MIL,1.2,1.5,"1,4,5,4,1",0.5,+145,2,1,0,.500,.750,1.750
 "M. Winn, SS (R)",C. Schlittler (R),SLN @ NYA,1.6,1.5,"0,1,1,2,0",0.5,+200,never faced,,,,,
 "J. Walker, OF (R)",C. Schlittler (R),SLN @ NYA,1.6,1.5,"1,1,1,2,2",1.5,+134,never faced,,,,,
+"E. Sosa, OF (R)",A. Alvarez (L),WAS @ PHI,1.6,1.5,"1,1,0,2,0",,,never faced,,,,,
 "E. Duran, SS (R)",L. Webb (R),SFN @ TEX,n/a,1.5,"0,0,1,0,1",0.5,+190,5,3,0,.600,.667,1.267
 "L. Campusano, C (R)",B. Pfaadt (R),SDN @ ARI,n/a,1.4,"1,3,1,3,1",0.5,+165,5,1,0,.200,.200,.400
 "T. Edman, 2B (B)",M. Boyd (L),LAN @ CHN,1.2,1.4,"3,0,0,0,0",1.5,+115,11,1,1,.091,.091,.455
 "V. Mesa, OF (L)",M. Lorenzen (R),TBA @ COL,1.1,1.4,"1,0,1,0,0",1.5,-108,never faced,,,,,
-"B. Doyle, OF (R)",I. Seymour (L),TBA @ COL,1.1,1.4,"3,1,0,2,1",,,never faced,,,,,
+"B. Doyle, OF (R)",I. Seymour(L),TBA @ COL,1.1,1.4,"3,1,0,2,1",,,never faced,,,,,
 "E. Tovar, SS (R)",I. Seymour (L),TBA @ COL,1.1,1.4,"1,2,0,0,0",0.5,+178,never faced,,,,,
 "A. Gimenez, SS (L)",C. Javier (R),TOR @ HOU,n/a,1.4,"4,0,0,2,1",0.5,+195,8,0,0,.000,.100,.100
 "E. Valdez, 1B (L)",B. Sproat (R),PIT @ MIL,1.2,1.4,,,,never faced,,,,,
 "J. Triolo, SS (R)",B. Sproat (R),PIT @ MIL,1.2,1.4,"1,1,0,2,0",,,1,0,0,.000,.000,.000
 "J. Gonzalez, SS (L)",B. Sproat (R),PIT @ MIL,1.2,1.4,"1,1,0,0,3",0.5,+200,never faced,,,,,
+"D. Hill, OF (R)",A. Alvarez (L),WAS @ PHI,1.6,1.4,"6,1,0,0,0",,,1,0,0,.000,.000,.000
 "K. Ruiz, C (B)",A. Nola (R),WAS @ PHI,1.6,1.4,"0,1,0,0,1",0.5,+140,22,5,0,.227,.320,.547
 "I. Vargas, 1B (B)",M. King (R),SDN @ ARI,n/a,1.3,"1,1,2,3,0",0.5,-165,7,1,1,.143,.250,.821
 "B. Fulford, DH (R)",I. Seymour(L),TBA @ COL,1.1,1.3,"0,0,1,2,0",,,never faced,,,,,
@@ -126,10 +129,11 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "N. Lopez, 2B (L)",L. Webb (R),SFN @ TEX,n/a,1.3,"0,0,0,0,0",0.5,+250,9,2,0,.222,.222,.666
 "T. Tawa, OF (R)",M. King (R),SDN @ ARI,n/a,1.2,"0,0,0,0,1",0.5,+165,2,0,0,.000,.000,.000
 "M. Amaya, C (R)",J. Wrobleski (L),LAN @ CHN,1.2,1.2,"2,2,0,2,0",0.5,+273,never faced,,,,,
+"L. Hicks, C (L)",M. Lorenzen (R),TBA @ COL,1.1,1.2,"2,0,2,0,2",,,4,1,1,.250,.333,1.333
 "T. Walls, SS (B)",M. Lorenzen (R),TBA @ COL,1.1,1.2,"0,0,0,0,0",1.5,+144,4,0,0,.000,.000,.000
 "E. Clement, 2B (R)",C. Javier (R),TOR @ HOU,n/a,1.2,"1,2,0,1,0",1.5,+140,5,1,0,.200,.200,.400
 "D. Hamilton, 3B (L)",B. Chandler (R),PIT @ MIL,1.2,1.2,"1,2,1,0,0",,,never faced,,,,,
-"B. Marsh, OF (L)",A. Alvarez (L),WAS @ PHI,1.6,1.2,"0,1,0,2,1",1.5,+129,never faced,,,,,
+"B. Marsh, OF (L)",A. Alvarez(L),WAS @ PHI,1.6,1.2,"0,1,0,2,1",1.5,+129,never faced,,,,,
 "G. Sheets, 1B (L)",B. Pfaadt (R),SDN @ ARI,n/a,1.1,"0,1,1,0,1",0.5,+190,13,1,1,.077,.143,.451
 "K. Okamoto, 3B (R)",C. Javier (R),TOR @ HOU,n/a,1.1,"1,4,2,0,1",0.5,+133,never faced,,,,,
 "G. Mitchell, OF (L)",B. Chandler (R),PIT @ MIL,1.2,1.1,"1,0,3,0,0",0.5,+155,2,1,0,.500,.500,1.000
@@ -138,7 +142,7 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "B. House, 3B (R)",A. Nola (R),WAS @ PHI,1.6,1.0,"1,4,0,2,1",,,3,0,0,.000,.000,.000
 "A. Chaparro, 1B (R)",A. Nola (R),WAS @ PHI,1.6,1.0,"2,2,0,0,0",0.5,+125,3,0,0,.000,.000,.000
 "E. Diaz, C (R)",L. Webb (R),SFN @ TEX,n/a,1.0,"0,0,2,4,0",0.5,-149,25,3,0,.120,.148,.268
-"H. Feduccia, C (L)",M. Lorenzen (R),TBA @ COL,1.1,0.9,"2,1,0,2,1",0.5,+139,never faced,,,,,
+"H. Feduccia, C (L)",M. Lorenzen(R),TBA @ COL,1.1,0.9,"2,1,0,2,1",0.5,+139,never faced,,,,,
 "T. Trammell, OF (L)",S. Bieber (R),TOR @ HOU,n/a,0.9,"0,1,2,1,1",0.5,+220,5,1,1,.200,.200,1.000
 "J. Garcia, OF (R)",B. Sproat (R),PIT @ MIL,1.2,0.9,"2,0,0,1,0",,,never faced,,,,,
 "H. Ford, C (R)",A. Nola(R),WAS @ PHI,1.6,0.9,"0,1,0,0,0",1.5,+170,never faced,,,,,
@@ -151,3 +155,4 @@ Batter,Pitcher,Game,HRF,TB Pred,Trend,Line,Over,AB,H,HR,BA,OBP,OPS
 "J. Vivas, 3B (L)",A. Nola (R),WAS @ PHI,1.6,0.6,"0,0,1,0,1",0.5,+220,2,1,1,.500,.500,2.500
 "N. Nunez, 2B (B)",A. Nola (R),WAS @ PHI,1.6,0.6,"0,0,0,0,1",0.5,+250,4,1,0,.250,.250,.500
 "D. Cavanaugh, C (L)",C. Quantrill (R),SFN @ TEX,n/a,0.6,"0,2,0,0,0",0.5,+195,never faced,,,,,
+"T. Johnston, OF (L)",I. Seymour (L),TBA @ COL,1.1,0.3,"1,0,0,1,0",0.5,+125,never faced,,,,,
