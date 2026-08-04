@@ -1,7 +1,7 @@
 Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Machado, 3B (R)",v^,E. Rodriguez (L),SDN @ ARI,n/a,41%,11%,42,8,3,1,5,.190,.277,.610
 "B. Witt, SS (R)",vv,J. Ryan (R),MIN @ KCA,1.7,38%,24%,33,8,3,0,1,.242,.265,.598
-"A. Bregman, 3B (R)",^^,T. Skubal (L),LAN @ CHN,1.6,58%,33%,15,7,2,1,0,.467,.467,1.334
+"A. Bregman, 3B (R)",^^,T. Skubal (L),LAN @ CHN,1.4,58%,33%,15,7,2,1,0,.467,.467,1.334
 "S. Perez, DH (R)",^v,J. Ryan (R),MIN @ KCA,1.7,48%,26%,27,7,2,1,1,.259,.286,.767
 "K. Ruiz, C (B)",v^,J. Luzardo (L),WAS @ PHI,1.5,57%,14%,16,6,1,1,1,.375,.412,1.037
 "C. Carroll, OF (L)",vv,R. Vasquez (R),SDN @ ARI,n/a,54%,31%,12,5,3,0,0,.417,.385,1.052
@@ -29,9 +29,9 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "L. Taveras, OF (B)",vv,G. Rodriguez (R),ANA @ BAL,1.4,75%,0%,3,2,1,1,2,.667,.800,2.800
 "W. Abreu, OF (L)",>v,D. Martin (R),CHA @ BOS,1.6,33%,33%,7,2,1,0,0,.286,.375,.804
 "C. Montgomery, SS (L)",v^,P. Sandoval,CHA @ BOS,1.6,---,,2,2,0,0,0,1.000,1.000,2.000
-"A. Pages, OF (R)",>^,J. Assad,LAN @ CHN,1.6,---,,2,2,1,0,0,1.000,1.000,2.500
-"K. Tucker, OF (L)",>^,J. Assad (R),LAN @ CHN,1.6,67%,0%,5,2,1,0,0,.400,.400,1.000
-"T. Hernandez, OF (R)",^^,J. Assad,LAN @ CHN,1.6,---,,2,2,0,0,0,1.000,1.000,2.000
+"A. Pages, OF (R)",>^,J. Assad,LAN @ CHN,1.4,---,,2,2,1,0,0,1.000,1.000,2.500
+"K. Tucker, OF (L)",>^,J. Assad (R),LAN @ CHN,1.4,67%,0%,5,2,1,0,0,.400,.400,1.000
+"T. Hernandez, OF (R)",^^,J. Assad,LAN @ CHN,1.4,---,,2,2,0,0,0,1.000,1.000,2.000
 "N. Lowe, DH (L)",>v,J. Ginn (R),ATH @ CIN,1.5,60%,20%,5,2,0,0,0,.400,.400,.800
 "R. Hoskins, 1B (R)",^^,S. Manaea (L),NYN @ CLE,1.4,40%,20%,8,2,0,2,0,.250,.250,1.250
 "T. Rumfield, 1B (L)",vv,F. Peralta,TBA @ COL,1.3,---,,4,2,0,0,1,.500,.600,1.100
@@ -62,13 +62,13 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "R. Grichuk, DH (R)",^^,P. Sandoval (L),CHA @ BOS,1.6,67%,67%,5,1,0,0,0,.200,.200,.400
 "C. Meidroth, 2B (R)",v^,P. Sandoval,CHA @ BOS,1.6,---,,2,1,0,0,1,.500,.667,1.167
 "B. Montgomery, OF (S)",v^,P. Sandoval,CHA @ BOS,1.6,---,,2,1,0,0,0,.500,.500,1.000
-"I. Happ, OF (B)",v^,T. Skubal (L),LAN @ CHN,1.6,29%,0%,7,1,0,0,0,.143,.143,.286
-"M. Muncy, 3B (L)",>^,J. Assad (R),LAN @ CHN,1.6,100%,0%,1,1,0,1,1,1.000,1.000,5.000
-"S. Suzuki, OF (R)",^^,T. Skubal (L),LAN @ CHN,1.6,17%,0%,6,1,1,0,0,.167,.167,.500
-"D. Rushing, C (L)",^^,J. Assad,LAN @ CHN,1.6,---,,1,1,0,0,1,1.000,1.000,2.000
-"D. Swanson, SS (R)",v^,T. Skubal (L),LAN @ CHN,1.6,33%,17%,5,1,1,0,1,.200,.333,.733
-"N. Hoerner, 2B (R)",^^,T. Skubal (L),LAN @ CHN,1.6,11%,0%,9,1,0,0,0,.111,.111,.222
-"P. Crow-Armstrong, OF (L)",^^,T. Skubal (L),LAN @ CHN,1.6,33%,0%,3,1,0,0,0,.333,.333,.666
+"I. Happ, OF (B)",v^,T. Skubal (L),LAN @ CHN,1.4,29%,0%,7,1,0,0,0,.143,.143,.286
+"M. Muncy, 3B (L)",>^,J. Assad (R),LAN @ CHN,1.4,100%,0%,1,1,0,1,1,1.000,1.000,5.000
+"S. Suzuki, OF (R)",^^,T. Skubal (L),LAN @ CHN,1.4,17%,0%,6,1,1,0,0,.167,.167,.500
+"D. Rushing, C (L)",^^,J. Assad,LAN @ CHN,1.4,---,,1,1,0,0,1,1.000,1.000,2.000
+"D. Swanson, SS (R)",v^,T. Skubal (L),LAN @ CHN,1.4,33%,17%,5,1,1,0,1,.200,.333,.733
+"N. Hoerner, 2B (R)",^^,T. Skubal (L),LAN @ CHN,1.4,11%,0%,9,1,0,0,0,.111,.111,.222
+"P. Crow-Armstrong, OF (L)",^^,T. Skubal (L),LAN @ CHN,1.4,33%,0%,3,1,0,0,0,.333,.333,.666
 "C. Cortes, OF (L)",v^,B. Singer (R),ATH @ CIN,1.5,100%,0%,2,1,0,1,0,.500,.500,2.500
 "L. Butler, OF (L)",^^,B. Singer (R),ATH @ CIN,1.5,33%,0%,3,1,0,1,0,.333,.333,1.666
 "E. De La Cruz, SS (B)",^v,J. Ginn (R),ATH @ CIN,1.5,20%,0%,5,1,0,0,0,.200,.200,.400
@@ -98,6 +98,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Bauers, 1B (L)",^^,J. Jones (R),PIT @ MIL,n/a,33%,0%,3,1,1,0,0,.333,.333,1.000
 "W. Contreras, C (R)",v^,J. Jones (R),PIT @ MIL,n/a,33%,0%,3,1,0,0,0,.333,.333,.666
 "B. Rice, 1B (L)",v^,H. Dobbins (R),SLN @ NYA,1.2,40%,40%,5,1,0,0,0,.200,.200,.400
+"H. Ramos, OF (R)",^^,H. Dobbins (R),SLN @ NYA,1.2,33%,33%,3,1,0,0,0,.333,.333,.666
 "I. Herrera, DH (R)",v^,R. Weathers (L),SLN @ NYA,1.2,33%,0%,3,1,0,1,0,.333,.333,1.666
 "T. Grisham, OF (L)",v^,H. Dobbins (R),SLN @ NYA,1.2,20%,0%,5,1,0,0,0,.200,.200,.400
 "J. Chisholm, 2B (L)",v^,H. Dobbins (R),SLN @ NYA,1.2,25%,0%,4,1,0,0,0,.250,.250,.500
@@ -132,13 +133,13 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "A. Seigler, 2B (L)",^v,D. Martin,CHA @ BOS,1.6,---,,1,0,0,0,1,.000,.500,.500
 "W. Contreras, 1B (R)",^v,D. Martin,CHA @ BOS,1.6,---,,2,0,0,0,0,.000,.000,.000
 "A. Monasterio, SS (R)",^v,D. Martin,CHA @ BOS,1.6,---,,1,0,0,0,0,.000,.000,.000
-"C. Kelly, C (R)",^^,T. Skubal (L),LAN @ CHN,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
-"S. Ohtani, TWP (L)",^^,J. Assad,LAN @ CHN,1.6,---,,1,0,0,0,0,.000,.000,.000
-"F. Freeman, 1B (L)",^^,J. Assad (R),LAN @ CHN,1.6,0%,0%,3,0,0,0,0,.000,.000,.000
+"C. Kelly, C (R)",^^,T. Skubal (L),LAN @ CHN,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
+"S. Ohtani, TWP (L)",^^,J. Assad,LAN @ CHN,1.4,---,,1,0,0,0,0,.000,.000,.000
+"F. Freeman, 1B (L)",^^,J. Assad (R),LAN @ CHN,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
 "J. Heim, C (B)",^^,B. Singer (R),ATH @ CIN,1.5,55%,9%,7,0,0,0,4,.000,.364,.364
 "K. Hayes, 3B (R)",^v,J. Ginn (R),ATH @ CIN,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
 "N. Kurtz, 1B (L)",v^,B. Singer (R),ATH @ CIN,1.5,33%,0%,3,0,0,0,0,.000,.000,.000
-"D. Walton, 3B (L)",v^,B. Singer (R),ATH @ CIN,1.5,50%,0%,4,0,0,0,0,.000,.000,.000
+"D. Walton, 2B (L)",v^,B. Singer (R),ATH @ CIN,1.5,50%,0%,4,0,0,0,0,.000,.000,.000
 "J. McNeil, 2B (L)",^^,B. Singer (R),ATH @ CIN,1.5,17%,17%,6,0,0,0,0,.000,.000,.000
 "J. Wilson, SS (R)",>^,B. Singer (R),ATH @ CIN,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
 "M. McLain, 2B (R)",vv,J. Ginn (R),ATH @ CIN,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
@@ -171,6 +172,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "B. House, 3B (R)",>^,J. Luzardo (L),WAS @ PHI,1.5,0%,0%,2,0,0,0,0,.000,.000,.000
 "B. Harper, 1B (L)",^^,Z. Littell (R),WAS @ PHI,1.5,33%,33%,6,0,0,0,0,.000,.000,.000
 "A. Chaparro, 1B (R)",>^,J. Luzardo,WAS @ PHI,1.5,---,,3,0,0,0,0,.000,.000,.000
+"T. Ward, OF (R)",v^,T. Melton (R),DET @ SEA,1.4,0%,0%,8,0,0,0,0,.000,.000,.000
 "D. Canzone, DH (L)",v^,T. Melton,DET @ SEA,1.4,---,,1,0,0,0,0,.000,.000,.000
 "R. Arozarena, OF (R)",^^,T. Melton,DET @ SEA,1.4,---,,4,0,0,0,0,.000,.000,.000
 "Z. McKinstry, 2B (L)",^^,E. Hancock (R),DET @ SEA,1.4,100%,0%,1,0,0,0,0,.000,.000,.000
