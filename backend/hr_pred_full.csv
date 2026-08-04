@@ -12,7 +12,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "J. Heim, C (B)",B. Singer (R),ATH @ CIN,1.5,26.1%,"1,0,0,0,0",+305,7,0,0,.000,.364,.364
 "H. Goodman, C (R)",F. Peralta (R),TBA @ COL,1.3,26.7%,"0,0,0,2,0",+210,5,1,1,.200,.500,1.300
 "K. Clemens, 1B (L)",R. Dobnak(R),MIN @ KCA,1.7,26.2%,"0,1,0,0,0",+305,3,1,0,.333,.333,.666
-"J. Chisholm, 2B (L)",H. Dobbins (R),SLN @ NYA,1.2,26%3.5,"0,0,0,0,0",+325,4,1,0,.250,.250,.500
+"J. Chisholm, 2B (L)",H. Dobbins (R),SLN @ NYA,1.2,26%,"0,0,0,0,0",+325,4,1,0,.250,.250,.500
 "M. Olson, 1B (L)",R. Gusto (R),MIA @ ATL,1.2,25.9%,"0,0,1,1,1",+235,5,2,1,.400,.500,1.500
 "W. Abreu, OF (L)",D. Martin (R),CHA @ BOS,1.6,25.4%,"0,1,0,0,1",+360,7,2,0,.286,.375,.804
 "M. Vargas, 3B (R)",P. Sandoval (L),CHA @ BOS,1.6,25%,"0,0,1,0,1",+280,3,1,0,.333,.333,.666
@@ -140,6 +140,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "O. Lopez, SS (R)",G. Holmes (R),MIA @ ATL,1.2,14.8%,"0,0,0,0,0",+625,4,2,0,.500,.600,1.100
 "A. Monasterio, SS (R)",D. Martin(R),CHA @ BOS,1.6,14.2%,"1,0,0,0,0",+700,1,0,0,.000,.000,.000
 "C. Kelly, C (R)",T. Skubal (L),LAN @ CHN,1.6,14.5%,"0,0,0,0,1",+625,3,0,0,.000,.000,.000
+"T. Taylor, OF (R)",T. Skubal(L),LAN @ CHN,1.6,14.6%,"1,0,1,1,1",,never faced,,,,,
 "N. Marte, OF (R)",J. Ginn(R),ATH @ CIN,1.5,14%,"0,0,0,0,0",+425,never faced,,,,,
 "J. Wilson, SS (R)",B. Singer (R),ATH @ CIN,1.5,14.5%,"0,0,0,0,0",+550,2,0,0,.000,.000,.000
 "A. Kirk, C (R)",H. Wesneski(R),TOR @ HOU,n/a,14.3%,"0,0,0,0,1",+425,never faced,,,,,
@@ -155,10 +156,11 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "C. Durbin, 3B (R)",D. Martin(R),CHA @ BOS,1.6,12.1%,"0,0,0,0,0",+750,2,1,0,.500,.500,1.000
 "K. Hayes, 3B (R)",J. Ginn (R),ATH @ CIN,1.5,12.2%,"0,1,0,0,1",+750,2,0,0,.000,.000,.000
 "T. White, 3B (R)",B. Singer(R),ATH @ CIN,1.5,12.6%,"0,0,0,0,0",+750,never faced,,,,,
-"D. Walton, 3B (L)",B. Singer (R),ATH @ CIN,1.5,12.8%,"0,0,0,0,0",+450,4,0,0,.000,.000,.000
+"D. Walton, 2B (L)",B. Singer (R),ATH @ CIN,1.5,12.8%,"0,0,0,0,0",+450,4,0,0,.000,.000,.000
 "C. Benge, OF (L)",J. Cantillo(L),NYN @ CLE,1.4,12.1%,"0,0,0,0,0",+700,never faced,,,,,
 "A. Gimenez, SS (L)",H. Wesneski (R),TOR @ HOU,n/a,12.1%,"0,0,0,0,0",+750,1,0,0,.000,.000,.000
 "I. Collins, OF (B)",J. Ryan (R),MIN @ KCA,1.7,12.7%,"0,0,0,0,0",+750,6,1,0,.167,.500,.833
+"H. Ramos, OF (R)",H. Dobbins (R),SLN @ NYA,1.2,12.3%,"0,0,0,0,0",,3,1,0,.333,.333,.666
 "D. Lile, OF (L)",J. Luzardo (L),WAS @ PHI,1.5,12.5%,"0,2,0,0,1",+750,2,0,0,.000,.333,.333
 "D. Susac, C (R)",M. Gore(L),SFN @ TEX,n/a,12.2%,"0,2,1,0,0",+625,never faced,,,,,
 "D. Gilbert, OF (L)",M. Gore (L),SFN @ TEX,n/a,12.8%,"0,0,0,0,0",+950,2,0,0,.000,.000,.000
@@ -175,7 +177,7 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "L. Keaschall, 2B (R)",R. Dobnak(R),MIN @ KCA,1.7,11.1%,"0,0,0,1,1",+850,3,1,0,.333,.333,.666
 "L. Lara, OF (S)",J. Jones(R),PIT @ MIL,n/a,11.1%,"0,0,0,0,0",+750,never faced,,,,,
 "J. Fermin, OF (R)",R. Weathers(L),SLN @ NYA,1.2,11.8%,"0,0,0,0,0",+850,never faced,,,,,
-"J. Dominguez, OF (B)",H. Dobbins (R),SLN @ NYA,1.2,11.5%,"0,0,0,0,0",,2,0,0,.000,.000,.000
+"T. Ward, OF (R)",T. Melton (R),DET @ SEA,1.4,11.7%,"0,0,0,0,0",,8,0,0,.000,.000,.000
 "T. Tawa, OF (R)",R. Vasquez (R),SDN @ ARI,n/a,10.9%,"0,0,0,0,1",+700,1,1,0,1.000,1.000,2.000
 "L. Rengifo, 3B (B)",E. Rodriguez (L),SDN @ ARI,n/a,10.3%,"0,0,0,0,0",+750,13,3,0,.231,.231,.539
 "A. Seigler, 2B (L)",D. Martin(R),CHA @ BOS,1.6,10.2%,"0,1,0,0,0",+700,1,0,0,.000,.500,.500
@@ -189,5 +191,5 @@ Batter,Pitcher,Game,HRF,HR Pred,Trend,Odds,AB,H,HR,BA,OBP,OPS
 "B. Jordan, 1B (R)",R. Weathers(L),SLN @ NYA,1.2,10.7%,"0,0,0,0,0",+850,never faced,,,,,
 "K. Ruiz, C (B)",J. Luzardo (L),WAS @ PHI,1.5,10.7%,"0,0,0,0,0",+650,16,6,1,.375,.412,1.037
 "J. Baez, SS (R)",E. Hancock (R),DET @ SEA,1.4,10.3%,"0,0,0,0,0",,1,1,0,1.000,1.000,3.000
-"C. Emerson, SS (L)",T. Melton (R),DET @ SEA,1.4,10.5%,"0,0,0,0,0",+750,never faced,,,,,
+"C. Emerson, SS (L)",T. Melton(R),DET @ SEA,1.4,10.5%,"0,0,0,0,0",+750,never faced,,,,,
 "C. Koss, 2B (R)",M. Gore(L),SFN @ TEX,n/a,10.4%,"0,0,0,0,0",+950,never faced,,,,,
