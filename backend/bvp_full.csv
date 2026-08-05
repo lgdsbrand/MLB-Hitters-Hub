@@ -69,10 +69,13 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "E. Ruiz, OF (R)",^v,B. Elder (R),MIA @ ATL,1.4,,,3,1,0,0,1,.333,.500,.833
 "L. Hicks, C (L)",^v,B. Elder (R),MIA @ ATL,1.4,,,6,1,0,0,0,.167,.167,.334
 "J. Marsee, OF (L)",>>,B. Elder (R),MIA @ ATL,1.4,33%,0%,5,1,1,0,1,.200,.333,.733
+"L. Thomas, OF (R)",v^,E. Perez (R),MIA @ ATL,1.4,25%,0%,8,1,0,1,0,.125,.125,.625
+"S. Murphy, C (R)",v^,E. Perez (R),MIA @ ATL,1.4,100%,100%,1,1,1,0,0,1.000,1.000,3.000
 "K. Stowers, 1B (L)",^>,B. Elder (R),MIA @ ATL,1.4,38%,13%,7,1,0,1,1,.143,.250,.821
 "M. Yastrzemski, OF (L)",^^,E. Perez,MIA @ ATL,1.4,---,,2,1,0,0,0,.500,.500,1.000
 "J. Soler, DH (R)",^^,T. Rogers (L),ANA @ BAL,1.6,50%,25%,4,1,0,0,0,.250,.250,.500
 "C. Cowser, OF (L)",vv,R. Detmers (L),ANA @ BAL,1.6,33%,0%,3,1,0,1,0,.333,.333,1.666
+"A. Frazier, 2B (L)",v^,T. Rogers (L),ANA @ BAL,1.6,33%,33%,3,1,0,0,0,.333,.333,.666
 "C. Narvaez, C (R)",vv,R. Detmers (L),ANA @ BAL,1.6,0%,0%,4,1,0,0,0,.250,.250,.500
 "J. Bart, C (R)",>^,S. Gray (R),CHA @ BOS,1.6,63%,25%,6,1,1,0,2,.167,.375,.708
 "J. Duran, OF (L)",^^,S. Burke (R),CHA @ BOS,1.6,33%,33%,3,1,0,0,0,.333,.333,.666
@@ -81,6 +84,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "K. Tucker, OF (L)",^^,S. Imanaga,LAN @ CHN,1.5,---,,2,1,1,0,1,.500,.667,1.667
 "F. Freeman, 1B (L)",^^,S. Imanaga (L),LAN @ CHN,1.5,13%,0%,11,1,0,0,0,.091,.091,.182
 "E. Hernandez, 1B (R)",^^,S. Imanaga (L),LAN @ CHN,1.5,13%,0%,8,1,0,0,0,.125,.125,.250
+"B. Baty, 3B (L)",>>,T. Bibee (R),NYN @ CLE,1.4,67%,0%,2,1,0,0,1,.500,.667,1.167
 "L. Robert, OF (R)",v>,T. Bibee (R),NYN @ CLE,1.4,29%,14%,7,1,0,0,0,.143,.143,.286
 "B. Bichette, 3B (R)",>>,T. Bibee (R),NYN @ CLE,1.4,33%,33%,9,1,1,0,0,.111,.111,.333
 "J. Aranda, 1B (L)",>>,T. Sugano (R),TBA @ COL,1.2,33%,0%,3,1,0,1,0,.333,.333,1.666
@@ -97,7 +101,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "V. Guerrero, 1B (R)",vv,H. Brown (R),TOR @ HOU,n/a,33%,0%,8,1,0,0,0,.125,.125,.250
 "K. Isbel, OF (L)",^v,D. Kremer (R),MIN @ KCA,1.4,50%,25%,8,1,0,0,0,.125,.125,.250
 "I. Collins, OF (B)",^v,D. Kremer (R),MIN @ KCA,1.4,33%,33%,3,1,0,0,0,.333,.333,.666
-"K. Clemens, 1B (L)",vv,N. Cameron (L),MIN @ KCA,1.4,67%,33%,8,1,0,0,1,.125,.222,.347
+"K. Clemens, 1B (L)",v^,N. Cameron (L),MIN @ KCA,1.4,67%,33%,8,1,0,0,1,.125,.222,.347
 "L. Keaschall, 2B (R)",^^,N. Cameron (L),MIN @ KCA,1.4,33%,0%,10,1,0,0,0,.100,.100,.200
 "B. Lowe, 2B (L)",>^,K. Harrison (L),PIT @ MIL,n/a,67%,67%,3,1,0,0,0,.333,.333,.666
 "M. Ozuna, DH (R)",v^,K. Harrison (L),PIT @ MIL,n/a,0%,0%,5,1,0,0,0,.200,.200,.400
@@ -140,6 +144,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "M. Betts, SS (R)",v^,S. Imanaga (L),LAN @ CHN,1.5,38%,38%,8,0,0,0,0,.000,.000,.000
 "A. Bregman, 3B (R)",v^,E. Lauer (L),LAN @ CHN,1.5,33%,33%,2,0,0,0,0,.000,.333,.333
 "N. Lowe, DH (L)",>v,J. Lopez (L),ATH @ CIN,1.5,33%,33%,3,0,0,0,0,.000,.000,.000
+"J. Trevino, C (R)",v^,J. Lopez (L),ATH @ CIN,1.5,0%,0%,1,0,0,0,0,.000,.000,.000
 ---,,R. Lowder,ATH @ CIN,1.5,no matchup history,,,,,,,,,
 "J. Adell, OF (R)",v^,C. Scott,NYN @ CLE,1.4,---,,2,0,0,0,0,.000,.000,.000
 "J. Young, 1B (L)",v>,T. Bibee (R),NYN @ CLE,1.4,50%,50%,2,0,0,0,0,.000,.000,.000
@@ -155,6 +160,7 @@ Batter,Icon,Pitcher,Game,HRF,qAB,HH%,AB,H,2B/3B,HR,BB,BA,OBP,OPS
 "J. Bell, DH (B)",^^,N. Cameron,MIN @ KCA,1.4,---,,8,0,0,0,0,.000,.000,.000
 "A. Roden, OF (L)",v^,N. Cameron (L),MIN @ KCA,1.4,0%,0%,1,0,0,0,0,.000,.500,.500
 "A. Jackson, C (R)",^v,N. Cameron,MIN @ KCA,1.4,---,,5,0,0,0,0,.000,.000,.000
+"T. Larnach, OF (L)",^^,N. Cameron (L),MIN @ KCA,1.4,0%,0%,3,0,0,0,0,.000,.000,.000
 "R. Kreidler, SS (R)",v^,N. Cameron,MIN @ KCA,1.4,---,,4,0,0,0,0,.000,.000,.000
 "V. Caratini, C (B)",v^,N. Cameron,MIN @ KCA,1.4,---,,2,0,0,0,0,.000,.000,.000
 "H. Davis, C (R)",v^,K. Harrison (L),PIT @ MIL,n/a,0%,0%,2,0,0,0,0,.000,.000,.000

@@ -50,7 +50,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "L. Rengifo, 3B (B)",M. Bratt(L),SDN @ ARI,n/a,67%,"1,0,1,1,1",0.5,-335,never faced,,,,,
 "N. Arenado, 3B (R)",C. Mize (R),SDN @ ARI,n/a,67%,"0,2,0,1,1",0.5,-193,2,0,0,.000,.000,.000
 "C. Rafaela, OF (R)",S. Burke (R),CHA @ BOS,1.6,67%,"2,3,2,2,1",0.5,-310,3,0,0,.000,.000,.000
-"F. Freeman, 1B (L)",S. Imanaga (L),LAN @ CHN,1.5,67%,"3,3,1,1,1",0.5,-295,11,1,0,.091,.091,.182
+"F. FreemanD, 1B (L)",S. Imanaga (L),LAN @ CHN,1.5,67%,"3,3,1,1,1",0.5,-295,11,1,0,.091,.091,.182
 "P. Ramirez, 2B (S)",E. Lauer(L),LAN @ CHN,1.5,67%,"0,2,0,1,0",0.5,,never faced,,,,,
 "A. Ewing, OF (L)",T. Bibee(R),NYN @ CLE,1.4,67%,"0,1,1,0,2",0.5,-325,never faced,,,,,
 "C. DeLauter, RF (L)",C. Scott(R),NYN @ CLE,1.4,67%,"1,0,1,2,1",0.5,-280,never faced,,,,,
@@ -102,7 +102,6 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "F. Fermin, C (R)",M. Bratt (L),SDN @ ARI,n/a,62%,"1,1,1,2,2",0.5,-176,never faced,,,,,
 "G. Perdomo, SS (B)",C. Mize (R),SDN @ ARI,n/a,62%,"2,4,1,2,2",0.5,-225,3,1,0,.333,.400,.733
 "M. Yastrzemski, OF (L)",E. Perez(R),MIA @ ATL,1.4,62%,"0,1,2,1,0",0.5,,2,1,0,.500,.500,1.000
-"J. Lowe, OF (L)",T. Rogers(L),ANA @ BAL,1.6,62%,"0,0,2,0,0",0.5,,never faced,,,,,
 "G. Henderson, SS (L)",R. Detmers (L),ANA @ BAL,1.6,62%,"1,1,1,0,0",0.5,-245,8,3,0,.375,.500,1.250
 "A. Monasterio, SS (R)",S. Burke(R),CHA @ BOS,1.6,62%,"1,1,1,1,2",0.5,-173,never faced,,,,,
 "D. Swanson, SS (R)",E. Lauer (L),LAN @ CHN,1.5,62%,"0,0,0,2,3",0.5,-218,10,2,0,.200,.273,.573
@@ -144,10 +143,12 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "M. Kepler, OF (L)",C. Mize (R),SDN @ ARI,n/a,59%,"3,1,2,0,0",0.5,-190,11,2,0,.182,.250,.614
 "M. Dubon, OF (R)",E. Perez(R),MIA @ ATL,1.4,59%,"1,1,0,2,1",0.5,-240,2,0,0,.000,.000,.000
 "J. Marsee, OF (L)",B. Elder (R),MIA @ ATL,1.4,59%,"0,0,1,1,1",0.5,-176,5,1,0,.200,.333,.733
+"L. Thomas, OF (R)",E. Perez (R),MIA @ ATL,1.4,59%,"0,1,1,1,1",0.5,,8,1,1,.125,.125,.625
 "W. Contreras, 1B (R)",S. Burke (R),CHA @ BOS,1.6,59%,"1,2,0,0,2",0.5,-240,2,0,0,.000,.000,.000
 "M. Busch, 1B (L)",E. Lauer(L),LAN @ CHN,1.5,59%,"0,1,1,2,0",0.5,-240,never faced,,,,,
 "M. Rojas, 2B (R)",S. Imanaga (L),LAN @ CHN,1.5,59%,"1,2,1,0,0",0.5,-155,8,2,0,.250,.250,.625
 "E. Suarez, DH (R)",J. Lopez (L),ATH @ CIN,1.5,59%,"1,0,0,1,1",0.5,-182,never faced,,,,,
+"B. Baty, 3B (L)",T. Bibee (R),NYN @ CLE,1.4,59%,"1,1,3,0,0",0.5,-165,2,1,0,.500,.667,1.167
 "F. Alvarez, C (R)",T. Bibee(R),NYN @ CLE,1.4,59%,"0,0,0,1,1",0.5,-152,never faced,,,,,
 "J. Beck, OF (R)",N. Martinez(R),TBA @ COL,1.2,59%,"1,1,0,1,1",0.5,,never faced,,,,,
 "A. Gimenez, SS (L)",H. Brown (R),TOR @ HOU,n/a,59%,"0,2,1,0,1",0.5,-141,6,2,1,.333,.333,1.166
@@ -166,6 +167,8 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "D. Crews, OF (R)",A. Painter(R),WAS @ PHI,1.6,58%,"0,2,1,0,0",0.5,-265,never faced,,,,,
 "E. Diaz, C (R)",C. Whisenhunt(L),SFN @ TEX,n/a,58%,"0,1,1,0,0",0.5,-145,never faced,,,,,
 "C. Cauley, SS (R)",C. Whisenhunt(L),SFN @ TEX,n/a,58%,"1,0,1,0,0",0.5,-159,never faced,,,,,
+"S. Murphy, C (R)",E. Perez (R),MIA @ ATL,1.4,57%,,0.5,,1,1,0,1.000,1.000,3.000
+"J. Jackson, 2B (R)",R. Detmers(L),ANA @ BAL,1.6,57%,"1,0,1,0,0",0.5,-200,never faced,,,,,
 "L. Butler, OF (L)",R. Lowder(R),ATH @ CIN,1.5,57%,"2,0,2,1,0",0.5,-265,never faced,,,,,
 "M. Semien, 2B (R)",T. Bibee (R),NYN @ CLE,1.4,57%,"0,1,1,1,0",0.5,-182,10,2,1,.200,.333,.933
 "J. Young, OF (R)",A. Painter (R),WAS @ PHI,1.6,57%,"1,0,0,1,0",0.5,-154,never faced,,,,,
@@ -189,10 +192,13 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "C. Jensen, C (L)",D. Kremer(R),MIN @ KCA,1.4,55%,"0,1,1,0,0",0.5,-250,never faced,,,,,
 "T. Ward, OF (R)",T. Madden(R),DET @ SEA,1.4,55%,"1,0,0,1,0",0.5,,never faced,,,,,
 "N. Lopez, 2B (L)",C. Whisenhunt(L),SFN @ TEX,n/a,55%,"0,0,0,0,1",0.5,-150,never faced,,,,,
+"A. Frazier, 2B (L)",T. Rogers (L),ANA @ BAL,1.6,54%,"0,0,0,1,1",0.5,,3,1,0,.333,.333,.666
 "M. Muncy, 3B (L)",S. Imanaga (L),LAN @ CHN,1.5,54%,"1,1,0,1,2",0.5,-148,5,1,1,.200,.500,1.300
 "E. Hernandez, 1B (R)",S. Imanaga (L),LAN @ CHN,1.5,54%,"2,0,1,0,0",0.5,,8,1,0,.125,.125,.250
 "J. Adell, OF (R)",C. Scott(R),NYN @ CLE,1.4,54%,"2,0,0,0,2",0.5,,2,0,0,.000,.000,.000
+"B. Rocchio, SS (B)",C. Scott(R),NYN @ CLE,1.4,54%,"0,1,0,0,0",0.5,-209,never faced,,,,,
 "M. Straw, OF (R)",H. Brown (R),TOR @ HOU,n/a,54%,"2,1,0,2,2",0.5,-141,2,0,0,.000,.000,.000
+"T. Larnach, OF (L)",N. Cameron (L),MIN @ KCA,1.4,54%,"0,0,0,1,2",0.5,,3,0,0,.000,.000,.000
 "J. Caballero, SS (R)",A. Pallante (R),SLN @ NYA,1.2,54%,"2,1,1,2,1",0.5,,2,1,0,.500,.500,1.000
 "Z. McKinstry, 2B (L)",B. Woo (R),DET @ SEA,1.4,54%,"2,1,1,2,3",0.5,-124,7,2,0,.286,.375,.804
 "B. Eldridge, DH (L)",C. Bradford(L),SFN @ TEX,n/a,54%,"0,2,0,2,1",0.5,-225,never faced,,,,,
@@ -201,13 +207,14 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "D. Hamilton, 3B (L)",P. Skenes(R),PIT @ MIL,n/a,53%,"1,0,0,1,1",0.5,,2,0,0,.000,.000,.000
 "C. Emerson, SS (L)",T. Madden (R),DET @ SEA,1.4,53%,"0,0,1,2,0",0.5,-130,1,0,0,.000,.000,.000
 "O. Basabe, SS (R)",C. Bradford(L),SFN @ TEX,n/a,53%,,0.5,,never faced,,,,,
+"J. Trevino, C (R)",J. Lopez (L),ATH @ CIN,1.5,52%,"0,1,1,0,1",0.5,-182,1,0,0,.000,.000,.000
 "A. Martinez, OF (B)",C. Scott(R),NYN @ CLE,1.4,52%,"0,0,0,2,1",0.5,,never faced,,,,,
 "R. Palacios, 2B (L)",T. Sugano(R),TBA @ COL,1.2,52%,"0,0,0,2,0",0.5,-250,never faced,,,,,
+"K. Clemens, 1B (L)",N. Cameron (L),MIN @ KCA,1.4,52%,"1,1,0,0,1",0.5,-240,8,1,0,.125,.222,.347
 "D. Guzman, 3B (R)",T. Rogers(L),ANA @ BAL,1.6,51%,"1,1,1,0,0",0.5,-200,never faced,,,,,
 "C. Narvaez, C (R)",R. Detmers (L),ANA @ BAL,1.6,51%,"0,0,0,0,0",0.5,,4,1,0,.250,.250,.500
 "C. Encarnacion-Strand, 3B (R)",R. Detmers (L),ANA @ BAL,1.6,51%,"1,0,0,0,0",0.5,,3,0,0,.000,.000,.000
 "D. Walton, 2B (L)",R. Lowder(R),ATH @ CIN,1.5,51%,"0,0,1,0,0",0.5,-182,never faced,,,,,
-"K. Clemens, 1B (L)",N. Cameron (L),MIN @ KCA,1.4,51%,"1,1,0,0,1",0.5,-240,8,1,0,.125,.222,.347
 "S. Horwitz, 1B (L)",K. Harrison(L),PIT @ MIL,n/a,51%,"1,0,0,1,0",0.5,,never faced,,,,,
 "K. Schwarber, DH (L)",J. Irvin (R),WAS @ PHI,1.6,51%,"0,0,0,0,0",0.5,-250,19,3,1,.158,.304,.620
 "E. Julien, 2B (L)",N. Martinez (R),TBA @ COL,1.2,50%,"0,1,1,0,1",0.5,,3,0,0,.000,.000,.000
@@ -221,11 +228,12 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "H. Davis, C (R)",K. Harrison (L),PIT @ MIL,n/a,49%,"0,0,1,1,0",0.5,-106,2,0,0,.000,.000,.000
 "J. Tena, DH (L)",A. Painter(R),WAS @ PHI,1.6,49%,"0,2,1,0,0",0.5,-179,2,0,0,.000,.000,.000
 "H. Hernandez, OF (R)",B. Elder (R),MIA @ ATL,1.4,48%,"1,0,0,0,2",0.5,-240,5,2,1,.400,.400,1.400
+"J. Lowe, OF (L)",T. Rogers(L),ANA @ BAL,1.6,48%,"0,0,2,0,0",0.5,,never faced,,,,,
 "J. Siri, OF (R)",T. Rogers (L),ANA @ BAL,1.6,48%,"2,0,0,1,0",0.5,-136,2,0,0,.000,.000,.000
 "J. Rogers, C (R)",R. Detmers(L),ANA @ BAL,1.6,47%,"1,0,0,0,0",0.5,,never faced,,,,,
 "S. Antonacci, SS (L)",S. Gray(R),CHA @ BOS,1.6,47%,"0,1,1,0,0",0.5,-295,never faced,,,,,
 "C. Montgomery, SS (L)",S. Gray(R),CHA @ BOS,1.6,47%,"0,1,0,1,1",0.5,-190,never faced,,,,,
-"H. Bolte, OF (R)",R. Lowder (R),ATH @ CIN,1.5,47%,"0,1,3,0,3",0.5,-230,never faced,,,,,
+"H. Bolte, OF (R)",R. Lowder(R),ATH @ CIN,1.5,47%,"0,1,3,0,3",0.5,-230,never faced,,,,,
 "V. Mesa, OF (L)",T. Sugano(R),TBA @ COL,1.2,47%,"1,0,0,0,0",0.5,-290,never faced,,,,,
 "K. Okamoto, 3B (R)",H. Brown(R),TOR @ HOU,n/a,47%,"1,0,1,2,0",0.5,-175,1,1,1,1.000,1.000,5.000
 "S. Jones, OF (L)",A. Pallante(R),SLN @ NYA,1.2,47%,"1,2,0,0,0",0.5,,never faced,,,,,
@@ -245,6 +253,7 @@ Batter,Pitcher,Game,HRF,Pred,Trend,O/U,Odds,AB,H,HR,BA,OBP,OPS
 "S. Stewart, 1B (R)",J. Lopez(L),ATH @ CIN,1.5,43%,"1,2,0,1,1",0.5,-295,never faced,,,,,
 "C. Young, 2B (L)",T. Madden(R),DET @ SEA,1.4,43%,"2,1,2,4,0",0.5,-295,1,1,0,1.000,1.000,2.000
 "J. Sanoja, 3B (R)",B. Elder (R),MIA @ ATL,1.4,42%,"1,1,2,0,1",0.5,-238,2,0,0,.000,.000,.000
+"N. Sogard, 3B (B)",S. Burke(R),CHA @ BOS,1.6,42%,"1,1,1,0,0",0.5,,never faced,,,,,
 "B. Rortvedt, C (L)",S. Imanaga(L),LAN @ CHN,1.5,42%,,0.5,,never faced,,,,,
 "O. Caissie, OF (L)",B. Elder(R),MIA @ ATL,1.4,41%,"0,1,0,0,0",0.5,,2,0,0,.000,.000,.000
 "T. Turner, SS (R)",J. Irvin (R),WAS @ PHI,1.6,41%,"3,2,1,0,3",1.5,+181,17,5,1,.294,.333,.862
